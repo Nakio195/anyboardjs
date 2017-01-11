@@ -1,0 +1,5 @@
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|43e24f9f-df0d-4351-93bd-dcecba951b4e
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|50739f42-c33b-4501-9002-2ad0ce0bf086
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5c0f341d-12c2-4ee5-a4b6-f20e79966f80
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|46e8f1c6-2372-462c-8d24-9b4c05f380bd
+C:\Users\Nakio\Electronique\Cypress\Programmes\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\PSoC_4_BLE_CapSense_Slider_LED02.cyprj|61682c9f-be08-4302-a718-8782258be46e

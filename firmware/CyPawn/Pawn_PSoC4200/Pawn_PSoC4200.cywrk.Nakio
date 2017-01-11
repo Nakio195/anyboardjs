@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Pawn_PSoC4200\Pawn_PSoC4200">
+<ExpandedNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Pins</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Analog</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Clocks</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Interrupts</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\System</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Directives</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Flash Security</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_lfclk</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_BOOT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_BOOT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_BOOT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_INT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_SLAVE.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PINS.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCB_IRQ</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCB_IRQ\I2C_SCB_IRQ.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCB_IRQ\I2C_SCB_IRQ.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCBCLK</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCBCLK\I2C_SCBCLK.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_SCBCLK\I2C_SCBCLK.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_scl</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_scl\I2C_scl.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_scl\I2C_scl.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_scl\I2C_scl_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_scl\I2C_scl_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_sda</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_sda\I2C_sda.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_sda\I2C_sda.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_sda\I2C_sda_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C_sda\I2C_sda_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_B</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_B\LED_B.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_B\LED_B.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_B\LED_B_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_B\LED_B_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_G</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_G\LED_G.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_G\LED_G.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_G\LED_G_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_G\LED_G_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_PINS.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_UART.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_rx</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_rx\UART_rx_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_tx</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART_tx\UART_tx_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfitter.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cymetadata.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\project.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Pins</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Analog</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Clocks</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Interrupts</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\System</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Directives</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr\Flash Security</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\BLEApplications.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\HandleLowPower.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\main.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\BLEApplications.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\HandleLowPower.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\main.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE_bless_isr</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLUE</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLUE\BLUE.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLUE\BLUE.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLUE\BLUE_aliases.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLUE\BLUE_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_CSHL.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_CSHL.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_INT.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_IP.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_PVT.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_SMS.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_SMS.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense\CapSense_TunerHelper.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SampleClk</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SampleClk\CapSense_SampleClk.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SampleClk\CapSense_SampleClk.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SenseClk</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SenseClk\CapSense_SenseClk.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_SenseClk\CapSense_SenseClk.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_Sns</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\CapSense_Sns\CapSense_Sns_aliases.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_lfclk</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\GREEN</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\GREEN\GREEN.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\GREEN\GREEN.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\GREEN\GREEN_aliases.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\GREEN\GREEN_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\isr_button</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\isr_button\isr_button.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\isr_button\isr_button.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_1</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_1\PrISM_1.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_1\PrISM_1.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_1\PrISM_1_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_2</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_2\PrISM_2.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_2\PrISM_2.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_2\PrISM_2_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_Clock</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_Clock\PrISM_Clock.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\PrISM_Clock\PrISM_Clock.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\RED</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\RED\RED.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\RED\RED.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\RED\RED_aliases.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\RED\RED_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\User_Button</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\User_Button\User_Button.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\User_Button\User_Button.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\User_Button\User_Button_aliases.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\User_Button\User_Button_PM.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfitter.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\cymetadata.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign\TopDesign.cysch</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign\TopDesign_01.cymacro</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign\TopDesign.cysch</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign\TopDesign_01.cymacro</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Pawn_PSoC4200.elf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Pawn_PSoC4200.hex</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Pawn_PSoC4200.map</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.gpdsc</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.rpt</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200_timing.html</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLEApplications.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLUE.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\BLUE_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_INT.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_SMS.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\GREEN.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\GREEN_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\HandleLowPower.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\isr_button.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\PrISM_1.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\PrISM_1_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\PrISM_2.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\PrISM_2_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\PrISM_Clock.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\RED.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\RED_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\User_Button.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\Listing Files\User_Button_PM.lst</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\PSoC_4_BLE_CapSense_Slider_LED02.elf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\PSoC_4_BLE_CapSense_Slider_LED02.hex</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CortexM0\ARM_GCC_493\Debug\PSoC_4_BLE_CapSense_Slider_LED02.map</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.gpdsc</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.rpt</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\PSoC 4 Architecture TRM</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\PSoC 4200 BLE Family Datasheet</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides\cy_boot_v5_50</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides\cy_lfclk_v1_10</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\BLE_v3_20.pdf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\cy_pins_v2_20</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\SCB_P4_v3_20</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\SCB_P4_v3_20\SCB_P4_v3_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC 4 Architecture TRM</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC 4200 BLE Family Datasheet</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides\cy_boot_v5_30</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides\cy_lfclk_v1_0</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\BLE_v3_10.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CapSense_CSD_P4_v2_40.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_clock_v2_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_constant_v1_0</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_isr_v1_70.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_pins_v2_20</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PrISM_v2_20</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PrISM_v2_20\PrISM_v2_20.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\PSoC 4 Architecture TRM</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\PSoC 4200 BLE Family Datasheet</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides\cy_boot_v5_50</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\System Reference Guides\cy_lfclk_v1_10</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\BLE_v3_20.pdf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\cy_pins_v2_20</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\SCB_P4_v3_20</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\SCB_P4_v3_20\SCB_P4_v3_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC 4 Architecture TRM</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC 4200 BLE Family Datasheet</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides\cy_boot_v5_30</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\System Reference Guides\cy_lfclk_v1_0</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\BLE_v3_10.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\CapSense_CSD_P4_v2_40.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_clock_v2_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_constant_v1_0</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_isr_v1_70.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_pins_v2_20</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PrISM_v2_20</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PrISM_v2_20\PrISM_v2_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="445" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="417" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="383" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="330" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="310" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="285" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="239" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="227" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="196" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="45" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="44" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="540" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+</indicators>
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Pawn_PSoC4200.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Pawn_PSoC4200.cydsn\main.c" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\main.h" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.h" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\main.c" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1282, 737" SelectedTabbedMdiWindow="42113074-3162-4206-a988-c770c63e1a56"><DocumentWindow Key="3dde5a82-299b-4fef-a689-69d6b2a03606" Guid="42113074-3162-4206-a988-c770c63e1a56" /><DocumentWindow Key="9a5e4ec1-0d40-4094-9802-d6cc95ac4a76" Guid="17ed7425-c369-48b6-a640-595d20d73985" /><DocumentWindow Key="d115db44-21b5-4ebb-81fb-311dd0d714be" Guid="0441f401-dd96-444b-96d4-6d0b5d86b124" /><DocumentWindow Key="6b003ceb-6acf-4063-8b2b-8ba3693b9b59" Guid="d9e7c89c-2082-453c-b8f7-7902090feef6" /><DocumentWindow Key="2667cb40-3c46-4abc-8565-83ab080d1b6a" Guid="5968100c-988d-48b5-940c-c8c655bcafd9" /><DocumentWindow Key="0ebc0e48-fab3-4b52-b4a2-01f3a3be412c" Guid="4d482289-31b4-47e3-b1a1-8cd4cddc4a04" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d578cea3-a37a-4ef0-a1e4-27f7611589cc" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

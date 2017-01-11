@@ -1,0 +1,1347 @@
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"BLE_custom.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.global	cyBle_customs
+  18              		.section	.rodata
+  19              		.align	2
+  20              		.type	cyBle_customs, %object
+  21              		.size	cyBle_customs, 8
+  22              	cyBle_customs:
+  23 0000 0C00     		.short	12
+  24 0002 0E00     		.short	14
+  25 0004 0F00     		.short	15
+  26 0006 1000     		.short	16
+  27              		.section	.text.CyBle_CustomInit,"ax",%progbits
+  28              		.align	2
+  29              		.global	CyBle_CustomInit
+  30              		.code	16
+  31              		.thumb_func
+  32              		.type	CyBle_CustomInit, %function
+  33              	CyBle_CustomInit:
+  34              	.LFB2:
+  35              		.file 1 "Generated_Source\\PSoC4\\BLE_custom.c"
+   1:Generated_Source\PSoC4/BLE_custom.c **** /***************************************************************************//**
+   2:Generated_Source\PSoC4/BLE_custom.c **** * \file CYBLE_custom.c
+   3:Generated_Source\PSoC4/BLE_custom.c **** * \version 3.10
+   4:Generated_Source\PSoC4/BLE_custom.c **** * 
+   5:Generated_Source\PSoC4/BLE_custom.c **** * \brief
+   6:Generated_Source\PSoC4/BLE_custom.c **** *  Contains the source code for the Custom Service.
+   7:Generated_Source\PSoC4/BLE_custom.c **** * 
+   8:Generated_Source\PSoC4/BLE_custom.c **** ********************************************************************************
+   9:Generated_Source\PSoC4/BLE_custom.c **** * \copyright
+  10:Generated_Source\PSoC4/BLE_custom.c **** * Copyright 2014-2016, Cypress Semiconductor Corporation.  All rights reserved.
+  11:Generated_Source\PSoC4/BLE_custom.c **** * You may use this file only in accordance with the license, terms, conditions,
+  12:Generated_Source\PSoC4/BLE_custom.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  13:Generated_Source\PSoC4/BLE_custom.c **** * the software package with which this file was provided.
+  14:Generated_Source\PSoC4/BLE_custom.c **** *******************************************************************************/
+  15:Generated_Source\PSoC4/BLE_custom.c **** 
+  16:Generated_Source\PSoC4/BLE_custom.c **** 
+  17:Generated_Source\PSoC4/BLE_custom.c **** #include "BLE_eventHandler.h"
+  18:Generated_Source\PSoC4/BLE_custom.c **** 
+  19:Generated_Source\PSoC4/BLE_custom.c **** #ifdef CYBLE_CUSTOM_SERVER
+  20:Generated_Source\PSoC4/BLE_custom.c **** 
+  21:Generated_Source\PSoC4/BLE_custom.c **** /* If any custom service with custom characterisctis is defined in the
+  22:Generated_Source\PSoC4/BLE_custom.c **** * customizer's GUI their handles will be present in this array.
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 2
+
+
+  23:Generated_Source\PSoC4/BLE_custom.c **** */
+  24:Generated_Source\PSoC4/BLE_custom.c **** /* This array contains attribute handles for the defined Custom Services and their characteristics 
+  25:Generated_Source\PSoC4/BLE_custom.c ****    The array index definitions are located in the CYBLE_custom.h file. */
+  26:Generated_Source\PSoC4/BLE_custom.c **** const CYBLE_CUSTOMS_T cyBle_customs[0x01u] = {
+  27:Generated_Source\PSoC4/BLE_custom.c **** 
+  28:Generated_Source\PSoC4/BLE_custom.c ****     /* RGB LED service */
+  29:Generated_Source\PSoC4/BLE_custom.c ****     {
+  30:Generated_Source\PSoC4/BLE_custom.c ****         0x000Cu, /* Handle of the RGB LED service */ 
+  31:Generated_Source\PSoC4/BLE_custom.c ****         {
+  32:Generated_Source\PSoC4/BLE_custom.c **** 
+  33:Generated_Source\PSoC4/BLE_custom.c ****             /* RGB LED Control characteristic */
+  34:Generated_Source\PSoC4/BLE_custom.c ****             {
+  35:Generated_Source\PSoC4/BLE_custom.c ****                 0x000Eu, /* Handle of the RGB LED Control characteristic */ 
+  36:Generated_Source\PSoC4/BLE_custom.c ****                 
+  37:Generated_Source\PSoC4/BLE_custom.c ****                 /* Array of Descriptors handles */
+  38:Generated_Source\PSoC4/BLE_custom.c ****                 {
+  39:Generated_Source\PSoC4/BLE_custom.c ****                     0x000Fu, /* Handle of the Client Characteristic Configuration descriptor */ 
+  40:Generated_Source\PSoC4/BLE_custom.c ****                     0x0010u, /* Handle of the Characteristic User Description descriptor */ 
+  41:Generated_Source\PSoC4/BLE_custom.c ****                 }, 
+  42:Generated_Source\PSoC4/BLE_custom.c ****             },
+  43:Generated_Source\PSoC4/BLE_custom.c ****         }, 
+  44:Generated_Source\PSoC4/BLE_custom.c ****     },
+  45:Generated_Source\PSoC4/BLE_custom.c **** };
+  46:Generated_Source\PSoC4/BLE_custom.c **** 
+  47:Generated_Source\PSoC4/BLE_custom.c **** 
+  48:Generated_Source\PSoC4/BLE_custom.c **** #endif /* (CYBLE_CUSTOM_SERVER) */
+  49:Generated_Source\PSoC4/BLE_custom.c **** 
+  50:Generated_Source\PSoC4/BLE_custom.c **** #ifdef CYBLE_CUSTOM_CLIENT
+  51:Generated_Source\PSoC4/BLE_custom.c ****     
+  52:Generated_Source\PSoC4/BLE_custom.c **** 
+  53:Generated_Source\PSoC4/BLE_custom.c **** static uint16 cyBle_customDisServIndex;
+  54:Generated_Source\PSoC4/BLE_custom.c **** static uint16 cyBle_customDisCharIndex;
+  55:Generated_Source\PSoC4/BLE_custom.c **** 
+  56:Generated_Source\PSoC4/BLE_custom.c **** #endif /* (CYBLE_CUSTOM_CLIENT) */
+  57:Generated_Source\PSoC4/BLE_custom.c **** 
+  58:Generated_Source\PSoC4/BLE_custom.c **** 
+  59:Generated_Source\PSoC4/BLE_custom.c **** /****************************************************************************** 
+  60:Generated_Source\PSoC4/BLE_custom.c **** * Function Name: CyBle_CustomInit
+  61:Generated_Source\PSoC4/BLE_custom.c **** ***************************************************************************//**
+  62:Generated_Source\PSoC4/BLE_custom.c **** * 
+  63:Generated_Source\PSoC4/BLE_custom.c **** *  This function initializes Custom Service.
+  64:Generated_Source\PSoC4/BLE_custom.c **** * 
+  65:Generated_Source\PSoC4/BLE_custom.c **** * \return
+  66:Generated_Source\PSoC4/BLE_custom.c **** *  None
+  67:Generated_Source\PSoC4/BLE_custom.c **** * 
+  68:Generated_Source\PSoC4/BLE_custom.c **** ******************************************************************************/
+  69:Generated_Source\PSoC4/BLE_custom.c **** void CyBle_CustomInit(void)
+  70:Generated_Source\PSoC4/BLE_custom.c **** {
+  36              		.loc 1 70 0
+  37              		.cfi_startproc
+  38 0000 80B5     		push	{r7, lr}
+  39              		.cfi_def_cfa_offset 8
+  40              		.cfi_offset 7, -8
+  41              		.cfi_offset 14, -4
+  42 0002 00AF     		add	r7, sp, #0
+  43              		.cfi_def_cfa_register 7
+  71:Generated_Source\PSoC4/BLE_custom.c ****     
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 3
+
+
+  72:Generated_Source\PSoC4/BLE_custom.c **** #ifdef CYBLE_CUSTOM_CLIENT
+  73:Generated_Source\PSoC4/BLE_custom.c **** 
+  74:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locServIndex;
+  75:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locCharIndex;
+  76:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locDescIndex;
+  77:Generated_Source\PSoC4/BLE_custom.c ****     
+  78:Generated_Source\PSoC4/BLE_custom.c ****     for(locServIndex = 0u; locServIndex < CYBLE_CUSTOMC_SERVICE_COUNT; locServIndex++)
+  79:Generated_Source\PSoC4/BLE_custom.c ****     {
+  80:Generated_Source\PSoC4/BLE_custom.c ****         if(cyBle_serverInfo[CYBLE_SRVI_CUSTOMS + locServIndex].range.startHandle == CYBLE_GATT_INVA
+  81:Generated_Source\PSoC4/BLE_custom.c ****         {
+  82:Generated_Source\PSoC4/BLE_custom.c ****             for(locCharIndex = 0u; locCharIndex < cyBle_customCServ[locServIndex].charCount; locCha
+  83:Generated_Source\PSoC4/BLE_custom.c ****             {
+  84:Generated_Source\PSoC4/BLE_custom.c ****                 cyBle_customCServ[locServIndex].customServChar[locCharIndex].
+  85:Generated_Source\PSoC4/BLE_custom.c ****                     customServCharHandle = 0u;
+  86:Generated_Source\PSoC4/BLE_custom.c ****                 
+  87:Generated_Source\PSoC4/BLE_custom.c ****                 for(locDescIndex = 0u; locDescIndex < 
+  88:Generated_Source\PSoC4/BLE_custom.c ****                     cyBle_customCServ[locServIndex].customServChar[locCharIndex].descCount; 
+  89:Generated_Source\PSoC4/BLE_custom.c ****                         locDescIndex++)
+  90:Generated_Source\PSoC4/BLE_custom.c ****                 {
+  91:Generated_Source\PSoC4/BLE_custom.c ****                     cyBle_customCServ[locServIndex].customServChar[locCharIndex].
+  92:Generated_Source\PSoC4/BLE_custom.c ****                         customServCharDesc[locDescIndex].descHandle = 0u;
+  93:Generated_Source\PSoC4/BLE_custom.c ****                 }
+  94:Generated_Source\PSoC4/BLE_custom.c ****             }
+  95:Generated_Source\PSoC4/BLE_custom.c ****         }
+  96:Generated_Source\PSoC4/BLE_custom.c ****     }
+  97:Generated_Source\PSoC4/BLE_custom.c **** 
+  98:Generated_Source\PSoC4/BLE_custom.c **** #endif /* (CYBLE_CUSTOM_CLIENT) */
+  99:Generated_Source\PSoC4/BLE_custom.c **** }
+  44              		.loc 1 99 0
+  45 0004 BD46     		mov	sp, r7
+  46              		@ sp needed
+  47 0006 80BD     		pop	{r7, pc}
+  48              		.cfi_endproc
+  49              	.LFE2:
+  50              		.size	CyBle_CustomInit, .-CyBle_CustomInit
+  51              		.text
+  52              	.Letext0:
+  53              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+  54              		.file 3 "Generated_Source\\PSoC4\\BLE_StackGatt.h"
+  55              		.file 4 "Generated_Source\\PSoC4\\BLE_custom.h"
+  56              		.file 5 "Generated_Source\\PSoC4\\BLE_Stack.h"
+  57              		.section	.debug_info,"",%progbits
+  58              	.Ldebug_info0:
+  59 0000 08030000 		.4byte	0x308
+  60 0004 0400     		.2byte	0x4
+  61 0006 00000000 		.4byte	.Ldebug_abbrev0
+  62 000a 04       		.byte	0x4
+  63 000b 01       		.uleb128 0x1
+  64 000c 80060000 		.4byte	.LASF87
+  65 0010 01       		.byte	0x1
+  66 0011 D7020000 		.4byte	.LASF88
+  67 0015 4A020000 		.4byte	.LASF89
+  68 0019 00000000 		.4byte	.Ldebug_ranges0+0
+  69 001d 00000000 		.4byte	0
+  70 0021 00000000 		.4byte	.Ldebug_line0
+  71 0025 02       		.uleb128 0x2
+  72 0026 01       		.byte	0x1
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 4
+
+
+  73 0027 06       		.byte	0x6
+  74 0028 EC040000 		.4byte	.LASF0
+  75 002c 02       		.uleb128 0x2
+  76 002d 01       		.byte	0x1
+  77 002e 08       		.byte	0x8
+  78 002f 73040000 		.4byte	.LASF1
+  79 0033 02       		.uleb128 0x2
+  80 0034 02       		.byte	0x2
+  81 0035 05       		.byte	0x5
+  82 0036 B7000000 		.4byte	.LASF2
+  83 003a 02       		.uleb128 0x2
+  84 003b 02       		.byte	0x2
+  85 003c 07       		.byte	0x7
+  86 003d 2A070000 		.4byte	.LASF3
+  87 0041 02       		.uleb128 0x2
+  88 0042 04       		.byte	0x4
+  89 0043 05       		.byte	0x5
+  90 0044 27030000 		.4byte	.LASF4
+  91 0048 02       		.uleb128 0x2
+  92 0049 04       		.byte	0x4
+  93 004a 07       		.byte	0x7
+  94 004b 7D050000 		.4byte	.LASF5
+  95 004f 02       		.uleb128 0x2
+  96 0050 08       		.byte	0x8
+  97 0051 05       		.byte	0x5
+  98 0052 05010000 		.4byte	.LASF6
+  99 0056 02       		.uleb128 0x2
+ 100 0057 08       		.byte	0x8
+ 101 0058 07       		.byte	0x7
+ 102 0059 FB020000 		.4byte	.LASF7
+ 103 005d 03       		.uleb128 0x3
+ 104 005e 04       		.byte	0x4
+ 105 005f 05       		.byte	0x5
+ 106 0060 696E7400 		.ascii	"int\000"
+ 107 0064 02       		.uleb128 0x2
+ 108 0065 04       		.byte	0x4
+ 109 0066 07       		.byte	0x7
+ 110 0067 55050000 		.4byte	.LASF8
+ 111 006b 04       		.uleb128 0x4
+ 112 006c 7B010000 		.4byte	.LASF79
+ 113 0070 02       		.byte	0x2
+ 114 0071 3901     		.2byte	0x139
+ 115 0073 3A000000 		.4byte	0x3a
+ 116 0077 02       		.uleb128 0x2
+ 117 0078 04       		.byte	0x4
+ 118 0079 04       		.byte	0x4
+ 119 007a 2B020000 		.4byte	.LASF9
+ 120 007e 02       		.uleb128 0x2
+ 121 007f 08       		.byte	0x8
+ 122 0080 04       		.byte	0x4
+ 123 0081 FB070000 		.4byte	.LASF10
+ 124 0085 02       		.uleb128 0x2
+ 125 0086 01       		.byte	0x1
+ 126 0087 08       		.byte	0x8
+ 127 0088 7B060000 		.4byte	.LASF11
+ 128 008c 02       		.uleb128 0x2
+ 129 008d 04       		.byte	0x4
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 5
+
+
+ 130 008e 07       		.byte	0x7
+ 131 008f DB000000 		.4byte	.LASF12
+ 132 0093 05       		.uleb128 0x5
+ 133 0094 01       		.byte	0x1
+ 134 0095 05       		.byte	0x5
+ 135 0096 4201     		.2byte	0x142
+ 136 0098 50020000 		.4byte	0x250
+ 137 009c 06       		.uleb128 0x6
+ 138 009d D5010000 		.4byte	.LASF13
+ 139 00a1 00       		.sleb128 0
+ 140 00a2 06       		.uleb128 0x6
+ 141 00a3 4A010000 		.4byte	.LASF14
+ 142 00a7 01       		.sleb128 1
+ 143 00a8 06       		.uleb128 0x6
+ 144 00a9 64090000 		.4byte	.LASF15
+ 145 00ad 02       		.sleb128 2
+ 146 00ae 06       		.uleb128 0x6
+ 147 00af 3A080000 		.4byte	.LASF16
+ 148 00b3 03       		.sleb128 3
+ 149 00b4 06       		.uleb128 0x6
+ 150 00b5 24010000 		.4byte	.LASF17
+ 151 00b9 04       		.sleb128 4
+ 152 00ba 06       		.uleb128 0x6
+ 153 00bb B9030000 		.4byte	.LASF18
+ 154 00bf 05       		.sleb128 5
+ 155 00c0 06       		.uleb128 0x6
+ 156 00c1 3E000000 		.4byte	.LASF19
+ 157 00c5 06       		.sleb128 6
+ 158 00c6 06       		.uleb128 0x6
+ 159 00c7 98080000 		.4byte	.LASF20
+ 160 00cb 20       		.sleb128 32
+ 161 00cc 06       		.uleb128 0x6
+ 162 00cd 8F050000 		.4byte	.LASF21
+ 163 00d1 21       		.sleb128 33
+ 164 00d2 06       		.uleb128 0x6
+ 165 00d3 00000000 		.4byte	.LASF22
+ 166 00d7 22       		.sleb128 34
+ 167 00d8 06       		.uleb128 0x6
+ 168 00d9 D5030000 		.4byte	.LASF23
+ 169 00dd 23       		.sleb128 35
+ 170 00de 06       		.uleb128 0x6
+ 171 00df 39050000 		.4byte	.LASF24
+ 172 00e3 24       		.sleb128 36
+ 173 00e4 06       		.uleb128 0x6
+ 174 00e5 C1000000 		.4byte	.LASF25
+ 175 00e9 25       		.sleb128 37
+ 176 00ea 06       		.uleb128 0x6
+ 177 00eb 70030000 		.4byte	.LASF26
+ 178 00ef 26       		.sleb128 38
+ 179 00f0 06       		.uleb128 0x6
+ 180 00f1 51030000 		.4byte	.LASF27
+ 181 00f5 27       		.sleb128 39
+ 182 00f6 06       		.uleb128 0x6
+ 183 00f7 71000000 		.4byte	.LASF28
+ 184 00fb 28       		.sleb128 40
+ 185 00fc 06       		.uleb128 0x6
+ 186 00fd C7050000 		.4byte	.LASF29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 6
+
+
+ 187 0101 29       		.sleb128 41
+ 188 0102 06       		.uleb128 0x6
+ 189 0103 2B060000 		.4byte	.LASF30
+ 190 0107 2A       		.sleb128 42
+ 191 0108 06       		.uleb128 0x6
+ 192 0109 9B070000 		.4byte	.LASF31
+ 193 010d 2B       		.sleb128 43
+ 194 010e 06       		.uleb128 0x6
+ 195 010f 07060000 		.4byte	.LASF32
+ 196 0113 2C       		.sleb128 44
+ 197 0114 06       		.uleb128 0x6
+ 198 0115 AE020000 		.4byte	.LASF33
+ 199 0119 2D       		.sleb128 45
+ 200 011a 06       		.uleb128 0x6
+ 201 011b 93000000 		.4byte	.LASF34
+ 202 011f 2E       		.sleb128 46
+ 203 0120 06       		.uleb128 0x6
+ 204 0121 5A0A0000 		.4byte	.LASF35
+ 205 0125 2F       		.sleb128 47
+ 206 0126 06       		.uleb128 0x6
+ 207 0127 E4000000 		.4byte	.LASF36
+ 208 012b 30       		.sleb128 48
+ 209 012c 06       		.uleb128 0x6
+ 210 012d 29040000 		.4byte	.LASF37
+ 211 0131 31       		.sleb128 49
+ 212 0132 06       		.uleb128 0x6
+ 213 0133 3D070000 		.4byte	.LASF38
+ 214 0137 32       		.sleb128 50
+ 215 0138 06       		.uleb128 0x6
+ 216 0139 54060000 		.4byte	.LASF39
+ 217 013d 33       		.sleb128 51
+ 218 013e 06       		.uleb128 0x6
+ 219 013f 57000000 		.4byte	.LASF40
+ 220 0143 C000     		.sleb128 64
+ 221 0145 06       		.uleb128 0x6
+ 222 0146 62050000 		.4byte	.LASF41
+ 223 014a C100     		.sleb128 65
+ 224 014c 06       		.uleb128 0x6
+ 225 014d 3C0A0000 		.4byte	.LASF42
+ 226 0151 C200     		.sleb128 66
+ 227 0153 06       		.uleb128 0x6
+ 228 0154 5D010000 		.4byte	.LASF43
+ 229 0158 C300     		.sleb128 67
+ 230 015a 06       		.uleb128 0x6
+ 231 015b 22090000 		.4byte	.LASF44
+ 232 015f C400     		.sleb128 68
+ 233 0161 06       		.uleb128 0x6
+ 234 0162 BC080000 		.4byte	.LASF45
+ 235 0166 C500     		.sleb128 69
+ 236 0168 06       		.uleb128 0x6
+ 237 0169 01090000 		.4byte	.LASF46
+ 238 016d C600     		.sleb128 70
+ 239 016f 06       		.uleb128 0x6
+ 240 0170 CE040000 		.4byte	.LASF47
+ 241 0174 C700     		.sleb128 71
+ 242 0176 06       		.uleb128 0x6
+ 243 0177 12050000 		.4byte	.LASF48
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 7
+
+
+ 244 017b C800     		.sleb128 72
+ 245 017d 06       		.uleb128 0x6
+ 246 017e 31020000 		.4byte	.LASF49
+ 247 0182 C900     		.sleb128 73
+ 248 0184 06       		.uleb128 0x6
+ 249 0185 5E070000 		.4byte	.LASF50
+ 250 0189 CA00     		.sleb128 74
+ 251 018b 06       		.uleb128 0x6
+ 252 018c 95010000 		.4byte	.LASF51
+ 253 0190 CB00     		.sleb128 75
+ 254 0192 06       		.uleb128 0x6
+ 255 0193 F8040000 		.4byte	.LASF52
+ 256 0197 CC00     		.sleb128 76
+ 257 0199 06       		.uleb128 0x6
+ 258 019a 24000000 		.4byte	.LASF53
+ 259 019e CD00     		.sleb128 77
+ 260 01a0 06       		.uleb128 0x6
+ 261 01a1 E3080000 		.4byte	.LASF54
+ 262 01a5 CE00     		.sleb128 78
+ 263 01a7 06       		.uleb128 0x6
+ 264 01a8 90040000 		.4byte	.LASF55
+ 265 01ac CF00     		.sleb128 79
+ 266 01ae 06       		.uleb128 0x6
+ 267 01af CF090000 		.4byte	.LASF56
+ 268 01b3 D000     		.sleb128 80
+ 269 01b5 06       		.uleb128 0x6
+ 270 01b6 7C070000 		.4byte	.LASF57
+ 271 01ba D100     		.sleb128 81
+ 272 01bc 06       		.uleb128 0x6
+ 273 01bd 98030000 		.4byte	.LASF58
+ 274 01c1 D200     		.sleb128 82
+ 275 01c3 06       		.uleb128 0x6
+ 276 01c4 30030000 		.4byte	.LASF59
+ 277 01c8 D300     		.sleb128 83
+ 278 01ca 06       		.uleb128 0x6
+ 279 01cb B4010000 		.4byte	.LASF60
+ 280 01cf D400     		.sleb128 84
+ 281 01d1 06       		.uleb128 0x6
+ 282 01d2 180A0000 		.4byte	.LASF61
+ 283 01d6 D500     		.sleb128 85
+ 284 01d8 06       		.uleb128 0x6
+ 285 01d9 AD090000 		.4byte	.LASF62
+ 286 01dd D600     		.sleb128 86
+ 287 01df 06       		.uleb128 0x6
+ 288 01e0 84090000 		.4byte	.LASF63
+ 289 01e4 D700     		.sleb128 87
+ 290 01e6 06       		.uleb128 0x6
+ 291 01e7 E4050000 		.4byte	.LASF64
+ 292 01eb D800     		.sleb128 88
+ 293 01ed 06       		.uleb128 0x6
+ 294 01ee 4D040000 		.4byte	.LASF65
+ 295 01f2 F000     		.sleb128 112
+ 296 01f4 06       		.uleb128 0x6
+ 297 01f5 72080000 		.4byte	.LASF66
+ 298 01f9 F100     		.sleb128 113
+ 299 01fb 06       		.uleb128 0x6
+ 300 01fc 0E070000 		.4byte	.LASF67
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 8
+
+
+ 301 0200 F200     		.sleb128 114
+ 302 0202 06       		.uleb128 0x6
+ 303 0203 EC010000 		.4byte	.LASF68
+ 304 0207 F300     		.sleb128 115
+ 305 0209 06       		.uleb128 0x6
+ 306 020a 0B040000 		.4byte	.LASF69
+ 307 020e F400     		.sleb128 116
+ 308 0210 06       		.uleb128 0x6
+ 309 0211 A6050000 		.4byte	.LASF70
+ 310 0215 F500     		.sleb128 117
+ 311 0217 06       		.uleb128 0x6
+ 312 0218 0A020000 		.4byte	.LASF71
+ 313 021c F600     		.sleb128 118
+ 314 021e 06       		.uleb128 0x6
+ 315 021f 53080000 		.4byte	.LASF72
+ 316 0223 F700     		.sleb128 119
+ 317 0225 06       		.uleb128 0x6
+ 318 0226 D8070000 		.4byte	.LASF73
+ 319 022a F800     		.sleb128 120
+ 320 022c 06       		.uleb128 0x6
+ 321 022d 02080000 		.4byte	.LASF74
+ 322 0231 F900     		.sleb128 121
+ 323 0233 06       		.uleb128 0x6
+ 324 0234 40090000 		.4byte	.LASF75
+ 325 0238 FA00     		.sleb128 122
+ 326 023a 06       		.uleb128 0x6
+ 327 023b BA070000 		.4byte	.LASF76
+ 328 023f FA01     		.sleb128 250
+ 329 0241 06       		.uleb128 0x6
+ 330 0242 AF040000 		.4byte	.LASF77
+ 331 0246 FB01     		.sleb128 251
+ 332 0248 06       		.uleb128 0x6
+ 333 0249 76090000 		.4byte	.LASF78
+ 334 024d FF01     		.sleb128 255
+ 335 024f 00       		.byte	0
+ 336 0250 04       		.uleb128 0x4
+ 337 0251 EE090000 		.4byte	.LASF80
+ 338 0255 03       		.byte	0x3
+ 339 0256 9201     		.2byte	0x192
+ 340 0258 6B000000 		.4byte	0x6b
+ 341 025c 07       		.uleb128 0x7
+ 342 025d 06       		.byte	0x6
+ 343 025e 04       		.byte	0x4
+ 344 025f 43       		.byte	0x43
+ 345 0260 7D020000 		.4byte	0x27d
+ 346 0264 08       		.uleb128 0x8
+ 347 0265 25080000 		.4byte	.LASF81
+ 348 0269 04       		.byte	0x4
+ 349 026a 46       		.byte	0x46
+ 350 026b 50020000 		.4byte	0x250
+ 351 026f 00       		.byte	0
+ 352 0270 08       		.uleb128 0x8
+ 353 0271 82010000 		.4byte	.LASF82
+ 354 0275 04       		.byte	0x4
+ 355 0276 48       		.byte	0x48
+ 356 0277 7D020000 		.4byte	0x27d
+ 357 027b 02       		.byte	0x2
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 9
+
+
+ 358 027c 00       		.byte	0
+ 359 027d 09       		.uleb128 0x9
+ 360 027e 50020000 		.4byte	0x250
+ 361 0282 8D020000 		.4byte	0x28d
+ 362 0286 0A       		.uleb128 0xa
+ 363 0287 8C000000 		.4byte	0x8c
+ 364 028b 01       		.byte	0x1
+ 365 028c 00       		.byte	0
+ 366 028d 0B       		.uleb128 0xb
+ 367 028e 12030000 		.4byte	.LASF83
+ 368 0292 04       		.byte	0x4
+ 369 0293 4A       		.byte	0x4a
+ 370 0294 5C020000 		.4byte	0x25c
+ 371 0298 07       		.uleb128 0x7
+ 372 0299 08       		.byte	0x8
+ 373 029a 04       		.byte	0x4
+ 374 029b 4D       		.byte	0x4d
+ 375 029c B9020000 		.4byte	0x2b9
+ 376 02a0 08       		.uleb128 0x8
+ 377 02a1 13010000 		.4byte	.LASF84
+ 378 02a5 04       		.byte	0x4
+ 379 02a6 50       		.byte	0x50
+ 380 02a7 50020000 		.4byte	0x250
+ 381 02ab 00       		.byte	0
+ 382 02ac 08       		.uleb128 0x8
+ 383 02ad 81040000 		.4byte	.LASF85
+ 384 02b1 04       		.byte	0x4
+ 385 02b2 53       		.byte	0x53
+ 386 02b3 B9020000 		.4byte	0x2b9
+ 387 02b7 02       		.byte	0x2
+ 388 02b8 00       		.byte	0
+ 389 02b9 09       		.uleb128 0x9
+ 390 02ba 8D020000 		.4byte	0x28d
+ 391 02be C9020000 		.4byte	0x2c9
+ 392 02c2 0A       		.uleb128 0xa
+ 393 02c3 8C000000 		.4byte	0x8c
+ 394 02c7 00       		.byte	0
+ 395 02c8 00       		.byte	0
+ 396 02c9 0B       		.uleb128 0xb
+ 397 02ca FB030000 		.4byte	.LASF86
+ 398 02ce 04       		.byte	0x4
+ 399 02cf 55       		.byte	0x55
+ 400 02d0 98020000 		.4byte	0x298
+ 401 02d4 0C       		.uleb128 0xc
+ 402 02d5 39010000 		.4byte	.LASF90
+ 403 02d9 01       		.byte	0x1
+ 404 02da 45       		.byte	0x45
+ 405 02db 00000000 		.4byte	.LFB2
+ 406 02df 08000000 		.4byte	.LFE2-.LFB2
+ 407 02e3 01       		.uleb128 0x1
+ 408 02e4 9C       		.byte	0x9c
+ 409 02e5 09       		.uleb128 0x9
+ 410 02e6 C9020000 		.4byte	0x2c9
+ 411 02ea F5020000 		.4byte	0x2f5
+ 412 02ee 0A       		.uleb128 0xa
+ 413 02ef 8C000000 		.4byte	0x8c
+ 414 02f3 00       		.byte	0
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 10
+
+
+ 415 02f4 00       		.byte	0
+ 416 02f5 0D       		.uleb128 0xd
+ 417 02f6 0A0A0000 		.4byte	.LASF91
+ 418 02fa 01       		.byte	0x1
+ 419 02fb 1A       		.byte	0x1a
+ 420 02fc 06030000 		.4byte	0x306
+ 421 0300 05       		.uleb128 0x5
+ 422 0301 03       		.byte	0x3
+ 423 0302 00000000 		.4byte	cyBle_customs
+ 424 0306 0E       		.uleb128 0xe
+ 425 0307 E5020000 		.4byte	0x2e5
+ 426 030b 00       		.byte	0
+ 427              		.section	.debug_abbrev,"",%progbits
+ 428              	.Ldebug_abbrev0:
+ 429 0000 01       		.uleb128 0x1
+ 430 0001 11       		.uleb128 0x11
+ 431 0002 01       		.byte	0x1
+ 432 0003 25       		.uleb128 0x25
+ 433 0004 0E       		.uleb128 0xe
+ 434 0005 13       		.uleb128 0x13
+ 435 0006 0B       		.uleb128 0xb
+ 436 0007 03       		.uleb128 0x3
+ 437 0008 0E       		.uleb128 0xe
+ 438 0009 1B       		.uleb128 0x1b
+ 439 000a 0E       		.uleb128 0xe
+ 440 000b 55       		.uleb128 0x55
+ 441 000c 17       		.uleb128 0x17
+ 442 000d 11       		.uleb128 0x11
+ 443 000e 01       		.uleb128 0x1
+ 444 000f 10       		.uleb128 0x10
+ 445 0010 17       		.uleb128 0x17
+ 446 0011 00       		.byte	0
+ 447 0012 00       		.byte	0
+ 448 0013 02       		.uleb128 0x2
+ 449 0014 24       		.uleb128 0x24
+ 450 0015 00       		.byte	0
+ 451 0016 0B       		.uleb128 0xb
+ 452 0017 0B       		.uleb128 0xb
+ 453 0018 3E       		.uleb128 0x3e
+ 454 0019 0B       		.uleb128 0xb
+ 455 001a 03       		.uleb128 0x3
+ 456 001b 0E       		.uleb128 0xe
+ 457 001c 00       		.byte	0
+ 458 001d 00       		.byte	0
+ 459 001e 03       		.uleb128 0x3
+ 460 001f 24       		.uleb128 0x24
+ 461 0020 00       		.byte	0
+ 462 0021 0B       		.uleb128 0xb
+ 463 0022 0B       		.uleb128 0xb
+ 464 0023 3E       		.uleb128 0x3e
+ 465 0024 0B       		.uleb128 0xb
+ 466 0025 03       		.uleb128 0x3
+ 467 0026 08       		.uleb128 0x8
+ 468 0027 00       		.byte	0
+ 469 0028 00       		.byte	0
+ 470 0029 04       		.uleb128 0x4
+ 471 002a 16       		.uleb128 0x16
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 11
+
+
+ 472 002b 00       		.byte	0
+ 473 002c 03       		.uleb128 0x3
+ 474 002d 0E       		.uleb128 0xe
+ 475 002e 3A       		.uleb128 0x3a
+ 476 002f 0B       		.uleb128 0xb
+ 477 0030 3B       		.uleb128 0x3b
+ 478 0031 05       		.uleb128 0x5
+ 479 0032 49       		.uleb128 0x49
+ 480 0033 13       		.uleb128 0x13
+ 481 0034 00       		.byte	0
+ 482 0035 00       		.byte	0
+ 483 0036 05       		.uleb128 0x5
+ 484 0037 04       		.uleb128 0x4
+ 485 0038 01       		.byte	0x1
+ 486 0039 0B       		.uleb128 0xb
+ 487 003a 0B       		.uleb128 0xb
+ 488 003b 3A       		.uleb128 0x3a
+ 489 003c 0B       		.uleb128 0xb
+ 490 003d 3B       		.uleb128 0x3b
+ 491 003e 05       		.uleb128 0x5
+ 492 003f 01       		.uleb128 0x1
+ 493 0040 13       		.uleb128 0x13
+ 494 0041 00       		.byte	0
+ 495 0042 00       		.byte	0
+ 496 0043 06       		.uleb128 0x6
+ 497 0044 28       		.uleb128 0x28
+ 498 0045 00       		.byte	0
+ 499 0046 03       		.uleb128 0x3
+ 500 0047 0E       		.uleb128 0xe
+ 501 0048 1C       		.uleb128 0x1c
+ 502 0049 0D       		.uleb128 0xd
+ 503 004a 00       		.byte	0
+ 504 004b 00       		.byte	0
+ 505 004c 07       		.uleb128 0x7
+ 506 004d 13       		.uleb128 0x13
+ 507 004e 01       		.byte	0x1
+ 508 004f 0B       		.uleb128 0xb
+ 509 0050 0B       		.uleb128 0xb
+ 510 0051 3A       		.uleb128 0x3a
+ 511 0052 0B       		.uleb128 0xb
+ 512 0053 3B       		.uleb128 0x3b
+ 513 0054 0B       		.uleb128 0xb
+ 514 0055 01       		.uleb128 0x1
+ 515 0056 13       		.uleb128 0x13
+ 516 0057 00       		.byte	0
+ 517 0058 00       		.byte	0
+ 518 0059 08       		.uleb128 0x8
+ 519 005a 0D       		.uleb128 0xd
+ 520 005b 00       		.byte	0
+ 521 005c 03       		.uleb128 0x3
+ 522 005d 0E       		.uleb128 0xe
+ 523 005e 3A       		.uleb128 0x3a
+ 524 005f 0B       		.uleb128 0xb
+ 525 0060 3B       		.uleb128 0x3b
+ 526 0061 0B       		.uleb128 0xb
+ 527 0062 49       		.uleb128 0x49
+ 528 0063 13       		.uleb128 0x13
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 12
+
+
+ 529 0064 38       		.uleb128 0x38
+ 530 0065 0B       		.uleb128 0xb
+ 531 0066 00       		.byte	0
+ 532 0067 00       		.byte	0
+ 533 0068 09       		.uleb128 0x9
+ 534 0069 01       		.uleb128 0x1
+ 535 006a 01       		.byte	0x1
+ 536 006b 49       		.uleb128 0x49
+ 537 006c 13       		.uleb128 0x13
+ 538 006d 01       		.uleb128 0x1
+ 539 006e 13       		.uleb128 0x13
+ 540 006f 00       		.byte	0
+ 541 0070 00       		.byte	0
+ 542 0071 0A       		.uleb128 0xa
+ 543 0072 21       		.uleb128 0x21
+ 544 0073 00       		.byte	0
+ 545 0074 49       		.uleb128 0x49
+ 546 0075 13       		.uleb128 0x13
+ 547 0076 2F       		.uleb128 0x2f
+ 548 0077 0B       		.uleb128 0xb
+ 549 0078 00       		.byte	0
+ 550 0079 00       		.byte	0
+ 551 007a 0B       		.uleb128 0xb
+ 552 007b 16       		.uleb128 0x16
+ 553 007c 00       		.byte	0
+ 554 007d 03       		.uleb128 0x3
+ 555 007e 0E       		.uleb128 0xe
+ 556 007f 3A       		.uleb128 0x3a
+ 557 0080 0B       		.uleb128 0xb
+ 558 0081 3B       		.uleb128 0x3b
+ 559 0082 0B       		.uleb128 0xb
+ 560 0083 49       		.uleb128 0x49
+ 561 0084 13       		.uleb128 0x13
+ 562 0085 00       		.byte	0
+ 563 0086 00       		.byte	0
+ 564 0087 0C       		.uleb128 0xc
+ 565 0088 2E       		.uleb128 0x2e
+ 566 0089 00       		.byte	0
+ 567 008a 3F       		.uleb128 0x3f
+ 568 008b 19       		.uleb128 0x19
+ 569 008c 03       		.uleb128 0x3
+ 570 008d 0E       		.uleb128 0xe
+ 571 008e 3A       		.uleb128 0x3a
+ 572 008f 0B       		.uleb128 0xb
+ 573 0090 3B       		.uleb128 0x3b
+ 574 0091 0B       		.uleb128 0xb
+ 575 0092 27       		.uleb128 0x27
+ 576 0093 19       		.uleb128 0x19
+ 577 0094 11       		.uleb128 0x11
+ 578 0095 01       		.uleb128 0x1
+ 579 0096 12       		.uleb128 0x12
+ 580 0097 06       		.uleb128 0x6
+ 581 0098 40       		.uleb128 0x40
+ 582 0099 18       		.uleb128 0x18
+ 583 009a 9742     		.uleb128 0x2117
+ 584 009c 19       		.uleb128 0x19
+ 585 009d 00       		.byte	0
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 13
+
+
+ 586 009e 00       		.byte	0
+ 587 009f 0D       		.uleb128 0xd
+ 588 00a0 34       		.uleb128 0x34
+ 589 00a1 00       		.byte	0
+ 590 00a2 03       		.uleb128 0x3
+ 591 00a3 0E       		.uleb128 0xe
+ 592 00a4 3A       		.uleb128 0x3a
+ 593 00a5 0B       		.uleb128 0xb
+ 594 00a6 3B       		.uleb128 0x3b
+ 595 00a7 0B       		.uleb128 0xb
+ 596 00a8 49       		.uleb128 0x49
+ 597 00a9 13       		.uleb128 0x13
+ 598 00aa 3F       		.uleb128 0x3f
+ 599 00ab 19       		.uleb128 0x19
+ 600 00ac 02       		.uleb128 0x2
+ 601 00ad 18       		.uleb128 0x18
+ 602 00ae 00       		.byte	0
+ 603 00af 00       		.byte	0
+ 604 00b0 0E       		.uleb128 0xe
+ 605 00b1 26       		.uleb128 0x26
+ 606 00b2 00       		.byte	0
+ 607 00b3 49       		.uleb128 0x49
+ 608 00b4 13       		.uleb128 0x13
+ 609 00b5 00       		.byte	0
+ 610 00b6 00       		.byte	0
+ 611 00b7 00       		.byte	0
+ 612              		.section	.debug_aranges,"",%progbits
+ 613 0000 1C000000 		.4byte	0x1c
+ 614 0004 0200     		.2byte	0x2
+ 615 0006 00000000 		.4byte	.Ldebug_info0
+ 616 000a 04       		.byte	0x4
+ 617 000b 00       		.byte	0
+ 618 000c 0000     		.2byte	0
+ 619 000e 0000     		.2byte	0
+ 620 0010 00000000 		.4byte	.LFB2
+ 621 0014 08000000 		.4byte	.LFE2-.LFB2
+ 622 0018 00000000 		.4byte	0
+ 623 001c 00000000 		.4byte	0
+ 624              		.section	.debug_ranges,"",%progbits
+ 625              	.Ldebug_ranges0:
+ 626 0000 00000000 		.4byte	.LFB2
+ 627 0004 08000000 		.4byte	.LFE2
+ 628 0008 00000000 		.4byte	0
+ 629 000c 00000000 		.4byte	0
+ 630              		.section	.debug_line,"",%progbits
+ 631              	.Ldebug_line0:
+ 632 0000 92000000 		.section	.debug_str,"MS",%progbits,1
+ 632      02007900 
+ 632      00000201 
+ 632      FB0E0D00 
+ 632      01010101 
+ 633              	.LASF22:
+ 634 0000 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ 634      455F4556 
+ 634      545F4741 
+ 634      505F5041 
+ 634      53534B45 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 14
+
+
+ 635              	.LASF53:
+ 636 0024 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 636      455F4556 
+ 636      545F4741 
+ 636      5454435F 
+ 636      57524954 
+ 637              	.LASF19:
+ 638 003e 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
+ 638      455F4556 
+ 638      545F4D45 
+ 638      4D4F5259 
+ 638      5F524551 
+ 639              	.LASF40:
+ 640 0057 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
+ 640      455F4556 
+ 640      545F4741 
+ 640      5454435F 
+ 640      4552524F 
+ 641              	.LASF28:
+ 642 0071 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 642      455F4556 
+ 642      545F4741 
+ 642      505F4445 
+ 642      56494345 
+ 643              	.LASF34:
+ 644 0093 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
+ 644      455F4556 
+ 644      545F4741 
+ 644      505F4B45 
+ 644      59505245 
+ 645              	.LASF2:
+ 646 00b7 73686F72 		.ascii	"short int\000"
+ 646      7420696E 
+ 646      7400
+ 647              	.LASF25:
+ 648 00c1 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 648      455F4556 
+ 648      545F4741 
+ 648      505F4155 
+ 648      54485F46 
+ 649              	.LASF12:
+ 650 00db 73697A65 		.ascii	"sizetype\000"
+ 650      74797065 
+ 650      00
+ 651              	.LASF36:
+ 652 00e4 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
+ 652      455F4556 
+ 652      545F4741 
+ 652      505F4441 
+ 652      54415F4C 
+ 653              	.LASF6:
+ 654 0105 6C6F6E67 		.ascii	"long long int\000"
+ 654      206C6F6E 
+ 654      6720696E 
+ 654      7400
+ 655              	.LASF84:
+ 656 0113 63757374 		.ascii	"customServHandle\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 15
+
+
+ 656      6F6D5365 
+ 656      72764861 
+ 656      6E646C65 
+ 656      00
+ 657              	.LASF17:
+ 658 0124 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
+ 658      455F4556 
+ 658      545F4843 
+ 658      495F5354 
+ 658      41545553 
+ 659              	.LASF90:
+ 660 0139 4379426C 		.ascii	"CyBle_CustomInit\000"
+ 660      655F4375 
+ 660      73746F6D 
+ 660      496E6974 
+ 660      00
+ 661              	.LASF14:
+ 662 014a 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
+ 662      455F4556 
+ 662      545F5354 
+ 662      41434B5F 
+ 662      4F4E00
+ 663              	.LASF43:
+ 664 015d 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
+ 664      455F4556 
+ 664      545F4741 
+ 664      5454535F 
+ 664      58434E48 
+ 665              	.LASF79:
+ 666 017b 75696E74 		.ascii	"uint16\000"
+ 666      313600
+ 667              	.LASF82:
+ 668 0182 63757374 		.ascii	"customServCharDesc\000"
+ 668      6F6D5365 
+ 668      72764368 
+ 668      61724465 
+ 668      736300
+ 669              	.LASF51:
+ 670 0195 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
+ 670      455F4556 
+ 670      545F4741 
+ 670      5454435F 
+ 670      52454144 
+ 671              	.LASF60:
+ 672 01b4 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 672      455F4556 
+ 672      545F4741 
+ 672      5454535F 
+ 672      48414E44 
+ 673              	.LASF13:
+ 674 01d5 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
+ 674      455F4556 
+ 674      545F484F 
+ 674      53545F49 
+ 674      4E56414C 
+ 675              	.LASF68:
+ 676 01ec 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 16
+
+
+ 676      455F4556 
+ 676      545F4C32 
+ 676      4341505F 
+ 676      43424643 
+ 677              	.LASF71:
+ 678 020a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
+ 678      455F4556 
+ 678      545F4C32 
+ 678      4341505F 
+ 678      43424643 
+ 679              	.LASF9:
+ 680 022b 666C6F61 		.ascii	"float\000"
+ 680      7400
+ 681              	.LASF49:
+ 682 0231 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 682      455F4556 
+ 682      545F4741 
+ 682      5454435F 
+ 682      52454144 
+ 683              	.LASF89:
+ 684 024a 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
+ 684      73657273 
+ 684      5C4E616B 
+ 684      696F5C45 
+ 684      6C656374 
+ 685 0278 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED01.c"
+ 685      6E5F5053 
+ 685      6F433432 
+ 685      30305C50 
+ 685      536F435F 
+ 686 02a9 7964736E 		.ascii	"ydsn\000"
+ 686      00
+ 687              	.LASF33:
+ 688 02ae 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
+ 688      455F4556 
+ 688      545F4741 
+ 688      505F4E55 
+ 688      4D455249 
+ 689              	.LASF88:
+ 690 02d7 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLE_custom.c\000"
+ 690      72617465 
+ 690      645F536F 
+ 690      75726365 
+ 690      5C50536F 
+ 691              	.LASF7:
+ 692 02fb 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 692      206C6F6E 
+ 692      6720756E 
+ 692      7369676E 
+ 692      65642069 
+ 693              	.LASF83:
+ 694 0312 4359424C 		.ascii	"CYBLE_CUSTOMS_INFO_T\000"
+ 694      455F4355 
+ 694      53544F4D 
+ 694      535F494E 
+ 694      464F5F54 
+ 695              	.LASF4:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 17
+
+
+ 696 0327 6C6F6E67 		.ascii	"long int\000"
+ 696      20696E74 
+ 696      00
+ 697              	.LASF59:
+ 698 0330 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 698      455F4556 
+ 698      545F4741 
+ 698      5454435F 
+ 698      48414E44 
+ 699              	.LASF27:
+ 700 0351 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
+ 700      455F4556 
+ 700      545F4741 
+ 700      505F4445 
+ 700      56494345 
+ 701              	.LASF26:
+ 702 0370 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 702      455F4556 
+ 702      545F4741 
+ 702      50505F41 
+ 702      44564552 
+ 703              	.LASF58:
+ 704 0398 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 704      455F4556 
+ 704      545F4741 
+ 704      5454435F 
+ 704      48414E44 
+ 705              	.LASF18:
+ 706 03b9 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
+ 706      455F4556 
+ 706      545F5354 
+ 706      41434B5F 
+ 706      42555359 
+ 707              	.LASF23:
+ 708 03d5 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 708      455F4556 
+ 708      545F4741 
+ 708      505F5041 
+ 708      53534B45 
+ 709              	.LASF86:
+ 710 03fb 4359424C 		.ascii	"CYBLE_CUSTOMS_T\000"
+ 710      455F4355 
+ 710      53544F4D 
+ 710      535F5400 
+ 711              	.LASF69:
+ 712 040b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 712      455F4556 
+ 712      545F4C32 
+ 712      4341505F 
+ 712      43424643 
+ 713              	.LASF37:
+ 714 0429 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 714      455F4556 
+ 714      545F4741 
+ 714      505F454E 
+ 714      48414E43 
+ 715              	.LASF65:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 18
+
+
+ 716 044d 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 716      455F4556 
+ 716      545F4C32 
+ 716      4341505F 
+ 716      434F4E4E 
+ 717              	.LASF1:
+ 718 0473 756E7369 		.ascii	"unsigned char\000"
+ 718      676E6564 
+ 718      20636861 
+ 718      7200
+ 719              	.LASF85:
+ 720 0481 63757374 		.ascii	"customServInfo\000"
+ 720      6F6D5365 
+ 720      7276496E 
+ 720      666F00
+ 721              	.LASF55:
+ 722 0490 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 722      455F4556 
+ 722      545F4741 
+ 722      5454535F 
+ 722      50524550 
+ 723              	.LASF77:
+ 724 04af 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
+ 724      455F4556 
+ 724      545F4C45 
+ 724      5F50494E 
+ 724      475F4155 
+ 725              	.LASF47:
+ 726 04ce 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 726      455F4556 
+ 726      545F4741 
+ 726      5454435F 
+ 726      46494E44 
+ 727              	.LASF0:
+ 728 04ec 7369676E 		.ascii	"signed char\000"
+ 728      65642063 
+ 728      68617200 
+ 729              	.LASF52:
+ 730 04f8 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ 730      455F4556 
+ 730      545F4741 
+ 730      5454535F 
+ 730      57524954 
+ 731              	.LASF48:
+ 732 0512 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 732      455F4556 
+ 732      545F4741 
+ 732      5454435F 
+ 732      46494E44 
+ 733              	.LASF24:
+ 734 0539 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 734      455F4556 
+ 734      545F4741 
+ 734      505F4155 
+ 734      54485F43 
+ 735              	.LASF8:
+ 736 0555 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 19
+
+
+ 736      676E6564 
+ 736      20696E74 
+ 736      00
+ 737              	.LASF41:
+ 738 0562 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 738      455F4556 
+ 738      545F4741 
+ 738      54545F43 
+ 738      4F4E4E45 
+ 739              	.LASF5:
+ 740 057d 6C6F6E67 		.ascii	"long unsigned int\000"
+ 740      20756E73 
+ 740      69676E65 
+ 740      6420696E 
+ 740      7400
+ 741              	.LASF21:
+ 742 058f 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
+ 742      455F4556 
+ 742      545F4741 
+ 742      505F4155 
+ 742      54485F52 
+ 743              	.LASF70:
+ 744 05a6 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 744      455F4556 
+ 744      545F4C32 
+ 744      4341505F 
+ 744      43424643 
+ 745              	.LASF29:
+ 746 05c7 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 746      455F4556 
+ 746      545F4741 
+ 746      505F454E 
+ 746      43525950 
+ 747              	.LASF64:
+ 748 05e4 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
+ 748      455F4556 
+ 748      545F4741 
+ 748      5454435F 
+ 748      4C4F4E47 
+ 749              	.LASF32:
+ 750 0607 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 750      455F4556 
+ 750      545F4741 
+ 750      505F4B45 
+ 750      59494E46 
+ 751              	.LASF30:
+ 752 062b 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 752      455F4556 
+ 752      545F4741 
+ 752      505F434F 
+ 752      4E4E4543 
+ 753              	.LASF39:
+ 754 0654 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
+ 754      455F4556 
+ 754      545F4741 
+ 754      505F534D 
+ 754      505F4E45 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 20
+
+
+ 755              	.LASF11:
+ 756 067b 63686172 		.ascii	"char\000"
+ 756      00
+ 757              	.LASF87:
+ 758 0680 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 758      4320342E 
+ 758      392E3320 
+ 758      32303135 
+ 758      30333033 
+ 759 06b3 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 759      20726576 
+ 759      6973696F 
+ 759      6E203232 
+ 759      31323230 
+ 760 06e6 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 760      66756E63 
+ 760      74696F6E 
+ 760      2D736563 
+ 760      74696F6E 
+ 761              	.LASF67:
+ 762 070e 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 762      455F4556 
+ 762      545F4C32 
+ 762      4341505F 
+ 762      434F4D4D 
+ 763              	.LASF3:
+ 764 072a 73686F72 		.ascii	"short unsigned int\000"
+ 764      7420756E 
+ 764      7369676E 
+ 764      65642069 
+ 764      6E7400
+ 765              	.LASF38:
+ 766 073d 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 766      455F4556 
+ 766      545F4741 
+ 766      50435F44 
+ 766      49524543 
+ 767              	.LASF50:
+ 768 075e 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 768      455F4556 
+ 768      545F4741 
+ 768      5454435F 
+ 768      52454144 
+ 769              	.LASF57:
+ 770 077c 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 770      455F4556 
+ 770      545F4741 
+ 770      5454435F 
+ 770      45584543 
+ 771              	.LASF31:
+ 772 079b 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 772      455F4556 
+ 772      545F4741 
+ 772      50435F53 
+ 772      43414E5F 
+ 773              	.LASF76:
+ 774 07ba 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 21
+
+
+ 774      455F4556 
+ 774      545F5045 
+ 774      4E44494E 
+ 774      475F464C 
+ 775              	.LASF73:
+ 776 07d8 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
+ 776      455F4556 
+ 776      545F4C32 
+ 776      4341505F 
+ 776      43424643 
+ 777              	.LASF10:
+ 778 07fb 646F7562 		.ascii	"double\000"
+ 778      6C6500
+ 779              	.LASF74:
+ 780 0802 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
+ 780      455F4556 
+ 780      545F4C32 
+ 780      4341505F 
+ 780      43424643 
+ 781              	.LASF81:
+ 782 0825 63757374 		.ascii	"customServCharHandle\000"
+ 782      6F6D5365 
+ 782      72764368 
+ 782      61724861 
+ 782      6E646C65 
+ 783              	.LASF16:
+ 784 083a 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 784      455F4556 
+ 784      545F4841 
+ 784      52445741 
+ 784      52455F45 
+ 785              	.LASF72:
+ 786 0853 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 786      455F4556 
+ 786      545F4C32 
+ 786      4341505F 
+ 786      43424643 
+ 787              	.LASF66:
+ 788 0872 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 788      455F4556 
+ 788      545F4C32 
+ 788      4341505F 
+ 788      434F4E4E 
+ 789              	.LASF20:
+ 790 0898 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 790      455F4556 
+ 790      545F4741 
+ 790      50435F53 
+ 790      43414E5F 
+ 791              	.LASF45:
+ 792 08bc 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 792      455F4556 
+ 792      545F4741 
+ 792      5454435F 
+ 792      52454144 
+ 793              	.LASF54:
+ 794 08e3 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 22
+
+
+ 794      455F4556 
+ 794      545F4741 
+ 794      5454535F 
+ 794      57524954 
+ 795              	.LASF46:
+ 796 0901 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 796      455F4556 
+ 796      545F4741 
+ 796      5454435F 
+ 796      52454144 
+ 797              	.LASF44:
+ 798 0922 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 798      455F4556 
+ 798      545F4741 
+ 798      5454435F 
+ 798      5843484E 
+ 799              	.LASF75:
+ 800 0940 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 800      455F4556 
+ 800      545F4C32 
+ 800      4341505F 
+ 800      43424643 
+ 801              	.LASF15:
+ 802 0964 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 802      455F4556 
+ 802      545F5449 
+ 802      4D454F55 
+ 802      5400
+ 803              	.LASF78:
+ 804 0976 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 804      455F4556 
+ 804      545F4D41 
+ 804      5800
+ 805              	.LASF63:
+ 806 0984 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 806      455F4556 
+ 806      545F4741 
+ 806      5454535F 
+ 806      52454144 
+ 807              	.LASF62:
+ 808 09ad 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
+ 808      455F4556 
+ 808      545F4741 
+ 808      5454435F 
+ 808      53544F50 
+ 809              	.LASF56:
+ 810 09cf 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 810      455F4556 
+ 810      545F4741 
+ 810      5454535F 
+ 810      45584543 
+ 811              	.LASF80:
+ 812 09ee 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
+ 812      455F4741 
+ 812      54545F44 
+ 812      425F4154 
+ 812      54525F48 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccvAS9Vn.s 			page 23
+
+
+ 813              	.LASF91:
+ 814 0a0a 6379426C 		.ascii	"cyBle_customs\000"
+ 814      655F6375 
+ 814      73746F6D 
+ 814      7300
+ 815              	.LASF61:
+ 816 0a18 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 816      455F4556 
+ 816      545F4741 
+ 816      5454535F 
+ 816      44415441 
+ 817              	.LASF42:
+ 818 0a3c 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 818      455F4556 
+ 818      545F4741 
+ 818      54545F44 
+ 818      4953434F 
+ 819              	.LASF35:
+ 820 0a5a 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
+ 820      455F4556 
+ 820      545F4741 
+ 820      505F4F4F 
+ 820      425F4745 
+ 821              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

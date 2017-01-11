@@ -1,0 +1,3 @@
+# Component constraints for C:\Users\Nakio\Electronique\Cypress\Programmes\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\TopDesign\TopDesign.cysch
+# Project: C:\Users\Nakio\Electronique\Cypress\Programmes\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\PSoC_4_BLE_CapSense_Slider_LED02.cyprj
+# Date: Sun, 08 Jan 2017 20:53:27 GMT

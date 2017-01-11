@@ -1,0 +1,929 @@
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"HandleLowPower.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.HandleLowPowerMode,"ax",%progbits
+  18              		.align	2
+  19              		.global	HandleLowPowerMode
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	HandleLowPowerMode, %function
+  23              	HandleLowPowerMode:
+  24              	.LFB37:
+  25              		.file 1 "HandleLowPower.c"
+   1:HandleLowPower.c **** /******************************************************************************
+   2:HandleLowPower.c **** * Project Name		: PSoC_4_BLE_CapSense_Slider_LED
+   3:HandleLowPower.c **** * File Name			: HandleLowPower.c
+   4:HandleLowPower.c **** * Version 			: 1.0
+   5:HandleLowPower.c **** * Device Used		: CY8C4248LQI-BL583
+   6:HandleLowPower.c **** * Software Used		: PSoC Creator 3.3 CP2
+   7:HandleLowPower.c **** * Compiler    		: ARM GCC 4.9.3, ARM MDK Generic
+   8:HandleLowPower.c **** * Related Hardware	: CY8CKIT-042-BLE-A Bluetooth Low Energy Pioneer Kit 
+   9:HandleLowPower.c **** * Owner             : ROIT
+  10:HandleLowPower.c **** *
+  11:HandleLowPower.c **** ********************************************************************************
+  12:HandleLowPower.c **** * Copyright (2015-16), Cypress Semiconductor Corporation. All Rights Reserved.
+  13:HandleLowPower.c **** ********************************************************************************
+  14:HandleLowPower.c **** * This software is owned by Cypress Semiconductor Corporation (Cypress)
+  15:HandleLowPower.c **** * and is protected by and subject to worldwide patent protection (United
+  16:HandleLowPower.c **** * States and foreign), United States copyright laws and international treaty
+  17:HandleLowPower.c **** * provisions. Cypress hereby grants to licensee a personal, non-exclusive,
+  18:HandleLowPower.c **** * non-transferable license to copy, use, modify, create derivative works of,
+  19:HandleLowPower.c **** * and compile the Cypress Source Code and derivative works for the sole
+  20:HandleLowPower.c **** * purpose of creating custom software in support of licensee product to be
+  21:HandleLowPower.c **** * used only in conjunction with a Cypress integrated circuit as specified in
+  22:HandleLowPower.c **** * the applicable agreement. Any reproduction, modification, translation,
+  23:HandleLowPower.c **** * compilation, or representation of this software except as specified above 
+  24:HandleLowPower.c **** * is prohibited without the express written permission of Cypress.
+  25:HandleLowPower.c **** *
+  26:HandleLowPower.c **** * Disclaimer: CYPRESS MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH 
+  27:HandleLowPower.c **** * REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+  28:HandleLowPower.c **** * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  29:HandleLowPower.c **** * Cypress reserves the right to make changes without further notice to the 
+  30:HandleLowPower.c **** * materials described herein. Cypress does not assume any liability arising out 
+  31:HandleLowPower.c **** * of the application or use of any product or circuit described herein. Cypress 
+  32:HandleLowPower.c **** * does not authorize its products for use as critical components in life-support 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 2
+
+
+  33:HandleLowPower.c **** * systems where a malfunction or failure may reasonably be expected to result in 
+  34:HandleLowPower.c **** * significant injury to the user. The inclusion of Cypress' product in a life-
+  35:HandleLowPower.c **** * support systems application implies that the manufacturer assumes all risk of 
+  36:HandleLowPower.c **** * such use and in doing so indemnifies Cypress against all charges. 
+  37:HandleLowPower.c **** *
+  38:HandleLowPower.c **** * Use of this Software may be limited by and subject to the applicable Cypress
+  39:HandleLowPower.c **** * software license agreement. 
+  40:HandleLowPower.c **** *******************************************************************************/
+  41:HandleLowPower.c **** #include <main.h>
+  42:HandleLowPower.c **** 
+  43:HandleLowPower.c **** extern uint8 shut_down_led;
+  44:HandleLowPower.c **** /*******************************************************************************
+  45:HandleLowPower.c **** * Function Name: HandleLowPowerMode
+  46:HandleLowPower.c **** ********************************************************************************
+  47:HandleLowPower.c **** * Summary:
+  48:HandleLowPower.c **** *        This function puts the BLESS in deep sleep mode and CPU to sleep mode. 
+  49:HandleLowPower.c **** * System will resume from here when it wakes from user button press.
+  50:HandleLowPower.c **** *
+  51:HandleLowPower.c **** * Parameters:
+  52:HandleLowPower.c **** *  void
+  53:HandleLowPower.c **** *
+  54:HandleLowPower.c **** * Return:
+  55:HandleLowPower.c **** *  void
+  56:HandleLowPower.c **** *
+  57:HandleLowPower.c **** *******************************************************************************/
+  58:HandleLowPower.c **** void HandleLowPowerMode(void)
+  59:HandleLowPower.c **** {
+  26              		.loc 1 59 0
+  27              		.cfi_startproc
+  28 0000 90B5     		push	{r4, r7, lr}
+  29              		.cfi_def_cfa_offset 12
+  30              		.cfi_offset 4, -12
+  31              		.cfi_offset 7, -8
+  32              		.cfi_offset 14, -4
+  33 0002 83B0     		sub	sp, sp, #12
+  34              		.cfi_def_cfa_offset 24
+  35 0004 00AF     		add	r7, sp, #0
+  36              		.cfi_def_cfa_register 7
+  60:HandleLowPower.c **** 	#ifdef ENABLE_LOW_POWER_MODE
+  61:HandleLowPower.c **** 		/* Local variable to store the status of BLESS Hardware block */
+  62:HandleLowPower.c **** 		CYBLE_LP_MODE_T sleepMode;
+  63:HandleLowPower.c **** 		CYBLE_BLESS_STATE_T blessState;
+  64:HandleLowPower.c **** 		
+  65:HandleLowPower.c **** 		#ifdef CAPSENSE_ENABLED
+  66:HandleLowPower.c **** 		/* Put CapSense to Sleep*/
+  67:HandleLowPower.c **** 		CapSense_Sleep();
+  37              		.loc 1 67 0
+  38 0006 FFF7FEFF 		bl	CapSense_Sleep
+  68:HandleLowPower.c **** 		#endif
+  69:HandleLowPower.c **** 		
+  70:HandleLowPower.c **** 		/* Put BLESS into Deep Sleep and check the return status */
+  71:HandleLowPower.c **** 		sleepMode = CyBle_EnterLPM(CYBLE_BLESS_DEEPSLEEP);
+  39              		.loc 1 71 0
+  40 000a FC1D     		add	r4, r7, #7
+  41 000c 0320     		mov	r0, #3
+  42 000e FFF7FEFF 		bl	CyBle_EnterLPM
+  43 0012 031C     		mov	r3, r0
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 3
+
+
+  44 0014 2370     		strb	r3, [r4]
+  72:HandleLowPower.c **** 		
+  73:HandleLowPower.c **** 		/* Disable global interrupt to prevent changes from any other interrupt ISR */
+  74:HandleLowPower.c **** 		CyGlobalIntDisable;
+  45              		.loc 1 74 0
+  46              	@ 74 "HandleLowPower.c" 1
+  47 0016 72B6     		CPSID   i
+  48              	@ 0 "" 2
+  75:HandleLowPower.c **** 	
+  76:HandleLowPower.c **** 		/* Check the Status of BLESS */
+  77:HandleLowPower.c **** 		blessState = CyBle_GetBleSsState();
+  49              		.loc 1 77 0
+  50              		.code	16
+  51 0018 BC1D     		add	r4, r7, #6
+  52 001a FFF7FEFF 		bl	CyBle_GetBleSsState
+  53 001e 031C     		mov	r3, r0
+  54 0020 2370     		strb	r3, [r4]
+  78:HandleLowPower.c **** 
+  79:HandleLowPower.c **** 		if(sleepMode == CYBLE_BLESS_DEEPSLEEP)
+  55              		.loc 1 79 0
+  56 0022 FB1D     		add	r3, r7, #7
+  57 0024 1B78     		ldrb	r3, [r3]
+  58 0026 032B     		cmp	r3, #3
+  59 0028 1FD1     		bne	.L2
+  80:HandleLowPower.c **** 		{
+  81:HandleLowPower.c **** 		    /* If the ECO has started or the BLESS can go to Deep Sleep, then place CPU 
+  82:HandleLowPower.c **** 			* to Deep Sleep */
+  83:HandleLowPower.c **** 			if(blessState == CYBLE_BLESS_STATE_ECO_ON || blessState == CYBLE_BLESS_STATE_DEEPSLEEP)
+  60              		.loc 1 83 0
+  61 002a BB1D     		add	r3, r7, #6
+  62 002c 1B78     		ldrb	r3, [r3]
+  63 002e 042B     		cmp	r3, #4
+  64 0030 03D0     		beq	.L3
+  65              		.loc 1 83 0 is_stmt 0 discriminator 1
+  66 0032 BB1D     		add	r3, r7, #6
+  67 0034 1B78     		ldrb	r3, [r3]
+  68 0036 062B     		cmp	r3, #6
+  69 0038 1DD1     		bne	.L6
+  70              	.L3:
+  84:HandleLowPower.c **** 		    {
+  85:HandleLowPower.c **** 				if(shut_down_led)
+  71              		.loc 1 85 0 is_stmt 1
+  72 003a 124B     		ldr	r3, .L7
+  73 003c 1B78     		ldrb	r3, [r3]
+  74 003e 002B     		cmp	r3, #0
+  75 0040 0AD0     		beq	.L5
+  86:HandleLowPower.c **** 				{
+  87:HandleLowPower.c **** 					/* Put PrISM modules to sleep */
+  88:HandleLowPower.c **** 					PrISM_1_Sleep();
+  76              		.loc 1 88 0
+  77 0042 FFF7FEFF 		bl	PrISM_1_Sleep
+  89:HandleLowPower.c **** 					PrISM_2_Sleep();
+  78              		.loc 1 89 0
+  79 0046 FFF7FEFF 		bl	PrISM_2_Sleep
+  90:HandleLowPower.c **** 					
+  91:HandleLowPower.c **** 					/* Place CPU to Deep sleep only when the RGB PrISM module is not 
+  92:HandleLowPower.c **** 					* active (indicated by flag 'shut_down_led'). 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 4
+
+
+  93:HandleLowPower.c **** 					* If RGB PrISM is active, then the CPU should only be placed in 
+  94:HandleLowPower.c **** 					* Sleep to allow the PrISM to function and control the color 
+  95:HandleLowPower.c **** 					* and Intensity */
+  96:HandleLowPower.c **** 			        CySysPmDeepSleep();
+  80              		.loc 1 96 0
+  81 004a FFF7FEFF 		bl	CySysPmDeepSleep
+  97:HandleLowPower.c **** 					
+  98:HandleLowPower.c **** 					/* After system wakes up, wake up the PrISM modules*/
+  99:HandleLowPower.c **** 					PrISM_1_Wakeup();
+  82              		.loc 1 99 0
+  83 004e FFF7FEFF 		bl	PrISM_1_Wakeup
+ 100:HandleLowPower.c **** 					PrISM_2_Wakeup();
+  84              		.loc 1 100 0
+  85 0052 FFF7FEFF 		bl	PrISM_2_Wakeup
+  86 0056 0EE0     		b	.L6
+  87              	.L5:
+ 101:HandleLowPower.c **** 				}
+ 102:HandleLowPower.c **** 				else
+ 103:HandleLowPower.c **** 				{
+ 104:HandleLowPower.c **** 					/* If the system is controlling RGB LED, then PrISM needs to be running. 
+ 105:HandleLowPower.c **** 					* Put CPU to sleep only */
+ 106:HandleLowPower.c **** 					CySysClkWriteImoFreq(IMO_FREQUENCY_3MHZ);
+  88              		.loc 1 106 0
+  89 0058 0320     		mov	r0, #3
+  90 005a FFF7FEFF 		bl	CySysClkWriteImoFreq
+ 107:HandleLowPower.c **** 					CySysPmSleep();
+  91              		.loc 1 107 0
+  92 005e FFF7FEFF 		bl	CySysPmSleep
+ 108:HandleLowPower.c **** 					CySysClkWriteImoFreq(IMO_FREQUENCY_12MHZ);
+  93              		.loc 1 108 0
+  94 0062 0C20     		mov	r0, #12
+  95 0064 FFF7FEFF 		bl	CySysClkWriteImoFreq
+  96 0068 05E0     		b	.L6
+  97              	.L2:
+ 109:HandleLowPower.c **** 
+ 110:HandleLowPower.c **** 				}
+ 111:HandleLowPower.c **** 		 	}
+ 112:HandleLowPower.c **** 		}
+ 113:HandleLowPower.c **** 		else
+ 114:HandleLowPower.c **** 		{
+ 115:HandleLowPower.c **** 		    if(blessState != CYBLE_BLESS_STATE_EVENT_CLOSE)
+  98              		.loc 1 115 0
+  99 006a BB1D     		add	r3, r7, #6
+ 100 006c 1B78     		ldrb	r3, [r3]
+ 101 006e 022B     		cmp	r3, #2
+ 102 0070 01D0     		beq	.L6
+ 116:HandleLowPower.c **** 		    {
+ 117:HandleLowPower.c **** 				/* If the BLESS hardware block cannot go to Deep Sleep and BLE Event has not 
+ 118:HandleLowPower.c **** 				* closed yet, then place CPU to Sleep */
+ 119:HandleLowPower.c **** 		        CySysPmSleep();
+ 103              		.loc 1 119 0
+ 104 0072 FFF7FEFF 		bl	CySysPmSleep
+ 105              	.L6:
+ 120:HandleLowPower.c **** 		    }
+ 121:HandleLowPower.c **** 		}
+ 122:HandleLowPower.c **** 		
+ 123:HandleLowPower.c **** 		/* Re-enable global interrupt mask after wakeup */
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 5
+
+
+ 124:HandleLowPower.c **** 		CyGlobalIntEnable;
+ 106              		.loc 1 124 0
+ 107              	@ 124 "HandleLowPower.c" 1
+ 108 0076 62B6     		CPSIE   i
+ 109              	@ 0 "" 2
+ 125:HandleLowPower.c **** 		
+ 126:HandleLowPower.c **** 		#ifdef CAPSENSE_ENABLED
+ 127:HandleLowPower.c **** 		/* Wakeup CapSense Block */
+ 128:HandleLowPower.c **** 		CapSense_Wakeup();
+ 110              		.loc 1 128 0
+ 111              		.code	16
+ 112 0078 FFF7FEFF 		bl	CapSense_Wakeup
+ 129:HandleLowPower.c **** 		#endif
+ 130:HandleLowPower.c **** 		
+ 131:HandleLowPower.c **** 	#endif
+ 132:HandleLowPower.c **** }
+ 113              		.loc 1 132 0
+ 114 007c BD46     		mov	sp, r7
+ 115 007e 03B0     		add	sp, sp, #12
+ 116              		@ sp needed
+ 117 0080 90BD     		pop	{r4, r7, pc}
+ 118              	.L8:
+ 119 0082 C046     		.align	2
+ 120              	.L7:
+ 121 0084 00000000 		.word	shut_down_led
+ 122              		.cfi_endproc
+ 123              	.LFE37:
+ 124              		.size	HandleLowPowerMode, .-HandleLowPowerMode
+ 125              		.section	.text.MyISR,"ax",%progbits
+ 126              		.align	2
+ 127              		.global	MyISR
+ 128              		.code	16
+ 129              		.thumb_func
+ 130              		.type	MyISR, %function
+ 131              	MyISR:
+ 132              	.LFB38:
+ 133:HandleLowPower.c **** 
+ 134:HandleLowPower.c **** /*******************************************************************************
+ 135:HandleLowPower.c **** * Function Name: MyISR
+ 136:HandleLowPower.c **** ********************************************************************************
+ 137:HandleLowPower.c **** * Summary:
+ 138:HandleLowPower.c **** *        ISR routine for isr_button. System enters here after CPU wakeup.
+ 139:HandleLowPower.c **** * Clears pending interrupt.
+ 140:HandleLowPower.c **** *
+ 141:HandleLowPower.c **** * Parameters:
+ 142:HandleLowPower.c **** *  void
+ 143:HandleLowPower.c **** *
+ 144:HandleLowPower.c **** * Return:
+ 145:HandleLowPower.c **** *  void
+ 146:HandleLowPower.c **** *
+ 147:HandleLowPower.c **** *******************************************************************************/
+ 148:HandleLowPower.c **** CY_ISR(MyISR)
+ 149:HandleLowPower.c **** {
+ 133              		.loc 1 149 0
+ 134              		.cfi_startproc
+ 135 0000 80B5     		push	{r7, lr}
+ 136              		.cfi_def_cfa_offset 8
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 6
+
+
+ 137              		.cfi_offset 7, -8
+ 138              		.cfi_offset 14, -4
+ 139 0002 00AF     		add	r7, sp, #0
+ 140              		.cfi_def_cfa_register 7
+ 150:HandleLowPower.c **** 	/* Clear Pending interrupts */
+ 151:HandleLowPower.c **** 	isr_button_ClearPending();
+ 141              		.loc 1 151 0
+ 142 0004 FFF7FEFF 		bl	isr_button_ClearPending
+ 152:HandleLowPower.c **** 	
+ 153:HandleLowPower.c **** 	User_Button_ClearInterrupt();
+ 143              		.loc 1 153 0
+ 144 0008 FFF7FEFF 		bl	User_Button_ClearInterrupt
+ 154:HandleLowPower.c **** }
+ 145              		.loc 1 154 0
+ 146 000c BD46     		mov	sp, r7
+ 147              		@ sp needed
+ 148 000e 80BD     		pop	{r7, pc}
+ 149              		.cfi_endproc
+ 150              	.LFE38:
+ 151              		.size	MyISR, .-MyISR
+ 152              		.text
+ 153              	.Letext0:
+ 154              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 155              		.file 3 "Generated_Source\\PSoC4/BLE_Stack.h"
+ 156              		.section	.debug_info,"",%progbits
+ 157              	.Ldebug_info0:
+ 158 0000 5A010000 		.4byte	0x15a
+ 159 0004 0400     		.2byte	0x4
+ 160 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 161 000a 04       		.byte	0x4
+ 162 000b 01       		.uleb128 0x1
+ 163 000c 15010000 		.4byte	.LASF31
+ 164 0010 01       		.byte	0x1
+ 165 0011 33030000 		.4byte	.LASF32
+ 166 0015 3E020000 		.4byte	.LASF33
+ 167 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 168 001d 00000000 		.4byte	0
+ 169 0021 00000000 		.4byte	.Ldebug_line0
+ 170 0025 02       		.uleb128 0x2
+ 171 0026 01       		.byte	0x1
+ 172 0027 06       		.byte	0x6
+ 173 0028 14030000 		.4byte	.LASF0
+ 174 002c 02       		.uleb128 0x2
+ 175 002d 01       		.byte	0x1
+ 176 002e 08       		.byte	0x8
+ 177 002f 7A000000 		.4byte	.LASF1
+ 178 0033 02       		.uleb128 0x2
+ 179 0034 02       		.byte	0x2
+ 180 0035 05       		.byte	0x5
+ 181 0036 F1020000 		.4byte	.LASF2
+ 182 003a 02       		.uleb128 0x2
+ 183 003b 02       		.byte	0x2
+ 184 003c 07       		.byte	0x7
+ 185 003d 31000000 		.4byte	.LASF3
+ 186 0041 02       		.uleb128 0x2
+ 187 0042 04       		.byte	0x4
+ 188 0043 05       		.byte	0x5
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 7
+
+
+ 189 0044 0B030000 		.4byte	.LASF4
+ 190 0048 02       		.uleb128 0x2
+ 191 0049 04       		.byte	0x4
+ 192 004a 07       		.byte	0x7
+ 193 004b 96000000 		.4byte	.LASF5
+ 194 004f 02       		.uleb128 0x2
+ 195 0050 08       		.byte	0x8
+ 196 0051 05       		.byte	0x5
+ 197 0052 30020000 		.4byte	.LASF6
+ 198 0056 02       		.uleb128 0x2
+ 199 0057 08       		.byte	0x8
+ 200 0058 07       		.byte	0x7
+ 201 0059 63000000 		.4byte	.LASF7
+ 202 005d 03       		.uleb128 0x3
+ 203 005e 04       		.byte	0x4
+ 204 005f 05       		.byte	0x5
+ 205 0060 696E7400 		.ascii	"int\000"
+ 206 0064 02       		.uleb128 0x2
+ 207 0065 04       		.byte	0x4
+ 208 0066 07       		.byte	0x7
+ 209 0067 CA010000 		.4byte	.LASF8
+ 210 006b 04       		.uleb128 0x4
+ 211 006c A8000000 		.4byte	.LASF18
+ 212 0070 02       		.byte	0x2
+ 213 0071 3801     		.2byte	0x138
+ 214 0073 2C000000 		.4byte	0x2c
+ 215 0077 02       		.uleb128 0x2
+ 216 0078 04       		.byte	0x4
+ 217 0079 04       		.byte	0x4
+ 218 007a 5D000000 		.4byte	.LASF9
+ 219 007e 02       		.uleb128 0x2
+ 220 007f 08       		.byte	0x8
+ 221 0080 04       		.byte	0x4
+ 222 0081 04010000 		.4byte	.LASF10
+ 223 0085 02       		.uleb128 0x2
+ 224 0086 01       		.byte	0x1
+ 225 0087 08       		.byte	0x8
+ 226 0088 D7010000 		.4byte	.LASF11
+ 227 008c 02       		.uleb128 0x2
+ 228 008d 04       		.byte	0x4
+ 229 008e 07       		.byte	0x7
+ 230 008f 27020000 		.4byte	.LASF12
+ 231 0093 05       		.uleb128 0x5
+ 232 0094 01       		.byte	0x1
+ 233 0095 03       		.byte	0x3
+ 234 0096 6F03     		.2byte	0x36f
+ 235 0098 BC000000 		.4byte	0xbc
+ 236 009c 06       		.uleb128 0x6
+ 237 009d 20030000 		.4byte	.LASF13
+ 238 00a1 01       		.sleb128 1
+ 239 00a2 06       		.uleb128 0x6
+ 240 00a3 19000000 		.4byte	.LASF14
+ 241 00a7 02       		.sleb128 2
+ 242 00a8 06       		.uleb128 0x6
+ 243 00a9 BE020000 		.4byte	.LASF15
+ 244 00ad 03       		.sleb128 3
+ 245 00ae 06       		.uleb128 0x6
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 8
+
+
+ 246 00af EE000000 		.4byte	.LASF16
+ 247 00b3 04       		.sleb128 4
+ 248 00b4 06       		.uleb128 0x6
+ 249 00b5 AE000000 		.4byte	.LASF17
+ 250 00b9 FF01     		.sleb128 255
+ 251 00bb 00       		.byte	0
+ 252 00bc 04       		.uleb128 0x4
+ 253 00bd FB020000 		.4byte	.LASF19
+ 254 00c1 03       		.byte	0x3
+ 255 00c2 8B03     		.2byte	0x38b
+ 256 00c4 93000000 		.4byte	0x93
+ 257 00c8 05       		.uleb128 0x5
+ 258 00c9 01       		.byte	0x1
+ 259 00ca 03       		.byte	0x3
+ 260 00cb 8F03     		.2byte	0x38f
+ 261 00cd 03010000 		.4byte	0x103
+ 262 00d1 06       		.uleb128 0x6
+ 263 00d2 00000000 		.4byte	.LASF20
+ 264 00d6 01       		.sleb128 1
+ 265 00d7 06       		.uleb128 0x6
+ 266 00d8 EF010000 		.4byte	.LASF21
+ 267 00dc 02       		.sleb128 2
+ 268 00dd 06       		.uleb128 0x6
+ 269 00de C2000000 		.4byte	.LASF22
+ 270 00e2 03       		.sleb128 3
+ 271 00e3 06       		.uleb128 0x6
+ 272 00e4 44000000 		.4byte	.LASF23
+ 273 00e8 04       		.sleb128 4
+ 274 00e9 06       		.uleb128 0x6
+ 275 00ea D4020000 		.4byte	.LASF24
+ 276 00ee 05       		.sleb128 5
+ 277 00ef 06       		.uleb128 0x6
+ 278 00f0 A2020000 		.4byte	.LASF25
+ 279 00f4 06       		.sleb128 6
+ 280 00f5 06       		.uleb128 0x6
+ 281 00f6 AE010000 		.4byte	.LASF26
+ 282 00fa 07       		.sleb128 7
+ 283 00fb 06       		.uleb128 0x6
+ 284 00fc 0D020000 		.4byte	.LASF27
+ 285 0100 FF01     		.sleb128 255
+ 286 0102 00       		.byte	0
+ 287 0103 04       		.uleb128 0x4
+ 288 0104 DA000000 		.4byte	.LASF28
+ 289 0108 03       		.byte	0x3
+ 290 0109 9803     		.2byte	0x398
+ 291 010b C8000000 		.4byte	0xc8
+ 292 010f 07       		.uleb128 0x7
+ 293 0110 DC010000 		.4byte	.LASF34
+ 294 0114 01       		.byte	0x1
+ 295 0115 3A       		.byte	0x3a
+ 296 0116 00000000 		.4byte	.LFB37
+ 297 011a 88000000 		.4byte	.LFE37-.LFB37
+ 298 011e 01       		.uleb128 0x1
+ 299 011f 9C       		.byte	0x9c
+ 300 0120 41010000 		.4byte	0x141
+ 301 0124 08       		.uleb128 0x8
+ 302 0125 0B010000 		.4byte	.LASF29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 9
+
+
+ 303 0129 01       		.byte	0x1
+ 304 012a 3E       		.byte	0x3e
+ 305 012b BC000000 		.4byte	0xbc
+ 306 012f 02       		.uleb128 0x2
+ 307 0130 91       		.byte	0x91
+ 308 0131 6F       		.sleb128 -17
+ 309 0132 08       		.uleb128 0x8
+ 310 0133 A3010000 		.4byte	.LASF30
+ 311 0137 01       		.byte	0x1
+ 312 0138 3F       		.byte	0x3f
+ 313 0139 03010000 		.4byte	0x103
+ 314 013d 02       		.uleb128 0x2
+ 315 013e 91       		.byte	0x91
+ 316 013f 6E       		.sleb128 -18
+ 317 0140 00       		.byte	0
+ 318 0141 09       		.uleb128 0x9
+ 319 0142 2B000000 		.4byte	.LASF35
+ 320 0146 01       		.byte	0x1
+ 321 0147 94       		.byte	0x94
+ 322 0148 00000000 		.4byte	.LFB38
+ 323 014c 10000000 		.4byte	.LFE38-.LFB38
+ 324 0150 01       		.uleb128 0x1
+ 325 0151 9C       		.byte	0x9c
+ 326 0152 0A       		.uleb128 0xa
+ 327 0153 88000000 		.4byte	.LASF36
+ 328 0157 01       		.byte	0x1
+ 329 0158 2B       		.byte	0x2b
+ 330 0159 6B000000 		.4byte	0x6b
+ 331 015d 00       		.byte	0
+ 332              		.section	.debug_abbrev,"",%progbits
+ 333              	.Ldebug_abbrev0:
+ 334 0000 01       		.uleb128 0x1
+ 335 0001 11       		.uleb128 0x11
+ 336 0002 01       		.byte	0x1
+ 337 0003 25       		.uleb128 0x25
+ 338 0004 0E       		.uleb128 0xe
+ 339 0005 13       		.uleb128 0x13
+ 340 0006 0B       		.uleb128 0xb
+ 341 0007 03       		.uleb128 0x3
+ 342 0008 0E       		.uleb128 0xe
+ 343 0009 1B       		.uleb128 0x1b
+ 344 000a 0E       		.uleb128 0xe
+ 345 000b 55       		.uleb128 0x55
+ 346 000c 17       		.uleb128 0x17
+ 347 000d 11       		.uleb128 0x11
+ 348 000e 01       		.uleb128 0x1
+ 349 000f 10       		.uleb128 0x10
+ 350 0010 17       		.uleb128 0x17
+ 351 0011 00       		.byte	0
+ 352 0012 00       		.byte	0
+ 353 0013 02       		.uleb128 0x2
+ 354 0014 24       		.uleb128 0x24
+ 355 0015 00       		.byte	0
+ 356 0016 0B       		.uleb128 0xb
+ 357 0017 0B       		.uleb128 0xb
+ 358 0018 3E       		.uleb128 0x3e
+ 359 0019 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 10
+
+
+ 360 001a 03       		.uleb128 0x3
+ 361 001b 0E       		.uleb128 0xe
+ 362 001c 00       		.byte	0
+ 363 001d 00       		.byte	0
+ 364 001e 03       		.uleb128 0x3
+ 365 001f 24       		.uleb128 0x24
+ 366 0020 00       		.byte	0
+ 367 0021 0B       		.uleb128 0xb
+ 368 0022 0B       		.uleb128 0xb
+ 369 0023 3E       		.uleb128 0x3e
+ 370 0024 0B       		.uleb128 0xb
+ 371 0025 03       		.uleb128 0x3
+ 372 0026 08       		.uleb128 0x8
+ 373 0027 00       		.byte	0
+ 374 0028 00       		.byte	0
+ 375 0029 04       		.uleb128 0x4
+ 376 002a 16       		.uleb128 0x16
+ 377 002b 00       		.byte	0
+ 378 002c 03       		.uleb128 0x3
+ 379 002d 0E       		.uleb128 0xe
+ 380 002e 3A       		.uleb128 0x3a
+ 381 002f 0B       		.uleb128 0xb
+ 382 0030 3B       		.uleb128 0x3b
+ 383 0031 05       		.uleb128 0x5
+ 384 0032 49       		.uleb128 0x49
+ 385 0033 13       		.uleb128 0x13
+ 386 0034 00       		.byte	0
+ 387 0035 00       		.byte	0
+ 388 0036 05       		.uleb128 0x5
+ 389 0037 04       		.uleb128 0x4
+ 390 0038 01       		.byte	0x1
+ 391 0039 0B       		.uleb128 0xb
+ 392 003a 0B       		.uleb128 0xb
+ 393 003b 3A       		.uleb128 0x3a
+ 394 003c 0B       		.uleb128 0xb
+ 395 003d 3B       		.uleb128 0x3b
+ 396 003e 05       		.uleb128 0x5
+ 397 003f 01       		.uleb128 0x1
+ 398 0040 13       		.uleb128 0x13
+ 399 0041 00       		.byte	0
+ 400 0042 00       		.byte	0
+ 401 0043 06       		.uleb128 0x6
+ 402 0044 28       		.uleb128 0x28
+ 403 0045 00       		.byte	0
+ 404 0046 03       		.uleb128 0x3
+ 405 0047 0E       		.uleb128 0xe
+ 406 0048 1C       		.uleb128 0x1c
+ 407 0049 0D       		.uleb128 0xd
+ 408 004a 00       		.byte	0
+ 409 004b 00       		.byte	0
+ 410 004c 07       		.uleb128 0x7
+ 411 004d 2E       		.uleb128 0x2e
+ 412 004e 01       		.byte	0x1
+ 413 004f 3F       		.uleb128 0x3f
+ 414 0050 19       		.uleb128 0x19
+ 415 0051 03       		.uleb128 0x3
+ 416 0052 0E       		.uleb128 0xe
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 11
+
+
+ 417 0053 3A       		.uleb128 0x3a
+ 418 0054 0B       		.uleb128 0xb
+ 419 0055 3B       		.uleb128 0x3b
+ 420 0056 0B       		.uleb128 0xb
+ 421 0057 27       		.uleb128 0x27
+ 422 0058 19       		.uleb128 0x19
+ 423 0059 11       		.uleb128 0x11
+ 424 005a 01       		.uleb128 0x1
+ 425 005b 12       		.uleb128 0x12
+ 426 005c 06       		.uleb128 0x6
+ 427 005d 40       		.uleb128 0x40
+ 428 005e 18       		.uleb128 0x18
+ 429 005f 9642     		.uleb128 0x2116
+ 430 0061 19       		.uleb128 0x19
+ 431 0062 01       		.uleb128 0x1
+ 432 0063 13       		.uleb128 0x13
+ 433 0064 00       		.byte	0
+ 434 0065 00       		.byte	0
+ 435 0066 08       		.uleb128 0x8
+ 436 0067 34       		.uleb128 0x34
+ 437 0068 00       		.byte	0
+ 438 0069 03       		.uleb128 0x3
+ 439 006a 0E       		.uleb128 0xe
+ 440 006b 3A       		.uleb128 0x3a
+ 441 006c 0B       		.uleb128 0xb
+ 442 006d 3B       		.uleb128 0x3b
+ 443 006e 0B       		.uleb128 0xb
+ 444 006f 49       		.uleb128 0x49
+ 445 0070 13       		.uleb128 0x13
+ 446 0071 02       		.uleb128 0x2
+ 447 0072 18       		.uleb128 0x18
+ 448 0073 00       		.byte	0
+ 449 0074 00       		.byte	0
+ 450 0075 09       		.uleb128 0x9
+ 451 0076 2E       		.uleb128 0x2e
+ 452 0077 00       		.byte	0
+ 453 0078 3F       		.uleb128 0x3f
+ 454 0079 19       		.uleb128 0x19
+ 455 007a 03       		.uleb128 0x3
+ 456 007b 0E       		.uleb128 0xe
+ 457 007c 3A       		.uleb128 0x3a
+ 458 007d 0B       		.uleb128 0xb
+ 459 007e 3B       		.uleb128 0x3b
+ 460 007f 0B       		.uleb128 0xb
+ 461 0080 27       		.uleb128 0x27
+ 462 0081 19       		.uleb128 0x19
+ 463 0082 11       		.uleb128 0x11
+ 464 0083 01       		.uleb128 0x1
+ 465 0084 12       		.uleb128 0x12
+ 466 0085 06       		.uleb128 0x6
+ 467 0086 40       		.uleb128 0x40
+ 468 0087 18       		.uleb128 0x18
+ 469 0088 9642     		.uleb128 0x2116
+ 470 008a 19       		.uleb128 0x19
+ 471 008b 00       		.byte	0
+ 472 008c 00       		.byte	0
+ 473 008d 0A       		.uleb128 0xa
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 12
+
+
+ 474 008e 34       		.uleb128 0x34
+ 475 008f 00       		.byte	0
+ 476 0090 03       		.uleb128 0x3
+ 477 0091 0E       		.uleb128 0xe
+ 478 0092 3A       		.uleb128 0x3a
+ 479 0093 0B       		.uleb128 0xb
+ 480 0094 3B       		.uleb128 0x3b
+ 481 0095 0B       		.uleb128 0xb
+ 482 0096 49       		.uleb128 0x49
+ 483 0097 13       		.uleb128 0x13
+ 484 0098 3F       		.uleb128 0x3f
+ 485 0099 19       		.uleb128 0x19
+ 486 009a 3C       		.uleb128 0x3c
+ 487 009b 19       		.uleb128 0x19
+ 488 009c 00       		.byte	0
+ 489 009d 00       		.byte	0
+ 490 009e 00       		.byte	0
+ 491              		.section	.debug_aranges,"",%progbits
+ 492 0000 24000000 		.4byte	0x24
+ 493 0004 0200     		.2byte	0x2
+ 494 0006 00000000 		.4byte	.Ldebug_info0
+ 495 000a 04       		.byte	0x4
+ 496 000b 00       		.byte	0
+ 497 000c 0000     		.2byte	0
+ 498 000e 0000     		.2byte	0
+ 499 0010 00000000 		.4byte	.LFB37
+ 500 0014 88000000 		.4byte	.LFE37-.LFB37
+ 501 0018 00000000 		.4byte	.LFB38
+ 502 001c 10000000 		.4byte	.LFE38-.LFB38
+ 503 0020 00000000 		.4byte	0
+ 504 0024 00000000 		.4byte	0
+ 505              		.section	.debug_ranges,"",%progbits
+ 506              	.Ldebug_ranges0:
+ 507 0000 00000000 		.4byte	.LFB37
+ 508 0004 88000000 		.4byte	.LFE37
+ 509 0008 00000000 		.4byte	.LFB38
+ 510 000c 10000000 		.4byte	.LFE38
+ 511 0010 00000000 		.4byte	0
+ 512 0014 00000000 		.4byte	0
+ 513              		.section	.debug_line,"",%progbits
+ 514              	.Ldebug_line0:
+ 515 0000 9D000000 		.section	.debug_str,"MS",%progbits,1
+ 515      02005A00 
+ 515      00000201 
+ 515      FB0E0D00 
+ 515      01010101 
+ 516              	.LASF20:
+ 517 0000 4359424C 		.ascii	"CYBLE_BLESS_STATE_ACTIVE\000"
+ 517      455F424C 
+ 517      4553535F 
+ 517      53544154 
+ 517      455F4143 
+ 518              	.LASF14:
+ 519 0019 4359424C 		.ascii	"CYBLE_BLESS_SLEEP\000"
+ 519      455F424C 
+ 519      4553535F 
+ 519      534C4545 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 13
+
+
+ 519      5000
+ 520              	.LASF35:
+ 521 002b 4D794953 		.ascii	"MyISR\000"
+ 521      5200
+ 522              	.LASF3:
+ 523 0031 73686F72 		.ascii	"short unsigned int\000"
+ 523      7420756E 
+ 523      7369676E 
+ 523      65642069 
+ 523      6E7400
+ 524              	.LASF23:
+ 525 0044 4359424C 		.ascii	"CYBLE_BLESS_STATE_ECO_ON\000"
+ 525      455F424C 
+ 525      4553535F 
+ 525      53544154 
+ 525      455F4543 
+ 526              	.LASF9:
+ 527 005d 666C6F61 		.ascii	"float\000"
+ 527      7400
+ 528              	.LASF7:
+ 529 0063 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 529      206C6F6E 
+ 529      6720756E 
+ 529      7369676E 
+ 529      65642069 
+ 530              	.LASF1:
+ 531 007a 756E7369 		.ascii	"unsigned char\000"
+ 531      676E6564 
+ 531      20636861 
+ 531      7200
+ 532              	.LASF36:
+ 533 0088 73687574 		.ascii	"shut_down_led\000"
+ 533      5F646F77 
+ 533      6E5F6C65 
+ 533      6400
+ 534              	.LASF5:
+ 535 0096 6C6F6E67 		.ascii	"long unsigned int\000"
+ 535      20756E73 
+ 535      69676E65 
+ 535      6420696E 
+ 535      7400
+ 536              	.LASF18:
+ 537 00a8 75696E74 		.ascii	"uint8\000"
+ 537      3800
+ 538              	.LASF17:
+ 539 00ae 4359424C 		.ascii	"CYBLE_BLESS_INVALID\000"
+ 539      455F424C 
+ 539      4553535F 
+ 539      494E5641 
+ 539      4C494400 
+ 540              	.LASF22:
+ 541 00c2 4359424C 		.ascii	"CYBLE_BLESS_STATE_SLEEP\000"
+ 541      455F424C 
+ 541      4553535F 
+ 541      53544154 
+ 541      455F534C 
+ 542              	.LASF28:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 14
+
+
+ 543 00da 4359424C 		.ascii	"CYBLE_BLESS_STATE_T\000"
+ 543      455F424C 
+ 543      4553535F 
+ 543      53544154 
+ 543      455F5400 
+ 544              	.LASF16:
+ 545 00ee 4359424C 		.ascii	"CYBLE_BLESS_HIBERNATE\000"
+ 545      455F424C 
+ 545      4553535F 
+ 545      48494245 
+ 545      524E4154 
+ 546              	.LASF10:
+ 547 0104 646F7562 		.ascii	"double\000"
+ 547      6C6500
+ 548              	.LASF29:
+ 549 010b 736C6565 		.ascii	"sleepMode\000"
+ 549      704D6F64 
+ 549      6500
+ 550              	.LASF31:
+ 551 0115 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 551      4320342E 
+ 551      392E3320 
+ 551      32303135 
+ 551      30333033 
+ 552 0148 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 552      20726576 
+ 552      6973696F 
+ 552      6E203232 
+ 552      31323230 
+ 553 017b 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 553      66756E63 
+ 553      74696F6E 
+ 553      2D736563 
+ 553      74696F6E 
+ 554              	.LASF30:
+ 555 01a3 626C6573 		.ascii	"blessState\000"
+ 555      73537461 
+ 555      746500
+ 556              	.LASF26:
+ 557 01ae 4359424C 		.ascii	"CYBLE_BLESS_STATE_HIBERNATE\000"
+ 557      455F424C 
+ 557      4553535F 
+ 557      53544154 
+ 557      455F4849 
+ 558              	.LASF8:
+ 559 01ca 756E7369 		.ascii	"unsigned int\000"
+ 559      676E6564 
+ 559      20696E74 
+ 559      00
+ 560              	.LASF11:
+ 561 01d7 63686172 		.ascii	"char\000"
+ 561      00
+ 562              	.LASF34:
+ 563 01dc 48616E64 		.ascii	"HandleLowPowerMode\000"
+ 563      6C654C6F 
+ 563      77506F77 
+ 563      65724D6F 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 15
+
+
+ 563      646500
+ 564              	.LASF21:
+ 565 01ef 4359424C 		.ascii	"CYBLE_BLESS_STATE_EVENT_CLOSE\000"
+ 565      455F424C 
+ 565      4553535F 
+ 565      53544154 
+ 565      455F4556 
+ 566              	.LASF27:
+ 567 020d 4359424C 		.ascii	"CYBLE_BLESS_STATE_INVALID\000"
+ 567      455F424C 
+ 567      4553535F 
+ 567      53544154 
+ 567      455F494E 
+ 568              	.LASF12:
+ 569 0227 73697A65 		.ascii	"sizetype\000"
+ 569      74797065 
+ 569      00
+ 570              	.LASF6:
+ 571 0230 6C6F6E67 		.ascii	"long long int\000"
+ 571      206C6F6E 
+ 571      6720696E 
+ 571      7400
+ 572              	.LASF33:
+ 573 023e 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
+ 573      73657273 
+ 573      5C4E616B 
+ 573      696F5C45 
+ 573      6C656374 
+ 574 026c 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
+ 574      6E5F5053 
+ 574      6F433432 
+ 574      30305C50 
+ 574      536F435F 
+ 575 029d 7964736E 		.ascii	"ydsn\000"
+ 575      00
+ 576              	.LASF25:
+ 577 02a2 4359424C 		.ascii	"CYBLE_BLESS_STATE_DEEPSLEEP\000"
+ 577      455F424C 
+ 577      4553535F 
+ 577      53544154 
+ 577      455F4445 
+ 578              	.LASF15:
+ 579 02be 4359424C 		.ascii	"CYBLE_BLESS_DEEPSLEEP\000"
+ 579      455F424C 
+ 579      4553535F 
+ 579      44454550 
+ 579      534C4545 
+ 580              	.LASF24:
+ 581 02d4 4359424C 		.ascii	"CYBLE_BLESS_STATE_ECO_STABLE\000"
+ 581      455F424C 
+ 581      4553535F 
+ 581      53544154 
+ 581      455F4543 
+ 582              	.LASF2:
+ 583 02f1 73686F72 		.ascii	"short int\000"
+ 583      7420696E 
+ 583      7400
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccuS0jaZ.s 			page 16
+
+
+ 584              	.LASF19:
+ 585 02fb 4359424C 		.ascii	"CYBLE_LP_MODE_T\000"
+ 585      455F4C50 
+ 585      5F4D4F44 
+ 585      455F5400 
+ 586              	.LASF4:
+ 587 030b 6C6F6E67 		.ascii	"long int\000"
+ 587      20696E74 
+ 587      00
+ 588              	.LASF0:
+ 589 0314 7369676E 		.ascii	"signed char\000"
+ 589      65642063 
+ 589      68617200 
+ 590              	.LASF13:
+ 591 0320 4359424C 		.ascii	"CYBLE_BLESS_ACTIVE\000"
+ 591      455F424C 
+ 591      4553535F 
+ 591      41435449 
+ 591      564500
+ 592              	.LASF32:
+ 593 0333 48616E64 		.ascii	"HandleLowPower.c\000"
+ 593      6C654C6F 
+ 593      77506F77 
+ 593      65722E63 
+ 593      00
+ 594              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
