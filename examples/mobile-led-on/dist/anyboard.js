@@ -139,17 +139,30 @@ AnyBoard.Drivers.get = function(name) {
  */
 AnyBoard.Drivers.getCompatibleDriver = function(type, compatibility) {
     for (var key in AnyBoard.Drivers.drivers) {
+		//AnyBoard.Logger.debug('Key: ' + key );
         if (!AnyBoard.Drivers.drivers.hasOwnProperty(key))
             continue;
         var driver = AnyBoard.Drivers.drivers[key];
         if (typeof driver.type === 'string' && type !== driver.type
             || driver.type instanceof Array && driver.type.indexOf(type) === -1)
             continue;
-        if (driver.compatibility instanceof Array) {
+        if (driver.compatibility instanceof Array) { 
             for (var index in driver.compatibility) {
                 if (driver.compatibility.hasOwnProperty(index))
+				{
+					/*AnyBoard.Logger.debug('		Compatible driver with Service :' + driver.compatibility[index].service_uuid );
+					AnyBoard.Logger.debug('							   Service :' + compatibility.service_uuid );
+					AnyBoard.Logger.debug('		Compatible driver with Characteristic :' + driver.compatibility[index].characteristic_uuid );
+					AnyBoard.Logger.debug('							   Characteristic :' + compatibility.characteristic_uuid );
+					AnyBoard.Logger.debug('		Compatible driver with Descriptor :' + driver.compatibility[index].descriptor_uuid );
+					AnyBoard.Logger.debug('							   Descriptor :' + compatibility.descriptor_uuid );
+					*/
                     if (AnyBoard.Utils.isEqual(compatibility, driver.compatibility[index]))
+					{
+						AnyBoard.Logger.debug('Found driver: ' + driver.name );
                         return driver;
+					}
+				}
             }
         } else if (AnyBoard.Utils.isEqual(compatibility, driver.compatibility)) {
             return driver;

@@ -164,7 +164,8 @@
 
                     for (var ci in service.characteristics) {
                         var characteristic = service.characteristics[ci];
-                        AnyBoard.Logger.debug('Characteristic: ' + characteristic.uuid);
+                        AnyBoard.Logger.debug('		Characteristic: ' + characteristic.uuid);
+						AnyBoard.Logger.debug('		Handle: ' + characteristic.handle);
 
                         device.characteristics[characteristic.uuid] = characteristic;
 
@@ -181,7 +182,8 @@
 
                         for (var di in characteristic.descriptors) {
                             var descriptor = characteristic.descriptors[di];
-                            AnyBoard.Logger.debug('Descriptor: ' + descriptor.uuid);
+                            AnyBoard.Logger.debug('				Descriptor: ' + descriptor.uuid);
+							AnyBoard.Logger.debug('		Handle: ' + descriptor.handle);
                             device.descriptors[descriptor.uuid] = descriptor;
 
                             if (!driver) {
