@@ -26,7 +26,7 @@
 /* Maximum supported Custom Services */
 #define CYBLE_CUSTOMS_SERVICE_COUNT                  (0x02u)
 #define CYBLE_CUSTOMC_SERVICE_COUNT                  (0x00u)
-#define CYBLE_CUSTOM_SERVICE_CHAR_COUNT              (0x01u)
+#define CYBLE_CUSTOM_SERVICE_CHAR_COUNT              (0x02u)
 #define CYBLE_CUSTOM_SERVICE_CHAR_DESCRIPTORS_COUNT  (0x02u)
 
 /* Below are the indexes and handles of the defined Custom Services and their characteristics */
@@ -34,6 +34,8 @@
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_CHAR_INDEX   (0x00u) /* Index of Pawn Info characteristic */
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_VERSION_DESC_INDEX   (0x00u) /* Index of Version descriptor */
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_PAWN_NAME_DESC_INDEX   (0x01u) /* Index of Pawn Name descriptor */
+#define CYBLE_CYPAWN_ANYBOARDJS_PAWN_ABILITIES_CHAR_INDEX   (0x01u) /* Index of Pawn Abilities characteristic */
+#define CYBLE_CYPAWN_ANYBOARDJS_PAWN_ABILITIES_CUSTOM_DESCRIPTOR_DESC_INDEX   (0x00u) /* Index of Custom Descriptor descriptor */
 
 #define CYBLE_LED_SERVICE_INDEX   (0x01u) /* Index of LED service in the cyBle_customs array */
 #define CYBLE_LED_RGB_CHARACTERISTIC_CHAR_INDEX   (0x00u) /* Index of RGB Characteristic characteristic */
@@ -45,11 +47,14 @@
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_CHAR_HANDLE   (0x000Cu) /* Handle of Pawn Info characteristic */
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_VERSION_DESC_HANDLE   (0x000Du) /* Handle of Version descriptor */
 #define CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_PAWN_NAME_DESC_HANDLE   (0x000Eu) /* Handle of Pawn Name descriptor */
+#define CYBLE_CYPAWN_ANYBOARDJS_PAWN_ABILITIES_DECL_HANDLE   (0x000Fu) /* Handle of Pawn Abilities characteristic declaration */
+#define CYBLE_CYPAWN_ANYBOARDJS_PAWN_ABILITIES_CHAR_HANDLE   (0x0010u) /* Handle of Pawn Abilities characteristic */
+#define CYBLE_CYPAWN_ANYBOARDJS_PAWN_ABILITIES_CUSTOM_DESCRIPTOR_DESC_HANDLE   (0x0011u) /* Handle of Custom Descriptor descriptor */
 
-#define CYBLE_LED_SERVICE_HANDLE   (0x000Fu) /* Handle of LED service */
-#define CYBLE_LED_RGB_CHARACTERISTIC_DECL_HANDLE   (0x0010u) /* Handle of RGB Characteristic characteristic declaration */
-#define CYBLE_LED_RGB_CHARACTERISTIC_CHAR_HANDLE   (0x0011u) /* Handle of RGB Characteristic characteristic */
-#define CYBLE_LED_RGB_CHARACTERISTIC_RGB_VALUE_DESC_HANDLE   (0x0012u) /* Handle of RGB Value descriptor */
+#define CYBLE_LED_SERVICE_HANDLE   (0x0012u) /* Handle of LED service */
+#define CYBLE_LED_RGB_CHARACTERISTIC_DECL_HANDLE   (0x0013u) /* Handle of RGB Characteristic characteristic declaration */
+#define CYBLE_LED_RGB_CHARACTERISTIC_CHAR_HANDLE   (0x0014u) /* Handle of RGB Characteristic characteristic */
+#define CYBLE_LED_RGB_CHARACTERISTIC_RGB_VALUE_DESC_HANDLE   (0x0015u) /* Handle of RGB Value descriptor */
 
 
 

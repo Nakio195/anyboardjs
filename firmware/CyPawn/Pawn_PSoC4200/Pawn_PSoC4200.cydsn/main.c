@@ -14,7 +14,10 @@
 void StackEventHandler( uint32 eventCode, void *eventParam );
 
 CYBLE_CONN_HANDLE_T  connectionHandle;
+CYBLE_GATT_HANDLE_VALUE_PAIR_T SerialNotificationCCCDhandle;
 uint8_t deviceConnected = 0;
+
+uint8_t BLE_Buffer[20] = {0};
 
 int main()
 {
@@ -233,7 +236,7 @@ void StackEventHandler( uint32 eventCode, void *eventParam )
         case CYBLE_EVT_GATTS_WRITE_REQ:
             wrReqParam = (CYBLE_GATTS_WRITE_REQ_PARAM_T *) eventParam;
             
-            if(CYBLE_LED_RGB_CHARACTERISTIC_RGB_VALUE_DESC_HANDLE == wrReqParam->handleValPair.attrHandle)
+            if(CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_PAWN_NAME_DESC_HANDLE == wrReqParam->handleValPair.attrHandle)
             {
                 LED_R_Write(1);
                 LED_G_Write(1);
@@ -242,6 +245,10 @@ void StackEventHandler( uint32 eventCode, void *eventParam )
                 wrReqParam->handleValPair.value.val = 0;
                 
                 CyBle_GattsWriteRsp(connectionHandle);
+                
+               // SerialNotificationCCCDhandle.attrHandle = CYBLE_CYPAWN_ANYBOARDJS_PAWN_INFO_SERIAL_DESC_HANDLE;
+    		   // SerialNotificationCCCDhandle.value.val = RGBCCCDvalue;
+    		   // SerialNotificationCCCDhandle.value.len = CCCD_DATA_LEN;
                 
             }
         break;

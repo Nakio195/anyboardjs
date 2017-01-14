@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
   30:Generated_Source\PSoC4/UART_SPI_UART.c ****     volatile uint32 UART_rxBufferTail;
   31:Generated_Source\PSoC4/UART_SPI_UART.c ****     /**
   32:Generated_Source\PSoC4/UART_SPI_UART.c ****     * \addtogroup group_globals
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 2
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 2
 
 
   33:Generated_Source\PSoC4/UART_SPI_UART.c ****     * \{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
   28              	.LVL0:
   85:Generated_Source\PSoC4/UART_SPI_UART.c ****         uint32 rxData = 0u;
   86:Generated_Source\PSoC4/UART_SPI_UART.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 3
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 3
 
 
   87:Generated_Source\PSoC4/UART_SPI_UART.c ****     #if (UART_INTERNAL_RX_SW_BUFFER_CONST)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
   35 0004 7047     		bx	lr
   36              	.L3:
   37 0006 C046     		.align	2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 4
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 4
 
 
   38              	.L2:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  174:Generated_Source\PSoC4/UART_SPI_UART.c ****                 size = (locHead + (UART_INTERNAL_RX_BUFFER_SIZE - UART_rxBufferTail));
  175:Generated_Source\PSoC4/UART_SPI_UART.c ****             }
  176:Generated_Source\PSoC4/UART_SPI_UART.c ****         }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 5
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 5
 
 
  177:Generated_Source\PSoC4/UART_SPI_UART.c ****         #else
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  205:Generated_Source\PSoC4/UART_SPI_UART.c ****             UART_DisableInt();
  206:Generated_Source\PSoC4/UART_SPI_UART.c **** 
  207:Generated_Source\PSoC4/UART_SPI_UART.c ****             /* Flush RX software buffer */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 6
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 6
 
 
  208:Generated_Source\PSoC4/UART_SPI_UART.c ****             UART_rxBufferHead = UART_rxBufferTail;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  232:Generated_Source\PSoC4/UART_SPI_UART.c **** 
  233:Generated_Source\PSoC4/UART_SPI_UART.c **** #endif /* (UART_RX_DIRECTION) */
  234:Generated_Source\PSoC4/UART_SPI_UART.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 7
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 7
 
 
  235:Generated_Source\PSoC4/UART_SPI_UART.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  285:Generated_Source\PSoC4/UART_SPI_UART.c ****                 while (locHead == UART_txBufferTail)
  286:Generated_Source\PSoC4/UART_SPI_UART.c ****                 {
  287:Generated_Source\PSoC4/UART_SPI_UART.c ****                 }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 8
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 8
 
 
  288:Generated_Source\PSoC4/UART_SPI_UART.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  138              		.thumb_func
  139              		.type	UART_SpiUartPutArray, %function
  140              	UART_SpiUartPutArray:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 9
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 9
 
 
  141              	.LFB6:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  164 0010 0134     		add	r4, r4, #1
  165              	.LVL8:
  166              	.L15:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 10
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 10
 
 
  344:Generated_Source\PSoC4/UART_SPI_UART.c ****         {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  378:Generated_Source\PSoC4/UART_SPI_UART.c ****     #endif /* (UART_INTERNAL_TX_SW_BUFFER_CONST) */
  379:Generated_Source\PSoC4/UART_SPI_UART.c **** 
  380:Generated_Source\PSoC4/UART_SPI_UART.c ****         #if (UART_CHECK_TX_SW_BUFFER)
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 11
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 11
 
 
  381:Generated_Source\PSoC4/UART_SPI_UART.c ****         {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  411:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  UART_txBufferHead - the start index to put data into the 
  412:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  software transmit buffer.
  413:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  UART_txBufferTail - start index to get data from the software
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 12
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 12
 
 
  414:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  transmit buffer.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  241              		.thumb_func
  242              		.type	UART_SpiUartDisableIntRx, %function
  243              	UART_SpiUartDisableIntRx:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 13
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 13
 
 
  244              	.LFB9:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  466:Generated_Source\PSoC4/UART_SPI_UART.c **** /*******************************************************************************
  467:Generated_Source\PSoC4/UART_SPI_UART.c **** * Function Name: UART_SpiUartDisableIntTx
  468:Generated_Source\PSoC4/UART_SPI_UART.c **** ****************************************************************************//**
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 14
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 14
 
 
  469:Generated_Source\PSoC4/UART_SPI_UART.c **** *
@@ -827,48 +827,48 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  298 0006 00000000 		.4byte	.Ldebug_abbrev0
  299 000a 04       		.byte	0x4
  300 000b 01       		.uleb128 0x1
- 301 000c 5A010000 		.4byte	.LASF32
+ 301 000c A3010000 		.4byte	.LASF32
  302 0010 01       		.byte	0x1
- 303 0011 43020000 		.4byte	.LASF33
- 304 0015 F2010000 		.4byte	.LASF34
+ 303 0011 3B020000 		.4byte	.LASF33
+ 304 0015 13000000 		.4byte	.LASF34
  305 0019 00000000 		.4byte	.Ldebug_ranges0+0
  306 001d 00000000 		.4byte	0
  307 0021 00000000 		.4byte	.Ldebug_line0
  308 0025 02       		.uleb128 0x2
  309 0026 01       		.byte	0x1
  310 0027 06       		.byte	0x6
- 311 0028 A9020000 		.4byte	.LASF0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 15
+ 311 0028 A1020000 		.4byte	.LASF0
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 15
 
 
  312 002c 02       		.uleb128 0x2
  313 002d 01       		.byte	0x1
  314 002e 08       		.byte	0x8
- 315 002f 95000000 		.4byte	.LASF1
+ 315 002f DE000000 		.4byte	.LASF1
  316 0033 02       		.uleb128 0x2
  317 0034 02       		.byte	0x2
  318 0035 05       		.byte	0x5
- 319 0036 E8010000 		.4byte	.LASF2
+ 319 0036 31020000 		.4byte	.LASF2
  320 003a 02       		.uleb128 0x2
  321 003b 02       		.byte	0x2
  322 003c 07       		.byte	0x7
- 323 003d 13000000 		.4byte	.LASF3
+ 323 003d 5C000000 		.4byte	.LASF3
  324 0041 02       		.uleb128 0x2
  325 0042 04       		.byte	0x4
  326 0043 05       		.byte	0x5
- 327 0044 81020000 		.4byte	.LASF4
+ 327 0044 79020000 		.4byte	.LASF4
  328 0048 02       		.uleb128 0x2
  329 0049 04       		.byte	0x4
  330 004a 07       		.byte	0x7
- 331 004b 70000000 		.4byte	.LASF5
+ 331 004b B9000000 		.4byte	.LASF5
  332 004f 02       		.uleb128 0x2
  333 0050 08       		.byte	0x8
  334 0051 05       		.byte	0x5
- 335 0052 18010000 		.4byte	.LASF6
+ 335 0052 61010000 		.4byte	.LASF6
  336 0056 02       		.uleb128 0x2
  337 0057 08       		.byte	0x8
  338 0058 07       		.byte	0x7
- 339 0059 F8000000 		.4byte	.LASF7
+ 339 0059 41010000 		.4byte	.LASF7
  340 005d 03       		.uleb128 0x3
  341 005e 04       		.byte	0x4
  342 005f 05       		.byte	0x5
@@ -876,32 +876,32 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  344 0064 02       		.uleb128 0x2
  345 0065 04       		.byte	0x4
  346 0066 07       		.byte	0x7
- 347 0067 26000000 		.4byte	.LASF8
+ 347 0067 6F000000 		.4byte	.LASF8
  348 006b 04       		.uleb128 0x4
- 349 006c 82000000 		.4byte	.LASF9
+ 349 006c CB000000 		.4byte	.LASF9
  350 0070 02       		.byte	0x2
  351 0071 B901     		.2byte	0x1b9
  352 0073 2C000000 		.4byte	0x2c
  353 0077 04       		.uleb128 0x4
- 354 0078 AA000000 		.4byte	.LASF10
+ 354 0078 F3000000 		.4byte	.LASF10
  355 007c 02       		.byte	0x2
  356 007d BB01     		.2byte	0x1bb
  357 007f 48000000 		.4byte	0x48
  358 0083 02       		.uleb128 0x2
  359 0084 04       		.byte	0x4
  360 0085 04       		.byte	0x4
- 361 0086 4C000000 		.4byte	.LASF11
+ 361 0086 95000000 		.4byte	.LASF11
  362 008a 02       		.uleb128 0x2
  363 008b 08       		.byte	0x8
  364 008c 04       		.byte	0x4
- 365 008d A3000000 		.4byte	.LASF12
+ 365 008d EC000000 		.4byte	.LASF12
  366 0091 02       		.uleb128 0x2
  367 0092 01       		.byte	0x1
  368 0093 08       		.byte	0x8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 16
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 16
 
 
- 369 0094 8A020000 		.4byte	.LASF13
+ 369 0094 82020000 		.4byte	.LASF13
  370 0098 04       		.uleb128 0x4
  371 0099 00000000 		.4byte	.LASF14
  372 009d 02       		.byte	0x2
@@ -912,9 +912,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  377 00a9 02       		.uleb128 0x2
  378 00aa 04       		.byte	0x4
  379 00ab 07       		.byte	0x7
- 380 00ac 0F010000 		.4byte	.LASF15
+ 380 00ac 58010000 		.4byte	.LASF15
  381 00b0 06       		.uleb128 0x6
- 382 00b1 6A020000 		.4byte	.LASF16
+ 382 00b1 62020000 		.4byte	.LASF16
  383 00b5 01       		.byte	0x1
  384 00b6 53       		.byte	0x53
  385 00b7 77000000 		.4byte	0x77
@@ -924,14 +924,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  389 00c4 9C       		.byte	0x9c
  390 00c5 D9000000 		.4byte	0xd9
  391 00c9 07       		.uleb128 0x7
- 392 00ca 88000000 		.4byte	.LASF18
+ 392 00ca D1000000 		.4byte	.LASF18
  393 00ce 01       		.byte	0x1
  394 00cf 55       		.byte	0x55
  395 00d0 77000000 		.4byte	0x77
  396 00d4 00000000 		.4byte	.LLST0
  397 00d8 00       		.byte	0
  398 00d9 06       		.uleb128 0x6
- 399 00da B5020000 		.4byte	.LASF17
+ 399 00da AD020000 		.4byte	.LASF17
  400 00de 01       		.byte	0x1
  401 00df 9D       		.byte	0x9d
  402 00e0 77000000 		.4byte	0x77
@@ -941,7 +941,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  406 00ed 9C       		.byte	0x9c
  407 00ee 00010000 		.4byte	0x100
  408 00f2 08       		.uleb128 0x8
- 409 00f3 6B000000 		.4byte	.LASF19
+ 409 00f3 B4000000 		.4byte	.LASF19
  410 00f7 01       		.byte	0x1
  411 00f8 9F       		.byte	0x9f
  412 00f9 77000000 		.4byte	0x77
@@ -949,7 +949,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  414 00fe 50       		.byte	0x50
  415 00ff 00       		.byte	0
  416 0100 09       		.uleb128 0x9
- 417 0101 8F020000 		.4byte	.LASF26
+ 417 0101 87020000 		.4byte	.LASF26
  418 0105 01       		.byte	0x1
  419 0106 C8       		.byte	0xc8
  420 0107 00000000 		.4byte	.LFB4
@@ -957,8 +957,8 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  422 010f 01       		.uleb128 0x1
  423 0110 9C       		.byte	0x9c
  424 0111 0A       		.uleb128 0xa
- 425 0112 26010000 		.4byte	.LASF20
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 17
+ 425 0112 6F010000 		.4byte	.LASF20
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 17
 
 
  426 0116 01       		.byte	0x1
@@ -977,7 +977,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  439 0134 50       		.byte	0x50
  440 0135 00       		.byte	0
  441 0136 0A       		.uleb128 0xa
- 442 0137 CB000000 		.4byte	.LASF21
+ 442 0137 14010000 		.4byte	.LASF21
  443 013b 01       		.byte	0x1
  444 013c 5401     		.2byte	0x154
  445 013e 00000000 		.4byte	.LFB6
@@ -986,7 +986,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  448 0147 9C       		.byte	0x9c
  449 0148 84010000 		.4byte	0x184
  450 014c 0C       		.uleb128 0xc
- 451 014d 8F000000 		.4byte	.LASF23
+ 451 014d D8000000 		.4byte	.LASF23
  452 0151 01       		.byte	0x1
  453 0152 5401     		.2byte	0x154
  454 0154 84010000 		.4byte	0x184
@@ -1013,12 +1013,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  475 018a 10       		.uleb128 0x10
  476 018b 6B000000 		.4byte	0x6b
  477 018f 11       		.uleb128 0x11
- 478 0190 3E010000 		.4byte	.LASF25
+ 478 0190 87010000 		.4byte	.LASF25
  479 0194 01       		.byte	0x1
  480 0195 7501     		.2byte	0x175
  481 0197 77000000 		.4byte	0x77
  482 019b 00000000 		.4byte	.LFB7
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 18
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 18
 
 
  483 019f 10000000 		.4byte	.LFE7-.LFB7
@@ -1026,7 +1026,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  485 01a4 9C       		.byte	0x9c
  486 01a5 B8010000 		.4byte	0x1b8
  487 01a9 12       		.uleb128 0x12
- 488 01aa 6B000000 		.4byte	.LASF19
+ 488 01aa B4000000 		.4byte	.LASF19
  489 01ae 01       		.byte	0x1
  490 01af 7701     		.2byte	0x177
  491 01b1 77000000 		.4byte	0x77
@@ -1034,7 +1034,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  493 01b6 50       		.byte	0x50
  494 01b7 00       		.byte	0
  495 01b8 13       		.uleb128 0x13
- 496 01b9 B1000000 		.4byte	.LASF27
+ 496 01b9 FA000000 		.4byte	.LASF27
  497 01bd 01       		.byte	0x1
  498 01be A101     		.2byte	0x1a1
  499 01c0 00000000 		.4byte	.LFB8
@@ -1042,7 +1042,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  501 01c8 01       		.uleb128 0x1
  502 01c9 9C       		.byte	0x9c
  503 01ca 11       		.uleb128 0x11
- 504 01cb 33000000 		.4byte	.LASF28
+ 504 01cb 7C000000 		.4byte	.LASF28
  505 01cf 01       		.byte	0x1
  506 01d0 C601     		.2byte	0x1c6
  507 01d2 77000000 		.4byte	0x77
@@ -1052,7 +1052,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  511 01df 9C       		.byte	0x9c
  512 01e0 F3010000 		.4byte	0x1f3
  513 01e4 12       		.uleb128 0x12
- 514 01e5 EE000000 		.4byte	.LASF29
+ 514 01e5 37010000 		.4byte	.LASF29
  515 01e9 01       		.byte	0x1
  516 01ea C801     		.2byte	0x1c8
  517 01ec 77000000 		.4byte	0x77
@@ -1060,7 +1060,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  519 01f1 50       		.byte	0x50
  520 01f2 00       		.byte	0
  521 01f3 14       		.uleb128 0x14
- 522 01f4 52000000 		.4byte	.LASF30
+ 522 01f4 9B000000 		.4byte	.LASF30
  523 01f8 01       		.byte	0x1
  524 01f9 DC01     		.2byte	0x1dc
  525 01fb 77000000 		.4byte	0x77
@@ -1069,7 +1069,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  528 0207 01       		.uleb128 0x1
  529 0208 9C       		.byte	0x9c
  530 0209 12       		.uleb128 0x12
- 531 020a E0000000 		.4byte	.LASF31
+ 531 020a 29010000 		.4byte	.LASF31
  532 020e 01       		.byte	0x1
  533 020f DE01     		.2byte	0x1de
  534 0211 77000000 		.4byte	0x77
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  537 0217 00       		.byte	0
  538 0218 00       		.byte	0
  539              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 19
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 19
 
 
  540              	.Ldebug_abbrev0:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  594 0035 00       		.byte	0
  595 0036 05       		.uleb128 0x5
  596 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 20
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 20
 
 
  597 0038 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  651 006f 3B       		.uleb128 0x3b
  652 0070 0B       		.uleb128 0xb
  653 0071 49       		.uleb128 0x49
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 21
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 21
 
 
  654 0072 13       		.uleb128 0x13
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  708 00aa 05       		.uleb128 0x5
  709 00ab 00       		.byte	0
  710 00ac 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 22
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 22
 
 
  711 00ad 0E       		.uleb128 0xe
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  765 00e5 0B       		.uleb128 0xb
  766 00e6 49       		.uleb128 0x49
  767 00e7 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 23
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 23
 
 
  768 00e8 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  822 011f 3F       		.uleb128 0x3f
  823 0120 19       		.uleb128 0x19
  824 0121 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 24
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 24
 
 
  825 0122 0E       		.uleb128 0xe
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  879 0016 50       		.byte	0x50
  880 0017 00000000 		.4byte	0
  881 001b 00000000 		.4byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 25
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 25
 
 
  882              	.LLST1:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  936 000c 0000     		.2byte	0
  937 000e 0000     		.2byte	0
  938 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 26
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 26
 
 
  939 0014 0C000000 		.4byte	.LFE2-.LFB2
@@ -1558,180 +1558,180 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 1
  987              	.LASF22:
  988 000c 74784461 		.ascii	"txData\000"
  988      746100
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 27
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 27
 
 
- 989              	.LASF3:
- 990 0013 73686F72 		.ascii	"short unsigned int\000"
- 990      7420756E 
- 990      7369676E 
- 990      65642069 
- 990      6E7400
- 991              	.LASF8:
- 992 0026 756E7369 		.ascii	"unsigned int\000"
- 992      676E6564 
- 992      20696E74 
- 992      00
- 993              	.LASF28:
- 994 0033 55415254 		.ascii	"UART_SpiUartDisableIntRx\000"
- 994      5F537069 
- 994      55617274 
- 994      44697361 
- 994      626C6549 
- 995              	.LASF11:
- 996 004c 666C6F61 		.ascii	"float\000"
- 996      7400
- 997              	.LASF30:
- 998 0052 55415254 		.ascii	"UART_SpiUartDisableIntTx\000"
- 998      5F537069 
- 998      55617274 
- 998      44697361 
- 998      626C6549 
- 999              	.LASF19:
- 1000 006b 73697A65 		.ascii	"size\000"
- 1000      00
- 1001              	.LASF5:
- 1002 0070 6C6F6E67 		.ascii	"long unsigned int\000"
- 1002      20756E73 
- 1002      69676E65 
- 1002      6420696E 
- 1002      7400
- 1003              	.LASF9:
- 1004 0082 75696E74 		.ascii	"uint8\000"
- 1004      3800
- 1005              	.LASF18:
- 1006 0088 72784461 		.ascii	"rxData\000"
- 1006      746100
- 1007              	.LASF23:
- 1008 008f 77724275 		.ascii	"wrBuf\000"
- 1008      6600
- 1009              	.LASF1:
- 1010 0095 756E7369 		.ascii	"unsigned char\000"
- 1010      676E6564 
- 1010      20636861 
- 1010      7200
- 1011              	.LASF12:
- 1012 00a3 646F7562 		.ascii	"double\000"
- 1012      6C6500
- 1013              	.LASF10:
- 1014 00aa 75696E74 		.ascii	"uint32\000"
- 1014      333200
- 1015              	.LASF27:
- 1016 00b1 55415254 		.ascii	"UART_SpiUartClearTxBuffer\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 28
+ 989              	.LASF34:
+ 990 0013 433A5C41 		.ascii	"C:\\Anyboard\\anyboardjs\\firmware\\CyPawn\\Pawn_PS"
+ 990      6E79626F 
+ 990      6172645C 
+ 990      616E7962 
+ 990      6F617264 
+ 991 0041 6F433432 		.ascii	"oC4200\\Pawn_PSoC4200.cydsn\000"
+ 991      30305C50 
+ 991      61776E5F 
+ 991      50536F43 
+ 991      34323030 
+ 992              	.LASF3:
+ 993 005c 73686F72 		.ascii	"short unsigned int\000"
+ 993      7420756E 
+ 993      7369676E 
+ 993      65642069 
+ 993      6E7400
+ 994              	.LASF8:
+ 995 006f 756E7369 		.ascii	"unsigned int\000"
+ 995      676E6564 
+ 995      20696E74 
+ 995      00
+ 996              	.LASF28:
+ 997 007c 55415254 		.ascii	"UART_SpiUartDisableIntRx\000"
+ 997      5F537069 
+ 997      55617274 
+ 997      44697361 
+ 997      626C6549 
+ 998              	.LASF11:
+ 999 0095 666C6F61 		.ascii	"float\000"
+ 999      7400
+ 1000              	.LASF30:
+ 1001 009b 55415254 		.ascii	"UART_SpiUartDisableIntTx\000"
+ 1001      5F537069 
+ 1001      55617274 
+ 1001      44697361 
+ 1001      626C6549 
+ 1002              	.LASF19:
+ 1003 00b4 73697A65 		.ascii	"size\000"
+ 1003      00
+ 1004              	.LASF5:
+ 1005 00b9 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1005      20756E73 
+ 1005      69676E65 
+ 1005      6420696E 
+ 1005      7400
+ 1006              	.LASF9:
+ 1007 00cb 75696E74 		.ascii	"uint8\000"
+ 1007      3800
+ 1008              	.LASF18:
+ 1009 00d1 72784461 		.ascii	"rxData\000"
+ 1009      746100
+ 1010              	.LASF23:
+ 1011 00d8 77724275 		.ascii	"wrBuf\000"
+ 1011      6600
+ 1012              	.LASF1:
+ 1013 00de 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 28
 
 
- 1016      5F537069 
- 1016      55617274 
- 1016      436C6561 
- 1016      72547842 
- 1017              	.LASF21:
- 1018 00cb 55415254 		.ascii	"UART_SpiUartPutArray\000"
- 1018      5F537069 
- 1018      55617274 
- 1018      50757441 
- 1018      72726179 
- 1019              	.LASF31:
- 1020 00e0 696E7453 		.ascii	"intSourceMask\000"
- 1020      6F757263 
- 1020      654D6173 
- 1020      6B00
- 1021              	.LASF29:
- 1022 00ee 696E7453 		.ascii	"intSource\000"
- 1022      6F757263 
- 1022      6500
- 1023              	.LASF7:
- 1024 00f8 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1024      206C6F6E 
- 1024      6720756E 
- 1024      7369676E 
- 1024      65642069 
- 1025              	.LASF15:
- 1026 010f 73697A65 		.ascii	"sizetype\000"
- 1026      74797065 
- 1026      00
- 1027              	.LASF6:
- 1028 0118 6C6F6E67 		.ascii	"long long int\000"
- 1028      206C6F6E 
- 1028      6720696E 
- 1028      7400
- 1029              	.LASF20:
- 1030 0126 55415254 		.ascii	"UART_SpiUartWriteTxData\000"
- 1030      5F537069 
- 1030      55617274 
- 1030      57726974 
- 1030      65547844 
- 1031              	.LASF25:
- 1032 013e 55415254 		.ascii	"UART_SpiUartGetTxBufferSize\000"
- 1032      5F537069 
- 1032      55617274 
- 1032      47657454 
- 1032      78427566 
- 1033              	.LASF32:
- 1034 015a 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1034      4320342E 
- 1034      392E3320 
- 1034      32303135 
- 1034      30333033 
- 1035 018d 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1035      20726576 
- 1035      6973696F 
- 1035      6E203232 
- 1035      31323230 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccMU5kCe.s 			page 29
+ 1013      676E6564 
+ 1013      20636861 
+ 1013      7200
+ 1014              	.LASF12:
+ 1015 00ec 646F7562 		.ascii	"double\000"
+ 1015      6C6500
+ 1016              	.LASF10:
+ 1017 00f3 75696E74 		.ascii	"uint32\000"
+ 1017      333200
+ 1018              	.LASF27:
+ 1019 00fa 55415254 		.ascii	"UART_SpiUartClearTxBuffer\000"
+ 1019      5F537069 
+ 1019      55617274 
+ 1019      436C6561 
+ 1019      72547842 
+ 1020              	.LASF21:
+ 1021 0114 55415254 		.ascii	"UART_SpiUartPutArray\000"
+ 1021      5F537069 
+ 1021      55617274 
+ 1021      50757441 
+ 1021      72726179 
+ 1022              	.LASF31:
+ 1023 0129 696E7453 		.ascii	"intSourceMask\000"
+ 1023      6F757263 
+ 1023      654D6173 
+ 1023      6B00
+ 1024              	.LASF29:
+ 1025 0137 696E7453 		.ascii	"intSource\000"
+ 1025      6F757263 
+ 1025      6500
+ 1026              	.LASF7:
+ 1027 0141 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1027      206C6F6E 
+ 1027      6720756E 
+ 1027      7369676E 
+ 1027      65642069 
+ 1028              	.LASF15:
+ 1029 0158 73697A65 		.ascii	"sizetype\000"
+ 1029      74797065 
+ 1029      00
+ 1030              	.LASF6:
+ 1031 0161 6C6F6E67 		.ascii	"long long int\000"
+ 1031      206C6F6E 
+ 1031      6720696E 
+ 1031      7400
+ 1032              	.LASF20:
+ 1033 016f 55415254 		.ascii	"UART_SpiUartWriteTxData\000"
+ 1033      5F537069 
+ 1033      55617274 
+ 1033      57726974 
+ 1033      65547844 
+ 1034              	.LASF25:
+ 1035 0187 55415254 		.ascii	"UART_SpiUartGetTxBufferSize\000"
+ 1035      5F537069 
+ 1035      55617274 
+ 1035      47657454 
+ 1035      78427566 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\cc0uQyrn.s 			page 29
 
 
- 1036 01c0 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1036      66756E63 
- 1036      74696F6E 
- 1036      2D736563 
- 1036      74696F6E 
- 1037              	.LASF2:
- 1038 01e8 73686F72 		.ascii	"short int\000"
- 1038      7420696E 
- 1038      7400
- 1039              	.LASF34:
- 1040 01f2 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
- 1040      73657273 
- 1040      5C4E616B 
- 1040      696F5C45 
- 1040      6C656374 
- 1041 0220 5C506177 		.ascii	"\\Pawn_PSoC4200\\Pawn_PSoC4200.cydsn\000"
- 1041      6E5F5053 
- 1041      6F433432 
- 1041      30305C50 
- 1041      61776E5F 
+ 1036              	.LASF32:
+ 1037 01a3 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1037      4320342E 
+ 1037      392E3320 
+ 1037      32303135 
+ 1037      30333033 
+ 1038 01d6 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1038      20726576 
+ 1038      6973696F 
+ 1038      6E203232 
+ 1038      31323230 
+ 1039 0209 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1039      66756E63 
+ 1039      74696F6E 
+ 1039      2D736563 
+ 1039      74696F6E 
+ 1040              	.LASF2:
+ 1041 0231 73686F72 		.ascii	"short int\000"
+ 1041      7420696E 
+ 1041      7400
  1042              	.LASF33:
- 1043 0243 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART_SPI_UART.c\000"
+ 1043 023b 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART_SPI_UART.c\000"
  1043      72617465 
  1043      645F536F 
  1043      75726365 
  1043      5C50536F 
  1044              	.LASF16:
- 1045 026a 55415254 		.ascii	"UART_SpiUartReadRxData\000"
+ 1045 0262 55415254 		.ascii	"UART_SpiUartReadRxData\000"
  1045      5F537069 
  1045      55617274 
  1045      52656164 
  1045      52784461 
  1046              	.LASF4:
- 1047 0281 6C6F6E67 		.ascii	"long int\000"
+ 1047 0279 6C6F6E67 		.ascii	"long int\000"
  1047      20696E74 
  1047      00
  1048              	.LASF13:
- 1049 028a 63686172 		.ascii	"char\000"
+ 1049 0282 63686172 		.ascii	"char\000"
  1049      00
  1050              	.LASF26:
- 1051 028f 55415254 		.ascii	"UART_SpiUartClearRxBuffer\000"
+ 1051 0287 55415254 		.ascii	"UART_SpiUartClearRxBuffer\000"
  1051      5F537069 
  1051      55617274 
  1051      436C6561 
  1051      72527842 
  1052              	.LASF0:
- 1053 02a9 7369676E 		.ascii	"signed char\000"
+ 1053 02a1 7369676E 		.ascii	"signed char\000"
  1053      65642063 
  1053      68617200 
  1054              	.LASF17:
- 1055 02b5 55415254 		.ascii	"UART_SpiUartGetRxBufferSize\000"
+ 1055 02ad 55415254 		.ascii	"UART_SpiUartGetRxBufferSize\000"
  1055      5F537069 
  1055      55617274 
  1055      47657452 

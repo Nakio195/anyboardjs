@@ -9,8 +9,7 @@ var AnyBoard = AnyBoard || {};
 /*
  * Exporting AnyBoard as Node Module if applicable
  */
-if (typeof module !== "undefined") module.exports = AnyBoard;
-
+if (typeof module !== "undefined") module.exports = AnyBoard
 /**
  * This type of callback will be called when card is drawn or played
  * @callback playDrawCallback

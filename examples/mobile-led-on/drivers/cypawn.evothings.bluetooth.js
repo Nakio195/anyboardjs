@@ -288,18 +288,21 @@
 
     cypawnBluetooth.ledOn = function (token, value, win, fail) {
 
- 
 /*			// When connected to the device, get the desired service and characteristic.
-		var service = evothings.ble.getService(token.device.deviceHandle, '79db6705-7c96-4082-a27c-ee2ffe619285');
-		AnyBoard.Logger.log("Found Service : " + service.uuid, this);
-		var characteristic = evothings.ble.getCharacteristic(service, '5d8560de-7f8d-4e12-a361-09aede200758');
+		token.device.gettingServices = true;
+		var service = evothings.ble.getService(token.device.deviceHandle, '6fe71585-adfe-41dd-9b02-8f984d40f654');
+		AnyBoard.Logger.log("Found Service : " + service, this);
+		var characteristic = evothings.ble.getCharacteristic(service, '30973904-ccd6-48a5-a241-f89ec24f19d5');
 		AnyBoard.Logger.log("Found Characteristic : " + characteristic.uuid, this);
 		
+		token.device.gettingServices = false; 
+
+		 
 
 		// Read the characteristic.
 		evothings.ble.writeCharacteristic(
 		token,
-		characteristic,
+		token.device.prototype,
 		cypawnBluetooth._COLORS['green'], // Buffer view with data to write
 			function()
 			{
@@ -308,8 +311,10 @@
 			function(errorCode)
 			{
 				console.log('Unable to write characteristic ' + characteristic.name +' : ' + errorCode);
-			}
-		);		*/
+			} 
+		);		
+		AnyBoard.Logger.log("typeof  " + typeof (token.device.deviceHandle), this);*/
+		
        value = value || 'white';
 
         if (typeof value === 'string' && value in this._COLORS) {
@@ -319,7 +324,7 @@
         } else {
             fail && fail('Invalid or unsupported color parameters');
         }
-
+	
     };
 
     cypawnBluetooth.ledBlink = function (token, value, win, fail) {
@@ -381,7 +386,7 @@
         buffer.append(crc & 0xff);
         buffer.append((crc >> 8) & 0xff);
 
-        var i = 0;
+        var i = 0; 
         var partWin = function() {
             if (i == buffer.packetCount) {
                 win && win();

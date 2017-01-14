@@ -40,21 +40,41 @@ const CYBLE_CUSTOMS_T cyBle_customs[0x02u] = {
                     0x000Eu, /* Handle of the Pawn Name descriptor */ 
                 }, 
             },
+
+            /* Pawn Abilities characteristic */
+            {
+                0x0010u, /* Handle of the Pawn Abilities characteristic */ 
+                
+                /* Array of Descriptors handles */
+                {
+                    0x0011u, /* Handle of the Custom Descriptor descriptor */ 
+                    CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
+                }, 
+            },
         }, 
     },
 
     /* LED service */
     {
-        0x000Fu, /* Handle of the LED service */ 
+        0x0012u, /* Handle of the LED service */ 
         {
 
             /* RGB Characteristic characteristic */
             {
-                0x0011u, /* Handle of the RGB Characteristic characteristic */ 
+                0x0014u, /* Handle of the RGB Characteristic characteristic */ 
                 
                 /* Array of Descriptors handles */
                 {
-                    0x0012u, /* Handle of the RGB Value descriptor */ 
+                    0x0015u, /* Handle of the RGB Value descriptor */ 
+                    CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
+                }, 
+            },
+            {
+                CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
+                
+                /* Array of Descriptors handles */
+                {
+                    CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
                     CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
                 }, 
             },
