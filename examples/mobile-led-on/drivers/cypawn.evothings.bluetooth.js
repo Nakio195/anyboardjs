@@ -23,9 +23,9 @@
         type: ['bluetooth'],
         compatibility: [
             {
-                descriptor_uuid: 'c5e82a61-6519-460f-b360-86c88543e7d7',
-                characteristic_uuid: '30973904-ccd6-48a5-a241-f89ec24f19d5',
-                service_uuid: '6fe71585-adfe-41dd-9b02-8f984d40f654'
+                descriptor_uuid: '00002902-0000-1000-8000-00805f9b34fb',			//Characteristic config
+                characteristic_uuid: '5846d509-8694-44a2-8d6f-fe7d06bc560d',		//Serial
+                service_uuid: '6fe71585-adfe-41dd-9b02-8f984d40f654'				//CyPawn AnyBoardJS
             }
         ]
     });
@@ -360,47 +360,13 @@
      * @param {Function} fail function to be called upon failure of sending data
      */
     cypawnBluetooth.rawSend = function(token, data, win, fail) {
-        // 6 = length+reserved+messageId+crc.
-        var gstPacketLength = data.byteLength + 6;
-        var buffer = this._gtBuffer(token, gstPacketLength);
-
-        // GST length
-        buffer.append(data.byteLength + 2);
-
-        // GST reserved
-        buffer.append(0);
-
-        // App Message Id
-        buffer.append(0);
-        buffer.append(0);
-
-        // App Message Payload
-        for (var j = 0; j<data.byteLength; j++) {
-            buffer.append(data[j]);
-        }
-
-        // GST CRC
-        // compute in two steps.
-        var crc = this._computeCRC16(buffer.buf, 1, 4);
-        crc = this._computeCRC16(data, 0, data.byteLength, crc);
-        buffer.append(crc & 0xff);
-        buffer.append((crc >> 8) & 0xff);
-
-        var i = 0; 
-        var partWin = function() {
-            if (i == buffer.packetCount) {
-                win && win();
-            } else {
-                var packet = buffer.packet(i);
-				
-                AnyBoard.Logger.debug("write packet "+ packet + " at characteristic : " + token.device.serialChar, token);
-                evothings.ble.writeDescriptor(
-                    token.device.deviceHandle,
-                    13, packet, partWin, fail);
-                i++;
-            }
-        };
-        partWin();
+        evothings.ble.writeCharacteristic(
+            token.device.deviceHandle,
+            token.device.serialChar,
+            data,
+            win,
+            fail
+        );
     };
 
     /**
@@ -414,55 +380,50 @@
     cypawnBluetooth.send = function(token, data, win, fail) {
         var self = this;
 
-        // If token has not read services, does that first, before calling send again.
-        if (!(token.device.haveServices)) {
-            this.getServices(token, function() {
-                self.send(token, data, win, fail);
-            }, fail);
+        if(!(token.device.haveServices)) {
+            fail && fail('Token does not have services');
             return;
         }
 
-        // Transforms / validates data
         if (typeof data === 'string') {
-            data = cypawnBluetooth._stringToUint8(data);
-        } else if (data.buffer) {
-            if (!(data instanceof Uint8Array)) {
+            data = new Uint8Array(evothings.ble.toUtf8(data));
+        }
+
+        if(data.buffer) {
+            if(!(data instanceof Uint8Array))
                 data = new Uint8Array(data.buffer);
-            }
-        } else if (data instanceof ArrayBuffer) {
+        } else if(data instanceof ArrayBuffer) {
             data = new Uint8Array(data);
         } else {
-            AnyBoard.Logger.error("send data is not an ArrayBuffer not String.", this);
-            fail && fail('Invalid send data');
+            AnyBoard.Logger.warn("send data is not an ArrayBuffer.", this);
             return;
         }
 
-        // Cannot send data > 13 byte due to LightBlue cypawn 6 byte overhead, and Bluetooth LTE 20 byte limit
-        if (data.byteLength > 13) {
-            AnyBoard.Logger.warn("cannot send data of length over 13 byte.", this);
+        if (data.length > 20) {
+            AnyBoard.Logger.warn("cannot send data of length over 20.", this);
             return;
         }
 
-        // If no packets are in queue, send immediately
         if (token.sendQueue.length === 0) {  // this was first command
             token.sendQueue.push(function(){ cypawnBluetooth.rawSend(token, data, win, fail); });
             cypawnBluetooth.rawSend(token, data, win, fail);
-        }
-        // Else, push to queue, and give currently running send 2000ms to complete
-        else {
+        } else {
+            // send function will be handled by existing
             token.sendQueue.push(function(){ cypawnBluetooth.rawSend(token, data, win, fail); });
 
             // Disregards existing queue if it takes more than 2000ms
             var randomToken = Math.random();
             token.randomToken = randomToken;
+
             setTimeout(function() {
-                if (token.randomToken == randomToken) { // Queuehandler Hung up or took too long time
+                if (token.randomToken == randomToken) { // Queuehandler Hung up
+
                     token.sendQueue.shift(); // Remove function from queue
                     if (token.sendQueue.length > 0) {  // If there's more functions queued
                         token.sendQueue[0]();  // Send next function off
                     }
                 }
-            }, 2000)
+            }, 2000);
         }
 
     };
@@ -470,7 +431,7 @@
     /**
      * Internal method that subscribes to updates from the token
      * @param {AnyBoard.Basetoken} token token that should be subscribed to
-     * @param {Function} callback function to be executed once we receive updates
+     * @param {Function} callback function to be executed once we receive updates 
      * @param {Function} success function to be executed if we manage to subscribe to updates
      * @param {Function} fail function to be executed if we fail to subscribe to updates
      * @private
@@ -486,13 +447,14 @@
             },
             function (data) {
                 AnyBoard.Logger.log("failed at subscribing to notifications from", token);
+				AnyBoard.Logger.log("Descriptor : " + token.device.serialDesc, token);
                 fail && fail();
             }
         );
 
         evothings.ble.enableNotification(token.device.deviceHandle, token.device.serialChar, function (data) {
             data = new Uint8Array(data);
-            var gtHeader = data[0];
+            /*var gtHeader = data[0];
 
             // The update packet is one in a series of packets
             if ((gtHeader & 0x9f) != 0x80) {
@@ -529,8 +491,12 @@
             //    AnyBoard.Logger.log("ignoring GST message with bad CRC (our crc "+crc.toString(16)+", data "+cypawn.bytesToHexString(data, 1, length+2)+")");
             //    return;
             //}
-
+			
             callback(data.subarray(5, data.byteLength - 2));
+			*/
+			
+			callback(data);
+			
         }, function (error) {
             AnyBoard.Logger.warn("Failed at parsing incoming serial message: " + error, token)
         });
@@ -598,7 +564,7 @@
      * The initialize-methods is called automatically (or should be) from the master communication driver upon connect
      * to a device.
      *
-     * In this initialize method, we subscribe to notifications sent by the rfduino device, and trigger events
+     * In this initialize method, we subscribe to notifications sent by the cypawn device, and trigger events
      * on the token class upon receiving data.
      * @param {AnyBoard.BaseToken} token token instance to be initialized
      */
@@ -606,7 +572,9 @@
         var handleReceiveUpdateFromToken = function(uint8array) {
             var command = uint8array[0];
             var stringData = "";
-
+			
+			AnyBoard.Logger.debug("Received command " + command, token);
+			
             switch (command) {
                 case cypawnBluetooth._CMD_CODE.GET_BATTERY_STATUS:
                     for (var i = 1; i < uint8array.length; i++)
@@ -747,7 +715,10 @@
             },
             // Returns the i:th packet in the message.
             packet: function(i) {
-                return buf.subarray(i*20, Math.min((i+1)*20, bufferLength));
+				var result = buf.subarray(i*20, Math.min((i+1)*20, bufferLength));
+				for(var j = 0; j < result.length; j++)
+					AnyBoard.Logger.log("GT_Packet : " + result[j]);
+                return result;
             }
         };
     };
