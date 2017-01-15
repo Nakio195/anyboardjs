@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2017-01-14T23:09:28Z")
+ (DATE "2017-01-15T19:33:31Z")
  (DESIGN "Pawn_PSoC4200")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -32,6 +32,7 @@
     (INTERCONNECT LED_G\(0\)_PAD LED_G\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT BTN\(0\)_PAD BTN\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT LED_R\(0\)_PAD LED_R\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED_W\(0\)_PAD LED_W\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

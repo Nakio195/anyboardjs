@@ -33,7 +33,7 @@
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_I2C_INT.c" value="SOURCE_C;CortexM0;;;;I2C" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_I2C.c" value="SOURCE_C;CortexM0;;;;I2C" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_I2C_BOOT.c" value="SOURCE_C;CortexM0;;;;I2C" />
-  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_I2C_SLAVE.c" value="SOURCE_C;CortexM0;;;;I2C" />
+  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_I2C_MASTER.c" value="SOURCE_C;CortexM0;;;;I2C" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_PM.c" value="SOURCE_C;CortexM0;;;;I2C" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_BOOT.c" value="SOURCE_C;CortexM0;;;;I2C" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\I2C_PINS.h" value="HEADER;;;;;I2C" />
@@ -76,6 +76,10 @@
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_R.h" value="HEADER;;;;;LED_R" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_R_aliases.h" value="HEADER;;;;;LED_R" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_R_PM.c" value="SOURCE_C;CortexM0;;;;LED_R" />
+  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_W.c" value="SOURCE_C;CortexM0;;;;LED_W" />
+  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_W.h" value="HEADER;;;;;LED_W" />
+  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_W_aliases.h" value="HEADER;;;;;LED_W" />
+  <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\LED_W_PM.c" value="SOURCE_C;CortexM0;;;;LED_W" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
   <file name="D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />

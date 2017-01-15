@@ -1,6 +1,6 @@
 -- ======================================================================
 -- Pawn_PSoC4200.ctl generated from Pawn_PSoC4200
--- 01/15/2017 at 00:09
+-- 01/15/2017 at 20:33
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

@@ -52,6 +52,8 @@
 #include "BTN_aliases.h"
 #include "LED_R.h"
 #include "LED_R_aliases.h"
+#include "LED_W.h"
+#include "LED_W_aliases.h"
 #include "UART_SCBCLK.h"
 #include "UART_tx.h"
 #include "UART_tx_aliases.h"

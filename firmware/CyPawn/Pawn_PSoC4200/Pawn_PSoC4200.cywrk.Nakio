@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.h">
 <ExpandedNodeIds>
 <v>Pawn_PSoC4200</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200</v>
@@ -29,11 +29,13 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\AnyBoardJS_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\BLE_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\TCS34725.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\AnyBoardJS_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\BLE_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\TCS34725.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.c</v>
@@ -99,8 +101,8 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_BOOT.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_INT.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_MASTER.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_PVT.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_I2C_SLAVE.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PINS.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PM.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\I2C\I2C_PVT.h</v>
@@ -135,6 +137,11 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R_aliases.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_R\LED_R_PM.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_W</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_W\LED_W.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_W\LED_W.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_W\LED_W_aliases.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\LED_W\LED_W_PM.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\UART\UART.h</v>
@@ -326,11 +333,13 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\AnyBoardJS_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\BLE_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\TCS34725.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\AnyBoardJS_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\BLE_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\TCS34725.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign</v>
@@ -402,7 +411,7 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
@@ -416,7 +425,10 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G_PM.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_W.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_W_PM.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\TCS34725.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
@@ -491,6 +503,53 @@
 <VisibleNodeIds>
 <v>Pawn_PSoC4200</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\AnyBoardJS_Handle.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_Handle.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_W.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_W_PM.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\TCS34725.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
