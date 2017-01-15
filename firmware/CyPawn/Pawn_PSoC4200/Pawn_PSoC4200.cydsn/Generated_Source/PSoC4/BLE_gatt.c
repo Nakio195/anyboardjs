@@ -79,20 +79,25 @@ CYBLE_STATE_T cyBle_state;
         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u }, 
         {{
             0x00u, 0x00u,
-        },
-        {
             0x00u, 0x00u,
         },
         {
             0x00u, 0x00u,
-        },
-        {
             0x00u, 0x00u,
         },
         {
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+        },
+        {
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+        },
+        {
+            0x00u, 0x00u,
             0x00u, 0x00u,
         }}, 
-        0x02u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
+        0x04u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
         0x05u, /* CYBLE_GAP_MAX_BONDED_DEVICE */ 
     };
 #endif /* (CYBLE_MODE_PROFILE) */
@@ -108,7 +113,7 @@ CYBLE_STATE_T cyBle_state;
     0x0009u,    /* Handle of the Client Characteristic Configuration descriptor */
 };
     
-    static uint8 cyBle_attValues[0x63u] = {
+    static uint8 cyBle_attValues[0x51u] = {
     /* Device Name */
     (uint8)'C', (uint8)'y', (uint8)'P', (uint8)'a', (uint8)'w', (uint8)'n',
 
@@ -130,19 +135,9 @@ CYBLE_STATE_T cyBle_state;
     (uint8)'a', (uint8)'y', (uint8)'e', (uint8)'r', (uint8)' ', (uint8)'1', 0xD7u, 0xE7u, 0x43u, 0x85u, 0xC8u, 0x86u,
     0x60u, 0xB3u, 0x0Fu, 0x46u, 0x19u, 0x65u, 0x61u, 0x2Au, 0xE8u, 0xC5u,
 
-    /* Pawn Abilities */
-    0x00u,
-
-    /* Custom Descriptor */
-    0x00u, 0xCAu, 0x34u, 0xA4u, 0x22u, 0xBFu, 0x26u, 0xE5u, 0xA2u, 0x1Au, 0x4Eu, 0x6Fu, 0xF4u, 0xA1u, 0x56u, 0x75u,
-    0xDDu,
-
-    /* RGB Characteristic */
-    0x01u,
-
-    /* RGB Value */
-    0x00u, 0x00u, 0x00u, 0xB3u, 0x38u, 0xE2u, 0xB3u, 0x8Du, 0x5Eu, 0x8Eu, 0xB2u, 0x07u, 0x4Fu, 0x03u, 0xC0u, 0xBAu,
-    0x94u, 0xA3u, 0x87u,
+    /* Serial */
+    0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u,
+    0x00u, 0x00u, 0x00u, 0x00u,
 
 };
 #if(CYBLE_GATT_DB_CCCD_COUNT != 0u)
@@ -154,12 +149,8 @@ const uint8 cyBle_attUuid128[][16u] = {
     { 0x54u, 0xF6u, 0x40u, 0x4Du, 0x98u, 0x8Fu, 0x02u, 0x9Bu, 0xDDu, 0x41u, 0xFEu, 0xADu, 0x85u, 0x15u, 0xE7u, 0x6Fu },
     /* Pawn Info */
     { 0xD5u, 0x19u, 0x4Fu, 0xC2u, 0x9Eu, 0xF8u, 0x41u, 0xA2u, 0xA5u, 0x48u, 0xD6u, 0xCCu, 0x04u, 0x39u, 0x97u, 0x30u },
-    /* Pawn Abilities */
+    /* Serial */
     { 0x0Du, 0x56u, 0xBCu, 0x06u, 0x7Du, 0xFEu, 0x6Fu, 0x8Du, 0xA2u, 0x44u, 0x94u, 0x86u, 0x09u, 0xD5u, 0x46u, 0x58u },
-    /* LED */
-    { 0x85u, 0x92u, 0x61u, 0xFEu, 0x2Fu, 0xEEu, 0x7Cu, 0xA2u, 0x82u, 0x40u, 0x96u, 0x7Cu, 0x05u, 0x67u, 0xDBu, 0x79u },
-    /* RGB Characteristic */
-    { 0x58u, 0x07u, 0x20u, 0xDEu, 0xAEu, 0x09u, 0x61u, 0xA3u, 0x12u, 0x4Eu, 0x8Du, 0x7Fu, 0xDEu, 0x60u, 0x85u, 0x5Du },
 };
 
 CYBLE_GATTS_ATT_GEN_VAL_LEN_T cyBle_attValuesLen[CYBLE_GATT_DB_ATT_VAL_COUNT] = {
@@ -172,16 +163,12 @@ CYBLE_GATTS_ATT_GEN_VAL_LEN_T cyBle_attValuesLen[CYBLE_GATT_DB_ATT_VAL_COUNT] = 
     { 0x0001u, (void *)&cyBle_attValues[12] }, /* Pawn Info */
     { 0x0001u, (void *)&cyBle_attValues[13] }, /* Version */
     { 0x000Fu, (void *)&cyBle_attValues[30] }, /* Pawn Name */
-    { 0x0010u, (void *)&cyBle_attUuid128[2] }, /* Pawn Abilities UUID */
-    { 0x0001u, (void *)&cyBle_attValues[61] }, /* Pawn Abilities */
-    { 0x0001u, (void *)&cyBle_attValues[62] }, /* Custom Descriptor */
-    { 0x0010u, (void *)&cyBle_attUuid128[3] }, /* LED UUID */
-    { 0x0010u, (void *)&cyBle_attUuid128[4] }, /* RGB Characteristic UUID */
-    { 0x0001u, (void *)&cyBle_attValues[79] }, /* RGB Characteristic */
-    { 0x0003u, (void *)&cyBle_attValues[80] }, /* RGB Value */
+    { 0x0010u, (void *)&cyBle_attUuid128[2] }, /* Serial UUID */
+    { 0x0014u, (void *)&cyBle_attValues[61] }, /* Serial */
+    { 0x0002u, (void *)&cyBle_attValuesCCCD[2] }, /* Client Characteristic Configuration */
 };
 
-const CYBLE_GATTS_DB_T cyBle_gattDB[0x15u] = {
+const CYBLE_GATTS_DB_T cyBle_gattDB[0x11u] = {
     { 0x0001u, 0x2800u /* Primary service                     */, 0x00000001u /*           */, 0x0005u, {{0x1800u, NULL}}                           },
     { 0x0002u, 0x2803u /* Characteristic                      */, 0x000A0001u /* rd,wr     */, 0x0003u, {{0x2A00u, NULL}}                           },
     { 0x0003u, 0x2A00u /* Device Name                         */, 0x010A0101u /* rd,wr     */, 0x0003u, {{0x0006u, (void *)&cyBle_attValuesLen[0]}} },
@@ -192,17 +179,13 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x15u] = {
     { 0x0008u, 0x2A05u /* Service Changed                     */, 0x01200000u /* ind       */, 0x0009u, {{0x0004u, (void *)&cyBle_attValuesLen[2]}} },
     { 0x0009u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr     */, 0x0009u, {{0x0002u, (void *)&cyBle_attValuesLen[3]}} },
     { 0x000Au, 0x2800u /* Primary service                     */, 0x08000001u /*           */, 0x0011u, {{0x0010u, (void *)&cyBle_attValuesLen[4]}} },
-    { 0x000Bu, 0x2803u /* Characteristic                      */, 0x000E0001u /* rd,wr,wwr */, 0x000Eu, {{0x0010u, (void *)&cyBle_attValuesLen[5]}} },
-    { 0x000Cu, 0x3904u /* Pawn Info                           */, 0x090E0101u /* rd,wr,wwr */, 0x000Eu, {{0x0001u, (void *)&cyBle_attValuesLen[6]}} },
+    { 0x000Bu, 0x2803u /* Characteristic                      */, 0x00020001u /* rd        */, 0x000Eu, {{0x0010u, (void *)&cyBle_attValuesLen[5]}} },
+    { 0x000Cu, 0x3904u /* Pawn Info                           */, 0x09020001u /* rd        */, 0x000Eu, {{0x0001u, (void *)&cyBle_attValuesLen[6]}} },
     { 0x000Du, 0x1168u /* Version                             */, 0x09000101u /*           */, 0x000Du, {{0x0001u, (void *)&cyBle_attValuesLen[7]}} },
     { 0x000Eu, 0x2A61u /* Pawn Name                           */, 0x09000101u /*           */, 0x000Eu, {{0x000Fu, (void *)&cyBle_attValuesLen[8]}} },
-    { 0x000Fu, 0x2803u /* Characteristic                      */, 0x000A0001u /* rd,wr     */, 0x0011u, {{0x0010u, (void *)&cyBle_attValuesLen[9]}} },
-    { 0x0010u, 0xD509u /* Pawn Abilities                      */, 0x090A0101u /* rd,wr     */, 0x0011u, {{0x0001u, (void *)&cyBle_attValuesLen[10]}} },
-    { 0x0011u, 0x56A1u /* Custom Descriptor                   */, 0x09000001u /*           */, 0x0011u, {{0x0001u, (void *)&cyBle_attValuesLen[11]}} },
-    { 0x0012u, 0x2800u /* Primary service                     */, 0x08000001u /*           */, 0x0015u, {{0x0010u, (void *)&cyBle_attValuesLen[12]}} },
-    { 0x0013u, 0x2803u /* Characteristic                      */, 0x000A0001u /* rd,wr     */, 0x0015u, {{0x0010u, (void *)&cyBle_attValuesLen[13]}} },
-    { 0x0014u, 0x60DEu /* RGB Characteristic                  */, 0x090A0101u /* rd,wr     */, 0x0015u, {{0x0001u, (void *)&cyBle_attValuesLen[14]}} },
-    { 0x0015u, 0x94BAu /* RGB Value                           */, 0x09000001u /*           */, 0x0015u, {{0x0003u, (void *)&cyBle_attValuesLen[15]}} },
+    { 0x000Fu, 0x2803u /* Characteristic                      */, 0x001A0001u /* rd,wr,ntf */, 0x0011u, {{0x0010u, (void *)&cyBle_attValuesLen[9]}} },
+    { 0x0010u, 0xD509u /* Serial                              */, 0x091A0101u /* rd,wr,ntf */, 0x0011u, {{0x0014u, (void *)&cyBle_attValuesLen[10]}} },
+    { 0x0011u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr     */, 0x0011u, {{0x0002u, (void *)&cyBle_attValuesLen[11]}} },
 };
 
 

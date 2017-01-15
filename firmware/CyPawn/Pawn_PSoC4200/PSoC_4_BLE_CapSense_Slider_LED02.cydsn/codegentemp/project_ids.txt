@@ -1,5 +1,6 @@
-F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|43e24f9f-df0d-4351-93bd-dcecba951b4e
-F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|50739f42-c33b-4501-9002-2ad0ce0bf086
-F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5c0f341d-12c2-4ee5-a4b6-f20e79966f80
-F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|46e8f1c6-2372-462c-8d24-9b4c05f380bd
-C:\Users\Nakio\Electronique\Cypress\Programmes\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\PSoC_4_BLE_CapSense_Slider_LED02.cyprj|61682c9f-be08-4302-a718-8782258be46e
+D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\PSoC_4_BLE_CapSense_Slider_LED02.cyprj|7622404b-68e5-4054-a8fb-77a8ce0c3e71
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|474f5076-a48b-480b-b195-a288c5f6b154
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1a45e057-86b6-4312-a32d-4da985a4dec7
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|11c94b7d-71ac-4ff8-80e2-2a09d7201bb6
+F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|fb4a4861-e41c-4a9a-9cac-3fc469ddda5f
+D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj|97fa99a7-c4d8-42b9-9fe3-1c05592f58e4

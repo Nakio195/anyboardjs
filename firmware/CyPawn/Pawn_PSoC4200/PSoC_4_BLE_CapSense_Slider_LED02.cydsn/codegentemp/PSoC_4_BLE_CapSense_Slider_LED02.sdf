@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2017-01-08T20:53:31Z")
+ (DATE "2017-01-14T22:19:53Z")
  (DESIGN "PSoC_4_BLE_CapSense_Slider_LED02")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")

@@ -1,6 +1,10 @@
 # PSoC_4_BLE_CapSense_Slider_LED02
-# 2017-01-08 20:53:29Z
+# 2017-01-14 22:19:50Z
 
+# IO_6@[IOP=(0)][IoId=(6)] is reserved: SWDDebugEnabled
+dont_use_io iocell 0 6
+# IO_7@[IOP=(0)][IoId=(7)] is reserved: SWDDebugEnabled
+dont_use_io iocell 0 7
 # IO_0@[IOP=(6)][IoId=(0)] is reserved: KhzXtalEnabled
 dont_use_io iocell 6 0
 # IO_1@[IOP=(6)][IoId=(1)] is reserved: KhzXtalEnabled

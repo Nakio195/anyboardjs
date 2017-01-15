@@ -10654,9 +10654,9 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1148              	.set CYDEV_DEBUG_PROTECT, CYDEV_DEBUG_PROTECT_OPEN
  1149              	.set CYDEV_DEBUG_PROTECT_PROTECTED, 2
  1150              	.set CYDEV_DEBUGGING_DPS_Disable, 3
- 1151              	.set CYDEV_DEBUGGING_DPS, CYDEV_DEBUGGING_DPS_Disable
- 1152              	.set CYDEV_DEBUGGING_DPS_SWD, 2
- 1153              	.set CYDEV_DEBUGGING_ENABLE, 0
+ 1151              	.set CYDEV_DEBUGGING_DPS_SWD, 2
+ 1152              	.set CYDEV_DEBUGGING_DPS, CYDEV_DEBUGGING_DPS_SWD
+ 1153              	.set CYDEV_DEBUGGING_ENABLE, 1
  1154              	.set CYDEV_DFT_SELECT_CLK0, 10
  1155              	.set CYDEV_DFT_SELECT_CLK1, 11
  1156              	.set CYDEV_HEAP_SIZE, 0x00

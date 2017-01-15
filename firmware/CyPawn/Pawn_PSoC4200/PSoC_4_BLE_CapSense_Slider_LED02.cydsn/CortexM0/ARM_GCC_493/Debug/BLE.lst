@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
   51              		.align	2
   52              		.type	cyBle_discoveryData, %object
   53              		.size	cyBle_discoveryData, 32
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 2
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 2
 
 
   54              	cyBle_discoveryData:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  108 0040 80       		.byte	-128
  109 0041 00       		.byte	0
  110 0042 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 3
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 3
 
 
  111 0043 80       		.byte	-128
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
    2:Generated_Source\PSoC4/BLE.c **** * \file CYBLE.c
    3:Generated_Source\PSoC4/BLE.c **** * \version 3.10
    4:Generated_Source\PSoC4/BLE.c **** * 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 4
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 4
 
 
    5:Generated_Source\PSoC4/BLE.c **** * \brief
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
   59:Generated_Source\PSoC4/BLE.c **** 
   60:Generated_Source\PSoC4/BLE.c **** CYBLE_GAPP_DISC_PARAM_T cyBle_discoveryParam =
   61:Generated_Source\PSoC4/BLE.c **** {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 5
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 5
 
 
   62:Generated_Source\PSoC4/BLE.c ****     0x0120u,    /* uint16 advertising_interval_min */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  116:Generated_Source\PSoC4/BLE.c **** uint16 cyBle_connectingTimeout;
  117:Generated_Source\PSoC4/BLE.c ****     
  118:Generated_Source\PSoC4/BLE.c **** #endif /* CYBLE_GAP_ROLE_CENTRAL */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 6
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 6
 
 
  119:Generated_Source\PSoC4/BLE.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  157:Generated_Source\PSoC4/BLE.c ****     #if(CYBLE_GAP_ROLE_PERIPHERAL || CYBLE_GAP_ROLE_BROADCASTER) 
  158:Generated_Source\PSoC4/BLE.c ****         cyBle_advertisingIntervalType = CYBLE_ADVERTISING_FAST; 
  180              		.loc 1 158 0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 7
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 7
 
 
  181 0010 054B     		ldr	r3, .L2+8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  205              	CyBle_ServiceInit:
  206              	.LFB3:
  189:Generated_Source\PSoC4/BLE.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 8
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 8
 
 
  190:Generated_Source\PSoC4/BLE.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  236:Generated_Source\PSoC4/BLE.c ****         CyBle_BmsInit();
  237:Generated_Source\PSoC4/BLE.c ****     #endif /* CYBLE_BMS */
  238:Generated_Source\PSoC4/BLE.c ****     
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 9
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 9
 
 
  239:Generated_Source\PSoC4/BLE.c ****     #ifdef CYBLE_CGMS
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  291:Generated_Source\PSoC4/BLE.c ****     #ifdef CYBLE_IPS
  292:Generated_Source\PSoC4/BLE.c ****         CyBle_IpsInit();
  293:Generated_Source\PSoC4/BLE.c ****     #endif /* CYBLE_IPS */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 10
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 10
 
 
  294:Generated_Source\PSoC4/BLE.c ****     
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  226              	.LC0:
  227 0000 2400     		.short	36
  228 0002 03       		.byte	3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 11
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 11
 
 
  229 0003 00       		.space	1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  372:Generated_Source\PSoC4/BLE.c **** *       <td>CYBLE_ERROR_OK</td>
  373:Generated_Source\PSoC4/BLE.c **** *       <td>On successful operation.</td>
  374:Generated_Source\PSoC4/BLE.c **** *     </tr>
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 12
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 12
 
 
  375:Generated_Source\PSoC4/BLE.c **** *     <tr>
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  273 0018 1A1C     		mov	r2, r3
  274 001a 1423     		mov	r3, #20
  275 001c 081C     		mov	r0, r1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 13
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 13
 
 
  276 001e 111C     		mov	r1, r2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  437:Generated_Source\PSoC4/BLE.c ****         if(apiResult == CYBLE_ERROR_OK)
  299              		.loc 1 437 0
  300 0044 3E23     		mov	r3, #62
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 14
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 14
 
 
  301 0046 FB18     		add	r3, r7, r3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  455:Generated_Source\PSoC4/BLE.c ****         #if(CYBLE_DLE_FEATURE_ENABLED)
  456:Generated_Source\PSoC4/BLE.c ****             CyBle_EnableDleFeature();              /* Enable DLE code in stack */
  457:Generated_Source\PSoC4/BLE.c ****         #endif /* CYBLE_DLE_FEATURE_ENABLED */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 15
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 15
 
 
  458:Generated_Source\PSoC4/BLE.c ****         
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  372 00bc 0523     		mov	r3, #5
  373 00be 0093     		str	r3, [sp]
  374 00c0 0023     		mov	r3, #0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 16
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 16
 
 
  375 00c2 0193     		str	r3, [sp, #4]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  404              		.loc 1 502 0
  405 00f8 3E23     		mov	r3, #62
  406 00fa FB18     		add	r3, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 17
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 17
 
 
  407 00fc 0122     		mov	r2, #1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  441              		.loc 1 522 0
  442              		.cfi_startproc
  443 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 18
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 18
 
 
  444              		.cfi_def_cfa_offset 8
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  547:Generated_Source\PSoC4/BLE.c **** *  Security settings.    
  548:Generated_Source\PSoC4/BLE.c **** * 
  549:Generated_Source\PSoC4/BLE.c **** *  \param isForceWrite:  If value is set to 0, then stack will check if flash write 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 19
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 19
 
 
  550:Generated_Source\PSoC4/BLE.c **** *                 is permissible. 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  604:Generated_Source\PSoC4/BLE.c ****     }
  605:Generated_Source\PSoC4/BLE.c ****     /* Clear requested CCCD values */
  606:Generated_Source\PSoC4/BLE.c ****     if( ((apiResult == CYBLE_ERROR_OK) || (isForceWrite != 0u)) && 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 20
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 20
 
 
  607:Generated_Source\PSoC4/BLE.c ****         ((cyBle_pendingFlashWrite & CYBLE_PENDING_CCCD_FLASH_CLEAR_MASK) != 0u) )
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  661:Generated_Source\PSoC4/BLE.c **** *   ---------------------------------| ------------------------------------
  662:Generated_Source\PSoC4/BLE.c **** *   CYBLE_ERROR_OK                   | On successful operation.
  663:Generated_Source\PSoC4/BLE.c **** *   CYBLE_ERROR_INVALID_PARAMETER    | On specifying NULL as input parameter for 'bdAddr'.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 21
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 21
 
 
  664:Generated_Source\PSoC4/BLE.c **** *   CYBLE_ERROR_INVALID_OPERATION    | Whitelist is already in use or there is pending write to fla
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  718:Generated_Source\PSoC4/BLE.c **** 
  719:Generated_Source\PSoC4/BLE.c **** #endif /* (CYBLE_GAP_ROLE_PERIPHERAL || CYBLE_GAP_ROLE_CENTRAL) && (CYBLE_BONDING_REQUIREMENT == CY
  720:Generated_Source\PSoC4/BLE.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 22
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 22
 
 
  721:Generated_Source\PSoC4/BLE.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  474              		.loc 1 774 0
  475              		.cfi_startproc
  476 0000 90B5     		push	{r4, r7, lr}
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 23
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 23
 
 
  477              		.cfi_def_cfa_offset 12
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  520 003e 1E22     		mov	r2, #30
  521 0040 1A82     		strh	r2, [r3, #16]
  786:Generated_Source\PSoC4/BLE.c ****                 cyBle_discoveryModeInfo.advParam->advIntvMin = CYBLE_FAST_ADV_INT_MIN;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 24
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 24
 
 
  522              		.loc 1 786 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  563              		.loc 1 799 0
  564 0082 0E23     		mov	r3, #14
  565 0084 FC18     		add	r4, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 25
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 25
 
 
  566 0086 124B     		ldr	r3, .L25+8
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  606              		@ sp needed
  607 00c6 90BD     		pop	{r4, r7, pc}
  608              	.L26:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 26
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 26
 
 
  609              		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  638 000a 1B78     		ldrb	r3, [r3]
  639 000c DBB2     		uxtb	r3, r3
  640 000e 0822     		mov	r2, #8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 27
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 27
 
 
  641 0010 1343     		orr	r3, r2
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  675 0008 0A1C     		mov	r2, r1
  676 000a FB1C     		add	r3, r7, #3
  677 000c 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 28
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 28
 
 
  858:Generated_Source\PSoC4/BLE.c ****         uint8 i;
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  708 003e 8A5C     		ldrb	r2, [r1, r2]
  709 0040 1A70     		strb	r2, [r3]
  879:Generated_Source\PSoC4/BLE.c ****             {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 29
 
 
  710              		.loc 1 879 0 discriminator 3
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  904:Generated_Source\PSoC4/BLE.c ****     *   * Observation procedure: A device performing the observer role receives only
  905:Generated_Source\PSoC4/BLE.c ****     *                            advertisement data from devices irrespective of 
  906:Generated_Source\PSoC4/BLE.c ****     *                            their discoverable mode settings. Advertisement 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 30
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 30
 
 
  907:Generated_Source\PSoC4/BLE.c ****     *                            data received is provided by the event,      
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  961:Generated_Source\PSoC4/BLE.c ****     *******************************************************************************/
  962:Generated_Source\PSoC4/BLE.c ****     CYBLE_API_RESULT_T CyBle_GapcStartScan(uint8 scanningIntervalType)
  963:Generated_Source\PSoC4/BLE.c ****     {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 31
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 31
 
 
  964:Generated_Source\PSoC4/BLE.c ****         CYBLE_API_RESULT_T apiResult;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1018:Generated_Source\PSoC4/BLE.c ****     void CyBle_GapcStopScan(void)
 1019:Generated_Source\PSoC4/BLE.c ****     {
 1020:Generated_Source\PSoC4/BLE.c ****         CyBle_GapcStopDiscovery();
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 32
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 32
 
 
 1021:Generated_Source\PSoC4/BLE.c ****         
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1075:Generated_Source\PSoC4/BLE.c **** 
 1076:Generated_Source\PSoC4/BLE.c ****         if(CyBle_GetState() != CYBLE_STATE_DISCONNECTED)
 1077:Generated_Source\PSoC4/BLE.c ****         {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 33
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 33
 
 
 1078:Generated_Source\PSoC4/BLE.c ****             apiResult = CYBLE_ERROR_INVALID_STATE;
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1132:Generated_Source\PSoC4/BLE.c ****         {
 1133:Generated_Source\PSoC4/BLE.c ****             apiResult = CYBLE_ERROR_INVALID_STATE;
 1134:Generated_Source\PSoC4/BLE.c ****         }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 34
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 34
 
 
 1135:Generated_Source\PSoC4/BLE.c ****         else 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  753 000a FB1C     		add	r3, r7, #3
  754 000c 1A70     		strb	r2, [r3]
 1177:Generated_Source\PSoC4/BLE.c ****             uint8 i;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 35
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 35
 
 
 1178:Generated_Source\PSoC4/BLE.c ****             uint8 flag = 0u;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  794 004a 1A70     		strb	r2, [r3]
  795              	.L36:
 1193:Generated_Source\PSoC4/BLE.c ****             }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 36
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 36
 
 
 1194:Generated_Source\PSoC4/BLE.c ****             
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  838 0092 1B78     		ldrb	r3, [r3]
 1204:Generated_Source\PSoC4/BLE.c ****                        (CYBLE_COMPLETE_LOCAL_NAME == destBuffer[byteCounter]))
  839              		.loc 1 1204 0 discriminator 1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 37
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 37
 
 
  840 0094 092B     		cmp	r3, #9
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  879 00ce 1B78     		ldrb	r3, [r3]
  880 00d0 002B     		cmp	r3, #0
  881 00d2 BCD0     		beq	.L43
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 38
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 38
 
 
  882              	.L42:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  921 0114 3A69     		ldr	r2, [r7, #16]
  922 0116 D318     		add	r3, r2, r3
  923 0118 1722     		mov	r2, #23
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 39
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 39
 
 
  924 011a BA18     		add	r2, r7, r2
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  970              	.L49:
 1239:Generated_Source\PSoC4/BLE.c ****                 {
 1240:Generated_Source\PSoC4/BLE.c ****                     /* Terminate string */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 40
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 40
 
 
 1241:Generated_Source\PSoC4/BLE.c ****                     destBuffer[i] = (uint8)CYBLE_NULL_CHARCTER;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1246:Generated_Source\PSoC4/BLE.c ****         
 1247:Generated_Source\PSoC4/BLE.c **** #endif /* (CYBLE_GAP_ROLE_PERIPHERAL) */  
 1248:Generated_Source\PSoC4/BLE.c ****     
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 41
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 41
 
 
 1249:Generated_Source\PSoC4/BLE.c ****     
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1038 0014 4AD0     		beq	.L53
 1284:Generated_Source\PSoC4/BLE.c ****         {
 1285:Generated_Source\PSoC4/BLE.c ****             /* Get the pointer to the Device Name characteristic  */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 42
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 42
 
 
 1286:Generated_Source\PSoC4/BLE.c ****             ptr = (char8 *) CYBLE_GATT_DB_ATTR_GET_ATTR_GEN_PTR(CYBLE_GAP_DEVICE_NAME_INDEX + 1u);
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1079              		.loc 1 1295 0 is_stmt 0 discriminator 1
  1080 0058 1523     		mov	r3, #21
  1081 005a FA18     		add	r2, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 43
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 43
 
 
  1082 005c 0F23     		mov	r3, #15
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1121              		.loc 1 1311 0
  1122 00a0 7B68     		ldr	r3, [r7, #4]
  1123 00a2 181C     		mov	r0, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 44
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 44
 
 
  1124 00a4 0121     		mov	r1, #1
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1331:Generated_Source\PSoC4/BLE.c ****     *             given string array. It represents a UTF-8 encoded User Friendly 
 1332:Generated_Source\PSoC4/BLE.c ****     *             Descriptive Name for the device. The length of the local device
 1333:Generated_Source\PSoC4/BLE.c ****     *             string is entered into the component customizer and it can be set
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 45
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 45
 
 
 1334:Generated_Source\PSoC4/BLE.c ****     *             to a value from 0 to 248 bytes. If the name contained in the
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
 1363:Generated_Source\PSoC4/BLE.c ****                 be used. */
 1364:Generated_Source\PSoC4/BLE.c ****             charLen = (uint8)CYBLE_GATT_DB_ATTR_GET_ATTR_GEN_LEN(CYBLE_GAP_DEVICE_NAME_INDEX + 1u);
  1184              		.loc 1 1364 0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 46
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 46
 
 
  1185 001e 204B     		ldr	r3, .L69
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1231 006c FB18     		add	r3, r7, r3
  1232 006e 1B78     		ldrb	r3, [r3]
  1233 0070 3A69     		ldr	r2, [r7, #16]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 47
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 47
 
 
  1234 0072 D318     		add	r3, r2, r3
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1276              		.thumb_func
  1277              		.type	CyBle_Get16ByPtr, %function
  1278              	CyBle_Get16ByPtr:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 48
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 48
 
 
  1279              	.LFB12:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1313              		.align	2
  1314              		.global	CyBle_Set16ByPtr
  1315              		.code	16
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 49
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 49
 
 
  1316              		.thumb_func
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1350 0028 BD46     		mov	sp, r7
  1351 002a 02B0     		add	sp, sp, #8
  1352              		@ sp needed
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 50
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 50
 
 
  1353 002c 80BD     		pop	{r7, pc}
@@ -2961,10 +2961,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1370 0006 00000000 		.4byte	.Ldebug_abbrev0
  1371 000a 04       		.byte	0x4
  1372 000b 01       		.uleb128 0x1
- 1373 000c 10130000 		.4byte	.LASF221
+ 1373 000c AC120000 		.4byte	.LASF221
  1374 0010 01       		.byte	0x1
- 1375 0011 89140000 		.4byte	.LASF222
- 1376 0015 330A0000 		.4byte	.LASF223
+ 1375 0011 25140000 		.4byte	.LASF222
+ 1376 0015 C4140000 		.4byte	.LASF223
  1377 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1378 001d 00000000 		.4byte	0
  1379 0021 00000000 		.4byte	.Ldebug_line0
@@ -2975,15 +2975,15 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1384 002c 02       		.uleb128 0x2
  1385 002d 01       		.byte	0x1
  1386 002e 08       		.byte	0x8
- 1387 002f DA0D0000 		.4byte	.LASF1
+ 1387 002f 760D0000 		.4byte	.LASF1
  1388 0033 02       		.uleb128 0x2
  1389 0034 02       		.byte	0x2
  1390 0035 05       		.byte	0x5
- 1391 0036 360E0000 		.4byte	.LASF2
+ 1391 0036 D20D0000 		.4byte	.LASF2
  1392 003a 02       		.uleb128 0x2
  1393 003b 02       		.byte	0x2
  1394 003c 07       		.byte	0x7
- 1395 003d 1F110000 		.4byte	.LASF3
+ 1395 003d BB100000 		.4byte	.LASF3
  1396 0041 02       		.uleb128 0x2
  1397 0042 04       		.byte	0x4
  1398 0043 05       		.byte	0x5
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1407 0052 72040000 		.4byte	.LASF6
  1408 0056 02       		.uleb128 0x2
  1409 0057 08       		.byte	0x8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 51
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 51
 
 
  1410 0058 07       		.byte	0x7
@@ -3010,14 +3010,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1416 0064 02       		.uleb128 0x2
  1417 0065 04       		.byte	0x4
  1418 0066 07       		.byte	0x7
- 1419 0067 2C100000 		.4byte	.LASF8
+ 1419 0067 C80F0000 		.4byte	.LASF8
  1420 006b 04       		.uleb128 0x4
  1421 006c F9050000 		.4byte	.LASF9
  1422 0070 02       		.byte	0x2
  1423 0071 3801     		.2byte	0x138
  1424 0073 2C000000 		.4byte	0x2c
  1425 0077 04       		.uleb128 0x4
- 1426 0078 E80D0000 		.4byte	.LASF10
+ 1426 0078 840D0000 		.4byte	.LASF10
  1427 007c 02       		.byte	0x2
  1428 007d 3901     		.2byte	0x139
  1429 007f 3A000000 		.4byte	0x3a
@@ -3029,26 +3029,26 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1435 008f 02       		.uleb128 0x2
  1436 0090 04       		.byte	0x4
  1437 0091 04       		.byte	0x4
- 1438 0092 290D0000 		.4byte	.LASF12
+ 1438 0092 C50C0000 		.4byte	.LASF12
  1439 0096 02       		.uleb128 0x2
  1440 0097 08       		.byte	0x8
  1441 0098 04       		.byte	0x4
  1442 0099 50060000 		.4byte	.LASF13
  1443 009d 04       		.uleb128 0x4
- 1444 009e 92100000 		.4byte	.LASF14
+ 1444 009e 2E100000 		.4byte	.LASF14
  1445 00a2 02       		.byte	0x2
  1446 00a3 4901     		.2byte	0x149
  1447 00a5 A9000000 		.4byte	0xa9
  1448 00a9 02       		.uleb128 0x2
  1449 00aa 01       		.byte	0x1
  1450 00ab 08       		.byte	0x8
- 1451 00ac C40F0000 		.4byte	.LASF15
+ 1451 00ac 600F0000 		.4byte	.LASF15
  1452 00b0 05       		.uleb128 0x5
  1453 00b1 6B000000 		.4byte	0x6b
  1454 00b5 02       		.uleb128 0x2
  1455 00b6 04       		.byte	0x4
  1456 00b7 07       		.byte	0x7
- 1457 00b8 8C0B0000 		.4byte	.LASF16
+ 1457 00b8 280B0000 		.4byte	.LASF16
  1458 00bc 06       		.uleb128 0x6
  1459 00bd 04       		.byte	0x4
  1460 00be 07       		.uleb128 0x7
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1464 00c3 7B020000 		.4byte	0x27b
  1465 00c7 08       		.uleb128 0x8
  1466 00c8 F6080000 		.4byte	.LASF17
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 52
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 52
 
 
  1467 00cc 00       		.sleb128 0
@@ -3069,7 +3069,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1472 00d4 5E020000 		.4byte	.LASF19
  1473 00d8 02       		.sleb128 2
  1474 00d9 08       		.uleb128 0x8
- 1475 00da 06110000 		.4byte	.LASF20
+ 1475 00da A2100000 		.4byte	.LASF20
  1476 00de 03       		.sleb128 3
  1477 00df 08       		.uleb128 0x8
  1478 00e0 2F030000 		.4byte	.LASF21
@@ -3081,7 +3081,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1484 00ec 2B090000 		.4byte	.LASF23
  1485 00f0 06       		.sleb128 6
  1486 00f1 08       		.uleb128 0x8
- 1487 00f2 F00A0000 		.4byte	.LASF24
+ 1487 00f2 8C0A0000 		.4byte	.LASF24
  1488 00f6 20       		.sleb128 32
  1489 00f7 08       		.uleb128 0x8
  1490 00f8 E9040000 		.4byte	.LASF25
@@ -3093,10 +3093,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1496 0104 0D0A0000 		.4byte	.LASF27
  1497 0108 23       		.sleb128 35
  1498 0109 08       		.uleb128 0x8
- 1499 010a 460C0000 		.4byte	.LASF28
+ 1499 010a E20B0000 		.4byte	.LASF28
  1500 010e 24       		.sleb128 36
  1501 010f 08       		.uleb128 0x8
- 1502 0110 BA0B0000 		.4byte	.LASF29
+ 1502 0110 560B0000 		.4byte	.LASF29
  1503 0114 25       		.sleb128 37
  1504 0115 08       		.uleb128 0x8
  1505 0116 90050000 		.4byte	.LASF30
@@ -3105,7 +3105,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1508 011c 76090000 		.4byte	.LASF31
  1509 0120 27       		.sleb128 39
  1510 0121 08       		.uleb128 0x8
- 1511 0122 F20F0000 		.4byte	.LASF32
+ 1511 0122 8E0F0000 		.4byte	.LASF32
  1512 0126 28       		.sleb128 40
  1513 0127 08       		.uleb128 0x8
  1514 0128 F1030000 		.4byte	.LASF33
@@ -3117,8 +3117,8 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1520 0134 4C030000 		.4byte	.LASF35
  1521 0138 2B       		.sleb128 43
  1522 0139 08       		.uleb128 0x8
- 1523 013a E4130000 		.4byte	.LASF36
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 53
+ 1523 013a 80130000 		.4byte	.LASF36
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 53
 
 
  1524 013e 2C       		.sleb128 44
@@ -3126,31 +3126,31 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1526 0140 0E040000 		.4byte	.LASF37
  1527 0144 2D       		.sleb128 45
  1528 0145 08       		.uleb128 0x8
- 1529 0146 EF0D0000 		.4byte	.LASF38
+ 1529 0146 8B0D0000 		.4byte	.LASF38
  1530 014a 2E       		.sleb128 46
  1531 014b 08       		.uleb128 0x8
  1532 014c A6010000 		.4byte	.LASF39
  1533 0150 2F       		.sleb128 47
  1534 0151 08       		.uleb128 0x8
- 1535 0152 250C0000 		.4byte	.LASF40
+ 1535 0152 C10B0000 		.4byte	.LASF40
  1536 0156 30       		.sleb128 48
  1537 0157 08       		.uleb128 0x8
- 1538 0158 A6140000 		.4byte	.LASF41
+ 1538 0158 42140000 		.4byte	.LASF41
  1539 015c 31       		.sleb128 49
  1540 015d 08       		.uleb128 0x8
- 1541 015e 040C0000 		.4byte	.LASF42
+ 1541 015e A00B0000 		.4byte	.LASF42
  1542 0162 32       		.sleb128 50
  1543 0163 08       		.uleb128 0x8
- 1544 0164 720F0000 		.4byte	.LASF43
+ 1544 0164 0E0F0000 		.4byte	.LASF43
  1545 0168 33       		.sleb128 51
  1546 0169 08       		.uleb128 0x8
  1547 016a CF060000 		.4byte	.LASF44
  1548 016e C000     		.sleb128 64
  1549 0170 08       		.uleb128 0x8
- 1550 0171 970A0000 		.4byte	.LASF45
+ 1550 0171 330A0000 		.4byte	.LASF45
  1551 0175 C100     		.sleb128 65
  1552 0177 08       		.uleb128 0x8
- 1553 0178 D0140000 		.4byte	.LASF46
+ 1553 0178 6C140000 		.4byte	.LASF46
  1554 017c C200     		.sleb128 66
  1555 017e 08       		.uleb128 0x8
  1556 017f DB050000 		.4byte	.LASF47
@@ -3159,26 +3159,26 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1559 0186 4C080000 		.4byte	.LASF48
  1560 018a C400     		.sleb128 68
  1561 018c 08       		.uleb128 0x8
- 1562 018d 020D0000 		.4byte	.LASF49
+ 1562 018d 9E0C0000 		.4byte	.LASF49
  1563 0191 C500     		.sleb128 69
  1564 0193 08       		.uleb128 0x8
- 1565 0194 530B0000 		.4byte	.LASF50
+ 1565 0194 EF0A0000 		.4byte	.LASF50
  1566 0198 C600     		.sleb128 70
  1567 019a 08       		.uleb128 0x8
  1568 019b 0D090000 		.4byte	.LASF51
  1569 019f C700     		.sleb128 71
  1570 01a1 08       		.uleb128 0x8
- 1571 01a2 9E130000 		.4byte	.LASF52
+ 1571 01a2 3A130000 		.4byte	.LASF52
  1572 01a6 C800     		.sleb128 72
  1573 01a8 08       		.uleb128 0x8
  1574 01a9 0B050000 		.4byte	.LASF53
  1575 01ad C900     		.sleb128 73
  1576 01af 08       		.uleb128 0x8
- 1577 01b0 25120000 		.4byte	.LASF54
+ 1577 01b0 C1110000 		.4byte	.LASF54
  1578 01b4 CA00     		.sleb128 74
  1579 01b6 08       		.uleb128 0x8
  1580 01b7 CF010000 		.4byte	.LASF55
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 54
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 54
 
 
  1581 01bb CB00     		.sleb128 75
@@ -3186,13 +3186,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1583 01be 32080000 		.4byte	.LASF56
  1584 01c2 CC00     		.sleb128 76
  1585 01c4 08       		.uleb128 0x8
- 1586 01c5 EA0B0000 		.4byte	.LASF57
+ 1586 01c5 860B0000 		.4byte	.LASF57
  1587 01c9 CD00     		.sleb128 77
  1588 01cb 08       		.uleb128 0x8
  1589 01cc 4E050000 		.4byte	.LASF58
  1590 01d0 CE00     		.sleb128 78
  1591 01d2 08       		.uleb128 0x8
- 1592 01d3 AB0E0000 		.4byte	.LASF59
+ 1592 01d3 470E0000 		.4byte	.LASF59
  1593 01d7 CF00     		.sleb128 79
  1594 01d9 08       		.uleb128 0x8
  1595 01da EE010000 		.4byte	.LASF60
@@ -3201,13 +3201,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1598 01e1 12060000 		.4byte	.LASF61
  1599 01e5 D100     		.sleb128 81
  1600 01e7 08       		.uleb128 0x8
- 1601 01e8 8A0C0000 		.4byte	.LASF62
+ 1601 01e8 260C0000 		.4byte	.LASF62
  1602 01ec D200     		.sleb128 82
  1603 01ee 08       		.uleb128 0x8
- 1604 01ef 400E0000 		.4byte	.LASF63
+ 1604 01ef DC0D0000 		.4byte	.LASF63
  1605 01f3 D300     		.sleb128 83
  1606 01f5 08       		.uleb128 0x8
- 1607 01f6 330F0000 		.4byte	.LASF64
+ 1607 01f6 CF0E0000 		.4byte	.LASF64
  1608 01fa D400     		.sleb128 84
  1609 01fc 08       		.uleb128 0x8
  1610 01fd 6A080000 		.4byte	.LASF65
@@ -3216,7 +3216,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1613 0204 86070000 		.4byte	.LASF66
  1614 0208 D600     		.sleb128 86
  1615 020a 08       		.uleb128 0x8
- 1616 020b 46100000 		.4byte	.LASF67
+ 1616 020b E20F0000 		.4byte	.LASF67
  1617 020f D700     		.sleb128 87
  1618 0211 08       		.uleb128 0x8
  1619 0212 63070000 		.4byte	.LASF68
@@ -3225,20 +3225,20 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1622 0219 E9060000 		.4byte	.LASF69
  1623 021d F000     		.sleb128 112
  1624 021f 08       		.uleb128 0x8
- 1625 0220 63140000 		.4byte	.LASF70
+ 1625 0220 FF130000 		.4byte	.LASF70
  1626 0224 F100     		.sleb128 113
  1627 0226 08       		.uleb128 0x8
- 1628 0227 D40A0000 		.4byte	.LASF71
+ 1628 0227 700A0000 		.4byte	.LASF71
  1629 022b F200     		.sleb128 114
  1630 022d 08       		.uleb128 0x8
- 1631 022e 790D0000 		.4byte	.LASF72
+ 1631 022e 150D0000 		.4byte	.LASF72
  1632 0232 F300     		.sleb128 115
  1633 0234 08       		.uleb128 0x8
- 1634 0235 E40C0000 		.4byte	.LASF73
+ 1634 0235 800C0000 		.4byte	.LASF73
  1635 0239 F400     		.sleb128 116
  1636 023b 08       		.uleb128 0x8
- 1637 023c 19140000 		.4byte	.LASF74
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 55
+ 1637 023c B5130000 		.4byte	.LASF74
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 55
 
 
  1638 0240 F500     		.sleb128 117
@@ -3258,7 +3258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1652 025f 0F070000 		.4byte	.LASF79
  1653 0263 FA00     		.sleb128 122
  1654 0265 08       		.uleb128 0x8
- 1655 0266 3A140000 		.4byte	.LASF80
+ 1655 0266 D6130000 		.4byte	.LASF80
  1656 026a FA01     		.sleb128 250
  1657 026c 08       		.uleb128 0x8
  1658 026d C6070000 		.4byte	.LASF81
@@ -3279,7 +3279,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1673 028b 60060000 		.4byte	.LASF84
  1674 028f 01       		.sleb128 1
  1675 0290 08       		.uleb128 0x8
- 1676 0291 43110000 		.4byte	.LASF85
+ 1676 0291 DF100000 		.4byte	.LASF85
  1677 0295 02       		.sleb128 2
  1678 0296 08       		.uleb128 0x8
  1679 0297 97000000 		.4byte	.LASF86
@@ -3291,25 +3291,25 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1685 02a3 A8070000 		.4byte	.LASF88
  1686 02a7 05       		.sleb128 5
  1687 02a8 08       		.uleb128 0x8
- 1688 02a9 820E0000 		.4byte	.LASF89
+ 1688 02a9 1E0E0000 		.4byte	.LASF89
  1689 02ad 06       		.sleb128 6
  1690 02ae 08       		.uleb128 0x8
  1691 02af C1040000 		.4byte	.LASF90
  1692 02b3 07       		.sleb128 7
  1693 02b4 08       		.uleb128 0x8
- 1694 02b5 540F0000 		.4byte	.LASF91
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 56
+ 1694 02b5 F00E0000 		.4byte	.LASF91
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 56
 
 
  1695 02b9 08       		.sleb128 8
  1696 02ba 08       		.uleb128 0x8
- 1697 02bb C5130000 		.4byte	.LASF92
+ 1697 02bb 61130000 		.4byte	.LASF92
  1698 02bf 09       		.sleb128 9
  1699 02c0 08       		.uleb128 0x8
- 1700 02c1 AA0D0000 		.4byte	.LASF93
+ 1700 02c1 460D0000 		.4byte	.LASF93
  1701 02c5 0A       		.sleb128 10
  1702 02c6 08       		.uleb128 0x8
- 1703 02c7 C90F0000 		.4byte	.LASF94
+ 1703 02c7 650F0000 		.4byte	.LASF94
  1704 02cb 0B       		.sleb128 11
  1705 02cc 08       		.uleb128 0x8
  1706 02cd B6030000 		.4byte	.LASF95
@@ -3321,10 +3321,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1712 02d9 F7070000 		.4byte	.LASF97
  1713 02dd 0E       		.sleb128 14
  1714 02de 08       		.uleb128 0x8
- 1715 02df BB120000 		.4byte	.LASF98
+ 1715 02df 57120000 		.4byte	.LASF98
  1716 02e3 0F       		.sleb128 15
  1717 02e4 08       		.uleb128 0x8
- 1718 02e5 BD100000 		.4byte	.LASF99
+ 1718 02e5 59100000 		.4byte	.LASF99
  1719 02e9 10       		.sleb128 16
  1720 02ea 08       		.uleb128 0x8
  1721 02eb CD030000 		.4byte	.LASF100
@@ -3333,16 +3333,16 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1724 02f1 B8050000 		.4byte	.LASF101
  1725 02f5 12       		.sleb128 18
  1726 02f6 08       		.uleb128 0x8
- 1727 02f7 EE140000 		.4byte	.LASF102
+ 1727 02f7 8A140000 		.4byte	.LASF102
  1728 02fb 13       		.sleb128 19
  1729 02fc 08       		.uleb128 0x8
  1730 02fd 9F040000 		.4byte	.LASF103
  1731 0301 27       		.sleb128 39
  1732 0302 08       		.uleb128 0x8
- 1733 0303 98100000 		.4byte	.LASF104
+ 1733 0303 34100000 		.4byte	.LASF104
  1734 0307 28       		.sleb128 40
  1735 0308 08       		.uleb128 0x8
- 1736 0309 86120000 		.4byte	.LASF105
+ 1736 0309 22120000 		.4byte	.LASF105
  1737 030d 29       		.sleb128 41
  1738 030e 08       		.uleb128 0x8
  1739 030f 79020000 		.4byte	.LASF106
@@ -3351,14 +3351,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1742 0315 47010000 		.4byte	.LASF107
  1743 0319 2B       		.sleb128 43
  1744 031a 08       		.uleb128 0x8
- 1745 031b 3B0B0000 		.4byte	.LASF108
+ 1745 031b D70A0000 		.4byte	.LASF108
  1746 031f 2C       		.sleb128 44
  1747 0320 08       		.uleb128 0x8
  1748 0321 D3000000 		.4byte	.LASF109
  1749 0325 FE01     		.sleb128 254
  1750 0327 08       		.uleb128 0x8
- 1751 0328 2B0B0000 		.4byte	.LASF110
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 57
+ 1751 0328 C70A0000 		.4byte	.LASF110
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 57
 
 
  1752 032c FF01     		.sleb128 255
@@ -3366,17 +3366,17 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1754 032f DD080000 		.4byte	.LASF111
  1755 0333 8002     		.sleb128 256
  1756 0335 08       		.uleb128 0x8
- 1757 0336 AB0C0000 		.4byte	.LASF112
+ 1757 0336 470C0000 		.4byte	.LASF112
  1758 033a 8102     		.sleb128 257
  1759 033c 08       		.uleb128 0x8
- 1760 033d 130E0000 		.4byte	.LASF113
+ 1760 033d AF0D0000 		.4byte	.LASF113
  1761 0341 8202     		.sleb128 258
  1762 0343 08       		.uleb128 0x8
  1763 0344 24050000 		.4byte	.LASF114
  1764 0348 8302     		.sleb128 259
  1765 034a 00       		.byte	0
  1766 034b 04       		.uleb128 0x4
- 1767 034c 6C0C0000 		.4byte	.LASF115
+ 1767 034c 080C0000 		.4byte	.LASF115
  1768 0350 03       		.byte	0x3
  1769 0351 6B03     		.2byte	0x36b
  1770 0353 7B020000 		.4byte	0x27b
@@ -3416,9 +3416,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1804 039a 3804     		.2byte	0x438
  1805 039c BB030000 		.4byte	0x3bb
  1806 03a0 0A       		.uleb128 0xa
- 1807 03a1 6F100000 		.4byte	.LASF119
+ 1807 03a1 0B100000 		.4byte	.LASF119
  1808 03a5 03       		.byte	0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 58
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 58
 
 
  1809 03a6 3B04     		.2byte	0x43b
@@ -3432,7 +3432,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1817 03b9 02       		.byte	0x2
  1818 03ba 00       		.byte	0
  1819 03bb 04       		.uleb128 0x4
- 1820 03bc B20A0000 		.4byte	.LASF121
+ 1820 03bc 4E0A0000 		.4byte	.LASF121
  1821 03c0 03       		.byte	0x3
  1822 03c1 3E04     		.2byte	0x43e
  1823 03c3 97030000 		.4byte	0x397
@@ -3448,7 +3448,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1833 03d8 77000000 		.4byte	0x77
  1834 03dc 00       		.byte	0
  1835 03dd 0A       		.uleb128 0xa
- 1836 03de 970D0000 		.4byte	.LASF123
+ 1836 03de 330D0000 		.4byte	.LASF123
  1837 03e2 03       		.byte	0x3
  1838 03e3 4804     		.2byte	0x448
  1839 03e5 77000000 		.4byte	0x77
@@ -3461,7 +3461,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1846 03f6 04       		.byte	0x4
  1847 03f7 00       		.byte	0
  1848 03f8 04       		.uleb128 0x4
- 1849 03f9 A2120000 		.4byte	.LASF125
+ 1849 03f9 3E120000 		.4byte	.LASF125
  1850 03fd 03       		.byte	0x3
  1851 03fe 4C04     		.2byte	0x44c
  1852 0400 C7030000 		.4byte	0x3c7
@@ -3471,14 +3471,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1856 0407 4F04     		.2byte	0x44f
  1857 0409 1B040000 		.4byte	0x41b
  1858 040d 0A       		.uleb128 0xa
- 1859 040e 16150000 		.4byte	.LASF126
+ 1859 040e B2140000 		.4byte	.LASF126
  1860 0412 03       		.byte	0x3
  1861 0413 5204     		.2byte	0x452
  1862 0415 6B000000 		.4byte	0x6b
  1863 0419 00       		.byte	0
  1864 041a 00       		.byte	0
  1865 041b 04       		.uleb128 0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 59
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 59
 
 
  1866 041c 96020000 		.4byte	.LASF127
@@ -3491,19 +3491,19 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1873 042a 5904     		.2byte	0x459
  1874 042c 58040000 		.4byte	0x458
  1875 0430 0A       		.uleb128 0xa
- 1876 0431 DA130000 		.4byte	.LASF128
+ 1876 0431 76130000 		.4byte	.LASF128
  1877 0435 03       		.byte	0x3
  1878 0436 5C04     		.2byte	0x45c
  1879 0438 58040000 		.4byte	0x458
  1880 043c 00       		.byte	0
  1881 043d 0A       		.uleb128 0xa
- 1882 043e 61110000 		.4byte	.LASF129
+ 1882 043e FD100000 		.4byte	.LASF129
  1883 0442 03       		.byte	0x3
  1884 0443 5F04     		.2byte	0x45f
  1885 0445 5E040000 		.4byte	0x45e
  1886 0449 04       		.byte	0x4
  1887 044a 0A       		.uleb128 0xa
- 1888 044b E0110000 		.4byte	.LASF130
+ 1888 044b 7C110000 		.4byte	.LASF130
  1889 044f 03       		.byte	0x3
  1890 0450 6504     		.2byte	0x465
  1891 0452 77000000 		.4byte	0x77
@@ -3516,7 +3516,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1898 045f 04       		.byte	0x4
  1899 0460 1B040000 		.4byte	0x41b
  1900 0464 04       		.uleb128 0x4
- 1901 0465 EB100000 		.4byte	.LASF131
+ 1901 0465 87100000 		.4byte	.LASF131
  1902 0469 03       		.byte	0x3
  1903 046a 6604     		.2byte	0x466
  1904 046c 27040000 		.4byte	0x427
@@ -3535,17 +3535,17 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1917 0485 22020000 		.4byte	.LASF134
  1918 0489 02       		.sleb128 2
  1919 048a 08       		.uleb128 0x8
- 1920 048b FB110000 		.4byte	.LASF135
+ 1920 048b 97110000 		.4byte	.LASF135
  1921 048f 03       		.sleb128 3
  1922 0490 08       		.uleb128 0x8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 60
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 60
 
 
- 1923 0491 D50E0000 		.4byte	.LASF136
+ 1923 0491 710E0000 		.4byte	.LASF136
  1924 0495 04       		.sleb128 4
  1925 0496 00       		.byte	0
  1926 0497 0F       		.uleb128 0xf
- 1927 0498 CF110000 		.4byte	.LASF137
+ 1927 0498 6B110000 		.4byte	.LASF137
  1928 049c 04       		.byte	0x4
  1929 049d E0       		.byte	0xe0
  1930 049e 70040000 		.4byte	0x470
@@ -3555,7 +3555,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1934 04a5 0902     		.2byte	0x209
  1935 04a7 14050000 		.4byte	0x514
  1936 04ab 0A       		.uleb128 0xa
- 1937 04ac CA0E0000 		.4byte	.LASF138
+ 1937 04ac 660E0000 		.4byte	.LASF138
  1938 04b0 04       		.byte	0x4
  1939 04b1 0F02     		.2byte	0x20f
  1940 04b3 77000000 		.4byte	0x77
@@ -3573,13 +3573,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1952 04cd 97040000 		.4byte	0x497
  1953 04d1 04       		.byte	0x4
  1954 04d2 0A       		.uleb128 0xa
- 1955 04d3 AE0B0000 		.4byte	.LASF141
+ 1955 04d3 4A0B0000 		.4byte	.LASF141
  1956 04d7 04       		.byte	0x4
  1957 04d8 2602     		.2byte	0x226
  1958 04da 6B000000 		.4byte	0x6b
  1959 04de 05       		.byte	0x5
  1960 04df 0A       		.uleb128 0xa
- 1961 04e0 6A0D0000 		.4byte	.LASF142
+ 1961 04e0 060D0000 		.4byte	.LASF142
  1962 04e4 04       		.byte	0x4
  1963 04e5 2D02     		.2byte	0x22d
  1964 04e7 6B000000 		.4byte	0x6b
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1977 0505 0D       		.byte	0xd
  1978 0506 0A       		.uleb128 0xa
  1979 0507 3E050000 		.4byte	.LASF145
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 61
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 61
 
 
  1980 050b 04       		.byte	0x4
@@ -3607,7 +3607,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1983 0512 0E       		.byte	0xe
  1984 0513 00       		.byte	0
  1985 0514 04       		.uleb128 0x4
- 1986 0515 7A100000 		.4byte	.LASF146
+ 1986 0515 16100000 		.4byte	.LASF146
  1987 0519 04       		.byte	0x4
  1988 051a 4902     		.2byte	0x249
  1989 051c A2040000 		.4byte	0x4a2
@@ -3617,7 +3617,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  1993 0523 4C02     		.2byte	0x24c
  1994 0525 44050000 		.4byte	0x544
  1995 0529 0A       		.uleb128 0xa
- 1996 052a 000F0000 		.4byte	.LASF147
+ 1996 052a 9C0E0000 		.4byte	.LASF147
  1997 052e 04       		.byte	0x4
  1998 052f 4F02     		.2byte	0x24f
  1999 0531 44050000 		.4byte	0x544
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2034 057c 5E02     		.2byte	0x25e
  2035 057e 6B000000 		.4byte	0x6b
  2036 0582 1F       		.byte	0x1f
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 62
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 62
 
 
  2037 0583 00       		.byte	0
@@ -3679,13 +3679,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2052 05a1 6B000000 		.4byte	0x6b
  2053 05a5 00       		.byte	0
  2054 05a6 0A       		.uleb128 0xa
- 2055 05a7 C6110000 		.4byte	.LASF154
+ 2055 05a7 62110000 		.4byte	.LASF154
  2056 05ab 04       		.byte	0x4
  2057 05ac 6E02     		.2byte	0x26e
  2058 05ae DB050000 		.4byte	0x5db
  2059 05b2 04       		.byte	0x4
  2060 05b3 0A       		.uleb128 0xa
- 2061 05b4 000F0000 		.4byte	.LASF147
+ 2061 05b4 9C0E0000 		.4byte	.LASF147
  2062 05b8 04       		.byte	0x4
  2063 05b9 7002     		.2byte	0x270
  2064 05bb E1050000 		.4byte	0x5e1
@@ -3697,7 +3697,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2070 05c8 E7050000 		.4byte	0x5e7
  2071 05cc 0C       		.byte	0xc
  2072 05cd 0A       		.uleb128 0xa
- 2073 05ce CA140000 		.4byte	.LASF155
+ 2073 05ce 66140000 		.4byte	.LASF155
  2074 05d2 04       		.byte	0x4
  2075 05d3 7C02     		.2byte	0x27c
  2076 05d5 77000000 		.4byte	0x77
@@ -3713,12 +3713,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2086 05e8 04       		.byte	0x4
  2087 05e9 84050000 		.4byte	0x584
  2088 05ed 04       		.uleb128 0x4
- 2089 05ee AA110000 		.4byte	.LASF156
+ 2089 05ee 46110000 		.4byte	.LASF156
  2090 05f2 04       		.byte	0x4
  2091 05f3 7E02     		.2byte	0x27e
  2092 05f5 90050000 		.4byte	0x590
  2093 05f9 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 63
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 63
 
 
  2094 05fa 04       		.byte	0x4
@@ -3735,14 +3735,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2105 060e 77000000 		.4byte	0x77
  2106 0612 00       		.byte	0
  2107 0613 11       		.uleb128 0x11
- 2108 0614 D60C0000 		.4byte	.LASF158
+ 2108 0614 720C0000 		.4byte	.LASF158
  2109 0618 05       		.byte	0x5
  2110 0619 CB       		.byte	0xcb
  2111 061a BC000000 		.4byte	0xbc
  2112 061e 04       		.byte	0x4
  2113 061f 00       		.byte	0
  2114 0620 0F       		.uleb128 0xf
- 2115 0621 80110000 		.4byte	.LASF159
+ 2115 0621 1C110000 		.4byte	.LASF159
  2116 0625 05       		.byte	0x5
  2117 0626 CD       		.byte	0xcd
  2118 0627 FF050000 		.4byte	0x5ff
@@ -3758,7 +3758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2128 063a 77000000 		.4byte	0x77
  2129 063e 00       		.byte	0
  2130 063f 11       		.uleb128 0x11
- 2131 0640 43120000 		.4byte	.LASF161
+ 2131 0640 DF110000 		.4byte	.LASF161
  2132 0644 05       		.byte	0x5
  2133 0645 D8       		.byte	0xd8
  2134 0646 4C060000 		.4byte	0x64c
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2148 0660 DD       		.byte	0xdd
  2149 0661 7C060000 		.4byte	0x67c
  2150 0665 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 64
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 64
 
 
  2151 0666 A7080000 		.4byte	.LASF163
@@ -3786,7 +3786,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2153 066b E4       		.byte	0xe4
  2154 066c 52060000 		.4byte	0x652
  2155 0670 13       		.uleb128 0x13
- 2156 0671 C90C0000 		.4byte	.LASF164
+ 2156 0671 650C0000 		.4byte	.LASF164
  2157 0675 05       		.byte	0x5
  2158 0676 E7       		.byte	0xe7
  2159 0677 77000000 		.4byte	0x77
@@ -3820,28 +3820,28 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2187 06ae 83000000 		.4byte	0x83
  2188 06b2 04       		.byte	0x4
  2189 06b3 0A       		.uleb128 0xa
- 2190 06b4 39100000 		.4byte	.LASF169
+ 2190 06b4 D50F0000 		.4byte	.LASF169
  2191 06b8 05       		.byte	0x5
  2192 06b9 0201     		.2byte	0x102
  2193 06bb 77000000 		.4byte	0x77
  2194 06bf 08       		.byte	0x8
  2195 06c0 0A       		.uleb128 0xa
- 2196 06c1 D10D0000 		.4byte	.LASF170
+ 2196 06c1 6D0D0000 		.4byte	.LASF170
  2197 06c5 05       		.byte	0x5
  2198 06c6 0B01     		.2byte	0x10b
  2199 06c8 7C060000 		.4byte	0x67c
  2200 06cc 0C       		.byte	0xc
  2201 06cd 00       		.byte	0
  2202 06ce 04       		.uleb128 0x4
- 2203 06cf 32110000 		.4byte	.LASF171
+ 2203 06cf CE100000 		.4byte	.LASF171
  2204 06d3 05       		.byte	0x5
  2205 06d4 0C01     		.2byte	0x10c
  2206 06d6 87060000 		.4byte	0x687
  2207 06da 04       		.uleb128 0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 65
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 65
 
 
- 2208 06db 6F110000 		.4byte	.LASF172
+ 2208 06db 0B110000 		.4byte	.LASF172
  2209 06df 06       		.byte	0x6
  2210 06e0 E701     		.2byte	0x1e7
  2211 06e2 E6060000 		.4byte	0x6e6
@@ -3864,10 +3864,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2228 0706 3F000000 		.4byte	.LASF173
  2229 070a 00       		.sleb128 0
  2230 070b 08       		.uleb128 0x8
- 2231 070c 950B0000 		.4byte	.LASF174
+ 2231 070c 310B0000 		.4byte	.LASF174
  2232 0710 01       		.sleb128 1
  2233 0711 08       		.uleb128 0x8
- 2234 0712 FA120000 		.4byte	.LASF175
+ 2234 0712 96120000 		.4byte	.LASF175
  2235 0716 02       		.sleb128 2
  2236 0717 08       		.uleb128 0x8
  2237 0718 5A040000 		.4byte	.LASF176
@@ -3877,12 +3877,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2241 0722 04       		.sleb128 4
  2242 0723 00       		.byte	0
  2243 0724 04       		.uleb128 0x4
- 2244 0725 ED110000 		.4byte	.LASF178
+ 2244 0725 89110000 		.4byte	.LASF178
  2245 0729 07       		.byte	0x7
  2246 072a CD07     		.2byte	0x7cd
  2247 072c FC060000 		.4byte	0x6fc
  2248 0730 16       		.uleb128 0x16
- 2249 0731 58140000 		.4byte	.LASF179
+ 2249 0731 F4130000 		.4byte	.LASF179
  2250 0735 01       		.byte	0x1
  2251 0736 98       		.byte	0x98
  2252 0737 00000000 		.4byte	.LFB2
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2262 0750 01       		.uleb128 0x1
  2263 0751 9C       		.byte	0x9c
  2264 0752 17       		.uleb128 0x17
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 66
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 66
 
 
  2265 0753 D2090000 		.4byte	.LASF188
@@ -3911,7 +3911,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2272 0767 9C       		.byte	0x9c
  2273 0768 E2070000 		.4byte	0x7e2
  2274 076c 18       		.uleb128 0x18
- 2275 076d C40D0000 		.4byte	.LASF190
+ 2275 076d 600D0000 		.4byte	.LASF190
  2276 0771 01       		.byte	0x1
  2277 0772 8F01     		.2byte	0x18f
  2278 0774 DA060000 		.4byte	0x6da
@@ -3919,7 +3919,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2280 0779 91       		.byte	0x91
  2281 077a B47F     		.sleb128 -76
  2282 077c 19       		.uleb128 0x19
- 2283 077d 620C0000 		.4byte	.LASF181
+ 2283 077d FE0B0000 		.4byte	.LASF181
  2284 0781 01       		.byte	0x1
  2285 0782 9101     		.2byte	0x191
  2286 0784 4B030000 		.4byte	0x34b
@@ -3927,7 +3927,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2288 0789 91       		.byte	0x91
  2289 078a 6E       		.sleb128 -18
  2290 078b 19       		.uleb128 0x19
- 2291 078c 990F0000 		.4byte	.LASF182
+ 2291 078c 350F0000 		.4byte	.LASF182
  2292 0790 01       		.byte	0x1
  2293 0791 9501     		.2byte	0x195
  2294 0793 E2070000 		.4byte	0x7e2
@@ -3954,18 +3954,18 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2315 07bf 91       		.byte	0x91
  2316 07c0 4C       		.sleb128 -52
  2317 07c1 19       		.uleb128 0x19
- 2318 07c2 54120000 		.4byte	.LASF185
+ 2318 07c2 F0110000 		.4byte	.LASF185
  2319 07c6 01       		.byte	0x1
  2320 07c7 B901     		.2byte	0x1b9
  2321 07c9 64040000 		.4byte	0x464
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 67
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 67
 
 
  2322 07cd 02       		.uleb128 0x2
  2323 07ce 91       		.byte	0x91
  2324 07cf 40       		.sleb128 -64
  2325 07d0 19       		.uleb128 0x19
- 2326 07d1 9C0E0000 		.4byte	.LASF186
+ 2326 07d1 380E0000 		.4byte	.LASF186
  2327 07d5 01       		.byte	0x1
  2328 07d6 BA01     		.2byte	0x1ba
  2329 07d8 77000000 		.4byte	0x77
@@ -3982,7 +3982,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2340 07f0 04       		.byte	0x4
  2341 07f1 00       		.byte	0
  2342 07f2 1B       		.uleb128 0x1b
- 2343 07f3 7F0C0000 		.4byte	.LASF187
+ 2343 07f3 1B0C0000 		.4byte	.LASF187
  2344 07f7 01       		.byte	0x1
  2345 07f8 0902     		.2byte	0x209
  2346 07fa 00000000 		.4byte	.LFB5
@@ -3990,7 +3990,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2348 0802 01       		.uleb128 0x1
  2349 0803 9C       		.byte	0x9c
  2350 0804 17       		.uleb128 0x17
- 2351 0805 4D0D0000 		.4byte	.LASF189
+ 2351 0805 E90C0000 		.4byte	.LASF189
  2352 0809 01       		.byte	0x1
  2353 080a 0503     		.2byte	0x305
  2354 080c 4B030000 		.4byte	0x34b
@@ -4000,7 +4000,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2358 0819 9C       		.byte	0x9c
  2359 081a 3D080000 		.4byte	0x83d
  2360 081e 18       		.uleb128 0x18
- 2361 081f 14100000 		.4byte	.LASF191
+ 2361 081f B00F0000 		.4byte	.LASF191
  2362 0823 01       		.byte	0x1
  2363 0824 0503     		.2byte	0x305
  2364 0826 6B000000 		.4byte	0x6b
@@ -4008,7 +4008,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2366 082b 91       		.byte	0x91
  2367 082c 67       		.sleb128 -25
  2368 082d 19       		.uleb128 0x19
- 2369 082e 620C0000 		.4byte	.LASF181
+ 2369 082e FE0B0000 		.4byte	.LASF181
  2370 0832 01       		.byte	0x1
  2371 0833 0703     		.2byte	0x307
  2372 0835 4B030000 		.4byte	0x34b
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2376 083c 00       		.byte	0
  2377 083d 1B       		.uleb128 0x1b
  2378 083e B7020000 		.4byte	.LASF192
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 68
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 68
 
 
  2379 0842 01       		.byte	0x1
@@ -4028,7 +4028,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2383 084d 01       		.uleb128 0x1
  2384 084e 9C       		.byte	0x9c
  2385 084f 1C       		.uleb128 0x1c
- 2386 0850 610E0000 		.4byte	.LASF204
+ 2386 0850 FD0D0000 		.4byte	.LASF204
  2387 0854 01       		.byte	0x1
  2388 0855 5803     		.2byte	0x358
  2389 0857 00000000 		.4byte	.LFB8
@@ -4045,7 +4045,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2400 0872 91       		.byte	0x91
  2401 0873 6C       		.sleb128 -20
  2402 0874 18       		.uleb128 0x18
- 2403 0875 C40C0000 		.4byte	.LASF193
+ 2403 0875 600C0000 		.4byte	.LASF193
  2404 0879 01       		.byte	0x1
  2405 087a 5803     		.2byte	0x358
  2406 087c 6B000000 		.4byte	0x6b
@@ -4075,10 +4075,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2430 08a6 1E       		.uleb128 0x1e
  2431 08a7 8B030000 		.4byte	0x38b
  2432 08ab 1F       		.uleb128 0x1f
- 2433 08ac 1B0F0000 		.4byte	.LASF224
+ 2433 08ac B70E0000 		.4byte	.LASF224
  2434 08b0 01       		.byte	0x1
  2435 08b1 9704     		.2byte	0x497
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 69
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 69
 
 
  2436 08b3 00000000 		.4byte	.LFB9
@@ -4095,7 +4095,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2447 08ce 91       		.byte	0x91
  2448 08cf 64       		.sleb128 -28
  2449 08d0 18       		.uleb128 0x18
- 2450 08d1 C40C0000 		.4byte	.LASF193
+ 2450 08d1 600C0000 		.4byte	.LASF193
  2451 08d5 01       		.byte	0x1
  2452 08d6 9704     		.2byte	0x497
  2453 08d8 6B000000 		.4byte	0x6b
@@ -4111,7 +4111,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2463 08ea 91       		.byte	0x91
  2464 08eb 77       		.sleb128 -9
  2465 08ec 19       		.uleb128 0x19
- 2466 08ed 7D0E0000 		.4byte	.LASF196
+ 2466 08ed 190E0000 		.4byte	.LASF196
  2467 08f1 01       		.byte	0x1
  2468 08f2 9A04     		.2byte	0x49a
  2469 08f4 6B000000 		.4byte	0x6b
@@ -4119,7 +4119,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2471 08f9 91       		.byte	0x91
  2472 08fa 76       		.sleb128 -10
  2473 08fb 19       		.uleb128 0x19
- 2474 08fc E90F0000 		.4byte	.LASF197
+ 2474 08fc 850F0000 		.4byte	.LASF197
  2475 0900 01       		.byte	0x1
  2476 0901 9B04     		.2byte	0x49b
  2477 0903 6B000000 		.4byte	0x6b
@@ -4127,7 +4127,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2479 0908 91       		.byte	0x91
  2480 0909 75       		.sleb128 -11
  2481 090a 19       		.uleb128 0x19
- 2482 090b 9E110000 		.4byte	.LASF198
+ 2482 090b 3A110000 		.4byte	.LASF198
  2483 090f 01       		.byte	0x1
  2484 0910 9C04     		.2byte	0x49c
  2485 0912 6B000000 		.4byte	0x6b
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2490 091a A7060000 		.4byte	.LASF194
  2491 091e 01       		.byte	0x1
  2492 091f 9D04     		.2byte	0x49d
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 70
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 70
 
 
  2493 0921 F9050000 		.4byte	0x5f9
@@ -4146,7 +4146,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2495 0926 91       		.byte	0x91
  2496 0927 70       		.sleb128 -16
  2497 0928 19       		.uleb128 0x19
- 2498 0929 AD0F0000 		.4byte	.LASF199
+ 2498 0929 490F0000 		.4byte	.LASF199
  2499 092d 01       		.byte	0x1
  2500 092e 9E04     		.2byte	0x49e
  2501 0930 6B000000 		.4byte	0x6b
@@ -4160,7 +4160,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2509 093e 1E       		.uleb128 0x1e
  2510 093f 9D000000 		.4byte	0x9d
  2511 0943 17       		.uleb128 0x17
- 2512 0944 D40B0000 		.4byte	.LASF200
+ 2512 0944 700B0000 		.4byte	.LASF200
  2513 0948 01       		.byte	0x1
  2514 0949 FC04     		.2byte	0x4fc
  2515 094b 4B030000 		.4byte	0x34b
@@ -4178,7 +4178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2527 096a 91       		.byte	0x91
  2528 096b 64       		.sleb128 -28
  2529 096c 19       		.uleb128 0x19
- 2530 096d 620C0000 		.4byte	.LASF181
+ 2530 096d FE0B0000 		.4byte	.LASF181
  2531 0971 01       		.byte	0x1
  2532 0972 FE04     		.2byte	0x4fe
  2533 0974 4B030000 		.4byte	0x34b
@@ -4198,14 +4198,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2547 098d 01       		.byte	0x1
  2548 098e 0005     		.2byte	0x500
  2549 0990 A7090000 		.4byte	0x9a7
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 71
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 71
 
 
  2550 0994 02       		.uleb128 0x2
  2551 0995 91       		.byte	0x91
  2552 0996 70       		.sleb128 -16
  2553 0997 19       		.uleb128 0x19
- 2554 0998 CC0A0000 		.4byte	.LASF201
+ 2554 0998 680A0000 		.4byte	.LASF201
  2555 099c 01       		.byte	0x1
  2556 099d 0105     		.2byte	0x501
  2557 099f 6B000000 		.4byte	0x6b
@@ -4235,7 +4235,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2581 09d4 91       		.byte	0x91
  2582 09d5 64       		.sleb128 -28
  2583 09d6 19       		.uleb128 0x19
- 2584 09d7 620C0000 		.4byte	.LASF181
+ 2584 09d7 FE0B0000 		.4byte	.LASF181
  2585 09db 01       		.byte	0x1
  2586 09dc 4605     		.2byte	0x546
  2587 09de 4B030000 		.4byte	0x34b
@@ -4243,7 +4243,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2589 09e3 91       		.byte	0x91
  2590 09e4 76       		.sleb128 -10
  2591 09e5 19       		.uleb128 0x19
- 2592 09e6 CC0A0000 		.4byte	.LASF201
+ 2592 09e6 680A0000 		.4byte	.LASF201
  2593 09ea 01       		.byte	0x1
  2594 09eb 4705     		.2byte	0x547
  2595 09ed 6B000000 		.4byte	0x6b
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2604 09fe 02       		.uleb128 0x2
  2605 09ff 91       		.byte	0x91
  2606 0a00 75       		.sleb128 -11
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 72
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 72
 
 
  2607 0a01 1D       		.uleb128 0x1d
@@ -4271,7 +4271,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2614 0a0f 70       		.sleb128 -16
  2615 0a10 00       		.byte	0
  2616 0a11 20       		.uleb128 0x20
- 2617 0a12 08140000 		.4byte	.LASF203
+ 2617 0a12 A4130000 		.4byte	.LASF203
  2618 0a16 01       		.byte	0x1
  2619 0a17 7605     		.2byte	0x576
  2620 0a19 77000000 		.4byte	0x77
@@ -4318,13 +4318,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2661 0a73 77000000 		.4byte	0x77
  2662 0a77 02       		.uleb128 0x2
  2663 0a78 91       		.byte	0x91
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 73
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 73
 
 
  2664 0a79 72       		.sleb128 -14
  2665 0a7a 00       		.byte	0
  2666 0a7b 22       		.uleb128 0x22
- 2667 0a7c 080F0000 		.4byte	.LASF207
+ 2667 0a7c A40E0000 		.4byte	.LASF207
  2668 0a80 01       		.byte	0x1
  2669 0a81 89       		.byte	0x89
  2670 0a82 DA060000 		.4byte	0x6da
@@ -4355,12 +4355,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2695 0aba 03       		.byte	0x3
  2696 0abb 00000000 		.4byte	cyBle_stackMemoryRam
  2697 0abf 24       		.uleb128 0x24
- 2698 0ac0 140B0000 		.4byte	.LASF210
+ 2698 0ac0 B00A0000 		.4byte	.LASF210
  2699 0ac4 06       		.byte	0x6
  2700 0ac5 8702     		.2byte	0x287
  2701 0ac7 B0000000 		.4byte	0xb0
  2702 0acb 22       		.uleb128 0x22
- 2703 0acc 60120000 		.4byte	.LASF211
+ 2703 0acc FC110000 		.4byte	.LASF211
  2704 0ad0 01       		.byte	0x1
  2705 0ad1 8A       		.byte	0x8a
  2706 0ad2 8B030000 		.4byte	0x38b
@@ -4368,7 +4368,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2708 0ad7 03       		.byte	0x3
  2709 0ad8 00000000 		.4byte	cyBle_deviceAddress
  2710 0adc 22       		.uleb128 0x22
- 2711 0add E0120000 		.4byte	.LASF212
+ 2711 0add 7C120000 		.4byte	.LASF212
  2712 0ae1 01       		.byte	0x1
  2713 0ae2 8B       		.byte	0x8b
  2714 0ae3 ED0A0000 		.4byte	0xaed
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2718 0aed 0D       		.uleb128 0xd
  2719 0aee 04       		.byte	0x4
  2720 0aef 8B030000 		.4byte	0x38b
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 74
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 74
 
 
  2721 0af3 22       		.uleb128 0x22
@@ -4398,7 +4398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2735 0b10 03       		.byte	0x3
  2736 0b11 00000000 		.4byte	cyBle_discoveryData
  2737 0b15 22       		.uleb128 0x22
- 2738 0b16 74120000 		.4byte	.LASF215
+ 2738 0b16 10120000 		.4byte	.LASF215
  2739 0b1a 01       		.byte	0x1
  2740 0b1b 51       		.byte	0x51
  2741 0b1c 84050000 		.4byte	0x584
@@ -4406,7 +4406,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2743 0b21 03       		.byte	0x3
  2744 0b22 00000000 		.4byte	cyBle_scanRspData
  2745 0b26 22       		.uleb128 0x22
- 2746 0b27 740B0000 		.4byte	.LASF216
+ 2746 0b27 100B0000 		.4byte	.LASF216
  2747 0b2b 01       		.byte	0x1
  2748 0b2c 61       		.byte	0x61
  2749 0b2d ED050000 		.4byte	0x5ed
@@ -4421,7 +4421,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2758 0b45 14       		.byte	0x14
  2759 0b46 00       		.byte	0
  2760 0b47 25       		.uleb128 0x25
- 2761 0b48 B70F0000 		.4byte	.LASF217
+ 2761 0b48 530F0000 		.4byte	.LASF217
  2762 0b4c 08       		.byte	0x8
  2763 0b4d E8       		.byte	0xe8
  2764 0b4e 520B0000 		.4byte	0xb52
@@ -4438,10 +4438,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2775 0b69 DC09     		.2byte	0x9dc
  2776 0b6b B0000000 		.4byte	0xb0
  2777 0b6f 24       		.uleb128 0x24
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 75
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 75
 
 
- 2778 0b70 2F0D0000 		.4byte	.LASF220
+ 2778 0b70 CB0C0000 		.4byte	.LASF220
  2779 0b74 07       		.byte	0x7
  2780 0b75 DF09     		.2byte	0x9df
  2781 0b77 6B000000 		.4byte	0x6b
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2832 002f 0B       		.uleb128 0xb
  2833 0030 3B       		.uleb128 0x3b
  2834 0031 05       		.uleb128 0x5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 76
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 76
 
 
  2835 0032 49       		.uleb128 0x49
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2889 0068 0D       		.uleb128 0xd
  2890 0069 00       		.byte	0
  2891 006a 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 77
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 77
 
 
  2892 006b 0E       		.uleb128 0xe
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  2946 00a1 03       		.uleb128 0x3
  2947 00a2 0E       		.uleb128 0xe
  2948 00a3 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 78
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 78
 
 
  2949 00a4 0B       		.uleb128 0xb
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3003 00da 0B       		.uleb128 0xb
  3004 00db 3B       		.uleb128 0x3b
  3005 00dc 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 79
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 79
 
 
  3006 00dd 49       		.uleb128 0x49
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3060 0114 27       		.uleb128 0x27
  3061 0115 19       		.uleb128 0x19
  3062 0116 49       		.uleb128 0x49
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 80
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 80
 
 
  3063 0117 13       		.uleb128 0x13
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3117 014e 00       		.byte	0
  3118 014f 3F       		.uleb128 0x3f
  3119 0150 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 81
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 81
 
 
  3120 0151 03       		.uleb128 0x3
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3174 0189 02       		.uleb128 0x2
  3175 018a 18       		.uleb128 0x18
  3176 018b 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 82
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 82
 
 
  3177 018c 00       		.byte	0
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3231 01c4 01       		.uleb128 0x1
  3232 01c5 13       		.uleb128 0x13
  3233 01c6 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 83
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 83
 
 
  3234 01c7 00       		.byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3288 01fd 19       		.uleb128 0x19
  3289 01fe 3C       		.uleb128 0x3c
  3290 01ff 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 84
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 84
 
 
  3291 0200 00       		.byte	0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3345              		.section	.debug_ranges,"",%progbits
  3346              	.Ldebug_ranges0:
  3347 0000 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 85
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 85
 
 
  3348 0004 2C000000 		.4byte	.LFE2
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3383      4341505F 
  3383      43424643 
  3384              	.LASF213:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 86
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 86
 
 
  3385 0072 6379426C 		.ascii	"cyBle_discoveryParam\000"
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3403      50505F43 
  3403      4F4E4E45 
  3403      43544142 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 87
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 87
 
 
  3404              	.LASF39:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3423      57415245 
  3424              	.LASF127:
  3425 0296 4359424C 		.ascii	"CYBLE_PRIVACY_1_2_CONFIG_PARAM_T\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 88
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 88
 
 
  3425      455F5052 
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3443      43544142 
  3444              	.LASF118:
  3445 03a2 4359424C 		.ascii	"CYBLE_GAP_BD_ADDR_T\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 89
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 89
 
 
  3445      455F4741 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3463      4F4E00
  3464              	.LASF103:
  3465 049f 4359424C 		.ascii	"CYBLE_ERROR_DEVICE_ALREADY_EXISTS\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 90
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 90
 
 
  3465      455F4552 
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3485      4154455F 
  3485      44495343 
  3485      4F4E4E45 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 91
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 91
 
 
  3486              	.LASF30:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3509 067e 4359424C 		.ascii	"CYBLE_GATTS_ATT_VALUE_T\000"
  3509      455F4741 
  3509      5454535F 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 92
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 92
 
 
  3509      4154545F 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3532              	.LASF206:
  3533 075d 76616C75 		.ascii	"value\000"
  3533      6500
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 93
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 93
 
 
  3534              	.LASF68:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3552              	.LASF65:
  3553 086a 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
  3553      455F4556 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 94
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 94
 
 
  3553      545F4741 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3573      69745661 
  3573      7200
  3574              	.LASF26:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 95
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 95
 
 
  3575 0952 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
@@ -5698,677 +5698,677 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 1
  3595      545F4741 
  3595      505F5041 
  3595      53534B45 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 96
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 96
 
 
- 3596              	.LASF223:
- 3597 0a33 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
- 3597      73657273 
- 3597      5C4E616B 
- 3597      696F5C45 
- 3597      6C656374 
- 3598 0a61 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
- 3598      6E5F5053 
- 3598      6F433432 
- 3598      30305C50 
- 3598      536F435F 
- 3599 0a92 7964736E 		.ascii	"ydsn\000"
- 3599      00
- 3600              	.LASF45:
- 3601 0a97 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
- 3601      455F4556 
- 3601      545F4741 
- 3601      54545F43 
- 3601      4F4E4E45 
- 3602              	.LASF121:
- 3603 0ab2 4359424C 		.ascii	"CYBLE_STK_APP_DATA_BUFF_T\000"
- 3603      455F5354 
- 3603      4B5F4150 
- 3603      505F4441 
- 3603      54415F42 
- 3604              	.LASF201:
- 3605 0acc 63686172 		.ascii	"charLen\000"
- 3605      4C656E00 
- 3606              	.LASF71:
- 3607 0ad4 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
- 3607      455F4556 
- 3607      545F4C32 
- 3607      4341505F 
- 3607      434F4D4D 
- 3608              	.LASF24:
- 3609 0af0 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
- 3609      455F4556 
- 3609      545F4741 
- 3609      50435F53 
- 3609      43414E5F 
- 3610              	.LASF210:
- 3611 0b14 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
- 3611      655F6576 
- 3611      656E7448 
- 3611      616E646C 
- 3611      6572466C 
- 3612              	.LASF110:
- 3613 0b2b 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
- 3613      455F4552 
- 3613      524F525F 
- 3613      4D415800 
- 3614              	.LASF108:
- 3615 0b3b 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE\000"
- 3615      455F4552 
- 3615      524F525F 
- 3615      464C4153 
- 3615      485F5752 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 97
+ 3596              	.LASF45:
+ 3597 0a33 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 3597      455F4556 
+ 3597      545F4741 
+ 3597      54545F43 
+ 3597      4F4E4E45 
+ 3598              	.LASF121:
+ 3599 0a4e 4359424C 		.ascii	"CYBLE_STK_APP_DATA_BUFF_T\000"
+ 3599      455F5354 
+ 3599      4B5F4150 
+ 3599      505F4441 
+ 3599      54415F42 
+ 3600              	.LASF201:
+ 3601 0a68 63686172 		.ascii	"charLen\000"
+ 3601      4C656E00 
+ 3602              	.LASF71:
+ 3603 0a70 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 3603      455F4556 
+ 3603      545F4C32 
+ 3603      4341505F 
+ 3603      434F4D4D 
+ 3604              	.LASF24:
+ 3605 0a8c 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 3605      455F4556 
+ 3605      545F4741 
+ 3605      50435F53 
+ 3605      43414E5F 
+ 3606              	.LASF210:
+ 3607 0ab0 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
+ 3607      655F6576 
+ 3607      656E7448 
+ 3607      616E646C 
+ 3607      6572466C 
+ 3608              	.LASF110:
+ 3609 0ac7 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
+ 3609      455F4552 
+ 3609      524F525F 
+ 3609      4D415800 
+ 3610              	.LASF108:
+ 3611 0ad7 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE\000"
+ 3611      455F4552 
+ 3611      524F525F 
+ 3611      464C4153 
+ 3611      485F5752 
+ 3612              	.LASF50:
+ 3613 0aef 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 3613      455F4556 
+ 3613      545F4741 
+ 3613      5454435F 
+ 3613      52454144 
+ 3614              	.LASF216:
+ 3615 0b10 6379426C 		.ascii	"cyBle_discoveryModeInfo\000"
+ 3615      655F6469 
+ 3615      73636F76 
+ 3615      6572794D 
+ 3615      6F646549 
+ 3616              	.LASF16:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 97
 
 
- 3616              	.LASF50:
- 3617 0b53 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
- 3617      455F4556 
- 3617      545F4741 
- 3617      5454435F 
- 3617      52454144 
- 3618              	.LASF216:
- 3619 0b74 6379426C 		.ascii	"cyBle_discoveryModeInfo\000"
- 3619      655F6469 
- 3619      73636F76 
- 3619      6572794D 
- 3619      6F646549 
- 3620              	.LASF16:
- 3621 0b8c 73697A65 		.ascii	"sizetype\000"
- 3621      74797065 
- 3621      00
- 3622              	.LASF174:
- 3623 0b95 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
- 3623      455F5354 
- 3623      4154455F 
- 3623      494E4954 
- 3623      49414C49 
- 3624              	.LASF141:
- 3625 0bae 6F776E41 		.ascii	"ownAddrType\000"
- 3625      64647254 
- 3625      79706500 
- 3626              	.LASF29:
- 3627 0bba 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 3617 0b28 73697A65 		.ascii	"sizetype\000"
+ 3617      74797065 
+ 3617      00
+ 3618              	.LASF174:
+ 3619 0b31 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
+ 3619      455F5354 
+ 3619      4154455F 
+ 3619      494E4954 
+ 3619      49414C49 
+ 3620              	.LASF141:
+ 3621 0b4a 6F776E41 		.ascii	"ownAddrType\000"
+ 3621      64647254 
+ 3621      79706500 
+ 3622              	.LASF29:
+ 3623 0b56 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 3623      455F4556 
+ 3623      545F4741 
+ 3623      505F4155 
+ 3623      54485F46 
+ 3624              	.LASF200:
+ 3625 0b70 4379426C 		.ascii	"CyBle_GapSetLocalName\000"
+ 3625      655F4761 
+ 3625      70536574 
+ 3625      4C6F6361 
+ 3625      6C4E616D 
+ 3626              	.LASF57:
+ 3627 0b86 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
  3627      455F4556 
  3627      545F4741 
- 3627      505F4155 
- 3627      54485F46 
- 3628              	.LASF200:
- 3629 0bd4 4379426C 		.ascii	"CyBle_GapSetLocalName\000"
- 3629      655F4761 
- 3629      70536574 
- 3629      4C6F6361 
- 3629      6C4E616D 
- 3630              	.LASF57:
- 3631 0bea 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 3627      5454435F 
+ 3627      57524954 
+ 3628              	.LASF42:
+ 3629 0ba0 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 3629      455F4556 
+ 3629      545F4741 
+ 3629      50435F44 
+ 3629      49524543 
+ 3630              	.LASF40:
+ 3631 0bc1 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
  3631      455F4556 
  3631      545F4741 
- 3631      5454435F 
- 3631      57524954 
- 3632              	.LASF42:
- 3633 0c04 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 3631      505F4441 
+ 3631      54415F4C 
+ 3632              	.LASF28:
+ 3633 0be2 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
  3633      455F4556 
  3633      545F4741 
- 3633      50435F44 
- 3633      49524543 
- 3634              	.LASF40:
- 3635 0c25 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
- 3635      455F4556 
- 3635      545F4741 
- 3635      505F4441 
- 3635      54415F4C 
- 3636              	.LASF28:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 98
+ 3633      505F4155 
+ 3633      54485F43 
+ 3634              	.LASF181:
+ 3635 0bfe 61706952 		.ascii	"apiResult\000"
+ 3635      6573756C 
+ 3635      7400
+ 3636              	.LASF115:
+ 3637 0c08 4359424C 		.ascii	"CYBLE_API_RESULT_T\000"
+ 3637      455F4150 
+ 3637      495F5245 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 98
 
 
- 3637 0c46 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
- 3637      455F4556 
- 3637      545F4741 
- 3637      505F4155 
- 3637      54485F43 
- 3638              	.LASF181:
- 3639 0c62 61706952 		.ascii	"apiResult\000"
- 3639      6573756C 
- 3639      7400
- 3640              	.LASF115:
- 3641 0c6c 4359424C 		.ascii	"CYBLE_API_RESULT_T\000"
- 3641      455F4150 
- 3641      495F5245 
- 3641      53554C54 
- 3641      5F5400
- 3642              	.LASF187:
- 3643 0c7f 4379426C 		.ascii	"CyBle_Stop\000"
- 3643      655F5374 
- 3643      6F7000
- 3644              	.LASF62:
- 3645 0c8a 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
- 3645      455F4556 
- 3645      545F4741 
- 3645      5454435F 
- 3645      48414E44 
- 3646              	.LASF112:
- 3647 0cab 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
- 3647      455F4552 
- 3647      524F525F 
- 3647      494E445F 
- 3647      44495341 
- 3648              	.LASF193:
- 3649 0cc4 64657374 		.ascii	"dest\000"
- 3649      00
- 3650              	.LASF164:
- 3651 0cc9 61747456 		.ascii	"attValueUuid\000"
- 3651      616C7565 
- 3651      55756964 
- 3651      00
- 3652              	.LASF158:
- 3653 0cd6 61747447 		.ascii	"attGenericVal\000"
- 3653      656E6572 
- 3653      69635661 
- 3653      6C00
- 3654              	.LASF73:
- 3655 0ce4 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
- 3655      455F4556 
- 3655      545F4C32 
- 3655      4341505F 
- 3655      43424643 
- 3656              	.LASF49:
- 3657 0d02 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
- 3657      455F4556 
- 3657      545F4741 
- 3657      5454435F 
- 3657      52454144 
- 3658              	.LASF12:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 99
+ 3637      53554C54 
+ 3637      5F5400
+ 3638              	.LASF187:
+ 3639 0c1b 4379426C 		.ascii	"CyBle_Stop\000"
+ 3639      655F5374 
+ 3639      6F7000
+ 3640              	.LASF62:
+ 3641 0c26 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 3641      455F4556 
+ 3641      545F4741 
+ 3641      5454435F 
+ 3641      48414E44 
+ 3642              	.LASF112:
+ 3643 0c47 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
+ 3643      455F4552 
+ 3643      524F525F 
+ 3643      494E445F 
+ 3643      44495341 
+ 3644              	.LASF193:
+ 3645 0c60 64657374 		.ascii	"dest\000"
+ 3645      00
+ 3646              	.LASF164:
+ 3647 0c65 61747456 		.ascii	"attValueUuid\000"
+ 3647      616C7565 
+ 3647      55756964 
+ 3647      00
+ 3648              	.LASF158:
+ 3649 0c72 61747447 		.ascii	"attGenericVal\000"
+ 3649      656E6572 
+ 3649      69635661 
+ 3649      6C00
+ 3650              	.LASF73:
+ 3651 0c80 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 3651      455F4556 
+ 3651      545F4C32 
+ 3651      4341505F 
+ 3651      43424643 
+ 3652              	.LASF49:
+ 3653 0c9e 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 3653      455F4556 
+ 3653      545F4741 
+ 3653      5454435F 
+ 3653      52454144 
+ 3654              	.LASF12:
+ 3655 0cc5 666C6F61 		.ascii	"float\000"
+ 3655      7400
+ 3656              	.LASF220:
+ 3657 0ccb 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
+ 3657      655F6164 
+ 3657      76657274 
+ 3657      6973696E 
+ 3657      67496E74 
+ 3658              	.LASF189:
+ 3659 0ce9 4379426C 		.ascii	"CyBle_GappStartAdvertisement\000"
+ 3659      655F4761 
+ 3659      70705374 
+ 3659      61727441 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 99
 
 
- 3659 0d29 666C6F61 		.ascii	"float\000"
- 3659      7400
- 3660              	.LASF220:
- 3661 0d2f 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
- 3661      655F6164 
- 3661      76657274 
- 3661      6973696E 
- 3661      67496E74 
- 3662              	.LASF189:
- 3663 0d4d 4379426C 		.ascii	"CyBle_GappStartAdvertisement\000"
- 3663      655F4761 
- 3663      70705374 
- 3663      61727441 
- 3663      64766572 
- 3664              	.LASF142:
- 3665 0d6a 64697265 		.ascii	"directAddrType\000"
- 3665      63744164 
- 3665      64725479 
- 3665      706500
- 3666              	.LASF72:
- 3667 0d79 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
- 3667      455F4556 
- 3667      545F4C32 
- 3667      4341505F 
- 3667      43424643 
- 3668              	.LASF123:
- 3669 0d97 646C654D 		.ascii	"dleMaxRxCapability\000"
- 3669      61785278 
- 3669      43617061 
- 3669      62696C69 
- 3669      747900
- 3670              	.LASF93:
- 3671 0daa 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
- 3671      455F4552 
- 3671      524F525F 
- 3671      54585F50 
- 3671      4F574552 
- 3672              	.LASF190:
- 3673 0dc4 63616C6C 		.ascii	"callbackFunc\000"
- 3673      6261636B 
- 3673      46756E63 
- 3673      00
- 3674              	.LASF170:
- 3675 0dd1 61747456 		.ascii	"attValue\000"
- 3675      616C7565 
- 3675      00
- 3676              	.LASF1:
- 3677 0dda 756E7369 		.ascii	"unsigned char\000"
- 3677      676E6564 
- 3677      20636861 
- 3677      7200
- 3678              	.LASF10:
- 3679 0de8 75696E74 		.ascii	"uint16\000"
- 3679      313600
- 3680              	.LASF38:
- 3681 0def 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
- 3681      455F4556 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 100
+ 3659      64766572 
+ 3660              	.LASF142:
+ 3661 0d06 64697265 		.ascii	"directAddrType\000"
+ 3661      63744164 
+ 3661      64725479 
+ 3661      706500
+ 3662              	.LASF72:
+ 3663 0d15 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ 3663      455F4556 
+ 3663      545F4C32 
+ 3663      4341505F 
+ 3663      43424643 
+ 3664              	.LASF123:
+ 3665 0d33 646C654D 		.ascii	"dleMaxRxCapability\000"
+ 3665      61785278 
+ 3665      43617061 
+ 3665      62696C69 
+ 3665      747900
+ 3666              	.LASF93:
+ 3667 0d46 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
+ 3667      455F4552 
+ 3667      524F525F 
+ 3667      54585F50 
+ 3667      4F574552 
+ 3668              	.LASF190:
+ 3669 0d60 63616C6C 		.ascii	"callbackFunc\000"
+ 3669      6261636B 
+ 3669      46756E63 
+ 3669      00
+ 3670              	.LASF170:
+ 3671 0d6d 61747456 		.ascii	"attValue\000"
+ 3671      616C7565 
+ 3671      00
+ 3672              	.LASF1:
+ 3673 0d76 756E7369 		.ascii	"unsigned char\000"
+ 3673      676E6564 
+ 3673      20636861 
+ 3673      7200
+ 3674              	.LASF10:
+ 3675 0d84 75696E74 		.ascii	"uint16\000"
+ 3675      313600
+ 3676              	.LASF38:
+ 3677 0d8b 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
+ 3677      455F4556 
+ 3677      545F4741 
+ 3677      505F4B45 
+ 3677      59505245 
+ 3678              	.LASF113:
+ 3679 0daf 4359424C 		.ascii	"CYBLE_ERROR_CHAR_IS_NOT_DISCOVERED\000"
+ 3679      455F4552 
+ 3679      524F525F 
+ 3679      43484152 
+ 3679      5F49535F 
+ 3680              	.LASF2:
+ 3681 0dd2 73686F72 		.ascii	"short int\000"
+ 3681      7420696E 
+ 3681      7400
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 100
 
 
- 3681      545F4741 
- 3681      505F4B45 
- 3681      59505245 
- 3682              	.LASF113:
- 3683 0e13 4359424C 		.ascii	"CYBLE_ERROR_CHAR_IS_NOT_DISCOVERED\000"
- 3683      455F4552 
- 3683      524F525F 
- 3683      43484152 
- 3683      5F49535F 
- 3684              	.LASF2:
- 3685 0e36 73686F72 		.ascii	"short int\000"
- 3685      7420696E 
- 3685      7400
- 3686              	.LASF63:
- 3687 0e40 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
- 3687      455F4556 
- 3687      545F4741 
- 3687      5454435F 
- 3687      48414E44 
- 3688              	.LASF204:
- 3689 0e61 4379426C 		.ascii	"CyBle_ChangeAdDeviceAddress\000"
- 3689      655F4368 
- 3689      616E6765 
- 3689      41644465 
- 3689      76696365 
- 3690              	.LASF196:
- 3691 0e7d 666C6167 		.ascii	"flag\000"
- 3691      00
- 3692              	.LASF89:
- 3693 0e82 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
- 3693      455F4552 
- 3693      524F525F 
- 3693      4E4F5F43 
- 3693      4F4E4E45 
- 3694              	.LASF186:
- 3695 0e9c 66656174 		.ascii	"featureHeapReq\000"
- 3695      75726548 
- 3695      65617052 
- 3695      657100
- 3696              	.LASF59:
- 3697 0eab 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
- 3697      455F4556 
- 3697      545F4741 
- 3697      5454535F 
- 3697      50524550 
- 3698              	.LASF138:
- 3699 0eca 61647649 		.ascii	"advIntvMin\000"
- 3699      6E74764D 
- 3699      696E00
- 3700              	.LASF136:
- 3701 0ed5 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_LOW_DC_DIRECTED_ADV\000"
- 3701      455F4741 
- 3701      50505F43 
- 3701      4F4E4E45 
- 3701      43544142 
- 3702              	.LASF147:
- 3703 0f00 61647644 		.ascii	"advData\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 101
+ 3682              	.LASF63:
+ 3683 0ddc 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 3683      455F4556 
+ 3683      545F4741 
+ 3683      5454435F 
+ 3683      48414E44 
+ 3684              	.LASF204:
+ 3685 0dfd 4379426C 		.ascii	"CyBle_ChangeAdDeviceAddress\000"
+ 3685      655F4368 
+ 3685      616E6765 
+ 3685      41644465 
+ 3685      76696365 
+ 3686              	.LASF196:
+ 3687 0e19 666C6167 		.ascii	"flag\000"
+ 3687      00
+ 3688              	.LASF89:
+ 3689 0e1e 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
+ 3689      455F4552 
+ 3689      524F525F 
+ 3689      4E4F5F43 
+ 3689      4F4E4E45 
+ 3690              	.LASF186:
+ 3691 0e38 66656174 		.ascii	"featureHeapReq\000"
+ 3691      75726548 
+ 3691      65617052 
+ 3691      657100
+ 3692              	.LASF59:
+ 3693 0e47 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 3693      455F4556 
+ 3693      545F4741 
+ 3693      5454535F 
+ 3693      50524550 
+ 3694              	.LASF138:
+ 3695 0e66 61647649 		.ascii	"advIntvMin\000"
+ 3695      6E74764D 
+ 3695      696E00
+ 3696              	.LASF136:
+ 3697 0e71 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_LOW_DC_DIRECTED_ADV\000"
+ 3697      455F4741 
+ 3697      50505F43 
+ 3697      4F4E4E45 
+ 3697      43544142 
+ 3698              	.LASF147:
+ 3699 0e9c 61647644 		.ascii	"advData\000"
+ 3699      61746100 
+ 3700              	.LASF207:
+ 3701 0ea4 4379426C 		.ascii	"CyBle_ApplCallback\000"
+ 3701      655F4170 
+ 3701      706C4361 
+ 3701      6C6C6261 
+ 3701      636B00
+ 3702              	.LASF224:
+ 3703 0eb7 4379426C 		.ascii	"CyBle_ChangeAdLocalName\000"
+ 3703      655F4368 
+ 3703      616E6765 
+ 3703      41644C6F 
+ 3703      63616C4E 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 101
 
 
- 3703      61746100 
- 3704              	.LASF207:
- 3705 0f08 4379426C 		.ascii	"CyBle_ApplCallback\000"
- 3705      655F4170 
- 3705      706C4361 
- 3705      6C6C6261 
- 3705      636B00
- 3706              	.LASF224:
- 3707 0f1b 4379426C 		.ascii	"CyBle_ChangeAdLocalName\000"
- 3707      655F4368 
- 3707      616E6765 
- 3707      41644C6F 
- 3707      63616C4E 
- 3708              	.LASF64:
- 3709 0f33 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 3704              	.LASF64:
+ 3705 0ecf 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 3705      455F4556 
+ 3705      545F4741 
+ 3705      5454535F 
+ 3705      48414E44 
+ 3706              	.LASF91:
+ 3707 0ef0 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
+ 3707      455F4552 
+ 3707      524F525F 
+ 3707      52455045 
+ 3707      41544544 
+ 3708              	.LASF43:
+ 3709 0f0e 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
  3709      455F4556 
  3709      545F4741 
- 3709      5454535F 
- 3709      48414E44 
- 3710              	.LASF91:
- 3711 0f54 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
- 3711      455F4552 
- 3711      524F525F 
- 3711      52455045 
- 3711      41544544 
- 3712              	.LASF43:
- 3713 0f72 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
- 3713      455F4556 
- 3713      545F4741 
- 3713      505F534D 
- 3713      505F4E45 
- 3714              	.LASF182:
- 3715 0f99 6379426C 		.ascii	"cyBle_stackDataBuff\000"
- 3715      655F7374 
- 3715      61636B44 
- 3715      61746142 
- 3715      75666600 
- 3716              	.LASF199:
- 3717 0fad 6D61784C 		.ascii	"maxLength\000"
- 3717      656E6774 
- 3717      6800
- 3718              	.LASF217:
- 3719 0fb7 6379426C 		.ascii	"cyBle_gattDB\000"
- 3719      655F6761 
- 3719      74744442 
- 3719      00
- 3720              	.LASF15:
- 3721 0fc4 63686172 		.ascii	"char\000"
+ 3709      505F534D 
+ 3709      505F4E45 
+ 3710              	.LASF182:
+ 3711 0f35 6379426C 		.ascii	"cyBle_stackDataBuff\000"
+ 3711      655F7374 
+ 3711      61636B44 
+ 3711      61746142 
+ 3711      75666600 
+ 3712              	.LASF199:
+ 3713 0f49 6D61784C 		.ascii	"maxLength\000"
+ 3713      656E6774 
+ 3713      6800
+ 3714              	.LASF217:
+ 3715 0f53 6379426C 		.ascii	"cyBle_gattDB\000"
+ 3715      655F6761 
+ 3715      74744442 
+ 3715      00
+ 3716              	.LASF15:
+ 3717 0f60 63686172 		.ascii	"char\000"
+ 3717      00
+ 3718              	.LASF94:
+ 3719 0f65 4359424C 		.ascii	"CYBLE_ERROR_BT_ON_NOT_COMPLETED\000"
+ 3719      455F4552 
+ 3719      524F525F 
+ 3719      42545F4F 
+ 3719      4E5F4E4F 
+ 3720              	.LASF197:
+ 3721 0f85 61644C65 		.ascii	"adLength\000"
+ 3721      6E677468 
  3721      00
- 3722              	.LASF94:
- 3723 0fc9 4359424C 		.ascii	"CYBLE_ERROR_BT_ON_NOT_COMPLETED\000"
- 3723      455F4552 
- 3723      524F525F 
- 3723      42545F4F 
- 3723      4E5F4E4F 
- 3724              	.LASF197:
- 3725 0fe9 61644C65 		.ascii	"adLength\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 102
+ 3722              	.LASF32:
+ 3723 0f8e 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 3723      455F4556 
+ 3723      545F4741 
+ 3723      505F4445 
+ 3723      56494345 
+ 3724              	.LASF191:
+ 3725 0fb0 61647665 		.ascii	"advertisingIntervalType\000"
+ 3725      72746973 
+ 3725      696E6749 
+ 3725      6E746572 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 102
 
 
- 3725      6E677468 
- 3725      00
- 3726              	.LASF32:
- 3727 0ff2 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
- 3727      455F4556 
- 3727      545F4741 
- 3727      505F4445 
- 3727      56494345 
- 3728              	.LASF191:
- 3729 1014 61647665 		.ascii	"advertisingIntervalType\000"
- 3729      72746973 
- 3729      696E6749 
- 3729      6E746572 
- 3729      76616C54 
- 3730              	.LASF8:
- 3731 102c 756E7369 		.ascii	"unsigned int\000"
- 3731      676E6564 
- 3731      20696E74 
- 3731      00
- 3732              	.LASF169:
- 3733 1039 61747445 		.ascii	"attEndHandle\000"
- 3733      6E644861 
- 3733      6E646C65 
- 3733      00
- 3734              	.LASF67:
- 3735 1046 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
- 3735      455F4556 
- 3735      545F4741 
- 3735      5454535F 
- 3735      52454144 
- 3736              	.LASF119:
- 3737 106f 62756666 		.ascii	"bufferSize\000"
- 3737      65725369 
- 3737      7A6500
- 3738              	.LASF146:
- 3739 107a 4359424C 		.ascii	"CYBLE_GAPP_DISC_PARAM_T\000"
- 3739      455F4741 
- 3739      50505F44 
- 3739      4953435F 
- 3739      50415241 
- 3740              	.LASF14:
- 3741 1092 63686172 		.ascii	"char8\000"
- 3741      3800
- 3742              	.LASF104:
- 3743 1098 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
- 3743      455F4552 
- 3743      524F525F 
- 3743      464C4153 
- 3743      485F5752 
- 3744              	.LASF99:
- 3745 10bd 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CONNECTION_ENTITY_NOT_FOUND\000"
- 3745      455F4552 
- 3745      524F525F 
- 3745      4C324341 
- 3745      505F434F 
- 3746              	.LASF131:
- 3747 10eb 4359424C 		.ascii	"CYBLE_STACK_CONFIG_PARAM_T\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 103
+ 3725      76616C54 
+ 3726              	.LASF8:
+ 3727 0fc8 756E7369 		.ascii	"unsigned int\000"
+ 3727      676E6564 
+ 3727      20696E74 
+ 3727      00
+ 3728              	.LASF169:
+ 3729 0fd5 61747445 		.ascii	"attEndHandle\000"
+ 3729      6E644861 
+ 3729      6E646C65 
+ 3729      00
+ 3730              	.LASF67:
+ 3731 0fe2 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 3731      455F4556 
+ 3731      545F4741 
+ 3731      5454535F 
+ 3731      52454144 
+ 3732              	.LASF119:
+ 3733 100b 62756666 		.ascii	"bufferSize\000"
+ 3733      65725369 
+ 3733      7A6500
+ 3734              	.LASF146:
+ 3735 1016 4359424C 		.ascii	"CYBLE_GAPP_DISC_PARAM_T\000"
+ 3735      455F4741 
+ 3735      50505F44 
+ 3735      4953435F 
+ 3735      50415241 
+ 3736              	.LASF14:
+ 3737 102e 63686172 		.ascii	"char8\000"
+ 3737      3800
+ 3738              	.LASF104:
+ 3739 1034 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
+ 3739      455F4552 
+ 3739      524F525F 
+ 3739      464C4153 
+ 3739      485F5752 
+ 3740              	.LASF99:
+ 3741 1059 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CONNECTION_ENTITY_NOT_FOUND\000"
+ 3741      455F4552 
+ 3741      524F525F 
+ 3741      4C324341 
+ 3741      505F434F 
+ 3742              	.LASF131:
+ 3743 1087 4359424C 		.ascii	"CYBLE_STACK_CONFIG_PARAM_T\000"
+ 3743      455F5354 
+ 3743      41434B5F 
+ 3743      434F4E46 
+ 3743      49475F50 
+ 3744              	.LASF20:
+ 3745 10a2 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 3745      455F4556 
+ 3745      545F4841 
+ 3745      52445741 
+ 3745      52455F45 
+ 3746              	.LASF3:
+ 3747 10bb 73686F72 		.ascii	"short unsigned int\000"
+ 3747      7420756E 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 103
 
 
- 3747      455F5354 
- 3747      41434B5F 
- 3747      434F4E46 
- 3747      49475F50 
- 3748              	.LASF20:
- 3749 1106 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
- 3749      455F4556 
- 3749      545F4841 
- 3749      52445741 
- 3749      52455F45 
- 3750              	.LASF3:
- 3751 111f 73686F72 		.ascii	"short unsigned int\000"
- 3751      7420756E 
- 3751      7369676E 
- 3751      65642069 
- 3751      6E7400
- 3752              	.LASF171:
- 3753 1132 4359424C 		.ascii	"CYBLE_GATTS_DB_T\000"
- 3753      455F4741 
- 3753      5454535F 
- 3753      44425F54 
- 3753      00
- 3754              	.LASF85:
- 3755 1143 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
- 3755      455F4552 
- 3755      524F525F 
- 3755      494E5641 
- 3755      4C49445F 
- 3756              	.LASF129:
- 3757 1161 70726976 		.ascii	"privacyConfig\000"
- 3757      61637943 
- 3757      6F6E6669 
- 3757      6700
- 3758              	.LASF172:
- 3759 116f 4359424C 		.ascii	"CYBLE_CALLBACK_T\000"
- 3759      455F4341 
- 3759      4C4C4241 
- 3759      434B5F54 
- 3759      00
- 3760              	.LASF159:
- 3761 1180 4359424C 		.ascii	"CYBLE_GATTS_ATT_GEN_VAL_LEN_T\000"
+ 3747      7369676E 
+ 3747      65642069 
+ 3747      6E7400
+ 3748              	.LASF171:
+ 3749 10ce 4359424C 		.ascii	"CYBLE_GATTS_DB_T\000"
+ 3749      455F4741 
+ 3749      5454535F 
+ 3749      44425F54 
+ 3749      00
+ 3750              	.LASF85:
+ 3751 10df 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
+ 3751      455F4552 
+ 3751      524F525F 
+ 3751      494E5641 
+ 3751      4C49445F 
+ 3752              	.LASF129:
+ 3753 10fd 70726976 		.ascii	"privacyConfig\000"
+ 3753      61637943 
+ 3753      6F6E6669 
+ 3753      6700
+ 3754              	.LASF172:
+ 3755 110b 4359424C 		.ascii	"CYBLE_CALLBACK_T\000"
+ 3755      455F4341 
+ 3755      4C4C4241 
+ 3755      434B5F54 
+ 3755      00
+ 3756              	.LASF159:
+ 3757 111c 4359424C 		.ascii	"CYBLE_GATTS_ATT_GEN_VAL_LEN_T\000"
+ 3757      455F4741 
+ 3757      5454535F 
+ 3757      4154545F 
+ 3757      47454E5F 
+ 3758              	.LASF198:
+ 3759 113a 62797465 		.ascii	"byteCounter\000"
+ 3759      436F756E 
+ 3759      74657200 
+ 3760              	.LASF156:
+ 3761 1146 4359424C 		.ascii	"CYBLE_GAPP_DISC_MODE_INFO_T\000"
  3761      455F4741 
- 3761      5454535F 
- 3761      4154545F 
- 3761      47454E5F 
- 3762              	.LASF198:
- 3763 119e 62797465 		.ascii	"byteCounter\000"
- 3763      436F756E 
- 3763      74657200 
- 3764              	.LASF156:
- 3765 11aa 4359424C 		.ascii	"CYBLE_GAPP_DISC_MODE_INFO_T\000"
+ 3761      50505F44 
+ 3761      4953435F 
+ 3761      4D4F4445 
+ 3762              	.LASF154:
+ 3763 1162 61647650 		.ascii	"advParam\000"
+ 3763      6172616D 
+ 3763      00
+ 3764              	.LASF137:
+ 3765 116b 4359424C 		.ascii	"CYBLE_GAPP_ADV_T\000"
  3765      455F4741 
- 3765      50505F44 
- 3765      4953435F 
- 3765      4D4F4445 
- 3766              	.LASF154:
- 3767 11c6 61647650 		.ascii	"advParam\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 104
-
-
- 3767      6172616D 
+ 3765      50505F41 
+ 3765      44565F54 
+ 3765      00
+ 3766              	.LASF130:
+ 3767 117c 66656174 		.ascii	"feature_mask\000"
+ 3767      7572655F 
+ 3767      6D61736B 
  3767      00
- 3768              	.LASF137:
- 3769 11cf 4359424C 		.ascii	"CYBLE_GAPP_ADV_T\000"
- 3769      455F4741 
- 3769      50505F41 
- 3769      44565F54 
- 3769      00
- 3770              	.LASF130:
- 3771 11e0 66656174 		.ascii	"feature_mask\000"
- 3771      7572655F 
- 3771      6D61736B 
- 3771      00
- 3772              	.LASF178:
- 3773 11ed 4359424C 		.ascii	"CYBLE_STATE_T\000"
- 3773      455F5354 
- 3773      4154455F 
- 3773      5400
- 3774              	.LASF135:
- 3775 11fb 4359424C 		.ascii	"CYBLE_GAPP_NON_CONNECTABLE_UNDIRECTED_ADV\000"
- 3775      455F4741 
- 3775      50505F4E 
- 3775      4F4E5F43 
- 3775      4F4E4E45 
- 3776              	.LASF54:
- 3777 1225 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
- 3777      455F4556 
- 3777      545F4741 
- 3777      5454435F 
- 3777      52454144 
- 3778              	.LASF161:
- 3779 1243 61747447 		.ascii	"attGenericValLen\000"
- 3779      656E6572 
- 3779      69635661 
- 3779      6C4C656E 
- 3779      00
- 3780              	.LASF185:
- 3781 1254 73746163 		.ascii	"stackConfig\000"
- 3781      6B436F6E 
- 3781      66696700 
- 3782              	.LASF211:
- 3783 1260 6379426C 		.ascii	"cyBle_deviceAddress\000"
- 3783      655F6465 
- 3783      76696365 
- 3783      41646472 
- 3783      65737300 
- 3784              	.LASF215:
- 3785 1274 6379426C 		.ascii	"cyBle_scanRspData\000"
- 3785      655F7363 
- 3785      616E5273 
- 3785      70446174 
- 3785      6100
- 3786              	.LASF105:
- 3787 1286 4359424C 		.ascii	"CYBLE_ERROR_MIC_AUTH_FAILED\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 104
+
+
+ 3768              	.LASF178:
+ 3769 1189 4359424C 		.ascii	"CYBLE_STATE_T\000"
+ 3769      455F5354 
+ 3769      4154455F 
+ 3769      5400
+ 3770              	.LASF135:
+ 3771 1197 4359424C 		.ascii	"CYBLE_GAPP_NON_CONNECTABLE_UNDIRECTED_ADV\000"
+ 3771      455F4741 
+ 3771      50505F4E 
+ 3771      4F4E5F43 
+ 3771      4F4E4E45 
+ 3772              	.LASF54:
+ 3773 11c1 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 3773      455F4556 
+ 3773      545F4741 
+ 3773      5454435F 
+ 3773      52454144 
+ 3774              	.LASF161:
+ 3775 11df 61747447 		.ascii	"attGenericValLen\000"
+ 3775      656E6572 
+ 3775      69635661 
+ 3775      6C4C656E 
+ 3775      00
+ 3776              	.LASF185:
+ 3777 11f0 73746163 		.ascii	"stackConfig\000"
+ 3777      6B436F6E 
+ 3777      66696700 
+ 3778              	.LASF211:
+ 3779 11fc 6379426C 		.ascii	"cyBle_deviceAddress\000"
+ 3779      655F6465 
+ 3779      76696365 
+ 3779      41646472 
+ 3779      65737300 
+ 3780              	.LASF215:
+ 3781 1210 6379426C 		.ascii	"cyBle_scanRspData\000"
+ 3781      655F7363 
+ 3781      616E5273 
+ 3781      70446174 
+ 3781      6100
+ 3782              	.LASF105:
+ 3783 1222 4359424C 		.ascii	"CYBLE_ERROR_MIC_AUTH_FAILED\000"
+ 3783      455F4552 
+ 3783      524F525F 
+ 3783      4D49435F 
+ 3783      41555448 
+ 3784              	.LASF125:
+ 3785 123e 4359424C 		.ascii	"CYBLE_DLE_CONFIG_PARAM_T\000"
+ 3785      455F444C 
+ 3785      455F434F 
+ 3785      4E464947 
+ 3785      5F504152 
+ 3786              	.LASF98:
+ 3787 1257 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
  3787      455F4552 
  3787      524F525F 
- 3787      4D49435F 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 105
+ 3787      4C324341 
+ 3787      505F5053 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 105
 
 
- 3787      41555448 
- 3788              	.LASF125:
- 3789 12a2 4359424C 		.ascii	"CYBLE_DLE_CONFIG_PARAM_T\000"
- 3789      455F444C 
- 3789      455F434F 
- 3789      4E464947 
- 3789      5F504152 
- 3790              	.LASF98:
- 3791 12bb 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
- 3791      455F4552 
- 3791      524F525F 
- 3791      4C324341 
- 3791      505F5053 
- 3792              	.LASF212:
- 3793 12e0 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
- 3793      655F7366 
- 3793      6C617368 
- 3793      44657669 
- 3793      63654164 
- 3794              	.LASF175:
- 3795 12fa 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
- 3795      455F5354 
- 3795      4154455F 
- 3795      434F4E4E 
- 3795      45435445 
- 3796              	.LASF221:
- 3797 1310 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 3797      4320342E 
- 3797      392E3320 
- 3797      32303135 
- 3797      30333033 
- 3798 1343 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 3798      20726576 
- 3798      6973696F 
- 3798      6E203232 
- 3798      31323230 
- 3799 1376 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 3799      66756E63 
- 3799      74696F6E 
- 3799      2D736563 
- 3799      74696F6E 
- 3800              	.LASF52:
- 3801 139e 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
- 3801      455F4556 
- 3801      545F4741 
- 3801      5454435F 
- 3801      46494E44 
- 3802              	.LASF92:
- 3803 13c5 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
- 3803      455F4552 
- 3803      524F525F 
- 3803      4741505F 
- 3803      524F4C45 
- 3804              	.LASF128:
- 3805 13da 646C6543 		.ascii	"dleConfig\000"
- 3805      6F6E6669 
- 3805      6700
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 106
+ 3788              	.LASF212:
+ 3789 127c 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
+ 3789      655F7366 
+ 3789      6C617368 
+ 3789      44657669 
+ 3789      63654164 
+ 3790              	.LASF175:
+ 3791 1296 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
+ 3791      455F5354 
+ 3791      4154455F 
+ 3791      434F4E4E 
+ 3791      45435445 
+ 3792              	.LASF221:
+ 3793 12ac 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 3793      4320342E 
+ 3793      392E3320 
+ 3793      32303135 
+ 3793      30333033 
+ 3794 12df 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 3794      20726576 
+ 3794      6973696F 
+ 3794      6E203232 
+ 3794      31323230 
+ 3795 1312 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 3795      66756E63 
+ 3795      74696F6E 
+ 3795      2D736563 
+ 3795      74696F6E 
+ 3796              	.LASF52:
+ 3797 133a 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 3797      455F4556 
+ 3797      545F4741 
+ 3797      5454435F 
+ 3797      46494E44 
+ 3798              	.LASF92:
+ 3799 1361 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
+ 3799      455F4552 
+ 3799      524F525F 
+ 3799      4741505F 
+ 3799      524F4C45 
+ 3800              	.LASF128:
+ 3801 1376 646C6543 		.ascii	"dleConfig\000"
+ 3801      6F6E6669 
+ 3801      6700
+ 3802              	.LASF36:
+ 3803 1380 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 3803      455F4556 
+ 3803      545F4741 
+ 3803      505F4B45 
+ 3803      59494E46 
+ 3804              	.LASF203:
+ 3805 13a4 4379426C 		.ascii	"CyBle_Get16ByPtr\000"
+ 3805      655F4765 
+ 3805      74313642 
+ 3805      79507472 
+ 3805      00
+ 3806              	.LASF74:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 106
 
 
- 3806              	.LASF36:
- 3807 13e4 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 3807 13b5 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
  3807      455F4556 
- 3807      545F4741 
- 3807      505F4B45 
- 3807      59494E46 
- 3808              	.LASF203:
- 3809 1408 4379426C 		.ascii	"CyBle_Get16ByPtr\000"
- 3809      655F4765 
- 3809      74313642 
- 3809      79507472 
- 3809      00
- 3810              	.LASF74:
- 3811 1419 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
- 3811      455F4556 
- 3811      545F4C32 
- 3811      4341505F 
- 3811      43424643 
- 3812              	.LASF80:
- 3813 143a 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 3807      545F4C32 
+ 3807      4341505F 
+ 3807      43424643 
+ 3808              	.LASF80:
+ 3809 13d6 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 3809      455F4556 
+ 3809      545F5045 
+ 3809      4E44494E 
+ 3809      475F464C 
+ 3810              	.LASF179:
+ 3811 13f4 4379426C 		.ascii	"CyBle_Init\000"
+ 3811      655F496E 
+ 3811      697400
+ 3812              	.LASF70:
+ 3813 13ff 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
  3813      455F4556 
- 3813      545F5045 
- 3813      4E44494E 
- 3813      475F464C 
- 3814              	.LASF179:
- 3815 1458 4379426C 		.ascii	"CyBle_Init\000"
- 3815      655F496E 
- 3815      697400
- 3816              	.LASF70:
- 3817 1463 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 3813      545F4C32 
+ 3813      4341505F 
+ 3813      434F4E4E 
+ 3814              	.LASF222:
+ 3815 1425 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLE.c\000"
+ 3815      72617465 
+ 3815      645F536F 
+ 3815      75726365 
+ 3815      5C50536F 
+ 3816              	.LASF41:
+ 3817 1442 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
  3817      455F4556 
- 3817      545F4C32 
- 3817      4341505F 
- 3817      434F4E4E 
- 3818              	.LASF222:
- 3819 1489 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLE.c\000"
- 3819      72617465 
- 3819      645F536F 
- 3819      75726365 
- 3819      5C50536F 
- 3820              	.LASF41:
- 3821 14a6 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 3817      545F4741 
+ 3817      505F454E 
+ 3817      48414E43 
+ 3818              	.LASF155:
+ 3819 1466 61647654 		.ascii	"advTo\000"
+ 3819      6F00
+ 3820              	.LASF46:
+ 3821 146c 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
  3821      455F4556 
  3821      545F4741 
- 3821      505F454E 
- 3821      48414E43 
- 3822              	.LASF155:
- 3823 14ca 61647654 		.ascii	"advTo\000"
- 3823      6F00
- 3824              	.LASF46:
- 3825 14d0 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
- 3825      455F4556 
- 3825      545F4741 
- 3825      54545F44 
- 3825      4953434F 
- 3826              	.LASF102:
- 3827 14ee 4359424C 		.ascii	"CYBLE_ERROR_GATT_DB_INVALID_ATTR_HANDLE\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccFSbBgi.s 			page 107
+ 3821      54545F44 
+ 3821      4953434F 
+ 3822              	.LASF102:
+ 3823 148a 4359424C 		.ascii	"CYBLE_ERROR_GATT_DB_INVALID_ATTR_HANDLE\000"
+ 3823      455F4552 
+ 3823      524F525F 
+ 3823      47415454 
+ 3823      5F44425F 
+ 3824              	.LASF126:
+ 3825 14b2 7265736F 		.ascii	"resolvingListSize\000"
+ 3825      6C76696E 
+ 3825      674C6973 
+ 3825      7453697A 
+ 3825      6500
+ 3826              	.LASF223:
+ 3827 14c4 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
+ 3827      726F6772 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccKSKOmf.s 			page 107
 
 
- 3827      455F4552 
- 3827      524F525F 
- 3827      47415454 
- 3827      5F44425F 
- 3828              	.LASF126:
- 3829 1516 7265736F 		.ascii	"resolvingListSize\000"
- 3829      6C76696E 
- 3829      674C6973 
- 3829      7453697A 
- 3829      6500
+ 3827      616D6D61 
+ 3827      74696F6E 
+ 3827      5C4A535C 
+ 3828 14f2 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
+ 3828      6E5F5053 
+ 3828      6F433432 
+ 3828      30305C50 
+ 3828      536F435F 
+ 3829 1523 7964736E 		.ascii	"ydsn\000"
+ 3829      00
  3830              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
   31:Generated_Source\PSoC4/cyPm.h **** 
   32:Generated_Source\PSoC4/cyPm.h **** #if(CY_IP_SRSSV2)
   33:Generated_Source\PSoC4/cyPm.h ****     void CySysPmHibernate(void);
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 2
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 2
 
 
   34:Generated_Source\PSoC4/cyPm.h ****     void CySysPmFreezeIo(void);
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
   88:Generated_Source\PSoC4/cyPm.h **** #define CY_PM_PWR_KEY_DELAY_REG             (*(reg32 *) CYREG_PWR_KEY_DELAY)
   89:Generated_Source\PSoC4/cyPm.h **** #define CY_PM_PWR_KEY_DELAY_PTR             ( (reg32 *) CYREG_PWR_KEY_DELAY)
   90:Generated_Source\PSoC4/cyPm.h **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 3
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 3
 
 
   91:Generated_Source\PSoC4/cyPm.h **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  145:Generated_Source\PSoC4/cyPm.h **** #if (CY_IP_CPUSS && CY_IP_SRSSV2)
  146:Generated_Source\PSoC4/cyPm.h ****     /* 0 - normal operation, 1 - Flash Accelerator in bypass mode */
  147:Generated_Source\PSoC4/cyPm.h ****     #define CY_PM_CPUSS_CONFIG_FLSH_ACC_BYPASS      ((uint32) 0x02u)
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 4
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 4
 
 
  148:Generated_Source\PSoC4/cyPm.h **** #endif /* (CY_IP_CPUSS && CY_IP_SRSSV2) */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  180:Generated_Source\PSoC4/cyPm.h ****                 CY_CLEAR_REG32_FIELD( CYREG_GPIO_PRT2_PC, CYFLD_GPIO_PRT_PORT_IB_MODE_SEL);
   47              		.loc 1 180 0
   48 001c 114B     		ldr	r3, .L2+8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 5
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 5
 
 
   49 001e 114A     		ldr	r2, .L2+8
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  202:Generated_Source\PSoC4/cyPm.h **** 
  203:Generated_Source\PSoC4/cyPm.h ****             #ifdef CYREG_GPIO_PRT8_PC
  204:Generated_Source\PSoC4/cyPm.h ****                 CY_CLEAR_REG32_FIELD( CYREG_GPIO_PRT8_PC, CYFLD_GPIO_PRT_PORT_IB_MODE_SEL);
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 6
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 6
 
 
  205:Generated_Source\PSoC4/cyPm.h ****             #endif /* CYREG_GPIO_PRT8_PC */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  106              	.LFB3:
  107              		.file 2 "Generated_Source\\PSoC4\\cyPm.c"
    1:Generated_Source\PSoC4/cyPm.c **** /*******************************************************************************
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 7
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 7
 
 
    2:Generated_Source\PSoC4/cyPm.c **** * File Name: cyPm.c
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  119              		.loc 2 44 0
  120 0006 FC1D     		add	r4, r7, #7
  121 0008 FFF7FEFF 		bl	CyEnterCriticalSection
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 8
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 8
 
 
  122 000c 031C     		mov	r3, r0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
   59:Generated_Source\PSoC4/cyPm.c **** *
   60:Generated_Source\PSoC4/cyPm.c **** * Summary:
   61:Generated_Source\PSoC4/cyPm.c **** *  Puts the part into the Deep Sleep state. If the firmware attempts to enter
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 9
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 9
 
 
   62:Generated_Source\PSoC4/cyPm.c **** *  this mode before the system is ready (that is, when
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
   93:Generated_Source\PSoC4/cyPm.c ****         CY_PM_CPUSS_CONFIG_REG |= CY_PM_CPUSS_CONFIG_FLSH_ACC_BYPASS;
   94:Generated_Source\PSoC4/cyPm.c ****     #endif /* (CY_IP_CPUSS && CY_IP_SRSSV2) */
   95:Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 10
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 10
 
 
   96:Generated_Source\PSoC4/cyPm.c ****     /* Adjust delay to wait for references to settle on wakeup from Deep Sleep */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  120:Generated_Source\PSoC4/cyPm.c ****     #endif /* (CY_IP_CPUSS && CY_IP_SRSSV2) */
  121:Generated_Source\PSoC4/cyPm.c **** 
  122:Generated_Source\PSoC4/cyPm.c ****     CyExitCriticalSection(interruptState);
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 11
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 11
 
 
  215              		.loc 2 122 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  148:Generated_Source\PSoC4/cyPm.c ****     *  read by the firmware or cause an interrupt after the firmware has booted and
  149:Generated_Source\PSoC4/cyPm.c ****     *  enabled the corresponding interrupt. To distinguish the wakeup from
  150:Generated_Source\PSoC4/cyPm.c ****     *  the Hibernate mode and the general Reset event, the CySysPmGetResetReason()
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 12
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 12
 
 
  151:Generated_Source\PSoC4/cyPm.c ****     *  function could be used.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  273 0026 1288     		ldrh	r2, [r2]
  274 0028 92B2     		uxth	r2, r2
  275 002a 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 13
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 13
 
 
  176:Generated_Source\PSoC4/cyPm.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  311 005c 00000B40 		.word	1074462720
  312 0060 0C000B40 		.word	1074462732
  313 0064 50F1FF0F 		.word	268431696
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 14
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 14
 
 
  314 0068 10ED00E0 		.word	-536810224
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  228:Generated_Source\PSoC4/cyPm.c ****         (void) CyEnterCriticalSection();
  335              		.loc 2 228 0
  336 0004 FFF7FEFF 		bl	CyEnterCriticalSection
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 15
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 15
 
 
  229:Generated_Source\PSoC4/cyPm.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  371              	@ 0 "" 2
  249:Generated_Source\PSoC4/cyPm.c **** 
  250:Generated_Source\PSoC4/cyPm.c ****         /* Wakeup from Stop is performed by toggling of Wakeup pin,
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 16
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 16
 
 
  251:Generated_Source\PSoC4/cyPm.c ****          * causing a normal Boot procedure to occur. No need to exit
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  398              		.cfi_offset 14, -4
  399 0002 85B0     		sub	sp, sp, #20
  400              		.cfi_def_cfa_offset 32
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 17
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 17
 
 
  401 0004 00AF     		add	r7, sp, #0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  443 0042 90BD     		pop	{r4, r7, pc}
  444              	.L20:
  445              		.align	2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 18
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 18
 
 
  446              	.L19:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  473              		.loc 2 315 0
  474 000a 0C4B     		ldr	r3, .L28
  475 000c 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 19
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 19
 
 
  476 000e FF22     		mov	r2, #255
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  335:Generated_Source\PSoC4/cyPm.c ****         }
  336:Generated_Source\PSoC4/cyPm.c **** 
  337:Generated_Source\PSoC4/cyPm.c ****         return (reason);
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 20
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 20
 
 
  505              		.loc 2 337 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  537 0004 00AF     		add	r7, sp, #0
  538              		.cfi_def_cfa_register 7
  360:Generated_Source\PSoC4/cyPm.c ****         uint8 interruptState;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 21
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 21
 
 
  361:Generated_Source\PSoC4/cyPm.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  569 0034 054B     		ldr	r3, .L32
  570 0036 054A     		ldr	r2, .L32
  571 0038 1268     		ldr	r2, [r2]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 22
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 22
 
 
  572 003a 1A60     		str	r2, [r3]
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  409:Generated_Source\PSoC4/cyPm.c ****     * Return:
  410:Generated_Source\PSoC4/cyPm.c ****     *  None
  411:Generated_Source\PSoC4/cyPm.c ****     *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 23
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 23
 
 
  412:Generated_Source\PSoC4/cyPm.c ****     *******************************************************************************/
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  431:Generated_Source\PSoC4/cyPm.c ****         /* Lock STOP mode: write PWR_STOP.FREEZE=0, UNLOCK=0x00, STOP=0, .TOKEN */
  432:Generated_Source\PSoC4/cyPm.c ****         CY_PM_PWR_STOP_REG &= (CY_PM_PWR_STOP_TOKEN_MASK | CY_PM_PWR_STOP_POLARITY);
  635              		.loc 2 432 0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 24
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 24
 
 
  636 002a 074B     		ldr	r3, .L35
@@ -1418,10 +1418,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  667 0006 00000000 		.4byte	.Ldebug_abbrev0
  668 000a 04       		.byte	0x4
  669 000b 01       		.uleb128 0x1
- 670 000c D9000000 		.4byte	.LASF26
+ 670 000c D4000000 		.4byte	.LASF26
  671 0010 01       		.byte	0x1
- 672 0011 6B020000 		.4byte	.LASF27
- 673 0015 D6010000 		.4byte	.LASF28
+ 672 0011 07020000 		.4byte	.LASF27
+ 673 0015 25020000 		.4byte	.LASF28
  674 0019 00000000 		.4byte	.Ldebug_ranges0+0
  675 001d 00000000 		.4byte	0
  676 0021 00000000 		.4byte	.Ldebug_line0
@@ -1432,13 +1432,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  681 002c 02       		.uleb128 0x2
  682 002d 01       		.byte	0x1
  683 002e 08       		.byte	0x8
- 684 002f 7F000000 		.4byte	.LASF1
+ 684 002f 7A000000 		.4byte	.LASF1
  685 0033 02       		.uleb128 0x2
  686 0034 02       		.byte	0x2
  687 0035 05       		.byte	0x5
- 688 0036 47020000 		.4byte	.LASF2
+ 688 0036 E3010000 		.4byte	.LASF2
  689 003a 02       		.uleb128 0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 25
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 25
 
 
  690 003b 02       		.byte	0x2
@@ -1447,19 +1447,19 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  693 0041 02       		.uleb128 0x2
  694 0042 04       		.byte	0x4
  695 0043 05       		.byte	0x5
- 696 0044 62020000 		.4byte	.LASF4
+ 696 0044 FE010000 		.4byte	.LASF4
  697 0048 02       		.uleb128 0x2
  698 0049 04       		.byte	0x4
  699 004a 07       		.byte	0x7
- 700 004b 9C000000 		.4byte	.LASF5
+ 700 004b 97000000 		.4byte	.LASF5
  701 004f 02       		.uleb128 0x2
  702 0050 08       		.byte	0x8
  703 0051 05       		.byte	0x5
- 704 0052 C8010000 		.4byte	.LASF6
+ 704 0052 C3010000 		.4byte	.LASF6
  705 0056 02       		.uleb128 0x2
  706 0057 08       		.byte	0x8
  707 0058 07       		.byte	0x7
- 708 0059 82010000 		.4byte	.LASF7
+ 708 0059 7D010000 		.4byte	.LASF7
  709 005d 03       		.uleb128 0x3
  710 005e 04       		.byte	0x4
  711 005f 05       		.byte	0x5
@@ -1467,38 +1467,38 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  713 0064 02       		.uleb128 0x2
  714 0065 04       		.byte	0x4
  715 0066 07       		.byte	0x7
- 716 0067 75010000 		.4byte	.LASF8
+ 716 0067 70010000 		.4byte	.LASF8
  717 006b 04       		.uleb128 0x4
- 718 006c AE000000 		.4byte	.LASF9
+ 718 006c A9000000 		.4byte	.LASF9
  719 0070 03       		.byte	0x3
  720 0071 3801     		.2byte	0x138
  721 0073 2C000000 		.4byte	0x2c
  722 0077 04       		.uleb128 0x4
- 723 0078 67010000 		.4byte	.LASF10
+ 723 0078 62010000 		.4byte	.LASF10
  724 007c 03       		.byte	0x3
  725 007d 3901     		.2byte	0x139
  726 007f 3A000000 		.4byte	0x3a
  727 0083 04       		.uleb128 0x4
- 728 0084 6E010000 		.4byte	.LASF11
+ 728 0084 69010000 		.4byte	.LASF11
  729 0088 03       		.byte	0x3
  730 0089 3A01     		.2byte	0x13a
  731 008b 48000000 		.4byte	0x48
  732 008f 02       		.uleb128 0x2
  733 0090 04       		.byte	0x4
  734 0091 04       		.byte	0x4
- 735 0092 79000000 		.4byte	.LASF12
+ 735 0092 74000000 		.4byte	.LASF12
  736 0096 02       		.uleb128 0x2
  737 0097 08       		.byte	0x8
  738 0098 04       		.byte	0x4
- 739 0099 C0000000 		.4byte	.LASF13
+ 739 0099 BB000000 		.4byte	.LASF13
  740 009d 02       		.uleb128 0x2
  741 009e 01       		.byte	0x1
  742 009f 08       		.byte	0x8
- 743 00a0 45000000 		.4byte	.LASF14
+ 743 00a0 D1010000 		.4byte	.LASF14
  744 00a4 04       		.uleb128 0x4
  745 00a5 00000000 		.4byte	.LASF15
  746 00a9 03       		.byte	0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 26
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 26
 
 
  747 00aa E301     		.2byte	0x1e3
@@ -1515,9 +1515,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  758 00c6 02       		.uleb128 0x2
  759 00c7 04       		.byte	0x4
  760 00c8 07       		.byte	0x7
- 761 00c9 BF010000 		.4byte	.LASF17
+ 761 00c9 BA010000 		.4byte	.LASF17
  762 00cd 06       		.uleb128 0x6
- 763 00ce 5B000000 		.4byte	.LASF29
+ 763 00ce 56000000 		.4byte	.LASF29
  764 00d2 01       		.byte	0x1
  765 00d3 A9       		.byte	0xa9
  766 00d4 00000000 		.4byte	.LFB0
@@ -1534,7 +1534,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  777 00ee 9C       		.byte	0x9c
  778 00ef 02010000 		.4byte	0x102
  779 00f3 08       		.uleb128 0x8
- 780 00f4 8D000000 		.4byte	.LASF20
+ 780 00f4 88000000 		.4byte	.LASF20
  781 00f8 02       		.byte	0x2
  782 00f9 2A       		.byte	0x2a
  783 00fa 6B000000 		.4byte	0x6b
@@ -1543,7 +1543,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  786 0100 6F       		.sleb128 -17
  787 0101 00       		.byte	0
  788 0102 07       		.uleb128 0x7
- 789 0103 51020000 		.4byte	.LASF19
+ 789 0103 ED010000 		.4byte	.LASF19
  790 0107 02       		.byte	0x2
  791 0108 4E       		.byte	0x4e
  792 0109 00000000 		.4byte	.LFB4
@@ -1552,18 +1552,18 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  795 0112 9C       		.byte	0x9c
  796 0113 34010000 		.4byte	0x134
  797 0117 08       		.uleb128 0x8
- 798 0118 8D000000 		.4byte	.LASF20
+ 798 0118 88000000 		.4byte	.LASF20
  799 011c 02       		.byte	0x2
  800 011d 50       		.byte	0x50
  801 011e 6B000000 		.4byte	0x6b
  802 0122 02       		.uleb128 0x2
  803 0123 91       		.byte	0x91
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 27
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 27
 
 
  804 0124 6F       		.sleb128 -17
  805 0125 08       		.uleb128 0x8
- 806 0126 3A020000 		.4byte	.LASF21
+ 806 0126 D6010000 		.4byte	.LASF21
  807 012a 02       		.byte	0x2
  808 012b 52       		.byte	0x52
  809 012c C1000000 		.4byte	0xc1
@@ -1572,7 +1572,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  812 0132 68       		.sleb128 -24
  813 0133 00       		.byte	0
  814 0134 07       		.uleb128 0x7
- 815 0135 4A000000 		.4byte	.LASF22
+ 815 0135 45000000 		.4byte	.LASF22
  816 0139 02       		.byte	0x2
  817 013a A0       		.byte	0xa0
  818 013b 00000000 		.4byte	.LFB5
@@ -1581,7 +1581,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  821 0144 9C       		.byte	0x9c
  822 0145 58010000 		.4byte	0x158
  823 0149 08       		.uleb128 0x8
- 824 014a 8D000000 		.4byte	.LASF20
+ 824 014a 88000000 		.4byte	.LASF20
  825 014e 02       		.byte	0x2
  826 014f A2       		.byte	0xa2
  827 0150 6B000000 		.4byte	0x6b
@@ -1590,7 +1590,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  830 0156 6F       		.sleb128 -17
  831 0157 00       		.byte	0
  832 0158 09       		.uleb128 0x9
- 833 0159 B4000000 		.4byte	.LASF30
+ 833 0159 AF000000 		.4byte	.LASF30
  834 015d 02       		.byte	0x2
  835 015e E2       		.byte	0xe2
  836 015f 00000000 		.4byte	.LFB6
@@ -1607,7 +1607,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  847 017a 9C       		.byte	0x9c
  848 017b 9E010000 		.4byte	0x19e
  849 017f 0B       		.uleb128 0xb
- 850 0180 A0010000 		.4byte	.LASF31
+ 850 0180 9B010000 		.4byte	.LASF31
  851 0184 02       		.byte	0x2
  852 0185 1501     		.2byte	0x115
  853 0187 83000000 		.4byte	0x83
@@ -1615,10 +1615,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  855 018c 91       		.byte	0x91
  856 018d 64       		.sleb128 -28
  857 018e 0C       		.uleb128 0xc
- 858 018f 8D000000 		.4byte	.LASF20
+ 858 018f 88000000 		.4byte	.LASF20
  859 0193 02       		.byte	0x2
  860 0194 1701     		.2byte	0x117
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 28
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 28
 
 
  861 0196 6B000000 		.4byte	0x6b
@@ -1627,7 +1627,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  864 019c 6F       		.sleb128 -17
  865 019d 00       		.byte	0
  866 019e 0D       		.uleb128 0xd
- 867 019f A9010000 		.4byte	.LASF32
+ 867 019f A4010000 		.4byte	.LASF32
  868 01a3 02       		.byte	0x2
  869 01a4 3701     		.2byte	0x137
  870 01a6 83000000 		.4byte	0x83
@@ -1637,7 +1637,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  874 01b3 9C       		.byte	0x9c
  875 01b4 C8010000 		.4byte	0x1c8
  876 01b8 0C       		.uleb128 0xc
- 877 01b9 99010000 		.4byte	.LASF24
+ 877 01b9 94010000 		.4byte	.LASF24
  878 01bd 02       		.byte	0x2
  879 01be 3901     		.2byte	0x139
  880 01c0 83000000 		.4byte	0x83
@@ -1655,7 +1655,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  892 01d9 9C       		.byte	0x9c
  893 01da EE010000 		.4byte	0x1ee
  894 01de 0C       		.uleb128 0xc
- 895 01df 8D000000 		.4byte	.LASF20
+ 895 01df 88000000 		.4byte	.LASF20
  896 01e3 02       		.byte	0x2
  897 01e4 6801     		.2byte	0x168
  898 01e6 6B000000 		.4byte	0x6b
@@ -1664,7 +1664,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  901 01ec 6F       		.sleb128 -17
  902 01ed 00       		.byte	0
  903 01ee 0E       		.uleb128 0xe
- 904 01ef C7000000 		.4byte	.LASF33
+ 904 01ef C2000000 		.4byte	.LASF33
  905 01f3 02       		.byte	0x2
  906 01f4 9D01     		.2byte	0x19d
  907 01f6 00000000 		.4byte	.LFB10
@@ -1672,13 +1672,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  909 01fe 01       		.uleb128 0x1
  910 01ff 9C       		.byte	0x9c
  911 0200 0C       		.uleb128 0xc
- 912 0201 8D000000 		.4byte	.LASF20
+ 912 0201 88000000 		.4byte	.LASF20
  913 0205 02       		.byte	0x2
  914 0206 9F01     		.2byte	0x19f
  915 0208 6B000000 		.4byte	0x6b
  916 020c 02       		.uleb128 0x2
  917 020d 91       		.byte	0x91
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 29
 
 
  918 020e 6F       		.sleb128 -17
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  972 0031 05       		.uleb128 0x5
  973 0032 49       		.uleb128 0x49
  974 0033 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 30
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 30
 
 
  975 0034 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  1029 006c 00       		.byte	0
  1030 006d 08       		.uleb128 0x8
  1031 006e 34       		.uleb128 0x34
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 31
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 31
 
 
  1032 006f 00       		.byte	0
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  1086 00a6 18       		.uleb128 0x18
  1087 00a7 9642     		.uleb128 0x2116
  1088 00a9 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 32
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 32
 
 
  1089 00aa 01       		.uleb128 0x1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  1143 00e0 18       		.uleb128 0x18
  1144 00e1 9742     		.uleb128 0x2117
  1145 00e3 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 33
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 33
 
 
  1146 00e4 01       		.uleb128 0x1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  1200 0058 00000000 		.4byte	0
  1201 005c 00000000 		.4byte	0
  1202              		.section	.debug_ranges,"",%progbits
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 34
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 34
 
 
  1203              	.Ldebug_ranges0:
@@ -2032,158 +2032,158 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 1
  1236      7369676E 
  1236      65642069 
  1236      6E7400
- 1237              	.LASF14:
- 1238 0045 63686172 		.ascii	"char\000"
+ 1237              	.LASF22:
+ 1238 0045 43795379 		.ascii	"CySysPmHibernate\000"
+ 1238      73506D48 
+ 1238      69626572 
+ 1238      6E617465 
  1238      00
- 1239              	.LASF22:
- 1240 004a 43795379 		.ascii	"CySysPmHibernate\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 35
+
+
+ 1239              	.LASF29:
+ 1240 0056 43795379 		.ascii	"CySysPmHibPinsDisableInputBuf\000"
  1240      73506D48 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 35
+ 1240      69625069 
+ 1240      6E734469 
+ 1240      7361626C 
+ 1241              	.LASF12:
+ 1242 0074 666C6F61 		.ascii	"float\000"
+ 1242      7400
+ 1243              	.LASF1:
+ 1244 007a 756E7369 		.ascii	"unsigned char\000"
+ 1244      676E6564 
+ 1244      20636861 
+ 1244      7200
+ 1245              	.LASF20:
+ 1246 0088 696E7465 		.ascii	"interruptState\000"
+ 1246      72727570 
+ 1246      74537461 
+ 1246      746500
+ 1247              	.LASF5:
+ 1248 0097 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1248      20756E73 
+ 1248      69676E65 
+ 1248      6420696E 
+ 1248      7400
+ 1249              	.LASF9:
+ 1250 00a9 75696E74 		.ascii	"uint8\000"
+ 1250      3800
+ 1251              	.LASF30:
+ 1252 00af 43795379 		.ascii	"CySysPmStop\000"
+ 1252      73506D53 
+ 1252      746F7000 
+ 1253              	.LASF13:
+ 1254 00bb 646F7562 		.ascii	"double\000"
+ 1254      6C6500
+ 1255              	.LASF33:
+ 1256 00c2 43795379 		.ascii	"CySysPmUnfreezeIo\000"
+ 1256      73506D55 
+ 1256      6E667265 
+ 1256      657A6549 
+ 1256      6F00
+ 1257              	.LASF26:
+ 1258 00d4 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1258      4320342E 
+ 1258      392E3320 
+ 1258      32303135 
+ 1258      30333033 
+ 1259 0107 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1259      20726576 
+ 1259      6973696F 
+ 1259      6E203232 
+ 1259      31323230 
+ 1260 013a 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1260      66756E63 
+ 1260      74696F6E 
+ 1260      2D736563 
+ 1260      74696F6E 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 36
 
 
- 1240      69626572 
- 1240      6E617465 
- 1240      00
- 1241              	.LASF29:
- 1242 005b 43795379 		.ascii	"CySysPmHibPinsDisableInputBuf\000"
- 1242      73506D48 
- 1242      69625069 
- 1242      6E734469 
- 1242      7361626C 
- 1243              	.LASF12:
- 1244 0079 666C6F61 		.ascii	"float\000"
- 1244      7400
- 1245              	.LASF1:
- 1246 007f 756E7369 		.ascii	"unsigned char\000"
- 1246      676E6564 
- 1246      20636861 
- 1246      7200
- 1247              	.LASF20:
- 1248 008d 696E7465 		.ascii	"interruptState\000"
- 1248      72727570 
- 1248      74537461 
- 1248      746500
- 1249              	.LASF5:
- 1250 009c 6C6F6E67 		.ascii	"long unsigned int\000"
- 1250      20756E73 
- 1250      69676E65 
- 1250      6420696E 
- 1250      7400
- 1251              	.LASF9:
- 1252 00ae 75696E74 		.ascii	"uint8\000"
- 1252      3800
- 1253              	.LASF30:
- 1254 00b4 43795379 		.ascii	"CySysPmStop\000"
- 1254      73506D53 
- 1254      746F7000 
- 1255              	.LASF13:
- 1256 00c0 646F7562 		.ascii	"double\000"
- 1256      6C6500
- 1257              	.LASF33:
- 1258 00c7 43795379 		.ascii	"CySysPmUnfreezeIo\000"
- 1258      73506D55 
- 1258      6E667265 
- 1258      657A6549 
- 1258      6F00
- 1259              	.LASF26:
- 1260 00d9 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1260      4320342E 
- 1260      392E3320 
- 1260      32303135 
- 1260      30333033 
- 1261 010c 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1261      20726576 
- 1261      6973696F 
- 1261      6E203232 
- 1261      31323230 
- 1262 013f 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1262      66756E63 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 36
-
-
- 1262      74696F6E 
- 1262      2D736563 
- 1262      74696F6E 
- 1263              	.LASF10:
- 1264 0167 75696E74 		.ascii	"uint16\000"
- 1264      313600
- 1265              	.LASF11:
- 1266 016e 75696E74 		.ascii	"uint32\000"
- 1266      333200
- 1267              	.LASF8:
- 1268 0175 756E7369 		.ascii	"unsigned int\000"
- 1268      676E6564 
- 1268      20696E74 
- 1268      00
- 1269              	.LASF7:
- 1270 0182 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1270      206C6F6E 
- 1270      6720756E 
- 1270      7369676E 
- 1270      65642069 
- 1271              	.LASF24:
- 1272 0199 72656173 		.ascii	"reason\000"
- 1272      6F6E00
- 1273              	.LASF31:
- 1274 01a0 706F6C61 		.ascii	"polarity\000"
- 1274      72697479 
- 1274      00
- 1275              	.LASF32:
- 1276 01a9 43795379 		.ascii	"CySysPmGetResetReason\000"
- 1276      73506D47 
- 1276      65745265 
- 1276      73657452 
- 1276      6561736F 
- 1277              	.LASF17:
- 1278 01bf 73697A65 		.ascii	"sizetype\000"
- 1278      74797065 
- 1278      00
- 1279              	.LASF6:
- 1280 01c8 6C6F6E67 		.ascii	"long long int\000"
- 1280      206C6F6E 
- 1280      6720696E 
- 1280      7400
- 1281              	.LASF28:
- 1282 01d6 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
- 1282      73657273 
- 1282      5C4E616B 
- 1282      696F5C45 
- 1282      6C656374 
- 1283 0204 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
- 1283      6E5F5053 
- 1283      6F433432 
- 1283      30305C50 
- 1283      536F435F 
- 1284 0235 7964736E 		.ascii	"ydsn\000"
- 1284      00
- 1285              	.LASF21:
- 1286 023a 636C6B53 		.ascii	"clkSelectReg\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc1Lnwzo.s 			page 37
-
-
- 1286      656C6563 
- 1286      74526567 
+ 1261              	.LASF10:
+ 1262 0162 75696E74 		.ascii	"uint16\000"
+ 1262      313600
+ 1263              	.LASF11:
+ 1264 0169 75696E74 		.ascii	"uint32\000"
+ 1264      333200
+ 1265              	.LASF8:
+ 1266 0170 756E7369 		.ascii	"unsigned int\000"
+ 1266      676E6564 
+ 1266      20696E74 
+ 1266      00
+ 1267              	.LASF7:
+ 1268 017d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1268      206C6F6E 
+ 1268      6720756E 
+ 1268      7369676E 
+ 1268      65642069 
+ 1269              	.LASF24:
+ 1270 0194 72656173 		.ascii	"reason\000"
+ 1270      6F6E00
+ 1271              	.LASF31:
+ 1272 019b 706F6C61 		.ascii	"polarity\000"
+ 1272      72697479 
+ 1272      00
+ 1273              	.LASF32:
+ 1274 01a4 43795379 		.ascii	"CySysPmGetResetReason\000"
+ 1274      73506D47 
+ 1274      65745265 
+ 1274      73657452 
+ 1274      6561736F 
+ 1275              	.LASF17:
+ 1276 01ba 73697A65 		.ascii	"sizetype\000"
+ 1276      74797065 
+ 1276      00
+ 1277              	.LASF6:
+ 1278 01c3 6C6F6E67 		.ascii	"long long int\000"
+ 1278      206C6F6E 
+ 1278      6720696E 
+ 1278      7400
+ 1279              	.LASF14:
+ 1280 01d1 63686172 		.ascii	"char\000"
+ 1280      00
+ 1281              	.LASF21:
+ 1282 01d6 636C6B53 		.ascii	"clkSelectReg\000"
+ 1282      656C6563 
+ 1282      74526567 
+ 1282      00
+ 1283              	.LASF2:
+ 1284 01e3 73686F72 		.ascii	"short int\000"
+ 1284      7420696E 
+ 1284      7400
+ 1285              	.LASF19:
+ 1286 01ed 43795379 		.ascii	"CySysPmDeepSleep\000"
+ 1286      73506D44 
+ 1286      65657053 
+ 1286      6C656570 
  1286      00
- 1287              	.LASF2:
- 1288 0247 73686F72 		.ascii	"short int\000"
- 1288      7420696E 
- 1288      7400
- 1289              	.LASF19:
- 1290 0251 43795379 		.ascii	"CySysPmDeepSleep\000"
- 1290      73506D44 
- 1290      65657053 
- 1290      6C656570 
- 1290      00
- 1291              	.LASF4:
- 1292 0262 6C6F6E67 		.ascii	"long int\000"
- 1292      20696E74 
- 1292      00
- 1293              	.LASF27:
- 1294 026b 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyPm.c\000"
- 1294      72617465 
- 1294      645F536F 
- 1294      75726365 
- 1294      5C50536F 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccdRrPyE.s 			page 37
+
+
+ 1287              	.LASF4:
+ 1288 01fe 6C6F6E67 		.ascii	"long int\000"
+ 1288      20696E74 
+ 1288      00
+ 1289              	.LASF27:
+ 1290 0207 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyPm.c\000"
+ 1290      72617465 
+ 1290      645F536F 
+ 1290      75726365 
+ 1290      5C50536F 
+ 1291              	.LASF28:
+ 1292 0225 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
+ 1292      726F6772 
+ 1292      616D6D61 
+ 1292      74696F6E 
+ 1292      5C4A535C 
+ 1293 0253 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
+ 1293      6E5F5053 
+ 1293      6F433432 
+ 1293      30305C50 
+ 1293      536F435F 
+ 1294 0284 7964736E 		.ascii	"ydsn\000"
+ 1294      00
  1295              	.LASF0:
  1296 0289 7369676E 		.ascii	"signed char\000"
  1296      65642063 

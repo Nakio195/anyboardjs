@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
   51 0000 1E       		.byte	30
   52 0001 1E       		.byte	30
   53 0002 1E       		.byte	30
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 2
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 2
 
 
   54 0003 1E       		.byte	30
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  108              		.type	CapSense_BaseInit, %function
  109              	CapSense_BaseInit:
  110              	.LFB36:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 3
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 3
 
 
  111              		.file 1 "Generated_Source\\PSoC4\\CapSense_CSHL.c"
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
   54:Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_sensorSignal[CapSense_TOTAL_SENSOR_COUNT] = {0u};
   55:Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_sensorOnMask[CapSense_TOTAL_SENSOR_MASK] = {0u};
   56:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 4
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 4
 
 
   57:Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_lowBaselineResetCnt[CapSense_TOTAL_SENSOR_COUNT];
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  111:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  112:Generated_Source\PSoC4/CapSense_CSHL.c **** * Summary:
  113:Generated_Source\PSoC4/CapSense_CSHL.c **** *  Loads the CapSense_sensorBaseline[sensor] array element with an
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 5
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 5
 
 
  114:Generated_Source\PSoC4/CapSense_CSHL.c **** *  initial value which is equal to the raw count value.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  157:Generated_Source\PSoC4/CapSense_CSHL.c ****     #endif  /* CapSense_TOTAL_GENERICS_COUNT */
  158:Generated_Source\PSoC4/CapSense_CSHL.c **** 
  159:Generated_Source\PSoC4/CapSense_CSHL.c ****     /* Initialize Baseline */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 6
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 6
 
 
  160:Generated_Source\PSoC4/CapSense_CSHL.c ****     CapSense_sensorBaseline[sensor] = CapSense_sensorRaw[sensor];
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  175:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_IIR8_FILTER) ||\
  176:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_IIR16_FILTER))
  177:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 7
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 7
 
 
  178:Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_rawFilterData1[sensor] = CapSense_sensorRaw[sensor];
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  207:Generated_Source\PSoC4/CapSense_CSHL.c **** * Return:
  208:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
  209:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 8
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 8
 
 
  210:Generated_Source\PSoC4/CapSense_CSHL.c **** * Global Variables:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  222              		.align	2
  223              		.global	CapSense_InitializeAllBaselines
  224              		.code	16
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 9
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 9
 
 
  225              		.thumb_func
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  247 0010 FFF7FEFF 		bl	CapSense_InitializeSensorBaseline
  258:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
  248              		.loc 1 258 0 discriminator 3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 10
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 10
 
 
  249 0014 7B68     		ldr	r3, [r7, #4]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  290:Generated_Source\PSoC4/CapSense_CSHL.c **** {
  273              		.loc 1 290 0
  274              		.cfi_startproc
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 11
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 11
 
 
  275 0000 80B5     		push	{r7, lr}
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  311 0032 181C     		mov	r0, r3
  312 0034 FFF7FEFF 		bl	CapSense_BaseInit
  313              	.L12:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 12
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 12
 
 
  300:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  332:Generated_Source\PSoC4/CapSense_CSHL.c **** * Parameters:
  333:Generated_Source\PSoC4/CapSense_CSHL.c **** *  sensor:  Sensor number.
  334:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 13
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 13
 
 
  335:Generated_Source\PSoC4/CapSense_CSHL.c **** * Return:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  369:Generated_Source\PSoC4/CapSense_CSHL.c ****     noiseThreshold = CapSense_noiseThreshold[widget];
  363              		.loc 1 369 0
  364 0016 0F23     		mov	r3, #15
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 14
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 14
 
 
  365 0018 FB18     		add	r3, r7, r3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  404 005e FB18     		add	r3, r7, r3
  405 0060 1B88     		ldrh	r3, [r3]
  406 0062 181C     		mov	r0, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 15
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 15
 
 
  407 0064 FFF7FEFF 		bl	CapSense_AveragingFilter
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  429 008a 7B68     		ldr	r3, [r7, #4]
  430 008c DAB2     		uxtb	r2, r3
  431 008e 6C49     		ldr	r1, .L29+24
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 16
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 16
 
 
  432 0090 674B     		ldr	r3, .L29+8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  473 00d8 5200     		lsl	r2, r2, #1
  474 00da D15A     		ldrh	r1, [r2, r3]
  475 00dc 1223     		mov	r3, #18
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 17
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 17
 
 
  476 00de FB18     		add	r3, r7, r3
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  517              		.loc 1 442 0
  518 0126 484A     		ldr	r2, .L29+32
  519 0128 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 18
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 18
 
 
  520 012a D318     		add	r3, r2, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  558              		.loc 1 454 0 discriminator 1
  559 0168 1222     		mov	r2, #18
  560 016a BA18     		add	r2, r7, r2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 19
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 19
 
 
  561 016c 1288     		ldrh	r2, [r2]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  596 01a6 D35A     		ldrh	r3, [r2, r3]
  597 01a8 1A1C     		mov	r2, r3
  598 01aa BB68     		ldr	r3, [r7, #8]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 20
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 20
 
 
  599 01ac 9B1A     		sub	r3, r3, r2
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  490:Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Over flow defence for uint8 */
  491:Generated_Source\PSoC4/CapSense_CSHL.c ****             if (tempRaw > 0xFFu)
  638              		.loc 1 491 0 is_stmt 1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 21
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 21
 
 
  639 01ee 1223     		mov	r3, #18
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  510:Generated_Source\PSoC4/CapSense_CSHL.c ****         /* Exclude generic widget */
  511:Generated_Source\PSoC4/CapSense_CSHL.c ****         }
  512:Generated_Source\PSoC4/CapSense_CSHL.c ****     #endif  /* CapSense_TOTAL_GENERICS_COUNT */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 22
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 22
 
 
  513:Generated_Source\PSoC4/CapSense_CSHL.c **** }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  535:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  536:Generated_Source\PSoC4/CapSense_CSHL.c **** * Return:
  537:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 23
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 23
 
 
  538:Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  728 001c 80BD     		pop	{r7, pc}
  729              		.cfi_endproc
  730              	.LFE41:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 24
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 24
 
 
  731              		.size	CapSense_UpdateSensorBaseline, .-CapSense_UpdateSensorBaseline
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  604:Generated_Source\PSoC4/CapSense_CSHL.c **** 
  605:Generated_Source\PSoC4/CapSense_CSHL.c ****     for(i = 0u; i < CapSense_TOTAL_SENSOR_COUNT; i++)
  750              		.loc 1 605 0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 25
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 25
 
 
  751 0006 0023     		mov	r3, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  794              		.align	2
  795              		.global	CapSense_UpdateWidgetBaseline
  796              		.code	16
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 26
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 26
 
 
  797              		.thumb_func
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  654:Generated_Source\PSoC4/CapSense_CSHL.c ****     sensorsPerWidget = CapSense_numberOfSensors[widget];
  812              		.loc 1 654 0
  813 0008 0523     		mov	r3, #5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 27
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 27
 
 
  814 000a BB61     		str	r3, [r7, #24]
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  852 0044 FA69     		ldr	r2, [r7, #28]
  853 0046 3B69     		ldr	r3, [r7, #16]
  854 0048 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 28
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 28
 
 
  855 004a E9D3     		bcc	.L41
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  882 0002 82B0     		sub	sp, sp, #8
  883              		.cfi_def_cfa_offset 16
  884 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 29
 
 
  885              		.cfi_def_cfa_register 7
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  722:Generated_Source\PSoC4/CapSense_CSHL.c **** {
  913              		.loc 1 722 0
  914              		.cfi_startproc
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 30
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 30
 
 
  915 0000 80B5     		push	{r7, lr}
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  738:Generated_Source\PSoC4/CapSense_CSHL.c **** *  This API returns the difference count value of the sensor indicated by the
  739:Generated_Source\PSoC4/CapSense_CSHL.c **** *  argument.
  740:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 31
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 31
 
 
  741:Generated_Source\PSoC4/CapSense_CSHL.c **** * Global Variables:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  758:Generated_Source\PSoC4/CapSense_CSHL.c **** * Summary:
  759:Generated_Source\PSoC4/CapSense_CSHL.c **** *  This API writes the data value passed as an argument to the sensor signal array.
  760:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 32
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 32
 
 
  761:Generated_Source\PSoC4/CapSense_CSHL.c **** * Parameters:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1027              		.code	16
  1028              		.thumb_func
  1029              		.type	CapSense_GetFingerThreshold, %function
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 33
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 33
 
 
  1030              	CapSense_GetFingerThreshold:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1057 0018 00000000 		.word	CapSense_fingerThreshold
  1058              		.cfi_endproc
  1059              	.LFE48:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 34
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 34
 
 
  1060              		.size	CapSense_GetFingerThreshold, .-CapSense_GetFingerThreshold
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1087 0012 BD46     		mov	sp, r7
  1088 0014 02B0     		add	sp, sp, #8
  1089              		@ sp needed
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 35
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 35
 
 
  1090 0016 80BD     		pop	{r7, pc}
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1117              		.loc 1 859 0
  1118 0008 034A     		ldr	r2, .L68
  1119 000a 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 36
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 36
 
 
  1120 000c D318     		add	r3, r2, r3
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1147              		.cfi_offset 7, -8
  1148              		.cfi_offset 14, -4
  1149 0002 82B0     		sub	sp, sp, #8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 37
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 37
 
 
  1150              		.cfi_def_cfa_offset 16
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  911:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  CapSense_fingerThreshold[] - This array contains the level of signal
  912:Generated_Source\PSoC4/CapSense_CSHL.c ****     *   for each widget that determines if a finger is present on the widget.
  913:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 38
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 38
 
 
  914:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Side Effects:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  927:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
  928:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Summary:
  929:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  This API sets the Noise Threshold value for each widget.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 39
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 39
 
 
  930:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1255              		.align	2
  1256              		.global	CapSense_SetFingerHysteresis
  1257              		.code	16
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 40
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 40
 
 
  1258              		.thumb_func
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1284 001a BD46     		mov	sp, r7
  1285 001c 02B0     		add	sp, sp, #8
  1286              		@ sp needed
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 41
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 41
 
 
  1287 001e 80BD     		pop	{r7, pc}
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1314 0008 0A1C     		mov	r2, r1
  1315 000a FB1C     		add	r3, r7, #3
  1316 000c 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 42
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 42
 
 
 1005:Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_negativeNoiseThreshold[widget] = value;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1032:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
  1344              		.loc 1 1032 0
  1345              		.cfi_startproc
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 43
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 43
 
 
  1346 0000 80B5     		push	{r7, lr}
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1048:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Return Value:
 1049:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  None
 1050:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 44
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 44
 
 
 1051:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Global Variables:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1064:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1065:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1066:Generated_Source\PSoC4/CapSense_CSHL.c **** /*******************************************************************************
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 45
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 45
 
 
 1067:Generated_Source\PSoC4/CapSense_CSHL.c **** * Function Name: CapSense_CheckIsSensorActive
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1110:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1111:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint8 fingerThreshold;
 1112:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint8 hysteresis;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 46
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 46
 
 
 1113:Generated_Source\PSoC4/CapSense_CSHL.c ****     static uint8 CapSense_debounceCounter[] = {
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1127:Generated_Source\PSoC4/CapSense_CSHL.c ****     CapSense_debounceCounter[debounceIndex] = 1u;
  1477              		.loc 1 1127 0
  1478 004e 0B23     		mov	r3, #11
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 47
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 47
 
 
  1479 0050 FB18     		add	r3, r7, r3
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1522 00a2 D154     		strb	r1, [r2, r3]
  1523 00a4 2DE0     		b	.L95
  1524              	.L93:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 48
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 48
 
 
 1139:Generated_Source\PSoC4/CapSense_CSHL.c ****         }
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1151:Generated_Source\PSoC4/CapSense_CSHL.c ****             }
 1152:Generated_Source\PSoC4/CapSense_CSHL.c ****         }
 1153:Generated_Source\PSoC4/CapSense_CSHL.c ****         else
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 49
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 49
 
 
 1154:Generated_Source\PSoC4/CapSense_CSHL.c ****         {
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1613              		.global	CapSense_CheckIsWidgetActive
  1614              		.code	16
  1615              		.thumb_func
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 50
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 50
 
 
  1616              		.type	CapSense_CheckIsWidgetActive, %function
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1636 0010 7B69     		ldr	r3, [r7, #20]
  1637 0012 D318     		add	r3, r2, r3
  1638 0014 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 51
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 51
 
 
 1196:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint32 state = 0u;
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1676              		.code	16
  1677              		.thumb_func
  1678              		.type	CapSense_CheckIsAnyWidgetActive, %function
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 52
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 52
 
 
  1679              	CapSense_CheckIsAnyWidgetActive:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1699              		.loc 1 1246 0
  1700 0010 7B68     		ldr	r3, [r7, #4]
  1701 0012 181C     		mov	r0, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 53
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 53
 
 
  1702 0014 FFF7FEFF 		bl	CapSense_CheckIsWidgetActive
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1264:Generated_Source\PSoC4/CapSense_CSHL.c **** *
 1265:Generated_Source\PSoC4/CapSense_CSHL.c **** * Parameters:
 1266:Generated_Source\PSoC4/CapSense_CSHL.c **** *  widget:  widget number.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 54
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 54
 
 
 1267:Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1763              		.loc 1 1294 0 discriminator 1
  1764 0020 0F23     		mov	r3, #15
  1765 0022 FB18     		add	r3, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 55
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 55
 
 
  1766 0024 1B78     		ldrb	r3, [r3]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1306:Generated_Source\PSoC4/CapSense_CSHL.c **** *  Disables all the widget elements (sensors) from the scanning process.
 1307:Generated_Source\PSoC4/CapSense_CSHL.c **** *
 1308:Generated_Source\PSoC4/CapSense_CSHL.c **** * Parameters:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 56
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 56
 
 
 1309:Generated_Source\PSoC4/CapSense_CSHL.c **** *  widget:  widget number.
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1337:Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_SetBitValue(CapSense_sensorEnableMask, (uint32)rawIndex, 0u);
  1835              		.loc 1 1337 0 discriminator 1
  1836 0020 0F23     		mov	r3, #15
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 57
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 57
 
 
  1837 0022 FB18     		add	r3, r7, r3
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1348:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 1349:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Summary:
 1350:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  Finds the index of the maximum element within a defined centroid. Checks
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 58
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 58
 
 
 1351:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  CapSense_sensorSignal[] within a defined centroid and
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1382:Generated_Source\PSoC4/CapSense_CSHL.c ****         #if (CapSense_IS_DIPLEX_SLIDER)
 1383:Generated_Source\PSoC4/CapSense_CSHL.c ****             uint8 curPos = 0u;
 1384:Generated_Source\PSoC4/CapSense_CSHL.c ****             /* No centroid at Start */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 59
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 59
 
 
 1385:Generated_Source\PSoC4/CapSense_CSHL.c ****             uint8 curCntrdSize = 0u;
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1423:Generated_Source\PSoC4/CapSense_CSHL.c ****                             /* We are at the end of current */
 1424:Generated_Source\PSoC4/CapSense_CSHL.c ****                             if(curCntrdSize > biggestCtrdSize)
 1425:Generated_Source\PSoC4/CapSense_CSHL.c ****                             {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 60
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 60
 
 
 1426:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 biggestCtrdSize = curCntrdSize;
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1480:Generated_Source\PSoC4/CapSense_CSHL.c ****                         if(startOfSlider[curPos] > fingerThreshold)
 1481:Generated_Source\PSoC4/CapSense_CSHL.c ****                         {
 1482:Generated_Source\PSoC4/CapSense_CSHL.c ****                             if(startOfSlider[curPos] > temp)
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 61
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 61
 
 
 1483:Generated_Source\PSoC4/CapSense_CSHL.c ****                             {
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  1957              		.loc 1 1499 0
  1958 0078 0F23     		mov	r3, #15
  1959 007a FB18     		add	r3, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 62
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 62
 
 
  1960 007c 1B78     		ldrb	r3, [r3]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2006              		.code	16
  2007              		.thumb_func
  2008              		.type	CapSense_CalcCentroid, %function
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 63
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 63
 
 
  2009              	CapSense_CalcCentroid:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2028 0010 2A1C     		add	r2, r5, #0
  2029 0012 1A70     		strb	r2, [r3]
  2030 0014 BB1D     		add	r3, r7, #6
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 64
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 64
 
 
  2031 0016 221C     		add	r2, r4, #0
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1576:Generated_Source\PSoC4/CapSense_CSHL.c ****                 {
 1577:Generated_Source\PSoC4/CapSense_CSHL.c ****                     CapSense_centroid[CapSense_POS_PREV] = startOfSlider[count - 1u];
 1578:Generated_Source\PSoC4/CapSense_CSHL.c ****                     CapSense_centroid[CapSense_POS_NEXT] = startOfSlider[1u];
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 65
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 65
 
 
 1579:Generated_Source\PSoC4/CapSense_CSHL.c ****                 }
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2058 0044 FA1D     		add	r2, r7, #7
  2059 0046 1278     		ldrb	r2, [r2]
  2060 0048 013A     		sub	r2, r2, #1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 66
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 66
 
 
  2061 004a 1A70     		strb	r2, [r3]
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1642:Generated_Source\PSoC4/CapSense_CSHL.c ****                 else if (maximum == ((count) - 1u)) /* End of centroid */
  2098              		.loc 1 1642 0
  2099 0086 FB1D     		add	r3, r7, #7
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 67
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 67
 
 
  2100 0088 1A78     		ldrb	r2, [r3]
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1657:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1658:Generated_Source\PSoC4/CapSense_CSHL.c ****         /* Subtract noiseThreshold */
 1659:Generated_Source\PSoC4/CapSense_CSHL.c ****         if(CapSense_centroid[CapSense_POS_PREV] > noiseThreshold)
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 68
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 68
 
 
  2140              		.loc 1 1659 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2181 0110 9A42     		cmp	r2, r3
  2182 0112 09D2     		bcs	.L134
 1673:Generated_Source\PSoC4/CapSense_CSHL.c ****         {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 69
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 69
 
 
 1674:Generated_Source\PSoC4/CapSense_CSHL.c ****             CapSense_centroid[CapSense_POS_NEXT] -= noiseThreshold;
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2219              		.loc 1 1689 0
  2220 0148 144A     		ldr	r2, .L137+4
  2221 014a 9278     		ldrb	r2, [r2, #2]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 70
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 70
 
 
 1687:Generated_Source\PSoC4/CapSense_CSHL.c ****                       (int32) CapSense_centroid[CapSense_POS] +
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2257 018a FB18     		add	r3, r7, r3
  2258 018c 1B78     		ldrb	r3, [r3]
 1708:Generated_Source\PSoC4/CapSense_CSHL.c ****     }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 71
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 71
 
 
  2259              		.loc 1 1708 0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1741:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 1742:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Note:
 1743:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  If noise counts on the slider segments are greater than the noise
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 72
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 72
 
 
 1744:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  threshold, this subroutine may generate a false centroid result. The noise
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2309              		.loc 1 1769 0
  2310 0024 1323     		mov	r3, #19
  2311 0026 FB18     		add	r3, r7, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 73
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 73
 
 
  2312 0028 0022     		mov	r2, #0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2344              	.LCB2046:
 1792:Generated_Source\PSoC4/CapSense_CSHL.c ****         {
 1793:Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Calculate centroid */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 74
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 74
 
 
 1794:Generated_Source\PSoC4/CapSense_CSHL.c ****             position = (uint16) CapSense_CalcCentroid(maximum,
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2388 00b2 FB18     		add	r3, r7, r3
  2389 00b4 1B78     		ldrb	r3, [r3]
  2390 00b6 3C4A     		ldr	r2, .L147
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 75
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 75
 
 
  2391 00b8 D35C     		ldrb	r3, [r2, r3]
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1817:Generated_Source\PSoC4/CapSense_CSHL.c ****                             }
 1818:Generated_Source\PSoC4/CapSense_CSHL.c ****                         #endif /* ((0u != (CapSense_MEDIAN_FILTER & \
 1819:Generated_Source\PSoC4/CapSense_CSHL.c ****                                *           CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK)) || \
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 76
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 76
 
 
 1820:Generated_Source\PSoC4/CapSense_CSHL.c ****                                *   (0u != (CapSense_AVERAGING_FILTER & \
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2456 0122 1023     		mov	r3, #16
  2457 0124 FB18     		add	r3, r7, r3
  2458 0126 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 77
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 77
 
 
  2459 0128 1F4A     		ldr	r2, .L147
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1857:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1858:Generated_Source\PSoC4/CapSense_CSHL.c ****                         #if (0u != (CapSense_IIR2_FILTER & CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK
 1859:Generated_Source\PSoC4/CapSense_CSHL.c ****                             if (0u != (posFiltersMask & CapSense_IIR2_FILTER))
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 78
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 78
 
 
 1860:Generated_Source\PSoC4/CapSense_CSHL.c ****                             {
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2515 018a 1340     		and	r3, r2
  2516 018c 05D0     		beq	.L145
 1903:Generated_Source\PSoC4/CapSense_CSHL.c ****                 {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 79
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 79
 
 
 1904:Generated_Source\PSoC4/CapSense_CSHL.c ****                     CapSense_posFiltersData[firstTimeIndex] = 0u;
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1922:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  a slider specified range. The centroid position is calculated according to the resolution
 1923:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  specified in the CapSense customizer. The position filters are applied to the
 1924:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  result if enabled.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 80
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 80
 
 
 1925:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 1967:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint16 position;
 1968:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 offset = CapSense_rawDataIndex[widget];
  2565              		.loc 1 1968 0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 81
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 81
 
 
  2566 0008 0D23     		mov	r3, #13
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2607 0054 BA18     		add	r2, r7, r2
  2608 0056 1078     		ldrb	r0, [r2]
  2609 0058 0D22     		mov	r2, #13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 82
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 82
 
 
  2610 005a BA18     		add	r2, r7, r2
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2021:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                         CapSense_posFiltersData[pos
 2022:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                         CapSense_posFiltersData[pos
 2023:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 CapSense_posFiltersData[posIndex + 1u] =
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 83
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 83
 
 
 2024:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                               CapSense_posFiltersDa
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2078:Generated_Source\PSoC4/CapSense_CSHL.c ****                     }
 2079:Generated_Source\PSoC4/CapSense_CSHL.c ****                 }
 2080:Generated_Source\PSoC4/CapSense_CSHL.c ****             #endif /* (0u != CapSense_RADIAL_SLIDERS_POS_FILTERS_MASK) */
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 84
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 84
 
 
 2081:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2102:Generated_Source\PSoC4/CapSense_CSHL.c **** #if(CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT > 0u)
 2103:Generated_Source\PSoC4/CapSense_CSHL.c ****     /*******************************************************************************
 2104:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Function Name: CapSense_GetTouchCentroidPos
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 85
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 85
 
 
 2105:Generated_Source\PSoC4/CapSense_CSHL.c ****     ********************************************************************************
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2159:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 offset = CapSense_rawDataIndex[widget];
 2160:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 count = CapSense_numberOfSensors[widget];
 2161:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 86
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 86
 
 
 2162:Generated_Source\PSoC4/CapSense_CSHL.c ****         /* Find Maximum within X centroid */
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2216:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 if ( (0u != (posFiltersMask & CapSense_MEDIAN_FILTER)) ||
 2217:Generated_Source\PSoC4/CapSense_CSHL.c ****                                      (0u != (posFiltersMask & CapSense_AVERAGING_FILTER)) )
 2218:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 87
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 87
 
 
 2219:Generated_Source\PSoC4/CapSense_CSHL.c ****                                     CapSense_posFiltersData[posXIndex + 1u] = posX;
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2273:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                             CapSense_posFiltersData
 2274:Generated_Source\PSoC4/CapSense_CSHL.c ****                                     CapSense_posFiltersData[posYIndex] = tempPos;
 2275:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 88
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 88
 
 
 2276:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2330:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 2331:Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Save positions */
 2332:Generated_Source\PSoC4/CapSense_CSHL.c ****                 pos[0u] = posX;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 89
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 89
 
 
 2333:Generated_Source\PSoC4/CapSense_CSHL.c ****                 pos[1u] = posY;
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2663              		.cfi_offset 7, -8
  2664              		.cfi_offset 14, -4
  2665 0002 85B0     		sub	sp, sp, #20
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 90
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 90
 
 
  2666              		.cfi_def_cfa_offset 32
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2710 004c 1B88     		ldrh	r3, [r3]
  2711 004e 9A42     		cmp	r2, r3
  2712 0050 03D9     		bls	.L157
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 91
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 91
 
 
 2392:Generated_Source\PSoC4/CapSense_CSHL.c ****         {
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2410:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  This is the Averaging filter function.
 2411:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  The averaging filter looks at the three most recent samples of a position and
 2412:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  reports the averaging value.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 92
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 92
 
 
 2413:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2784 0036 031C     		mov	r3, r0
  2785 0038 FB60     		str	r3, [r7, #12]
 2432:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 93
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 93
 
 
 2433:Generated_Source\PSoC4/CapSense_CSHL.c ****         return ((uint16) tmp);
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2467:Generated_Source\PSoC4/CapSense_CSHL.c ****         tmp = (uint32)x1 + (uint32)x2;
 2468:Generated_Source\PSoC4/CapSense_CSHL.c ****         tmp >>= 1u;
 2469:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 94
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 94
 
 
 2470:Generated_Source\PSoC4/CapSense_CSHL.c ****         return ((uint16) tmp);
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2524:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  This is the Jitter filter function.
 2525:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 2526:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Parameters:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 95
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 95
 
 
 2527:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x1:  Current value.
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2581:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Side Effects:
 2582:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  None
 2583:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 96
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 96
 
 
 2584:Generated_Source\PSoC4/CapSense_CSHL.c ****     *******************************************************************************/
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2638:Generated_Source\PSoC4/CapSense_CSHL.c ****     /*******************************************************************************
 2639:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Function Name: CapSense_GetMatrixButtonPos
 2640:Generated_Source\PSoC4/CapSense_CSHL.c ****     ********************************************************************************
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 97
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 97
 
 
 2641:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2695:Generated_Source\PSoC4/CapSense_CSHL.c ****                     row_sig_max = CapSense_sensorSignal[i];
 2696:Generated_Source\PSoC4/CapSense_CSHL.c ****                 }
 2697:Generated_Source\PSoC4/CapSense_CSHL.c ****             }
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 98
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 98
 
 
 2698:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2736:Generated_Source\PSoC4/CapSense_CSHL.c **** }
  2822              		.loc 1 2736 0
  2823 0010 181C     		mov	r0, r3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 99
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 99
 
 
  2824 0012 BD46     		mov	sp, r7
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2761:Generated_Source\PSoC4/CapSense_CSHL.c ****     return(CapSense_lowBaselineReset[sensor]);
  2854              		.loc 1 2761 0
  2855 0008 034A     		ldr	r2, .L168
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 100
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 100
 
 
  2856 000a 7B68     		ldr	r3, [r7, #4]
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2885              		.cfi_offset 14, -4
  2886 0002 82B0     		sub	sp, sp, #8
  2887              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 101
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 101
 
 
  2888 0004 00AF     		add	r7, sp, #0
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
 2812:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
  2917              		.loc 1 2812 0
  2918              		.cfi_startproc
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 102
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 102
 
 
  2919 0000 80B5     		push	{r7, lr}
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2948              		.loc 1 2837 0
  2949              		.cfi_startproc
  2950 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 103
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 103
 
 
  2951              		.cfi_def_cfa_offset 8
@@ -6161,10 +6161,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  2986 0006 00000000 		.4byte	.Ldebug_abbrev0
  2987 000a 04       		.byte	0x4
  2988 000b 01       		.uleb128 0x1
- 2989 000c 22060000 		.4byte	.LASF147
+ 2989 000c 77060000 		.4byte	.LASF147
  2990 0010 01       		.byte	0x1
  2991 0011 1A0A0000 		.4byte	.LASF148
- 2992 0015 A0090000 		.4byte	.LASF149
+ 2992 0015 83040000 		.4byte	.LASF149
  2993 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2994 001d 00000000 		.4byte	0
  2995 0021 00000000 		.4byte	.Ldebug_line0
@@ -6175,14 +6175,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3000 002c 02       		.uleb128 0x2
  3001 002d 01       		.byte	0x1
  3002 002e 08       		.byte	0x8
- 3003 002f 16090000 		.4byte	.LASF1
+ 3003 002f 6B090000 		.4byte	.LASF1
  3004 0033 02       		.uleb128 0x2
  3005 0034 02       		.byte	0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 104
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 104
 
 
  3006 0035 05       		.byte	0x5
- 3007 0036 E7070000 		.4byte	.LASF2
+ 3007 0036 3C080000 		.4byte	.LASF2
  3008 003a 02       		.uleb128 0x2
  3009 003b 02       		.byte	0x2
  3010 003c 07       		.byte	0x7
@@ -6190,15 +6190,15 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3012 0041 02       		.uleb128 0x2
  3013 0042 04       		.byte	0x4
  3014 0043 05       		.byte	0x5
- 3015 0044 F1070000 		.4byte	.LASF4
+ 3015 0044 46080000 		.4byte	.LASF4
  3016 0048 02       		.uleb128 0x2
  3017 0049 04       		.byte	0x4
  3018 004a 07       		.byte	0x7
- 3019 004b A8080000 		.4byte	.LASF5
+ 3019 004b FD080000 		.4byte	.LASF5
  3020 004f 02       		.uleb128 0x2
  3021 0050 08       		.byte	0x8
  3022 0051 05       		.byte	0x5
- 3023 0052 A2050000 		.4byte	.LASF6
+ 3023 0052 F7050000 		.4byte	.LASF6
  3024 0056 02       		.uleb128 0x2
  3025 0057 08       		.byte	0x8
  3026 0058 07       		.byte	0x7
@@ -6217,12 +6217,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3039 0071 3801     		.2byte	0x138
  3040 0073 2C000000 		.4byte	0x2c
  3041 0077 04       		.uleb128 0x4
- 3042 0078 61050000 		.4byte	.LASF10
+ 3042 0078 B6050000 		.4byte	.LASF10
  3043 007c 02       		.byte	0x2
  3044 007d 3901     		.2byte	0x139
  3045 007f 3A000000 		.4byte	0x3a
  3046 0083 04       		.uleb128 0x4
- 3047 0084 38070000 		.4byte	.LASF11
+ 3047 0084 8D070000 		.4byte	.LASF11
  3048 0088 02       		.byte	0x2
  3049 0089 3A01     		.2byte	0x13a
  3050 008b 48000000 		.4byte	0x48
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3060 00a3 41000000 		.4byte	0x41
  3061 00a7 02       		.uleb128 0x2
  3062 00a8 04       		.byte	0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 105
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 105
 
 
  3063 00a9 04       		.byte	0x4
@@ -6250,36 +6250,36 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3069 00b5 02       		.uleb128 0x2
  3070 00b6 01       		.byte	0x1
  3071 00b7 08       		.byte	0x8
- 3072 00b8 1B050000 		.4byte	.LASF16
+ 3072 00b8 7F050000 		.4byte	.LASF16
  3073 00bc 02       		.uleb128 0x2
  3074 00bd 04       		.byte	0x4
  3075 00be 07       		.byte	0x7
- 3076 00bf 9F080000 		.4byte	.LASF17
+ 3076 00bf F4080000 		.4byte	.LASF17
  3077 00c3 05       		.uleb128 0x5
  3078 00c4 5C       		.byte	0x5c
  3079 00c5 03       		.byte	0x3
  3080 00c6 2F       		.byte	0x2f
  3081 00c7 E0010000 		.4byte	0x1e0
  3082 00cb 06       		.uleb128 0x6
- 3083 00cc 6D050000 		.4byte	.LASF18
+ 3083 00cc C2050000 		.4byte	.LASF18
  3084 00d0 03       		.byte	0x3
  3085 00d1 31       		.byte	0x31
  3086 00d2 E0010000 		.4byte	0x1e0
  3087 00d6 00       		.byte	0
  3088 00d7 06       		.uleb128 0x6
- 3089 00d8 D8070000 		.4byte	.LASF19
+ 3089 00d8 2D080000 		.4byte	.LASF19
  3090 00dc 03       		.byte	0x3
  3091 00dd 32       		.byte	0x32
  3092 00de E0010000 		.4byte	0x1e0
  3093 00e2 04       		.byte	0x4
  3094 00e3 06       		.uleb128 0x6
- 3095 00e4 52050000 		.4byte	.LASF20
+ 3095 00e4 F5090000 		.4byte	.LASF20
  3096 00e8 03       		.byte	0x3
  3097 00e9 33       		.byte	0x33
  3098 00ea E0010000 		.4byte	0x1e0
  3099 00ee 08       		.byte	0x8
  3100 00ef 06       		.uleb128 0x6
- 3101 00f0 09090000 		.4byte	.LASF21
+ 3101 00f0 5E090000 		.4byte	.LASF21
  3102 00f4 03       		.byte	0x3
  3103 00f5 34       		.byte	0x34
  3104 00f6 E0010000 		.4byte	0x1e0
@@ -6291,14 +6291,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3110 0102 E0010000 		.4byte	0x1e0
  3111 0106 10       		.byte	0x10
  3112 0107 06       		.uleb128 0x6
- 3113 0108 20080000 		.4byte	.LASF23
+ 3113 0108 75080000 		.4byte	.LASF23
  3114 010c 03       		.byte	0x3
  3115 010d 36       		.byte	0x36
  3116 010e E6010000 		.4byte	0x1e6
  3117 0112 14       		.byte	0x14
  3118 0113 06       		.uleb128 0x6
  3119 0114 C6020000 		.4byte	.LASF24
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 106
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 106
 
 
  3120 0118 03       		.byte	0x3
@@ -6324,7 +6324,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3140 013e E0010000 		.4byte	0x1e0
  3141 0142 24       		.byte	0x24
  3142 0143 06       		.uleb128 0x6
- 3143 0144 D8060000 		.4byte	.LASF28
+ 3143 0144 2D070000 		.4byte	.LASF28
  3144 0148 03       		.byte	0x3
  3145 0149 3B       		.byte	0x3b
  3146 014a F7010000 		.4byte	0x1f7
@@ -6336,13 +6336,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3152 0156 F7010000 		.4byte	0x1f7
  3153 015a 2C       		.byte	0x2c
  3154 015b 06       		.uleb128 0x6
- 3155 015c D2080000 		.4byte	.LASF30
+ 3155 015c 27090000 		.4byte	.LASF30
  3156 0160 03       		.byte	0x3
  3157 0161 3D       		.byte	0x3d
  3158 0162 F7010000 		.4byte	0x1f7
  3159 0166 30       		.byte	0x30
  3160 0167 06       		.uleb128 0x6
- 3161 0168 75080000 		.4byte	.LASF31
+ 3161 0168 CA080000 		.4byte	.LASF31
  3162 016c 03       		.byte	0x3
  3163 016d 3E       		.byte	0x3e
  3164 016e E0010000 		.4byte	0x1e0
@@ -6354,11 +6354,11 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3170 017a E0010000 		.4byte	0x1e0
  3171 017e 38       		.byte	0x38
  3172 017f 06       		.uleb128 0x6
- 3173 0180 43050000 		.4byte	.LASF33
+ 3173 0180 A7050000 		.4byte	.LASF33
  3174 0184 03       		.byte	0x3
  3175 0185 40       		.byte	0x40
  3176 0186 E6010000 		.4byte	0x1e6
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 107
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 107
 
 
  3177 018a 3C       		.byte	0x3c
@@ -6375,13 +6375,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3188 019e E6010000 		.4byte	0x1e6
  3189 01a2 44       		.byte	0x44
  3190 01a3 06       		.uleb128 0x6
- 3191 01a4 FA050000 		.4byte	.LASF36
+ 3191 01a4 4F060000 		.4byte	.LASF36
  3192 01a8 03       		.byte	0x3
  3193 01a9 43       		.byte	0x43
  3194 01aa 0C020000 		.4byte	0x20c
  3195 01ae 48       		.byte	0x48
  3196 01af 06       		.uleb128 0x6
- 3197 01b0 D2050000 		.4byte	.LASF37
+ 3197 01b0 27060000 		.4byte	.LASF37
  3198 01b4 03       		.byte	0x3
  3199 01b5 44       		.byte	0x44
  3200 01b6 1D020000 		.4byte	0x21d
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3231 01f3 83000000 		.4byte	0x83
  3232 01f7 07       		.uleb128 0x7
  3233 01f8 04       		.byte	0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 108
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 108
 
 
  3234 01f9 77000000 		.4byte	0x77
@@ -6473,12 +6473,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3283 0266 4A       		.byte	0x4a
  3284 0267 B4020000 		.4byte	0x2b4
  3285 026b 06       		.uleb128 0x6
- 3286 026c DC040000 		.4byte	.LASF42
+ 3286 026c 40050000 		.4byte	.LASF42
  3287 0270 03       		.byte	0x3
  3288 0271 4C       		.byte	0x4c
  3289 0272 6B000000 		.4byte	0x6b
  3290 0276 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 109
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 109
 
 
  3291 0277 06       		.uleb128 0x6
@@ -6494,19 +6494,19 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3301 028a 6B000000 		.4byte	0x6b
  3302 028e 02       		.byte	0x2
  3303 028f 06       		.uleb128 0x6
- 3304 0290 F5040000 		.4byte	.LASF45
+ 3304 0290 59050000 		.4byte	.LASF45
  3305 0294 03       		.byte	0x3
  3306 0295 4F       		.byte	0x4f
  3307 0296 77000000 		.4byte	0x77
  3308 029a 04       		.byte	0x4
  3309 029b 06       		.uleb128 0x6
- 3310 029c AA070000 		.4byte	.LASF46
+ 3310 029c FF070000 		.4byte	.LASF46
  3311 02a0 03       		.byte	0x3
  3312 02a1 50       		.byte	0x50
  3313 02a2 77000000 		.4byte	0x77
  3314 02a6 06       		.byte	0x6
  3315 02a7 06       		.uleb128 0x6
- 3316 02a8 BA080000 		.4byte	.LASF47
+ 3316 02a8 0F090000 		.4byte	.LASF47
  3317 02ac 03       		.byte	0x3
  3318 02ad 51       		.byte	0x51
  3319 02ae B4020000 		.4byte	0x2b4
@@ -6523,7 +6523,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3330 02c5 52       		.byte	0x52
  3331 02c6 63020000 		.4byte	0x263
  3332 02ca 0D       		.uleb128 0xd
- 3333 02cb B0060000 		.4byte	.LASF49
+ 3333 02cb 05070000 		.4byte	.LASF49
  3334 02cf 01       		.byte	0x1
  3335 02d0 8E       		.byte	0x8e
  3336 02d1 00000000 		.4byte	.LFB36
@@ -6532,13 +6532,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3339 02da 9C       		.byte	0x9c
  3340 02db EE020000 		.4byte	0x2ee
  3341 02df 0E       		.uleb128 0xe
- 3342 02e0 EE040000 		.4byte	.LASF51
+ 3342 02e0 52050000 		.4byte	.LASF51
  3343 02e4 01       		.byte	0x1
  3344 02e5 8E       		.byte	0x8e
  3345 02e6 83000000 		.4byte	0x83
  3346 02ea 02       		.uleb128 0x2
  3347 02eb 91       		.byte	0x91
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 110
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 110
 
 
  3348 02ec 74       		.sleb128 -12
@@ -6553,7 +6553,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3357 02fe 9C       		.byte	0x9c
  3358 02ff 12030000 		.4byte	0x312
  3359 0303 0E       		.uleb128 0xe
- 3360 0304 EE040000 		.4byte	.LASF51
+ 3360 0304 52050000 		.4byte	.LASF51
  3361 0308 01       		.byte	0x1
  3362 0309 D9       		.byte	0xd9
  3363 030a 83000000 		.4byte	0x83
@@ -6562,7 +6562,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3366 0310 74       		.sleb128 -12
  3367 0311 00       		.byte	0
  3368 0312 0F       		.uleb128 0xf
- 3369 0313 4A090000 		.4byte	.LASF52
+ 3369 0313 9F090000 		.4byte	.LASF52
  3370 0317 01       		.byte	0x1
  3371 0318 FE       		.byte	0xfe
  3372 0319 00000000 		.4byte	.LFB38
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3402 0357 74       		.sleb128 -12
  3403 0358 12       		.uleb128 0x12
  3404 0359 F8000000 		.4byte	.LASF54
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 111
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 111
 
 
  3405 035d 01       		.byte	0x1
@@ -6618,7 +6618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3419 0379 9C       		.byte	0x9c
  3420 037a E8030000 		.4byte	0x3e8
  3421 037e 13       		.uleb128 0x13
- 3422 037f EE040000 		.4byte	.LASF51
+ 3422 037f 52050000 		.4byte	.LASF51
  3423 0383 01       		.byte	0x1
  3424 0384 6201     		.2byte	0x162
  3425 0386 83000000 		.4byte	0x83
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3459 03c7 91       		.byte	0x91
  3460 03c8 68       		.sleb128 -24
  3461 03c9 12       		.uleb128 0x12
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 112
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 112
 
 
  3462 03ca 45030000 		.4byte	.LASF60
@@ -6669,7 +6669,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3467 03d6 91       		.byte	0x91
  3468 03d7 67       		.sleb128 -25
  3469 03d8 12       		.uleb128 0x12
- 3470 03d9 C3080000 		.4byte	.LASF61
+ 3470 03d9 18090000 		.4byte	.LASF61
  3471 03dd 01       		.byte	0x1
  3472 03de 6901     		.2byte	0x169
  3473 03e0 6B000000 		.4byte	0x6b
@@ -6678,7 +6678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3476 03e6 66       		.sleb128 -26
  3477 03e7 00       		.byte	0
  3478 03e8 11       		.uleb128 0x11
- 3479 03e9 04060000 		.4byte	.LASF62
+ 3479 03e9 59060000 		.4byte	.LASF62
  3480 03ed 01       		.byte	0x1
  3481 03ee 2202     		.2byte	0x222
  3482 03f0 00000000 		.4byte	.LFB41
@@ -6687,7 +6687,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3485 03f9 9C       		.byte	0x9c
  3486 03fa 0E040000 		.4byte	0x40e
  3487 03fe 13       		.uleb128 0x13
- 3488 03ff EE040000 		.4byte	.LASF51
+ 3488 03ff 52050000 		.4byte	.LASF51
  3489 0403 01       		.byte	0x1
  3490 0404 2202     		.2byte	0x222
  3491 0406 83000000 		.4byte	0x83
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3516 0437 5B02     		.2byte	0x25b
  3517 0439 83000000 		.4byte	0x83
  3518 043d 02       		.uleb128 0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 113
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 113
 
 
  3519 043e 91       		.byte	0x91
@@ -6750,7 +6750,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3545 0473 91       		.byte	0x91
  3546 0474 70       		.sleb128 -16
  3547 0475 12       		.uleb128 0x12
- 3548 0476 FA070000 		.4byte	.LASF66
+ 3548 0476 4F080000 		.4byte	.LASF66
  3549 047a 01       		.byte	0x1
  3550 047b 8802     		.2byte	0x288
  3551 047d 83000000 		.4byte	0x83
@@ -6758,7 +6758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3553 0482 91       		.byte	0x91
  3554 0483 6C       		.sleb128 -20
  3555 0484 12       		.uleb128 0x12
- 3556 0485 9F070000 		.4byte	.LASF67
+ 3556 0485 F4070000 		.4byte	.LASF67
  3557 0489 01       		.byte	0x1
  3558 048a 8902     		.2byte	0x289
  3559 048c 83000000 		.4byte	0x83
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3573 04a5 01       		.byte	0x1
  3574 04a6 8B02     		.2byte	0x28b
  3575 04a8 83000000 		.4byte	0x83
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 114
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 114
 
 
  3576 04ac 02       		.uleb128 0x2
@@ -6786,7 +6786,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3578 04ae 64       		.sleb128 -28
  3579 04af 00       		.byte	0
  3580 04b0 14       		.uleb128 0x14
- 3581 04b1 6A090000 		.4byte	.LASF70
+ 3581 04b1 BF090000 		.4byte	.LASF70
  3582 04b5 01       		.byte	0x1
  3583 04b6 B602     		.2byte	0x2b6
  3584 04b8 77000000 		.4byte	0x77
@@ -6796,7 +6796,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3588 04c5 9C       		.byte	0x9c
  3589 04c6 DA040000 		.4byte	0x4da
  3590 04ca 13       		.uleb128 0x13
- 3591 04cb EE040000 		.4byte	.LASF51
+ 3591 04cb 52050000 		.4byte	.LASF51
  3592 04cf 01       		.byte	0x1
  3593 04d0 B602     		.2byte	0x2b6
  3594 04d2 83000000 		.4byte	0x83
@@ -6814,7 +6814,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3606 04eb 9C       		.byte	0x9c
  3607 04ec 0F050000 		.4byte	0x50f
  3608 04f0 13       		.uleb128 0x13
- 3609 04f1 EE040000 		.4byte	.LASF51
+ 3609 04f1 52050000 		.4byte	.LASF51
  3610 04f5 01       		.byte	0x1
  3611 04f6 D102     		.2byte	0x2d1
  3612 04f8 83000000 		.4byte	0x83
@@ -6822,7 +6822,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3614 04fd 91       		.byte	0x91
  3615 04fe 74       		.sleb128 -12
  3616 04ff 13       		.uleb128 0x13
- 3617 0500 68050000 		.4byte	.LASF69
+ 3617 0500 BD050000 		.4byte	.LASF69
  3618 0504 01       		.byte	0x1
  3619 0505 D102     		.2byte	0x2d1
  3620 0507 77000000 		.4byte	0x77
@@ -6838,13 +6838,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3630 051b 00000000 		.4byte	.LFB46
  3631 051f 1C000000 		.4byte	.LFE46-.LFB46
  3632 0523 01       		.uleb128 0x1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 115
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 115
 
 
  3633 0524 9C       		.byte	0x9c
  3634 0525 39050000 		.4byte	0x539
  3635 0529 13       		.uleb128 0x13
- 3636 052a EE040000 		.4byte	.LASF51
+ 3636 052a 52050000 		.4byte	.LASF51
  3637 052e 01       		.byte	0x1
  3638 052f EC02     		.2byte	0x2ec
  3639 0531 83000000 		.4byte	0x83
@@ -6862,7 +6862,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3651 054a 9C       		.byte	0x9c
  3652 054b 6E050000 		.4byte	0x56e
  3653 054f 13       		.uleb128 0x13
- 3654 0550 EE040000 		.4byte	.LASF51
+ 3654 0550 52050000 		.4byte	.LASF51
  3655 0554 01       		.byte	0x1
  3656 0555 0703     		.2byte	0x307
  3657 0557 83000000 		.4byte	0x83
@@ -6879,7 +6879,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3668 056c 73       		.sleb128 -13
  3669 056d 00       		.byte	0
  3670 056e 14       		.uleb128 0x14
- 3671 056f 79070000 		.4byte	.LASF74
+ 3671 056f CE070000 		.4byte	.LASF74
  3672 0573 01       		.byte	0x1
  3673 0574 2203     		.2byte	0x322
  3674 0576 6B000000 		.4byte	0x6b
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3687 0596 74       		.sleb128 -12
  3688 0597 00       		.byte	0
  3689 0598 14       		.uleb128 0x14
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 116
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 116
 
 
  3690 0599 E4020000 		.4byte	.LASF75
@@ -6939,7 +6939,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3725 05ea 74       		.sleb128 -12
  3726 05eb 00       		.byte	0
  3727 05ec 14       		.uleb128 0x14
- 3728 05ed 20050000 		.4byte	.LASF77
+ 3728 05ed 84050000 		.4byte	.LASF77
  3729 05f1 01       		.byte	0x1
  3730 05f2 7503     		.2byte	0x375
  3731 05f4 6B000000 		.4byte	0x6b
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3744 0614 74       		.sleb128 -12
  3745 0615 00       		.byte	0
  3746 0616 15       		.uleb128 0x15
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 117
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 117
 
 
  3747 0617 AC030000 		.4byte	.LASF78
@@ -7013,12 +7013,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3796 067e 73       		.sleb128 -13
  3797 067f 00       		.byte	0
  3798 0680 15       		.uleb128 0x15
- 3799 0681 5C070000 		.4byte	.LASF80
+ 3799 0681 B1070000 		.4byte	.LASF80
  3800 0685 01       		.byte	0x1
  3801 0686 CE03     		.2byte	0x3ce
  3802 0688 00000000 		.4byte	.LFB54
  3803 068c 24000000 		.4byte	.LFE54-.LFB54
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 118
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 118
 
 
  3804 0690 01       		.uleb128 0x1
@@ -7042,7 +7042,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3822 06b3 73       		.sleb128 -13
  3823 06b4 00       		.byte	0
  3824 06b5 15       		.uleb128 0x15
- 3825 06b6 15070000 		.4byte	.LASF81
+ 3825 06b6 6A070000 		.4byte	.LASF81
  3826 06ba 01       		.byte	0x1
  3827 06bb EB03     		.2byte	0x3eb
  3828 06bd 00000000 		.4byte	.LFB55
@@ -7068,7 +7068,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3848 06e8 73       		.sleb128 -13
  3849 06e9 00       		.byte	0
  3850 06ea 15       		.uleb128 0x15
- 3851 06eb E4080000 		.4byte	.LASF82
+ 3851 06eb 39090000 		.4byte	.LASF82
  3852 06ef 01       		.byte	0x1
  3853 06f0 0704     		.2byte	0x407
  3854 06f2 00000000 		.4byte	.LFB56
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3858 06fc 1F070000 		.4byte	0x71f
  3859 0700 13       		.uleb128 0x13
  3860 0701 45030000 		.4byte	.LASF60
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 119
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 119
 
 
  3861 0705 01       		.byte	0x1
@@ -7097,7 +7097,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3874 071d 73       		.sleb128 -13
  3875 071e 00       		.byte	0
  3876 071f 15       		.uleb128 0x15
- 3877 0720 83090000 		.4byte	.LASF83
+ 3877 0720 D8090000 		.4byte	.LASF83
  3878 0724 01       		.byte	0x1
  3879 0725 2304     		.2byte	0x423
  3880 0727 00000000 		.4byte	.LFB57
@@ -7106,7 +7106,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3883 0730 9C       		.byte	0x9c
  3884 0731 54070000 		.4byte	0x754
  3885 0735 13       		.uleb128 0x13
- 3886 0736 EE040000 		.4byte	.LASF51
+ 3886 0736 52050000 		.4byte	.LASF51
  3887 073a 01       		.byte	0x1
  3888 073b 2304     		.2byte	0x423
  3889 073d 83000000 		.4byte	0x83
@@ -7123,7 +7123,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3900 0752 73       		.sleb128 -13
  3901 0753 00       		.byte	0
  3902 0754 16       		.uleb128 0x16
- 3903 0755 DD050000 		.4byte	.LASF84
+ 3903 0755 32060000 		.4byte	.LASF84
  3904 0759 01       		.byte	0x1
  3905 075a 5104     		.2byte	0x451
  3906 075c 83000000 		.4byte	0x83
@@ -7133,12 +7133,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3910 0769 9C       		.byte	0x9c
  3911 076a DB070000 		.4byte	0x7db
  3912 076e 13       		.uleb128 0x13
- 3913 076f EE040000 		.4byte	.LASF51
+ 3913 076f 52050000 		.4byte	.LASF51
  3914 0773 01       		.byte	0x1
  3915 0774 5104     		.2byte	0x451
  3916 0776 83000000 		.4byte	0x83
  3917 077a 02       		.uleb128 0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 120
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 120
 
 
  3918 077b 91       		.byte	0x91
@@ -7152,7 +7152,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3926 078a 91       		.byte	0x91
  3927 078b 77       		.sleb128 -9
  3928 078c 12       		.uleb128 0x12
- 3929 078d C9050000 		.4byte	.LASF85
+ 3929 078d 1E060000 		.4byte	.LASF85
  3930 0791 01       		.byte	0x1
  3931 0792 5404     		.2byte	0x454
  3932 0794 6B000000 		.4byte	0x6b
@@ -7160,7 +7160,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3934 0799 91       		.byte	0x91
  3935 079a 74       		.sleb128 -12
  3936 079b 12       		.uleb128 0x12
- 3937 079c 3C090000 		.4byte	.LASF86
+ 3937 079c 91090000 		.4byte	.LASF86
  3938 07a0 01       		.byte	0x1
  3939 07a1 5504     		.2byte	0x455
  3940 07a3 6B000000 		.4byte	0x6b
@@ -7168,7 +7168,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3942 07a8 91       		.byte	0x91
  3943 07a9 73       		.sleb128 -13
  3944 07aa 12       		.uleb128 0x12
- 3945 07ab F9080000 		.4byte	.LASF87
+ 3945 07ab 4E090000 		.4byte	.LASF87
  3946 07af 01       		.byte	0x1
  3947 07b0 5704     		.2byte	0x457
  3948 07b2 6B000000 		.4byte	0x6b
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3972 07e4 18       		.uleb128 0x18
  3973 07e5 BC000000 		.4byte	0xbc
  3974 07e9 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 121
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 121
 
 
  3975 07ea 00       		.byte	0
@@ -7221,7 +7221,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  3992 0812 91       		.byte	0x91
  3993 0813 64       		.sleb128 -28
  3994 0814 12       		.uleb128 0x12
- 3995 0815 87050000 		.4byte	.LASF91
+ 3995 0815 DC050000 		.4byte	.LASF91
  3996 0819 01       		.byte	0x1
  3997 081a AA04     		.2byte	0x4aa
  3998 081c 83000000 		.4byte	0x83
@@ -7246,7 +7246,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4017 0840 70       		.sleb128 -16
  4018 0841 00       		.byte	0
  4019 0842 16       		.uleb128 0x16
- 4020 0843 83040000 		.4byte	.LASF94
+ 4020 0843 E7040000 		.4byte	.LASF94
  4021 0847 01       		.byte	0x1
  4022 0848 D604     		.2byte	0x4d6
  4023 084a 83000000 		.4byte	0x83
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4029 085c 10       		.uleb128 0x10
  4030 085d 6900     		.ascii	"i\000"
  4031 085f 01       		.byte	0x1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 122
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 122
 
 
  4032 0860 D904     		.2byte	0x4d9
@@ -7276,7 +7276,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4044 0877 70       		.sleb128 -16
  4045 0878 00       		.byte	0
  4046 0879 11       		.uleb128 0x11
- 4047 087a 05050000 		.4byte	.LASF95
+ 4047 087a 69050000 		.4byte	.LASF95
  4048 087e 01       		.byte	0x1
  4049 087f 0505     		.2byte	0x505
  4050 0881 00000000 		.4byte	.LFB61
@@ -7293,7 +7293,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4061 089c 91       		.byte	0x91
  4062 089d 6C       		.sleb128 -20
  4063 089e 12       		.uleb128 0x12
- 4064 089f 87050000 		.4byte	.LASF91
+ 4064 089f DC050000 		.4byte	.LASF91
  4065 08a3 01       		.byte	0x1
  4066 08a4 0805     		.2byte	0x508
  4067 08a6 6B000000 		.4byte	0x6b
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4086 08cd 01       		.uleb128 0x1
  4087 08ce 9C       		.byte	0x9c
  4088 08cf 01090000 		.4byte	0x901
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 123
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 123
 
 
  4089 08d3 13       		.uleb128 0x13
@@ -7330,7 +7330,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4095 08e0 91       		.byte	0x91
  4096 08e1 6C       		.sleb128 -20
  4097 08e2 12       		.uleb128 0x12
- 4098 08e3 87050000 		.4byte	.LASF91
+ 4098 08e3 DC050000 		.4byte	.LASF91
  4099 08e7 01       		.byte	0x1
  4100 08e8 3205     		.2byte	0x532
  4101 08ea 6B000000 		.4byte	0x6b
@@ -7347,7 +7347,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4112 08ff 76       		.sleb128 -10
  4113 0900 00       		.byte	0
  4114 0901 14       		.uleb128 0x14
- 4115 0902 0B080000 		.4byte	.LASF97
+ 4115 0902 60080000 		.4byte	.LASF97
  4116 0906 01       		.byte	0x1
  4117 0907 6205     		.2byte	0x562
  4118 0909 6B000000 		.4byte	0x6b
@@ -7373,12 +7373,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4138 0937 91       		.byte	0x91
  4139 0938 66       		.sleb128 -26
  4140 0939 13       		.uleb128 0x13
- 4141 093a F9080000 		.4byte	.LASF87
+ 4141 093a 4E090000 		.4byte	.LASF87
  4142 093e 01       		.byte	0x1
  4143 093f 6205     		.2byte	0x562
  4144 0941 6B000000 		.4byte	0x6b
  4145 0945 02       		.uleb128 0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 124
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 124
 
 
  4146 0946 91       		.byte	0x91
@@ -7392,7 +7392,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4154 0953 91       		.byte	0x91
  4155 0954 6F       		.sleb128 -17
  4156 0955 12       		.uleb128 0x12
- 4157 0956 97080000 		.4byte	.LASF100
+ 4157 0956 EC080000 		.4byte	.LASF100
  4158 095a 01       		.byte	0x1
  4159 095b 6F05     		.2byte	0x56f
  4160 095d 6B000000 		.4byte	0x6b
@@ -7400,7 +7400,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4162 0962 91       		.byte	0x91
  4163 0963 6E       		.sleb128 -18
  4164 0964 12       		.uleb128 0x12
- 4165 0965 06080000 		.4byte	.LASF101
+ 4165 0965 5B080000 		.4byte	.LASF101
  4166 0969 01       		.byte	0x1
  4167 096a 7105     		.2byte	0x571
  4168 096c 6B000000 		.4byte	0x6b
@@ -7408,7 +7408,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4170 0971 91       		.byte	0x91
  4171 0972 6D       		.sleb128 -19
  4172 0973 12       		.uleb128 0x12
- 4173 0974 4E070000 		.4byte	.LASF102
+ 4173 0974 A3070000 		.4byte	.LASF102
  4174 0978 01       		.byte	0x1
  4175 0979 7205     		.2byte	0x572
  4176 097b E0010000 		.4byte	0x1e0
@@ -7417,7 +7417,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4179 0981 68       		.sleb128 -24
  4180 0982 00       		.byte	0
  4181 0983 16       		.uleb128 0x16
- 4182 0984 C2060000 		.4byte	.LASF103
+ 4182 0984 17070000 		.4byte	.LASF103
  4183 0988 01       		.byte	0x1
  4184 0989 0106     		.2byte	0x601
  4185 098b 6B000000 		.4byte	0x6b
@@ -7427,7 +7427,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4189 0998 9C       		.byte	0x9c
  4190 0999 550A0000 		.4byte	0xa55
  4191 099d 13       		.uleb128 0x13
- 4192 099e 97080000 		.4byte	.LASF100
+ 4192 099e EC080000 		.4byte	.LASF100
  4193 09a2 01       		.byte	0x1
  4194 09a3 0106     		.2byte	0x601
  4195 09a5 6B000000 		.4byte	0x6b
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4200 09ad 29040000 		.4byte	.LASF98
  4201 09b1 01       		.byte	0x1
  4202 09b2 0106     		.2byte	0x601
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 125
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 125
 
 
  4203 09b4 6B000000 		.4byte	0x6b
@@ -7454,7 +7454,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4213 09c8 91       		.byte	0x91
  4214 09c9 55       		.sleb128 -43
  4215 09ca 13       		.uleb128 0x13
- 4216 09cb 7C050000 		.4byte	.LASF104
+ 4216 09cb D1050000 		.4byte	.LASF104
  4217 09cf 01       		.byte	0x1
  4218 09d0 0206     		.2byte	0x602
  4219 09d2 77000000 		.4byte	0x77
@@ -7462,7 +7462,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4221 09d7 91       		.byte	0x91
  4222 09d8 52       		.sleb128 -46
  4223 09d9 13       		.uleb128 0x13
- 4224 09da C3080000 		.4byte	.LASF61
+ 4224 09da 18090000 		.4byte	.LASF61
  4225 09de 01       		.byte	0x1
  4226 09df 0206     		.2byte	0x602
  4227 09e1 6B000000 		.4byte	0x6b
@@ -7470,7 +7470,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4229 09e6 91       		.byte	0x91
  4230 09e7 00       		.sleb128 0
  4231 09e8 12       		.uleb128 0x12
- 4232 09e9 B8070000 		.4byte	.LASF105
+ 4232 09e9 0D080000 		.4byte	.LASF105
  4233 09ed 01       		.byte	0x1
  4234 09ee 0606     		.2byte	0x606
  4235 09f0 6B000000 		.4byte	0x6b
@@ -7486,7 +7486,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4245 0a04 91       		.byte	0x91
  4246 0a05 67       		.sleb128 -25
  4247 0a06 12       		.uleb128 0x12
- 4248 0a07 90050000 		.4byte	.LASF107
+ 4248 0a07 E5050000 		.4byte	.LASF107
  4249 0a0b 01       		.byte	0x1
  4250 0a0c 0C06     		.2byte	0x60c
  4251 0a0e 550A0000 		.4byte	0xa55
@@ -7498,14 +7498,14 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4257 0a1d 01       		.byte	0x1
  4258 0a1e 1306     		.2byte	0x613
  4259 0a20 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 126
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 126
 
 
  4260 0a24 02       		.uleb128 0x2
  4261 0a25 91       		.byte	0x91
  4262 0a26 5B       		.sleb128 -37
  4263 0a27 12       		.uleb128 0x12
- 4264 0a28 95070000 		.4byte	.LASF109
+ 4264 0a28 EA070000 		.4byte	.LASF109
  4265 0a2c 01       		.byte	0x1
  4266 0a2d 1406     		.2byte	0x614
  4267 0a2f 83000000 		.4byte	0x83
@@ -7513,7 +7513,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4269 0a34 91       		.byte	0x91
  4270 0a35 60       		.sleb128 -32
  4271 0a36 12       		.uleb128 0x12
- 4272 0a37 69080000 		.4byte	.LASF110
+ 4272 0a37 BE080000 		.4byte	.LASF110
  4273 0a3b 01       		.byte	0x1
  4274 0a3c 1506     		.2byte	0x615
  4275 0a3e 9B000000 		.4byte	0x9b
@@ -7521,7 +7521,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4277 0a43 91       		.byte	0x91
  4278 0a44 5C       		.sleb128 -36
  4279 0a45 12       		.uleb128 0x12
- 4280 0a46 4E070000 		.4byte	.LASF102
+ 4280 0a46 A3070000 		.4byte	.LASF102
  4281 0a4a 01       		.byte	0x1
  4282 0a4b 1706     		.2byte	0x617
  4283 0a4d E0010000 		.4byte	0x1e0
@@ -7537,7 +7537,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4293 0a63 02       		.byte	0x2
  4294 0a64 00       		.byte	0
  4295 0a65 16       		.uleb128 0x16
- 4296 0a66 C0070000 		.4byte	.LASF111
+ 4296 0a66 15080000 		.4byte	.LASF111
  4297 0a6a 01       		.byte	0x1
  4298 0a6b D406     		.2byte	0x6d4
  4299 0a6d 77000000 		.4byte	0x77
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4314 0a8f DF000000 		.4byte	.LASF112
  4315 0a93 01       		.byte	0x1
  4316 0a94 DB06     		.2byte	0x6db
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 127
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 127
 
 
  4317 0a96 6B000000 		.4byte	0x6b
@@ -7566,7 +7566,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4319 0a9b 91       		.byte	0x91
  4320 0a9c 68       		.sleb128 -24
  4321 0a9d 12       		.uleb128 0x12
- 4322 0a9e 3F070000 		.4byte	.LASF113
+ 4322 0a9e 94070000 		.4byte	.LASF113
  4323 0aa2 01       		.byte	0x1
  4324 0aa3 DC06     		.2byte	0x6dc
  4325 0aa5 6B000000 		.4byte	0x6b
@@ -7590,7 +7590,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4343 0ac8 91       		.byte	0x91
  4344 0ac9 67       		.sleb128 -25
  4345 0aca 12       		.uleb128 0x12
- 4346 0acb 97080000 		.4byte	.LASF100
+ 4346 0acb EC080000 		.4byte	.LASF100
  4347 0acf 01       		.byte	0x1
  4348 0ad0 E706     		.2byte	0x6e7
  4349 0ad2 6B000000 		.4byte	0x6b
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4371 0afc 01       		.byte	0x1
  4372 0afd EA06     		.2byte	0x6ea
  4373 0aff 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 128
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 128
 
 
  4374 0b03 02       		.uleb128 0x2
@@ -7644,7 +7644,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4394 0b2e 91       		.byte	0x91
  4395 0b2f 64       		.sleb128 -28
  4396 0b30 12       		.uleb128 0x12
- 4397 0b31 97080000 		.4byte	.LASF100
+ 4397 0b31 EC080000 		.4byte	.LASF100
  4398 0b35 01       		.byte	0x1
  4399 0b36 AE07     		.2byte	0x7ae
  4400 0b38 6B000000 		.4byte	0x6b
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4428 0b6c 00       		.byte	0
  4429 0b6d 14       		.uleb128 0x14
  4430 0b6e B70A0000 		.4byte	.LASF117
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 129
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 129
 
 
  4431 0b72 01       		.byte	0x1
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4485 0be0 7D09     		.2byte	0x97d
  4486 0be2 77000000 		.4byte	0x77
  4487 0be6 02       		.uleb128 0x2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 130
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 130
 
 
  4488 0be7 91       		.byte	0x91
@@ -7769,7 +7769,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4513 0c13 6C       		.sleb128 -20
  4514 0c14 00       		.byte	0
  4515 0c15 14       		.uleb128 0x14
- 4516 0c16 B0050000 		.4byte	.LASF119
+ 4516 0c16 05060000 		.4byte	.LASF119
  4517 0c1a 01       		.byte	0x1
  4518 0c1b AD0A     		.2byte	0xaad
  4519 0c1d 83000000 		.4byte	0x83
@@ -7779,7 +7779,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4523 0c2a 9C       		.byte	0x9c
  4524 0c2b 3F0C0000 		.4byte	0xc3f
  4525 0c2f 13       		.uleb128 0x13
- 4526 0c30 EE040000 		.4byte	.LASF51
+ 4526 0c30 52050000 		.4byte	.LASF51
  4527 0c34 01       		.byte	0x1
  4528 0c35 AD0A     		.2byte	0xaad
  4529 0c37 83000000 		.4byte	0x83
@@ -7788,7 +7788,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4532 0c3d 74       		.sleb128 -12
  4533 0c3e 00       		.byte	0
  4534 0c3f 14       		.uleb128 0x14
- 4535 0c40 F8060000 		.4byte	.LASF120
+ 4535 0c40 4D070000 		.4byte	.LASF120
  4536 0c44 01       		.byte	0x1
  4537 0c45 C70A     		.2byte	0xac7
  4538 0c47 6B000000 		.4byte	0x6b
@@ -7798,10 +7798,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4542 0c54 9C       		.byte	0x9c
  4543 0c55 690C0000 		.4byte	0xc69
  4544 0c59 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 131
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 131
 
 
- 4545 0c5a EE040000 		.4byte	.LASF51
+ 4545 0c5a 52050000 		.4byte	.LASF51
  4546 0c5e 01       		.byte	0x1
  4547 0c5f C70A     		.2byte	0xac7
  4548 0c61 83000000 		.4byte	0x83
@@ -7829,7 +7829,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4570 0c91 74       		.sleb128 -12
  4571 0c92 00       		.byte	0
  4572 0c93 1A       		.uleb128 0x1a
- 4573 0c94 31080000 		.4byte	.LASF122
+ 4573 0c94 86080000 		.4byte	.LASF122
  4574 0c98 01       		.byte	0x1
  4575 0c99 FB0A     		.2byte	0xafb
  4576 0c9b 00000000 		.4byte	.LFB72
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4599 0cce D80C0000 		.4byte	0xcd8
  4600 0cd2 05       		.uleb128 0x5
  4601 0cd3 03       		.byte	0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 132
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 132
 
 
  4602 0cd4 08000000 		.4byte	CapSense_centroidMult
@@ -7895,7 +7895,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4633 0d1d 04       		.byte	0x4
  4634 0d1e 00       		.byte	0
  4635 0d1f 1C       		.uleb128 0x1c
- 4636 0d20 E5060000 		.4byte	.LASF127
+ 4636 0d20 3A070000 		.4byte	.LASF127
  4637 0d24 01       		.byte	0x1
  4638 0d25 2C       		.byte	0x2c
  4639 0d26 0F0D0000 		.4byte	0xd0f
@@ -7918,11 +7918,11 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4656 0d4c 500D0000 		.4byte	0xd50
  4657 0d50 08       		.uleb128 0x8
  4658 0d51 350D0000 		.4byte	0xd35
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 133
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 133
 
 
  4659 0d55 1D       		.uleb128 0x1d
- 4660 0d56 7F080000 		.4byte	.LASF130
+ 4660 0d56 D4080000 		.4byte	.LASF130
  4661 0d5a 01       		.byte	0x1
  4662 0d5b 34       		.byte	0x34
  4663 0d5c 0F0D0000 		.4byte	0xd0f
@@ -7962,7 +7962,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4697 0da5 03       		.byte	0x3
  4698 0da6 00000000 		.4byte	CapSense_lowBaselineResetCnt
  4699 0daa 1D       		.uleb128 0x1d
- 4700 0dab 4F080000 		.4byte	.LASF135
+ 4700 0dab A4080000 		.4byte	.LASF135
  4701 0daf 01       		.byte	0x1
  4702 0db0 3A       		.byte	0x3a
  4703 0db1 350D0000 		.4byte	0xd35
@@ -7978,10 +7978,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4713 0dc7 03       		.byte	0x3
  4714 0dc8 00000000 		.4byte	CapSense_fingerThreshold
  4715 0dcc 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 134
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 134
 
 
- 4716 0dcd 24090000 		.4byte	.LASF137
+ 4716 0dcd 79090000 		.4byte	.LASF137
  4717 0dd1 01       		.byte	0x1
  4718 0dd2 4B       		.byte	0x4b
  4719 0dd3 DB070000 		.4byte	0x7db
@@ -7989,7 +7989,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4721 0dd8 03       		.byte	0x3
  4722 0dd9 00000000 		.4byte	CapSense_noiseThreshold
  4723 0ddd 1D       		.uleb128 0x1d
- 4724 0dde BC040000 		.4byte	.LASF138
+ 4724 0dde 20050000 		.4byte	.LASF138
  4725 0de2 01       		.byte	0x1
  4726 0de3 4D       		.byte	0x4d
  4727 0de4 DB070000 		.4byte	0x7db
@@ -8023,7 +8023,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4755 0e21 08       		.uleb128 0x8
  4756 0e22 DB070000 		.4byte	0x7db
  4757 0e26 1D       		.uleb128 0x1d
- 4758 0e27 A3040000 		.4byte	.LASF142
+ 4758 0e27 07050000 		.4byte	.LASF142
  4759 0e2b 01       		.byte	0x1
  4760 0e2c 59       		.byte	0x59
  4761 0e2d 370E0000 		.4byte	0xe37
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4770 0e42 1E       		.byte	0x1e
  4771 0e43 0F0D0000 		.4byte	0xd0f
  4772 0e47 05       		.uleb128 0x5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 135
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 135
 
 
  4773 0e48 03       		.byte	0x3
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4827 001c 00       		.byte	0
  4828 001d 00       		.byte	0
  4829 001e 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 136
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 136
 
 
  4830 001f 24       		.uleb128 0x24
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4884 0055 0B       		.uleb128 0xb
  4885 0056 0B       		.uleb128 0xb
  4886 0057 49       		.uleb128 0x49
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 137
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 137
 
 
  4887 0058 13       		.uleb128 0x13
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4941 008e 19       		.uleb128 0x19
  4942 008f 03       		.uleb128 0x3
  4943 0090 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 138
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 138
 
 
  4944 0091 3A       		.uleb128 0x3a
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  4998 00c9 01       		.uleb128 0x1
  4999 00ca 13       		.uleb128 0x13
  5000 00cb 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 139
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 139
 
 
  5001 00cc 00       		.byte	0
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5055 0103 00       		.byte	0
  5056 0104 00       		.byte	0
  5057 0105 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 140
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 140
 
 
  5058 0106 05       		.uleb128 0x5
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5112 013d 11       		.uleb128 0x11
  5113 013e 01       		.uleb128 0x1
  5114 013f 12       		.uleb128 0x12
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 141
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 141
 
 
  5115 0140 06       		.uleb128 0x6
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5169 0178 19       		.uleb128 0x19
  5170 0179 05       		.uleb128 0x5
  5171 017a 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 142
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 142
 
 
  5172 017b 03       		.uleb128 0x3
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5226 01b2 0E       		.uleb128 0xe
  5227 01b3 3A       		.uleb128 0x3a
  5228 01b4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 143
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 143
 
 
  5229 01b5 3B       		.uleb128 0x3b
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5283 0058 00000000 		.4byte	.LFB45
  5284 005c 24000000 		.4byte	.LFE45-.LFB45
  5285 0060 00000000 		.4byte	.LFB46
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 144
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 144
 
 
  5286 0064 1C000000 		.4byte	.LFE46-.LFB46
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5340 013c 14000000 		.4byte	.LFE73-.LFB73
  5341 0140 00000000 		.4byte	0
  5342 0144 00000000 		.4byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 145
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 145
 
 
  5343              		.section	.debug_ranges,"",%progbits
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5397 00d0 00000000 		.4byte	.LFB62
  5398 00d4 5C000000 		.4byte	.LFE62
  5399 00d8 00000000 		.4byte	.LFB63
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 146
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 146
 
 
  5400 00dc B8000000 		.4byte	.LFE63
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5435 005e 43617053 		.ascii	"CapSense_UpdateBaselineNoThreshold\000"
  5435      656E7365 
  5435      5F557064 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 147
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 147
 
 
  5435      61746542 
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5457      736F7273 
  5457      4E756D00 
  5458              	.LASF106:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 148
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 148
 
 
  5459 0132 706F734E 		.ascii	"posNext\000"
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5479      6E646578 
  5479      00
  5480              	.LASF43:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 149
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 149
 
 
  5481 0211 746F7461 		.ascii	"totalWidgetsNum\000"
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5502              	.LASF114:
  5503 02d5 706F7346 		.ascii	"posFiltersMask\000"
  5503      696C7465 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 150
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 150
 
 
  5503      72734D61 
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5523 03ac 43617053 		.ascii	"CapSense_SetFingerThreshold\000"
  5523      656E7365 
  5523      5F536574 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 151
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 151
 
 
  5523      46696E67 
@@ -9058,393 +9058,393 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5547 0472 73656E73 		.ascii	"sensorsPerWidget\000"
  5547      6F727350 
  5547      65725769 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 152
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 152
 
 
  5547      64676574 
  5547      00
- 5548              	.LASF94:
- 5549 0483 43617053 		.ascii	"CapSense_CheckIsAnyWidgetActive\000"
- 5549      656E7365 
- 5549      5F436865 
- 5549      636B4973 
- 5549      416E7957 
- 5550              	.LASF142:
- 5551 04a3 43617053 		.ascii	"CapSense_numberOfSensors\000"
- 5551      656E7365 
- 5551      5F6E756D 
- 5551      6265724F 
- 5551      6653656E 
- 5552              	.LASF138:
- 5553 04bc 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
+ 5548              	.LASF149:
+ 5549 0483 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
+ 5549      726F6772 
+ 5549      616D6D61 
+ 5549      74696F6E 
+ 5549      5C4A535C 
+ 5550 04b1 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
+ 5550      6E5F5053 
+ 5550      6F433432 
+ 5550      30305C50 
+ 5550      536F435F 
+ 5551 04e2 7964736E 		.ascii	"ydsn\000"
+ 5551      00
+ 5552              	.LASF94:
+ 5553 04e7 43617053 		.ascii	"CapSense_CheckIsAnyWidgetActive\000"
  5553      656E7365 
- 5553      5F6E6567 
- 5553      61746976 
- 5553      654E6F69 
- 5554              	.LASF42:
- 5555 04dc 746F7461 		.ascii	"totalScanslotsNum\000"
- 5555      6C536361 
- 5555      6E736C6F 
- 5555      74734E75 
- 5555      6D00
- 5556              	.LASF51:
- 5557 04ee 73656E73 		.ascii	"sensor\000"
- 5557      6F7200
- 5558              	.LASF45:
- 5559 04f5 73656E73 		.ascii	"sensetivitySeed\000"
- 5559      65746976 
- 5559      69747953 
- 5559      65656400 
- 5560              	.LASF95:
- 5561 0505 43617053 		.ascii	"CapSense_EnableWidget\000"
- 5561      656E7365 
- 5561      5F456E61 
- 5561      626C6557 
- 5561      69646765 
- 5562              	.LASF16:
- 5563 051b 63686172 		.ascii	"char\000"
- 5563      00
- 5564              	.LASF77:
- 5565 0520 43617053 		.ascii	"CapSense_GetNegativeNoiseThreshold\000"
+ 5553      5F436865 
+ 5553      636B4973 
+ 5553      416E7957 
+ 5554              	.LASF142:
+ 5555 0507 43617053 		.ascii	"CapSense_numberOfSensors\000"
+ 5555      656E7365 
+ 5555      5F6E756D 
+ 5555      6265724F 
+ 5555      6653656E 
+ 5556              	.LASF138:
+ 5557 0520 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
+ 5557      656E7365 
+ 5557      5F6E6567 
+ 5557      61746976 
+ 5557      654E6F69 
+ 5558              	.LASF42:
+ 5559 0540 746F7461 		.ascii	"totalScanslotsNum\000"
+ 5559      6C536361 
+ 5559      6E736C6F 
+ 5559      74734E75 
+ 5559      6D00
+ 5560              	.LASF51:
+ 5561 0552 73656E73 		.ascii	"sensor\000"
+ 5561      6F7200
+ 5562              	.LASF45:
+ 5563 0559 73656E73 		.ascii	"sensetivitySeed\000"
+ 5563      65746976 
+ 5563      69747953 
+ 5563      65656400 
+ 5564              	.LASF95:
+ 5565 0569 43617053 		.ascii	"CapSense_EnableWidget\000"
  5565      656E7365 
- 5565      5F476574 
- 5565      4E656761 
- 5565      74697665 
- 5566              	.LASF33:
- 5567 0543 70726573 		.ascii	"prescalerTable\000"
- 5567      63616C65 
- 5567      72546162 
- 5567      6C6500
- 5568              	.LASF20:
- 5569 0552 73656E73 		.ascii	"sensetivityTbl\000"
- 5569      65746976 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 153
+ 5565      5F456E61 
+ 5565      626C6557 
+ 5565      69646765 
+ 5566              	.LASF16:
+ 5567 057f 63686172 		.ascii	"char\000"
+ 5567      00
+ 5568              	.LASF77:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 153
 
 
- 5569      69747954 
- 5569      626C00
- 5570              	.LASF10:
- 5571 0561 75696E74 		.ascii	"uint16\000"
- 5571      313600
- 5572              	.LASF69:
- 5573 0568 64617461 		.ascii	"data\000"
- 5573      00
- 5574              	.LASF18:
- 5575 056d 69646163 		.ascii	"idac1LevelsTbl\000"
- 5575      314C6576 
- 5575      656C7354 
- 5575      626C00
- 5576              	.LASF104:
- 5577 057c 7265736F 		.ascii	"resolution\000"
- 5577      6C757469 
- 5577      6F6E00
- 5578              	.LASF91:
- 5579 0587 72617749 		.ascii	"rawIndex\000"
- 5579      6E646578 
- 5579      00
- 5580              	.LASF107:
- 5581 0590 43617053 		.ascii	"CapSense_centroid\000"
- 5581      656E7365 
- 5581      5F63656E 
- 5581      74726F69 
- 5581      6400
- 5582              	.LASF6:
- 5583 05a2 6C6F6E67 		.ascii	"long long int\000"
- 5583      206C6F6E 
- 5583      6720696E 
- 5583      7400
- 5584              	.LASF119:
- 5585 05b0 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
- 5585      656E7365 
- 5585      5F476574 
- 5585      57696467 
- 5585      65744E75 
- 5586              	.LASF85:
- 5587 05c9 6465626F 		.ascii	"debounce\000"
- 5587      756E6365 
- 5587      00
- 5588              	.LASF37:
- 5589 05d2 70747250 		.ascii	"ptrPreScan\000"
- 5589      72655363 
- 5589      616E00
- 5590              	.LASF84:
- 5591 05dd 43617053 		.ascii	"CapSense_CheckIsSensorActive\000"
- 5591      656E7365 
- 5591      5F436865 
- 5591      636B4973 
- 5591      53656E73 
- 5592              	.LASF36:
- 5593 05fa 70747247 		.ascii	"ptrGetRaw\000"
- 5593      65745261 
- 5593      7700
- 5594              	.LASF62:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 154
+ 5569 0584 43617053 		.ascii	"CapSense_GetNegativeNoiseThreshold\000"
+ 5569      656E7365 
+ 5569      5F476574 
+ 5569      4E656761 
+ 5569      74697665 
+ 5570              	.LASF33:
+ 5571 05a7 70726573 		.ascii	"prescalerTable\000"
+ 5571      63616C65 
+ 5571      72546162 
+ 5571      6C6500
+ 5572              	.LASF10:
+ 5573 05b6 75696E74 		.ascii	"uint16\000"
+ 5573      313600
+ 5574              	.LASF69:
+ 5575 05bd 64617461 		.ascii	"data\000"
+ 5575      00
+ 5576              	.LASF18:
+ 5577 05c2 69646163 		.ascii	"idac1LevelsTbl\000"
+ 5577      314C6576 
+ 5577      656C7354 
+ 5577      626C00
+ 5578              	.LASF104:
+ 5579 05d1 7265736F 		.ascii	"resolution\000"
+ 5579      6C757469 
+ 5579      6F6E00
+ 5580              	.LASF91:
+ 5581 05dc 72617749 		.ascii	"rawIndex\000"
+ 5581      6E646578 
+ 5581      00
+ 5582              	.LASF107:
+ 5583 05e5 43617053 		.ascii	"CapSense_centroid\000"
+ 5583      656E7365 
+ 5583      5F63656E 
+ 5583      74726F69 
+ 5583      6400
+ 5584              	.LASF6:
+ 5585 05f7 6C6F6E67 		.ascii	"long long int\000"
+ 5585      206C6F6E 
+ 5585      6720696E 
+ 5585      7400
+ 5586              	.LASF119:
+ 5587 0605 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
+ 5587      656E7365 
+ 5587      5F476574 
+ 5587      57696467 
+ 5587      65744E75 
+ 5588              	.LASF85:
+ 5589 061e 6465626F 		.ascii	"debounce\000"
+ 5589      756E6365 
+ 5589      00
+ 5590              	.LASF37:
+ 5591 0627 70747250 		.ascii	"ptrPreScan\000"
+ 5591      72655363 
+ 5591      616E00
+ 5592              	.LASF84:
+ 5593 0632 43617053 		.ascii	"CapSense_CheckIsSensorActive\000"
+ 5593      656E7365 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 154
 
 
- 5595 0604 43617053 		.ascii	"CapSense_UpdateSensorBaseline\000"
- 5595      656E7365 
- 5595      5F557064 
- 5595      61746553 
- 5595      656E736F 
- 5596              	.LASF147:
- 5597 0622 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 5597      4320342E 
- 5597      392E3320 
- 5597      32303135 
- 5597      30333033 
- 5598 0655 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 5598      20726576 
- 5598      6973696F 
- 5598      6E203232 
- 5598      31323230 
- 5599 0688 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 5599      66756E63 
- 5599      74696F6E 
- 5599      2D736563 
- 5599      74696F6E 
- 5600              	.LASF49:
- 5601 06b0 43617053 		.ascii	"CapSense_BaseInit\000"
- 5601      656E7365 
- 5601      5F426173 
- 5601      65496E69 
- 5601      7400
- 5602              	.LASF103:
- 5603 06c2 43617053 		.ascii	"CapSense_CalcCentroid\000"
+ 5593      5F436865 
+ 5593      636B4973 
+ 5593      53656E73 
+ 5594              	.LASF36:
+ 5595 064f 70747247 		.ascii	"ptrGetRaw\000"
+ 5595      65745261 
+ 5595      7700
+ 5596              	.LASF62:
+ 5597 0659 43617053 		.ascii	"CapSense_UpdateSensorBaseline\000"
+ 5597      656E7365 
+ 5597      5F557064 
+ 5597      61746553 
+ 5597      656E736F 
+ 5598              	.LASF147:
+ 5599 0677 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 5599      4320342E 
+ 5599      392E3320 
+ 5599      32303135 
+ 5599      30333033 
+ 5600 06aa 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 5600      20726576 
+ 5600      6973696F 
+ 5600      6E203232 
+ 5600      31323230 
+ 5601 06dd 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 5601      66756E63 
+ 5601      74696F6E 
+ 5601      2D736563 
+ 5601      74696F6E 
+ 5602              	.LASF49:
+ 5603 0705 43617053 		.ascii	"CapSense_BaseInit\000"
  5603      656E7365 
- 5603      5F43616C 
- 5603      6343656E 
- 5603      74726F69 
- 5604              	.LASF28:
- 5605 06d8 73616D70 		.ascii	"sampleMinTbl\000"
- 5605      6C654D69 
- 5605      6E54626C 
- 5605      00
- 5606              	.LASF127:
- 5607 06e5 43617053 		.ascii	"CapSense_sensorRaw\000"
- 5607      656E7365 
- 5607      5F73656E 
- 5607      736F7252 
- 5607      617700
- 5608              	.LASF120:
- 5609 06f8 43617053 		.ascii	"CapSense_GetLowBaselineReset\000"
+ 5603      5F426173 
+ 5603      65496E69 
+ 5603      7400
+ 5604              	.LASF103:
+ 5605 0717 43617053 		.ascii	"CapSense_CalcCentroid\000"
+ 5605      656E7365 
+ 5605      5F43616C 
+ 5605      6343656E 
+ 5605      74726F69 
+ 5606              	.LASF28:
+ 5607 072d 73616D70 		.ascii	"sampleMinTbl\000"
+ 5607      6C654D69 
+ 5607      6E54626C 
+ 5607      00
+ 5608              	.LASF127:
+ 5609 073a 43617053 		.ascii	"CapSense_sensorRaw\000"
  5609      656E7365 
- 5609      5F476574 
- 5609      4C6F7742 
- 5609      6173656C 
- 5610              	.LASF81:
- 5611 0715 43617053 		.ascii	"CapSense_SetNegativeNoiseThreshold\000"
+ 5609      5F73656E 
+ 5609      736F7252 
+ 5609      617700
+ 5610              	.LASF120:
+ 5611 074d 43617053 		.ascii	"CapSense_GetLowBaselineReset\000"
  5611      656E7365 
- 5611      5F536574 
- 5611      4E656761 
- 5611      74697665 
- 5612              	.LASF11:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 155
+ 5611      5F476574 
+ 5611      4C6F7742 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 155
 
 
- 5613 0738 75696E74 		.ascii	"uint32\000"
- 5613      333200
- 5614              	.LASF113:
- 5615 073f 66697273 		.ascii	"firstTimeIndex\000"
- 5615      7454696D 
- 5615      65496E64 
- 5615      657800
- 5616              	.LASF102:
- 5617 074e 73746172 		.ascii	"startOfSlider\000"
- 5617      744F6653 
- 5617      6C696465 
- 5617      7200
- 5618              	.LASF80:
- 5619 075c 43617053 		.ascii	"CapSense_SetFingerHysteresis\000"
- 5619      656E7365 
- 5619      5F536574 
- 5619      46696E67 
- 5619      65724879 
- 5620              	.LASF74:
- 5621 0779 43617053 		.ascii	"CapSense_GetFingerThreshold\000"
+ 5611      6173656C 
+ 5612              	.LASF81:
+ 5613 076a 43617053 		.ascii	"CapSense_SetNegativeNoiseThreshold\000"
+ 5613      656E7365 
+ 5613      5F536574 
+ 5613      4E656761 
+ 5613      74697665 
+ 5614              	.LASF11:
+ 5615 078d 75696E74 		.ascii	"uint32\000"
+ 5615      333200
+ 5616              	.LASF113:
+ 5617 0794 66697273 		.ascii	"firstTimeIndex\000"
+ 5617      7454696D 
+ 5617      65496E64 
+ 5617      657800
+ 5618              	.LASF102:
+ 5619 07a3 73746172 		.ascii	"startOfSlider\000"
+ 5619      744F6653 
+ 5619      6C696465 
+ 5619      7200
+ 5620              	.LASF80:
+ 5621 07b1 43617053 		.ascii	"CapSense_SetFingerHysteresis\000"
  5621      656E7365 
- 5621      5F476574 
+ 5621      5F536574 
  5621      46696E67 
- 5621      65725468 
- 5622              	.LASF109:
- 5623 0795 6E756D65 		.ascii	"numerator\000"
- 5623      7261746F 
- 5623      7200
- 5624              	.LASF67:
- 5625 079f 6C617374 		.ascii	"lastSensor\000"
- 5625      53656E73 
- 5625      6F7200
- 5626              	.LASF46:
- 5627 07aa 6866636C 		.ascii	"hfclkFreq_MHz\000"
- 5627      6B467265 
- 5627      715F4D48 
- 5627      7A00
- 5628              	.LASF105:
- 5629 07b8 706F7350 		.ascii	"posPrev\000"
- 5629      72657600 
- 5630              	.LASF111:
- 5631 07c0 43617053 		.ascii	"CapSense_GetCentroidPos\000"
- 5631      656E7365 
- 5631      5F476574 
- 5631      43656E74 
- 5631      726F6964 
- 5632              	.LASF19:
- 5633 07d8 69646163 		.ascii	"idac2LevelsTbl\000"
- 5633      324C6576 
- 5633      656C7354 
- 5633      626C00
- 5634              	.LASF2:
- 5635 07e7 73686F72 		.ascii	"short int\000"
- 5635      7420696E 
- 5635      7400
- 5636              	.LASF4:
- 5637 07f1 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 156
+ 5621      65724879 
+ 5622              	.LASF74:
+ 5623 07ce 43617053 		.ascii	"CapSense_GetFingerThreshold\000"
+ 5623      656E7365 
+ 5623      5F476574 
+ 5623      46696E67 
+ 5623      65725468 
+ 5624              	.LASF109:
+ 5625 07ea 6E756D65 		.ascii	"numerator\000"
+ 5625      7261746F 
+ 5625      7200
+ 5626              	.LASF67:
+ 5627 07f4 6C617374 		.ascii	"lastSensor\000"
+ 5627      53656E73 
+ 5627      6F7200
+ 5628              	.LASF46:
+ 5629 07ff 6866636C 		.ascii	"hfclkFreq_MHz\000"
+ 5629      6B467265 
+ 5629      715F4D48 
+ 5629      7A00
+ 5630              	.LASF105:
+ 5631 080d 706F7350 		.ascii	"posPrev\000"
+ 5631      72657600 
+ 5632              	.LASF111:
+ 5633 0815 43617053 		.ascii	"CapSense_GetCentroidPos\000"
+ 5633      656E7365 
+ 5633      5F476574 
+ 5633      43656E74 
+ 5633      726F6964 
+ 5634              	.LASF19:
+ 5635 082d 69646163 		.ascii	"idac2LevelsTbl\000"
+ 5635      324C6576 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 156
 
 
- 5637      20696E74 
- 5637      00
- 5638              	.LASF66:
- 5639 07fa 66697273 		.ascii	"firstSensor\000"
- 5639      7453656E 
- 5639      736F7200 
- 5640              	.LASF101:
- 5641 0806 74656D70 		.ascii	"temp\000"
- 5641      00
- 5642              	.LASF97:
- 5643 080b 43617053 		.ascii	"CapSense_FindMaximum\000"
- 5643      656E7365 
- 5643      5F46696E 
- 5643      644D6178 
- 5643      696D756D 
- 5644              	.LASF23:
- 5645 0820 77696467 		.ascii	"widgetNubmersTbl\000"
- 5645      65744E75 
- 5645      626D6572 
- 5645      7354626C 
- 5645      00
- 5646              	.LASF122:
- 5647 0831 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
- 5647      656E7365 
- 5647      5F456E61 
- 5647      626C6552 
- 5647      61774461 
- 5648              	.LASF135:
- 5649 084f 43617053 		.ascii	"CapSense_lowBaselineReset\000"
+ 5635      656C7354 
+ 5635      626C00
+ 5636              	.LASF2:
+ 5637 083c 73686F72 		.ascii	"short int\000"
+ 5637      7420696E 
+ 5637      7400
+ 5638              	.LASF4:
+ 5639 0846 6C6F6E67 		.ascii	"long int\000"
+ 5639      20696E74 
+ 5639      00
+ 5640              	.LASF66:
+ 5641 084f 66697273 		.ascii	"firstSensor\000"
+ 5641      7453656E 
+ 5641      736F7200 
+ 5642              	.LASF101:
+ 5643 085b 74656D70 		.ascii	"temp\000"
+ 5643      00
+ 5644              	.LASF97:
+ 5645 0860 43617053 		.ascii	"CapSense_FindMaximum\000"
+ 5645      656E7365 
+ 5645      5F46696E 
+ 5645      644D6178 
+ 5645      696D756D 
+ 5646              	.LASF23:
+ 5647 0875 77696467 		.ascii	"widgetNubmersTbl\000"
+ 5647      65744E75 
+ 5647      626D6572 
+ 5647      7354626C 
+ 5647      00
+ 5648              	.LASF122:
+ 5649 0886 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
  5649      656E7365 
- 5649      5F6C6F77 
- 5649      42617365 
- 5649      6C696E65 
- 5650              	.LASF110:
- 5651 0869 64656E6F 		.ascii	"denominator\000"
- 5651      6D696E61 
- 5651      746F7200 
- 5652              	.LASF31:
- 5653 0875 6B56616C 		.ascii	"kValueTbl\000"
- 5653      75655462 
- 5653      6C00
- 5654              	.LASF130:
- 5655 087f 43617053 		.ascii	"CapSense_sensorBaseline\000"
- 5655      656E7365 
- 5655      5F73656E 
- 5655      736F7242 
- 5655      6173656C 
- 5656              	.LASF100:
- 5657 0897 6D617869 		.ascii	"maximum\000"
- 5657      6D756D00 
- 5658              	.LASF17:
- 5659 089f 73697A65 		.ascii	"sizetype\000"
- 5659      74797065 
- 5659      00
- 5660              	.LASF5:
- 5661 08a8 6C6F6E67 		.ascii	"long unsigned int\000"
- 5661      20756E73 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 157
+ 5649      5F456E61 
+ 5649      626C6552 
+ 5649      61774461 
+ 5650              	.LASF135:
+ 5651 08a4 43617053 		.ascii	"CapSense_lowBaselineReset\000"
+ 5651      656E7365 
+ 5651      5F6C6F77 
+ 5651      42617365 
+ 5651      6C696E65 
+ 5652              	.LASF110:
+ 5653 08be 64656E6F 		.ascii	"denominator\000"
+ 5653      6D696E61 
+ 5653      746F7200 
+ 5654              	.LASF31:
+ 5655 08ca 6B56616C 		.ascii	"kValueTbl\000"
+ 5655      75655462 
+ 5655      6C00
+ 5656              	.LASF130:
+ 5657 08d4 43617053 		.ascii	"CapSense_sensorBaseline\000"
+ 5657      656E7365 
+ 5657      5F73656E 
+ 5657      736F7242 
+ 5657      6173656C 
+ 5658              	.LASF100:
+ 5659 08ec 6D617869 		.ascii	"maximum\000"
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 157
 
 
- 5661      69676E65 
- 5661      6420696E 
- 5661      7400
- 5662              	.LASF47:
- 5663 08ba 706F696E 		.ascii	"pointers\000"
- 5663      74657273 
- 5663      00
- 5664              	.LASF61:
- 5665 08c3 6E6F6973 		.ascii	"noiseThreshold\000"
- 5665      65546872 
- 5665      6573686F 
- 5665      6C6400
- 5666              	.LASF30:
- 5667 08d2 70726576 		.ascii	"previousSampleTbl\000"
- 5667      696F7573 
- 5667      53616D70 
- 5667      6C655462 
- 5667      6C00
- 5668              	.LASF82:
- 5669 08e4 43617053 		.ascii	"CapSense_SetDebounce\000"
- 5669      656E7365 
- 5669      5F536574 
- 5669      4465626F 
- 5669      756E6365 
- 5670              	.LASF87:
- 5671 08f9 66696E67 		.ascii	"fingerThreshold\000"
- 5671      65725468 
- 5671      72657368 
- 5671      6F6C6400 
- 5672              	.LASF21:
- 5673 0909 63686172 		.ascii	"chargeDivTbl\000"
- 5673      67654469 
- 5673      7654626C 
- 5673      00
- 5674              	.LASF1:
- 5675 0916 756E7369 		.ascii	"unsigned char\000"
- 5675      676E6564 
- 5675      20636861 
- 5675      7200
- 5676              	.LASF137:
- 5677 0924 43617053 		.ascii	"CapSense_noiseThreshold\000"
- 5677      656E7365 
- 5677      5F6E6F69 
- 5677      73655468 
- 5677      72657368 
- 5678              	.LASF86:
- 5679 093c 6465626F 		.ascii	"debounceIndex\000"
- 5679      756E6365 
- 5679      496E6465 
- 5679      7800
- 5680              	.LASF52:
- 5681 094a 43617053 		.ascii	"CapSense_InitializeAllBaselines\000"
- 5681      656E7365 
- 5681      5F496E69 
- 5681      7469616C 
- 5681      697A6541 
- 5682              	.LASF70:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 158
+ 5659      6D756D00 
+ 5660              	.LASF17:
+ 5661 08f4 73697A65 		.ascii	"sizetype\000"
+ 5661      74797065 
+ 5661      00
+ 5662              	.LASF5:
+ 5663 08fd 6C6F6E67 		.ascii	"long unsigned int\000"
+ 5663      20756E73 
+ 5663      69676E65 
+ 5663      6420696E 
+ 5663      7400
+ 5664              	.LASF47:
+ 5665 090f 706F696E 		.ascii	"pointers\000"
+ 5665      74657273 
+ 5665      00
+ 5666              	.LASF61:
+ 5667 0918 6E6F6973 		.ascii	"noiseThreshold\000"
+ 5667      65546872 
+ 5667      6573686F 
+ 5667      6C6400
+ 5668              	.LASF30:
+ 5669 0927 70726576 		.ascii	"previousSampleTbl\000"
+ 5669      696F7573 
+ 5669      53616D70 
+ 5669      6C655462 
+ 5669      6C00
+ 5670              	.LASF82:
+ 5671 0939 43617053 		.ascii	"CapSense_SetDebounce\000"
+ 5671      656E7365 
+ 5671      5F536574 
+ 5671      4465626F 
+ 5671      756E6365 
+ 5672              	.LASF87:
+ 5673 094e 66696E67 		.ascii	"fingerThreshold\000"
+ 5673      65725468 
+ 5673      72657368 
+ 5673      6F6C6400 
+ 5674              	.LASF21:
+ 5675 095e 63686172 		.ascii	"chargeDivTbl\000"
+ 5675      67654469 
+ 5675      7654626C 
+ 5675      00
+ 5676              	.LASF1:
+ 5677 096b 756E7369 		.ascii	"unsigned char\000"
+ 5677      676E6564 
+ 5677      20636861 
+ 5677      7200
+ 5678              	.LASF137:
+ 5679 0979 43617053 		.ascii	"CapSense_noiseThreshold\000"
+ 5679      656E7365 
+ 5679      5F6E6F69 
+ 5679      73655468 
+ 5679      72657368 
+ 5680              	.LASF86:
+ 5681 0991 6465626F 		.ascii	"debounceIndex\000"
+ 5681      756E6365 
+ 5681      496E6465 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 158
 
 
- 5683 096a 43617053 		.ascii	"CapSense_GetBaselineData\000"
+ 5681      7800
+ 5682              	.LASF52:
+ 5683 099f 43617053 		.ascii	"CapSense_InitializeAllBaselines\000"
  5683      656E7365 
- 5683      5F476574 
- 5683      42617365 
- 5683      6C696E65 
- 5684              	.LASF83:
- 5685 0983 43617053 		.ascii	"CapSense_SetLowBaselineReset\000"
+ 5683      5F496E69 
+ 5683      7469616C 
+ 5683      697A6541 
+ 5684              	.LASF70:
+ 5685 09bf 43617053 		.ascii	"CapSense_GetBaselineData\000"
  5685      656E7365 
- 5685      5F536574 
- 5685      4C6F7742 
- 5685      6173656C 
- 5686              	.LASF149:
- 5687 09a0 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
- 5687      73657273 
- 5687      5C4E616B 
- 5687      696F5C45 
- 5687      6C656374 
- 5688 09ce 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
- 5688      6E5F5053 
- 5688      6F433432 
- 5688      30305C50 
- 5688      536F435F 
- 5689 09ff 7964736E 		.ascii	"ydsn\000"
- 5689      00
+ 5685      5F476574 
+ 5685      42617365 
+ 5685      6C696E65 
+ 5686              	.LASF83:
+ 5687 09d8 43617053 		.ascii	"CapSense_SetLowBaselineReset\000"
+ 5687      656E7365 
+ 5687      5F536574 
+ 5687      4C6F7742 
+ 5687      6173656C 
+ 5688              	.LASF20:
+ 5689 09f5 73656E73 		.ascii	"sensetivityTbl\000"
+ 5689      65746976 
+ 5689      69747954 
+ 5689      626C00
  5690              	.LASF124:
  5691 0a04 43617053 		.ascii	"CapSense_centroidMult\000"
  5691      656E7365 
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5703 0a77 73686F72 		.ascii	"short unsigned int\000"
  5703      7420756E 
  5703      7369676E 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 159
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 159
 
 
  5703      65642069 
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 1
  5725      656E7365 
  5725      5F726177 
  5725      46696C74 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccLIyctc.s 			page 160
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cc7ItF7c.s 			page 160
 
 
  5725      65724461 

@@ -1,3 +1,5 @@
+dont_use_io iocell 0 6
+dont_use_io iocell 0 7
 dont_use_io iocell 6 0
 dont_use_io iocell 6 1
 set_location "\PrISM_1:sC8:PrISMdp:u0\" datapathcell 0 0 2 

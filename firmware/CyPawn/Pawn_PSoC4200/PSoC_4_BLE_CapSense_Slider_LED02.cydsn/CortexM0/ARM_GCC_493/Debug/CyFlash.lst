@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
   22:Generated_Source\PSoC4/CyFlash.c **** #include "CyFlash.h"
   23:Generated_Source\PSoC4/CyFlash.c **** 
   24:Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 2
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 2
 
 
   25:Generated_Source\PSoC4/CyFlash.c **** /*******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
   79:Generated_Source\PSoC4/CyFlash.c **** *   flash requires that changes be made to the IMO and HFCLK settings. The
   80:Generated_Source\PSoC4/CyFlash.c **** *   configuration is restored before returning. This will impact the operation
   81:Generated_Source\PSoC4/CyFlash.c **** *   of most of the hardware in the device.
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 3
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 3
 
 
   82:Generated_Source\PSoC4/CyFlash.c **** *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
   57 0020 00D9     		bls	.LCB26
   58 0022 8CE0     		b	.L2	@long jump
   59              	.LCB26:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 4
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 4
 
 
   60              		.loc 1 108 0 is_stmt 0 discriminator 1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
   85              		.loc 1 137 0 discriminator 2
   86 004c 444A     		ldr	r2, .L15+12
   87              	.L4:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 5
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 5
 
 
  135:Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_PAGE_LATCH_START_ADDR             << CY_FLASH_PARAM_ADD
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  133 0092 002B     		cmp	r3, #0
  134 0094 52D1     		bne	.L7
  146:Generated_Source\PSoC4/CyFlash.c ****         {
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 6
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 6
 
 
  147:Generated_Source\PSoC4/CyFlash.c ****             /***************************************************************
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  168 00d0 FB18     		add	r3, r7, r3
  169 00d2 274A     		ldr	r2, .L15+28
  170 00d4 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 7
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 7
 
 
  168:Generated_Source\PSoC4/CyFlash.c ****                 parameters[0u] |= (uint32)(rowNum << 16u);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  179:Generated_Source\PSoC4/CyFlash.c ****                     (void)memset((void *)&parameters[2u], 0, CY_FLASH_SIZEOF_ROW);
  180:Generated_Source\PSoC4/CyFlash.c ****                     parameters[savedIndex] = savedValue;
  181:Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 8
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 8
 
 
  182:Generated_Source\PSoC4/CyFlash.c ****                     /* Load Flash Bytes */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  234 013a 04E0     		b	.L13
  235              	.L7:
  236 013c 03E0     		b	.L13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 9
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 9
 
 
  237              	.L2:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  229:Generated_Source\PSoC4/CyFlash.c **** *
  230:Generated_Source\PSoC4/CyFlash.c **** * Summary:
  231:Generated_Source\PSoC4/CyFlash.c **** *  Sets the number of clock cycles the cache will wait before it samples data
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 10
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 10
 
 
  232:Generated_Source\PSoC4/CyFlash.c **** *  coming back from Flash. This function must be called before increasing the
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  298 0018 06D8     		bhi	.L18
  265:Generated_Source\PSoC4/CyFlash.c ****         {
  266:Generated_Source\PSoC4/CyFlash.c ****             CY_FLASH_CTL_REG = (CY_FLASH_CTL_REG & ~CY_FLASH_CTL_WS_MASK) | CY_FLASH_CTL_WS_0_VALUE
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 11
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 11
 
 
  299              		.loc 1 266 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  338              		.loc 1 281 0 discriminator 1
  339 0058 0020     		mov	r0, #0
  340 005a FFF7FEFF 		bl	CyHalt
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 12
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 12
 
 
  341              	.L19:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  309:Generated_Source\PSoC4/CyFlash.c **** *   CY_SFLASH_SIZEOF_USERROW macro. Refer to the device TRM for the details.
  310:Generated_Source\PSoC4/CyFlash.c **** *
  311:Generated_Source\PSoC4/CyFlash.c **** * Return:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 13
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 13
 
 
  312:Generated_Source\PSoC4/CyFlash.c **** *  Status
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  331:Generated_Source\PSoC4/CyFlash.c ****         parameters[0u] = (uint32) (CY_FLASH_GET_MACRO_FROM_ROW(rowNum)        << CY_FLASH_PARAM_MAC
  332:Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_PAGE_LATCH_START_ADDR             << CY_FLASH_PARAM_ADD
  333:Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_KEY_TWO(CY_FLASH_API_OPCODE_LOAD) << CY_FLASH_PARAM_KEY
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 14
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 14
 
 
  403              		.loc 1 333 0 is_stmt 1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  449 0072 1B06     		lsl	r3, r3, #24
  450 0074 9A42     		cmp	r2, r3
  451 0076 04D0     		beq	.L28
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 15
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 15
 
 
  452              		.loc 1 340 0 is_stmt 0 discriminator 1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  357:Generated_Source\PSoC4/CyFlash.c ****                 retValue = CySysFlashClockConfig();
  490              		.loc 1 357 0
  491 00b6 FFF7FEFF 		bl	CySysFlashClockConfig
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 16
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 16
 
 
  492 00ba 031C     		mov	r3, r0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  534 00fe 0F22     		mov	r2, #15
  535 0100 1340     		and	r3, r2
  536 0102 00E0     		b	.L34
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 17
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 17
 
 
  537              	.L33:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  384:Generated_Source\PSoC4/CyFlash.c ****     return (retValue);
  576              		.loc 1 384 0
  577 013a 9823     		mov	r3, #152
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 18
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 18
 
 
  578 013c FB18     		add	r3, r7, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  612              		.cfi_offset 14, -4
  613 0002 84B0     		sub	sp, sp, #16
  614              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 19
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 19
 
 
  615 0004 00AF     		add	r7, sp, #0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  454:Generated_Source\PSoC4/CyFlash.c **** 
  455:Generated_Source\PSoC4/CyFlash.c ****     #else
  456:Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 20
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 20
 
 
  457:Generated_Source\PSoC4/CyFlash.c ****         #if (CY_IP_SPCIF_SYNCHRONOUS)
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  658 0040 FB68     		ldr	r3, [r7, #12]
  473:Generated_Source\PSoC4/CyFlash.c **** }
  659              		.loc 1 473 0 discriminator 4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 21
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 21
 
 
  660 0042 181C     		mov	r0, r3
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  694 0006 0023     		mov	r3, #0
  695 0008 7B60     		str	r3, [r7, #4]
  494:Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 22
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 22
 
 
  495:Generated_Source\PSoC4/CyFlash.c ****     /***************************************************************************
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  545:Generated_Source\PSoC4/CyFlash.c ****     CY_FLASH_CPUSS_SYSREQ_REG = CY_FLASH_CPUSS_REQ_START | CY_FLASH_API_OPCODE_CLK_CONFIG;
  700              		.loc 1 545 0
  701 0010 0D4B     		ldr	r3, .L50+8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 23
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 23
 
 
  702 0012 0E4A     		ldr	r2, .L50+12
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  552:Generated_Source\PSoC4/CyFlash.c **** #endif  /* (CY_IP_SPCIF_SYNCHRONOUS) */
  553:Generated_Source\PSoC4/CyFlash.c **** 
  554:Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 24
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 24
 
 
  555:Generated_Source\PSoC4/CyFlash.c **** /*******************************************************************************
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  596:Generated_Source\PSoC4/CyFlash.c **** 
  597:Generated_Source\PSoC4/CyFlash.c ****         /* Restore clock settings */
  598:Generated_Source\PSoC4/CyFlash.c ****         if ((cySysFlashBackup.clkImoFreq != 48u) ||
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 25
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 25
 
 
  599:Generated_Source\PSoC4/CyFlash.c ****             ((cySysFlashBackup.clkSelectReg & CY_SYS_CLK_SELECT_DIRECT_SEL_MASK) != CY_SYS_CLK_HFCL
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  783 0028 1A07     		lsl	r2, r3, #28
  784 002a A023     		mov	r3, #160
  785 002c 1B06     		lsl	r3, r3, #24
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 26
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 26
 
 
  786 002e 9A42     		cmp	r2, r3
@@ -1553,12 +1553,12 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  827 0006 00000000 		.4byte	.Ldebug_abbrev0
  828 000a 04       		.byte	0x4
  829 000b 01       		.uleb128 0x1
- 830 000c DC000000 		.4byte	.LASF34
+ 830 000c 40010000 		.4byte	.LASF34
  831 0010 01       		.byte	0x1
- 832 0011 8A010000 		.4byte	.LASF35
- 833 0015 E8010000 		.4byte	.LASF36
+ 832 0011 EE010000 		.4byte	.LASF35
+ 833 0015 82000000 		.4byte	.LASF36
  834 0019 00000000 		.4byte	.Ldebug_ranges0+0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 27
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 27
 
 
  835 001d 00000000 		.4byte	0
@@ -1570,11 +1570,11 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  841 002c 02       		.uleb128 0x2
  842 002d 01       		.byte	0x1
  843 002e 08       		.byte	0x8
- 844 002f 93000000 		.4byte	.LASF1
+ 844 002f F7000000 		.4byte	.LASF1
  845 0033 02       		.uleb128 0x2
  846 0034 02       		.byte	0x2
  847 0035 05       		.byte	0x5
- 848 0036 D2000000 		.4byte	.LASF2
+ 848 0036 36010000 		.4byte	.LASF2
  849 003a 02       		.uleb128 0x2
  850 003b 02       		.byte	0x2
  851 003c 07       		.byte	0x7
@@ -1582,19 +1582,19 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  853 0041 02       		.uleb128 0x2
  854 0042 04       		.byte	0x4
  855 0043 05       		.byte	0x5
- 856 0044 C3020000 		.4byte	.LASF4
+ 856 0044 C8020000 		.4byte	.LASF4
  857 0048 02       		.uleb128 0x2
  858 0049 04       		.byte	0x4
  859 004a 07       		.byte	0x7
- 860 004b 78010000 		.4byte	.LASF5
+ 860 004b DC010000 		.4byte	.LASF5
  861 004f 02       		.uleb128 0x2
  862 0050 08       		.byte	0x8
  863 0051 05       		.byte	0x5
- 864 0052 DA010000 		.4byte	.LASF6
+ 864 0052 3E020000 		.4byte	.LASF6
  865 0056 02       		.uleb128 0x2
  866 0057 08       		.byte	0x8
  867 0058 07       		.byte	0x7
- 868 0059 AB010000 		.4byte	.LASF7
+ 868 0059 0F020000 		.4byte	.LASF7
  869 005d 03       		.uleb128 0x3
  870 005e 04       		.byte	0x4
  871 005f 05       		.byte	0x5
@@ -1604,35 +1604,35 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  875 0066 07       		.byte	0x7
  876 0067 75000000 		.4byte	.LASF8
  877 006b 04       		.uleb128 0x4
- 878 006c C5000000 		.4byte	.LASF9
+ 878 006c 29010000 		.4byte	.LASF9
  879 0070 02       		.byte	0x2
  880 0071 3801     		.2byte	0x138
  881 0073 2C000000 		.4byte	0x2c
  882 0077 04       		.uleb128 0x4
- 883 0078 6A010000 		.4byte	.LASF10
+ 883 0078 CE010000 		.4byte	.LASF10
  884 007c 02       		.byte	0x2
  885 007d 3901     		.2byte	0x139
  886 007f 3A000000 		.4byte	0x3a
  887 0083 04       		.uleb128 0x4
- 888 0084 71010000 		.4byte	.LASF11
+ 888 0084 D5010000 		.4byte	.LASF11
  889 0088 02       		.byte	0x2
  890 0089 3A01     		.2byte	0x13a
  891 008b 48000000 		.4byte	0x48
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 28
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 28
 
 
  892 008f 02       		.uleb128 0x2
  893 0090 04       		.byte	0x4
  894 0091 04       		.byte	0x4
- 895 0092 82000000 		.4byte	.LASF12
+ 895 0092 E6000000 		.4byte	.LASF12
  896 0096 02       		.uleb128 0x2
  897 0097 08       		.byte	0x8
  898 0098 04       		.byte	0x4
- 899 0099 CB000000 		.4byte	.LASF13
+ 899 0099 2F010000 		.4byte	.LASF13
  900 009d 02       		.uleb128 0x2
  901 009e 01       		.byte	0x1
  902 009f 08       		.byte	0x8
- 903 00a0 CC020000 		.4byte	.LASF14
+ 903 00a0 4C020000 		.4byte	.LASF14
  904 00a4 04       		.uleb128 0x4
  905 00a5 00000000 		.4byte	.LASF15
  906 00a9 02       		.byte	0x2
@@ -1648,7 +1648,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  916 00c1 02       		.uleb128 0x2
  917 00c2 04       		.byte	0x4
  918 00c3 07       		.byte	0x7
- 919 00c4 D1010000 		.4byte	.LASF17
+ 919 00c4 35020000 		.4byte	.LASF17
  920 00c8 06       		.uleb128 0x6
  921 00c9 2E000000 		.4byte	.LASF37
  922 00cd 14       		.byte	0x14
@@ -1656,13 +1656,13 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  924 00cf 8C       		.byte	0x8c
  925 00d0 ED000000 		.4byte	0xed
  926 00d4 07       		.uleb128 0x7
- 927 00d5 88000000 		.4byte	.LASF18
+ 927 00d5 EC000000 		.4byte	.LASF18
  928 00d9 03       		.byte	0x3
  929 00da 98       		.byte	0x98
  930 00db 83000000 		.4byte	0x83
  931 00df 00       		.byte	0
  932 00e0 07       		.uleb128 0x7
- 933 00e1 51020000 		.4byte	.LASF19
+ 933 00e1 56020000 		.4byte	.LASF19
  934 00e5 03       		.byte	0x3
  935 00e6 9C       		.byte	0x9c
  936 00e7 ED000000 		.4byte	0xed
@@ -1676,9 +1676,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  944 00fb 03       		.byte	0x3
  945 00fc 00       		.byte	0
  946 00fd 0A       		.uleb128 0xa
- 947 00fe A2020000 		.4byte	.LASF20
+ 947 00fe A7020000 		.4byte	.LASF20
  948 0102 03       		.byte	0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 29
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 29
 
 
  949 0103 A2       		.byte	0xa2
@@ -1702,7 +1702,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  967 012d 91       		.byte	0x91
  968 012e D47E     		.sleb128 -172
  969 0130 0C       		.uleb128 0xc
- 970 0131 A1000000 		.4byte	.LASF22
+ 970 0131 05010000 		.4byte	.LASF22
  971 0135 01       		.byte	0x1
  972 0136 5C       		.byte	0x5c
  973 0137 79010000 		.4byte	0x179
@@ -1726,7 +1726,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  991 0159 91       		.byte	0x91
  992 015a 64       		.sleb128 -28
  993 015b 0D       		.uleb128 0xd
- 994 015c A9000000 		.4byte	.LASF25
+ 994 015c 0D010000 		.4byte	.LASF25
  995 0160 01       		.byte	0x1
  996 0161 60       		.byte	0x60
  997 0162 94010000 		.4byte	0x194
@@ -1734,11 +1734,11 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  999 0167 91       		.byte	0x91
  1000 0168 DC7E     		.sleb128 -164
  1001 016a 0D       		.uleb128 0xd
- 1002 016b C2010000 		.4byte	.LASF26
+ 1002 016b 26020000 		.4byte	.LASF26
  1003 016f 01       		.byte	0x1
  1004 0170 61       		.byte	0x61
  1005 0171 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 30
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 30
 
 
  1006 0175 02       		.uleb128 0x2
@@ -1769,7 +1769,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1031 01a9 9C       		.byte	0x9c
  1032 01aa CB010000 		.4byte	0x1cb
  1033 01ae 0C       		.uleb128 0xc
- 1034 01af 4C020000 		.4byte	.LASF27
+ 1034 01af 51020000 		.4byte	.LASF27
  1035 01b3 01       		.byte	0x1
  1036 01b4 F5       		.byte	0xf5
  1037 01b5 83000000 		.4byte	0x83
@@ -1777,7 +1777,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1039 01ba 91       		.byte	0x91
  1040 01bb 64       		.sleb128 -28
  1041 01bc 0D       		.uleb128 0xd
- 1042 01bd C2010000 		.4byte	.LASF26
+ 1042 01bd 26020000 		.4byte	.LASF26
  1043 01c1 01       		.byte	0x1
  1044 01c2 F7       		.byte	0xf7
  1045 01c3 6B000000 		.4byte	0x6b
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1060 01e5 12       		.uleb128 0x12
  1061 01e6 18000000 		.4byte	.LASF21
  1062 01ea 01       		.byte	0x1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 31
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 31
 
 
  1063 01eb 4001     		.2byte	0x140
@@ -1807,7 +1807,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1066 01f2 91       		.byte	0x91
  1067 01f3 D47E     		.sleb128 -172
  1068 01f5 12       		.uleb128 0x12
- 1069 01f6 A1000000 		.4byte	.LASF22
+ 1069 01f6 05010000 		.4byte	.LASF22
  1070 01fa 01       		.byte	0x1
  1071 01fb 4001     		.2byte	0x140
  1072 01fd 79010000 		.4byte	0x179
@@ -1831,7 +1831,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1090 0221 91       		.byte	0x91
  1091 0222 64       		.sleb128 -28
  1092 0223 13       		.uleb128 0x13
- 1093 0224 A9000000 		.4byte	.LASF25
+ 1093 0224 0D010000 		.4byte	.LASF25
  1094 0228 01       		.byte	0x1
  1095 0229 4401     		.2byte	0x144
  1096 022b 43020000 		.4byte	0x243
@@ -1839,7 +1839,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1098 0230 91       		.byte	0x91
  1099 0231 DC7E     		.sleb128 -164
  1100 0233 13       		.uleb128 0x13
- 1101 0234 C2010000 		.4byte	.LASF26
+ 1101 0234 26020000 		.4byte	.LASF26
  1102 0238 01       		.byte	0x1
  1103 0239 4501     		.2byte	0x145
  1104 023b 6B000000 		.4byte	0x6b
@@ -1850,7 +1850,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1109 0243 05       		.uleb128 0x5
  1110 0244 84010000 		.4byte	0x184
  1111 0248 14       		.uleb128 0x14
- 1112 0249 8C020000 		.4byte	.LASF30
+ 1112 0249 91020000 		.4byte	.LASF30
  1113 024d 01       		.byte	0x1
  1114 024e 9301     		.2byte	0x193
  1115 0250 A4000000 		.4byte	0xa4
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1117 0258 60000000 		.4byte	.LFE5-.LFB5
  1118 025c 01       		.uleb128 0x1
  1119 025d 9C       		.byte	0x9c
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 32
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 32
 
 
  1120 025e 81020000 		.4byte	0x281
@@ -1871,7 +1871,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1127 026f 91       		.byte	0x91
  1128 0270 74       		.sleb128 -12
  1129 0271 13       		.uleb128 0x13
- 1130 0272 A9000000 		.4byte	.LASF25
+ 1130 0272 0D010000 		.4byte	.LASF25
  1131 0276 01       		.byte	0x1
  1132 0277 9901     		.2byte	0x199
  1133 0279 91020000 		.4byte	0x291
@@ -1889,7 +1889,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1145 0291 05       		.uleb128 0x5
  1146 0292 81020000 		.4byte	0x281
  1147 0296 14       		.uleb128 0x14
- 1148 0297 5F020000 		.4byte	.LASF31
+ 1148 0297 64020000 		.4byte	.LASF31
  1149 029b 01       		.byte	0x1
  1150 029c EB01     		.2byte	0x1eb
  1151 029e A4000000 		.4byte	0xa4
@@ -1908,7 +1908,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1164 02be 74       		.sleb128 -12
  1165 02bf 00       		.byte	0
  1166 02c0 14       		.uleb128 0x14
- 1167 02c1 75020000 		.4byte	.LASF32
+ 1167 02c1 7A020000 		.4byte	.LASF32
  1168 02c5 01       		.byte	0x1
  1169 02c6 3902     		.2byte	0x239
  1170 02c8 A4000000 		.4byte	0xa4
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1174 02d5 9C       		.byte	0x9c
  1175 02d6 F9020000 		.4byte	0x2f9
  1176 02da 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 33
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 33
 
 
  1177 02db 0F000000 		.4byte	.LASF23
@@ -1929,7 +1929,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1182 02e7 91       		.byte	0x91
  1183 02e8 74       		.sleb128 -12
  1184 02e9 13       		.uleb128 0x13
- 1185 02ea A9000000 		.4byte	.LASF25
+ 1185 02ea 0D010000 		.4byte	.LASF25
  1186 02ee 01       		.byte	0x1
  1187 02ef 3F02     		.2byte	0x23f
  1188 02f1 F9020000 		.4byte	0x2f9
@@ -1940,7 +1940,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1193 02f9 05       		.uleb128 0x5
  1194 02fa 81020000 		.4byte	0x281
  1195 02fe 0D       		.uleb128 0xd
- 1196 02ff B4000000 		.4byte	.LASF33
+ 1196 02ff 18010000 		.4byte	.LASF33
  1197 0303 01       		.byte	0x1
  1198 0304 23       		.byte	0x23
  1199 0305 FD000000 		.4byte	0xfd
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1231 0019 0B       		.uleb128 0xb
  1232 001a 03       		.uleb128 0x3
  1233 001b 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 34
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 34
 
 
  1234 001c 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1288 0052 0B       		.uleb128 0xb
  1289 0053 3B       		.uleb128 0x3b
  1290 0054 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 35
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 35
 
 
  1291 0055 49       		.uleb128 0x49
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1345 008b 12       		.uleb128 0x12
  1346 008c 06       		.uleb128 0x6
  1347 008d 40       		.uleb128 0x40
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 36
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 36
 
 
  1348 008e 18       		.uleb128 0x18
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1402 00c5 2E       		.uleb128 0x2e
  1403 00c6 01       		.byte	0x1
  1404 00c7 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 37
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 37
 
 
  1405 00c8 19       		.uleb128 0x19
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1459 0100 0B       		.uleb128 0xb
  1460 0101 3B       		.uleb128 0x3b
  1461 0102 05       		.uleb128 0x5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 38
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 38
 
 
  1462 0103 49       		.uleb128 0x49
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1516 000e 0000     		.2byte	0
  1517 0010 00000000 		.4byte	.LFB2
  1518 0014 78010000 		.4byte	.LFE2-.LFB2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 39
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 39
 
 
  1519 0018 00000000 		.4byte	.LFB3
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1560              	.LASF37:
  1561 002e 63795379 		.ascii	"cySysFlashClockBackupStruct\000"
  1561      73466C61 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 40
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 40
 
 
  1561      7368436C 
@@ -2361,152 +2361,152 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1567      676E6564 
  1567      20696E74 
  1567      00
- 1568              	.LASF12:
- 1569 0082 666C6F61 		.ascii	"float\000"
- 1569      7400
- 1570              	.LASF18:
- 1571 0088 636C6B49 		.ascii	"clkImoPump\000"
- 1571      6D6F5075 
- 1571      6D7000
- 1572              	.LASF1:
- 1573 0093 756E7369 		.ascii	"unsigned char\000"
- 1573      676E6564 
- 1573      20636861 
- 1573      7200
- 1574              	.LASF22:
- 1575 00a1 726F7744 		.ascii	"rowData\000"
- 1575      61746100 
- 1576              	.LASF25:
- 1577 00a9 70617261 		.ascii	"parameters\000"
- 1577      6D657465 
- 1577      727300
- 1578              	.LASF33:
- 1579 00b4 63795379 		.ascii	"cySysFlashBackup\000"
- 1579      73466C61 
- 1579      73684261 
- 1579      636B7570 
- 1579      00
- 1580              	.LASF9:
- 1581 00c5 75696E74 		.ascii	"uint8\000"
- 1581      3800
- 1582              	.LASF13:
- 1583 00cb 646F7562 		.ascii	"double\000"
- 1583      6C6500
- 1584              	.LASF2:
- 1585 00d2 73686F72 		.ascii	"short int\000"
- 1585      7420696E 
- 1585      7400
- 1586              	.LASF34:
- 1587 00dc 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 41
+ 1568              	.LASF36:
+ 1569 0082 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
+ 1569      726F6772 
+ 1569      616D6D61 
+ 1569      74696F6E 
+ 1569      5C4A535C 
+ 1570 00b0 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
+ 1570      6E5F5053 
+ 1570      6F433432 
+ 1570      30305C50 
+ 1570      536F435F 
+ 1571 00e1 7964736E 		.ascii	"ydsn\000"
+ 1571      00
+ 1572              	.LASF12:
+ 1573 00e6 666C6F61 		.ascii	"float\000"
+ 1573      7400
+ 1574              	.LASF18:
+ 1575 00ec 636C6B49 		.ascii	"clkImoPump\000"
+ 1575      6D6F5075 
+ 1575      6D7000
+ 1576              	.LASF1:
+ 1577 00f7 756E7369 		.ascii	"unsigned char\000"
+ 1577      676E6564 
+ 1577      20636861 
+ 1577      7200
+ 1578              	.LASF22:
+ 1579 0105 726F7744 		.ascii	"rowData\000"
+ 1579      61746100 
+ 1580              	.LASF25:
+ 1581 010d 70617261 		.ascii	"parameters\000"
+ 1581      6D657465 
+ 1581      727300
+ 1582              	.LASF33:
+ 1583 0118 63795379 		.ascii	"cySysFlashBackup\000"
+ 1583      73466C61 
+ 1583      73684261 
+ 1583      636B7570 
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 41
 
 
- 1587      4320342E 
- 1587      392E3320 
- 1587      32303135 
- 1587      30333033 
- 1588 010f 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1588      20726576 
- 1588      6973696F 
- 1588      6E203232 
- 1588      31323230 
- 1589 0142 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1589      66756E63 
- 1589      74696F6E 
- 1589      2D736563 
- 1589      74696F6E 
- 1590              	.LASF10:
- 1591 016a 75696E74 		.ascii	"uint16\000"
- 1591      313600
- 1592              	.LASF11:
- 1593 0171 75696E74 		.ascii	"uint32\000"
- 1593      333200
- 1594              	.LASF5:
- 1595 0178 6C6F6E67 		.ascii	"long unsigned int\000"
- 1595      20756E73 
- 1595      69676E65 
- 1595      6420696E 
- 1595      7400
- 1596              	.LASF35:
- 1597 018a 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyFlash.c\000"
- 1597      72617465 
- 1597      645F536F 
- 1597      75726365 
- 1597      5C50536F 
- 1598              	.LASF7:
- 1599 01ab 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1599      206C6F6E 
- 1599      6720756E 
- 1599      7369676E 
- 1599      65642069 
- 1600              	.LASF26:
- 1601 01c2 696E7465 		.ascii	"interruptState\000"
- 1601      72727570 
- 1601      74537461 
- 1601      746500
- 1602              	.LASF17:
- 1603 01d1 73697A65 		.ascii	"sizetype\000"
- 1603      74797065 
- 1603      00
- 1604              	.LASF6:
- 1605 01da 6C6F6E67 		.ascii	"long long int\000"
- 1605      206C6F6E 
- 1605      6720696E 
- 1605      7400
- 1606              	.LASF36:
- 1607 01e8 433A5C55 		.ascii	"C:\\Users\\Nakio\\Electronique\\Cypress\\Programmes"
- 1607      73657273 
- 1607      5C4E616B 
- 1607      696F5C45 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 42
+ 1583      00
+ 1584              	.LASF9:
+ 1585 0129 75696E74 		.ascii	"uint8\000"
+ 1585      3800
+ 1586              	.LASF13:
+ 1587 012f 646F7562 		.ascii	"double\000"
+ 1587      6C6500
+ 1588              	.LASF2:
+ 1589 0136 73686F72 		.ascii	"short int\000"
+ 1589      7420696E 
+ 1589      7400
+ 1590              	.LASF34:
+ 1591 0140 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1591      4320342E 
+ 1591      392E3320 
+ 1591      32303135 
+ 1591      30333033 
+ 1592 0173 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1592      20726576 
+ 1592      6973696F 
+ 1592      6E203232 
+ 1592      31323230 
+ 1593 01a6 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1593      66756E63 
+ 1593      74696F6E 
+ 1593      2D736563 
+ 1593      74696F6E 
+ 1594              	.LASF10:
+ 1595 01ce 75696E74 		.ascii	"uint16\000"
+ 1595      313600
+ 1596              	.LASF11:
+ 1597 01d5 75696E74 		.ascii	"uint32\000"
+ 1597      333200
+ 1598              	.LASF5:
+ 1599 01dc 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1599      20756E73 
+ 1599      69676E65 
+ 1599      6420696E 
+ 1599      7400
+ 1600              	.LASF35:
+ 1601 01ee 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyFlash.c\000"
+ 1601      72617465 
+ 1601      645F536F 
+ 1601      75726365 
+ 1601      5C50536F 
+ 1602              	.LASF7:
+ 1603 020f 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1603      206C6F6E 
+ 1603      6720756E 
+ 1603      7369676E 
+ 1603      65642069 
+ 1604              	.LASF26:
+ 1605 0226 696E7465 		.ascii	"interruptState\000"
+ 1605      72727570 
+ 1605      74537461 
+ 1605      746500
+ 1606              	.LASF17:
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 42
 
 
- 1607      6C656374 
- 1608 0216 5C506177 		.ascii	"\\Pawn_PSoC4200\\PSoC_4_BLE_CapSense_Slider_LED02.c"
- 1608      6E5F5053 
- 1608      6F433432 
- 1608      30305C50 
- 1608      536F435F 
- 1609 0247 7964736E 		.ascii	"ydsn\000"
- 1609      00
- 1610              	.LASF27:
- 1611 024c 66726571 		.ascii	"freq\000"
+ 1607 0235 73697A65 		.ascii	"sizetype\000"
+ 1607      74797065 
+ 1607      00
+ 1608              	.LASF6:
+ 1609 023e 6C6F6E67 		.ascii	"long long int\000"
+ 1609      206C6F6E 
+ 1609      6720696E 
+ 1609      7400
+ 1610              	.LASF14:
+ 1611 024c 63686172 		.ascii	"char\000"
  1611      00
- 1612              	.LASF19:
- 1613 0251 636C6F63 		.ascii	"clockSettings\000"
- 1613      6B536574 
- 1613      74696E67 
- 1613      7300
- 1614              	.LASF31:
- 1615 025f 43795379 		.ascii	"CySysFlashClockConfig\000"
- 1615      73466C61 
- 1615      7368436C 
- 1615      6F636B43 
- 1615      6F6E6669 
- 1616              	.LASF32:
- 1617 0275 43795379 		.ascii	"CySysFlashClockRestore\000"
+ 1612              	.LASF27:
+ 1613 0251 66726571 		.ascii	"freq\000"
+ 1613      00
+ 1614              	.LASF19:
+ 1615 0256 636C6F63 		.ascii	"clockSettings\000"
+ 1615      6B536574 
+ 1615      74696E67 
+ 1615      7300
+ 1616              	.LASF31:
+ 1617 0264 43795379 		.ascii	"CySysFlashClockConfig\000"
  1617      73466C61 
  1617      7368436C 
- 1617      6F636B52 
- 1617      6573746F 
- 1618              	.LASF30:
- 1619 028c 43795379 		.ascii	"CySysFlashClockBackup\000"
+ 1617      6F636B43 
+ 1617      6F6E6669 
+ 1618              	.LASF32:
+ 1619 027a 43795379 		.ascii	"CySysFlashClockRestore\000"
  1619      73466C61 
  1619      7368436C 
- 1619      6F636B42 
- 1619      61636B75 
- 1620              	.LASF20:
- 1621 02a2 43595F53 		.ascii	"CY_SYS_FLASH_CLOCK_BACKUP_STRUCT\000"
- 1621      59535F46 
- 1621      4C415348 
- 1621      5F434C4F 
- 1621      434B5F42 
- 1622              	.LASF4:
- 1623 02c3 6C6F6E67 		.ascii	"long int\000"
- 1623      20696E74 
- 1623      00
- 1624              	.LASF14:
- 1625 02cc 63686172 		.ascii	"char\000"
+ 1619      6F636B52 
+ 1619      6573746F 
+ 1620              	.LASF30:
+ 1621 0291 43795379 		.ascii	"CySysFlashClockBackup\000"
+ 1621      73466C61 
+ 1621      7368436C 
+ 1621      6F636B42 
+ 1621      61636B75 
+ 1622              	.LASF20:
+ 1623 02a7 43595F53 		.ascii	"CY_SYS_FLASH_CLOCK_BACKUP_STRUCT\000"
+ 1623      59535F46 
+ 1623      4C415348 
+ 1623      5F434C4F 
+ 1623      434B5F42 
+ 1624              	.LASF4:
+ 1625 02c8 6C6F6E67 		.ascii	"long int\000"
+ 1625      20696E74 
  1625      00
  1626              	.LASF0:
  1627 02d1 7369676E 		.ascii	"signed char\000"
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 1
  1629      73685772 
  1629      69746552 
  1629      6F7700
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccGxMt60.s 			page 43
+ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cciYNps2.s 			page 43
 
 
  1630              	.LASF38:

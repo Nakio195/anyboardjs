@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Pawn_PSoC4200\Pawn_PSoC4200">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\main.c">
 <ExpandedNodeIds>
 <v>Pawn_PSoC4200</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200</v>
@@ -26,10 +26,14 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Directives</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr\Flash Security</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\AnyBoardJS_Handle.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\BLE_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\AnyBoardJS_Handle.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\BLE_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.c</v>
@@ -192,7 +196,7 @@
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\BLEApplications.c</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\HandleLowPower.c</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\main.c</v>
-<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE.c</v>
 <v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source\PSoC4\BLE\BLE.h</v>
@@ -319,50 +323,28 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\TopDesign</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Pawn_PSoC4200.cydwr</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\AnyBoardJS_Handle.h</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\BLE_Handle.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Header Files\cyapicallbacks.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\AnyBoardJS_Handle.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\BLE_Handle.c</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.c</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\Source Files\main.h</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_custom.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_aliases.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\BTN\BTN_PM.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\TopDesign</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\PSoC_4_BLE_CapSense_Slider_LED02.cydwr</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\BLEApplications.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\cyapicallbacks.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\HandleLowPower.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Header Files\main.h</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\BLEApplications.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\HandleLowPower.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Source Files\main.c</v>
+<v>Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -395,6 +377,7 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\AnyBoardJS_Handle.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
@@ -402,6 +385,7 @@
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_Handle.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN_PM.lst</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
@@ -507,53 +491,6 @@
 <VisibleNodeIds>
 <v>Pawn_PSoC4200</v>
 <v>Pawn_PSoC4200\Pawn_PSoC4200</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_custom.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\BTN_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_BOOT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_INT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_SCBCLK.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_scl_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\I2C_sda_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_B_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_G_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_R_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
-<v>Pawn_PSoC4200\Pawn_PSoC4200\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -665,6 +602,33 @@
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="540" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="218" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="110" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="281" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="277" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="276" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="223" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="219" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="369" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="355" DocumentName=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 </indicators>
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
 </dataGuid>
@@ -674,10 +638,18 @@
 <OpenDocs>
 <name v=".\Pawn_PSoC4200.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Pawn_PSoC4200.cydsn\main.c" />
-<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\main.h" />
-<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.h" />
-<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\main.c" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_custom.h" />
 <name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.c" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_StackGattServer.h" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_HAL_INT.c" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_STACK_PVT.h" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_StackGatt.h" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\main.c" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\HandleLowPower.c" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\BLEApplications.h" />
+<name v=".\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\LED_R.c" />
+<name v=".\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4\BLE_Stack.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -685,7 +657,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1282, 737" SelectedTabbedMdiWindow="42113074-3162-4206-a988-c770c63e1a56"><DocumentWindow Key="3dde5a82-299b-4fef-a689-69d6b2a03606" Guid="42113074-3162-4206-a988-c770c63e1a56" /><DocumentWindow Key="9a5e4ec1-0d40-4094-9802-d6cc95ac4a76" Guid="17ed7425-c369-48b6-a640-595d20d73985" /><DocumentWindow Key="d115db44-21b5-4ebb-81fb-311dd0d714be" Guid="0441f401-dd96-444b-96d4-6d0b5d86b124" /><DocumentWindow Key="6b003ceb-6acf-4063-8b2b-8ba3693b9b59" Guid="d9e7c89c-2082-453c-b8f7-7902090feef6" /><DocumentWindow Key="2667cb40-3c46-4abc-8565-83ab080d1b6a" Guid="5968100c-988d-48b5-940c-c8c655bcafd9" /><DocumentWindow Key="0ebc0e48-fab3-4b52-b4a2-01f3a3be412c" Guid="4d482289-31b4-47e3-b1a1-8cd4cddc4a04" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d578cea3-a37a-4ef0-a1e4-27f7611589cc" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1493, 737" SelectedTabbedMdiWindow="7a2afd21-757c-45bb-bf6d-bc3a9770b96b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d578cea3-a37a-4ef0-a1e4-27f7611589cc" /><DocumentWindow Key="d55ed977-cb24-4d1a-b37d-78adce785435" Guid="15d42722-1684-43e7-9361-7b0ea8cbd84d" /><DocumentWindow Key="488ff44d-ca68-4c42-beb8-aa94ca922bfc" Guid="7a2afd21-757c-45bb-bf6d-bc3a9770b96b" /><DocumentWindow Key="c01f7124-a347-4144-ad61-0159f8c64830" Guid="3a82b2d8-2b98-47d0-9bee-cdbb8d1e37d0" /><DocumentWindow Key="88348226-f61a-4ea6-956d-cef3a821b7d2" Guid="f434747a-bf75-4687-9bf3-bb615f64e1a6" /><DocumentWindow Key="4d72e050-5da7-49dd-9cf7-50482f7a3f54" Guid="164999c2-13aa-44a6-aec5-6c5290655e2d" /><DocumentWindow Key="35b4ee8a-22ca-4e88-b769-d117912d09a5" Guid="1983f8f8-485b-40a7-b425-fd6d3379229b" /><DocumentWindow Key="01a65959-9ad8-43b0-b5f0-c48ffd1723ab" Guid="65a8eaad-63a2-4172-b948-193dcc3bfea6" /><DocumentWindow Key="1821dbeb-5ead-4e70-a336-99b81da9081e" Guid="b66d61a6-05c7-4d69-9e57-e6ee35c9b9d2" /><DocumentWindow Key="d4cbaf62-8ad3-43a5-af3c-91057b010165" Guid="6156f03f-a132-4b59-98c4-457c92a3dc27" /><DocumentWindow Key="47577480-4f60-4452-afdf-1e2a0ab3f322" Guid="64433cfa-6177-40b9-ad0e-9297f4986279" /><DocumentWindow Key="28ccc8a4-badc-4d4c-b816-d0496e8d1253" Guid="381178cd-1d07-4796-bd1a-e53da9a4acba" /><DocumentWindow Key="a00f4099-e936-4f5a-ab0c-429d5ed472ab" Guid="9c6c44cc-1299-49f2-9a3c-e060c0bc595e" /><DocumentWindow Key="3996d859-eef5-49eb-bc7d-1a8e10d8ed5a" Guid="ceb0ff5a-3d68-450d-8f18-731e9a8d2b44" /><DocumentWindow Key="e405bb01-be50-41df-b9de-f031218ae693" Guid="c50f02d5-3e19-4d5e-bd8e-23cebc8dd7d8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
