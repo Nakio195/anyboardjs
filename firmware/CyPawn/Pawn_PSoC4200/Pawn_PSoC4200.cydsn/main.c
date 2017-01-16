@@ -27,7 +27,11 @@ int main()
     LED_G_Write(1);
     LED_B_Write(1);
 
-    TCS_Init();
+    I2C_Start();
+    
+    TCS_Enable();
+    TCS_SetApertureTime(0xFF);
+    TCS_SetGain(0x02);
     CyBle_Start(StackEventHandler);
     
     for(;;)
@@ -51,15 +55,24 @@ int main()
             
             else
             {
-                TCS_ReadRawData();
+                //TCS_ReadColors(&TCS_Red, &TCS_Green, &TCS_Blue);
                 BLE_Buffer[ANY_COMMAND] = GET_COLOR;
-                BLE_Buffer[PARAM_GET_COLOR__R] = TCS_Red;
-                BLE_Buffer[PARAM_GET_COLOR__G] = TCS_Green;
-                BLE_Buffer[PARAM_GET_COLOR__B] = TCS_Blue;
+                BLE_Buffer[PARAM_GET_COLOR__R_H] = TCS_Red >> 8;
+                BLE_Buffer[PARAM_GET_COLOR__R_L] = TCS_Red & 0xFF;
+                BLE_Buffer[PARAM_GET_COLOR__G_H] = TCS_Green >> 8;
+                BLE_Buffer[PARAM_GET_COLOR__G_L] = TCS_Green & 0xFF;
+                BLE_Buffer[PARAM_GET_COLOR__B_H] = TCS_Blue >> 8;
+                BLE_Buffer[PARAM_GET_COLOR__B_L] = TCS_Blue & 0xFF;
                 
+                while(BTN_Read() == 0);
                 BLE_Buffer_Updated = 1;                
             }
             
+        }
+        
+        if(TCS_DataReady())
+        {
+            TCS_ReadColors(&TCS_Red, &TCS_Green, &TCS_Blue);
         }
     }
 }

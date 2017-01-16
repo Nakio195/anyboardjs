@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
   31:Generated_Source\PSoC4/cyfitter_cfg.c ****     #define CYALIGNED __attribute__ ((aligned))
   32:Generated_Source\PSoC4/cyfitter_cfg.c ****     #define CY_CFG_UNUSED __attribute__ ((unused))
   33:Generated_Source\PSoC4/cyfitter_cfg.c ****     #ifndef CY_CFG_SECTION
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 2
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 2
 
 
   34:Generated_Source\PSoC4/cyfitter_cfg.c ****         #define CY_CFG_SECTION __attribute__ ((section(".psocinit")))
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
   88:Generated_Source\PSoC4/cyfitter_cfg.c **** #define CYCLOCKSTART_PLL_ERROR   3u
   89:Generated_Source\PSoC4/cyfitter_cfg.c **** 
   90:Generated_Source\PSoC4/cyfitter_cfg.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 3
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 3
 
 
   91:Generated_Source\PSoC4/cyfitter_cfg.c **** #ifdef CY_NEED_CYCLOCKSTARTUPERROR
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  145:Generated_Source\PSoC4/cyfitter_cfg.c **** *   clocks and setting the necessary dividers to produce the desired frequency. 
  146:Generated_Source\PSoC4/cyfitter_cfg.c **** *
  147:Generated_Source\PSoC4/cyfitter_cfg.c **** * Parameters:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 4
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 4
 
 
  148:Generated_Source\PSoC4/cyfitter_cfg.c **** *   void
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  202:Generated_Source\PSoC4/cyfitter_cfg.c **** 	/* CYDEV_PERI_PCLK_CTL1 Starting address: CYDEV_PERI_PCLK_CTL1 */
  203:Generated_Source\PSoC4/cyfitter_cfg.c **** 	CY_SET_XTND_REG32((void CYFAR *)(CYREG_PERI_PCLK_CTL1), 0x00000041u);
  204:Generated_Source\PSoC4/cyfitter_cfg.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 5
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 5
 
 
  205:Generated_Source\PSoC4/cyfitter_cfg.c **** 	(void)CyIntSetVector(8u, &CySysWdtIsr);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
   48              	.LFE6:
   49              		.size	AnalogSetDefault, .-AnalogSetDefault
   50              		.section	.text.CYMEMZERO,"ax",%progbits
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 6
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 6
 
 
   51              		.align	2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
   98              		.loc 1 164 0
   99 000c 2648     		ldr	r0, .L6+4
  100 000e FFF7FEFF 		bl	CyDelayCycles
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 7
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 7
 
 
  101              	.LVL4:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  145 0054 1D48     		ldr	r0, .L6+40
  146 0056 FFF7FEFF 		bl	CyDelayUs
  147              	.LVL8:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 8
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 8
 
 
  188:Generated_Source\PSoC4/cyfitter_cfg.c **** 	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF40u);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  207:Generated_Source\PSoC4/cyfitter_cfg.c **** }
  192              		.loc 1 207 0
  193 009e 2560     		str	r5, [r4]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 9
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 9
 
 
  208:Generated_Source\PSoC4/cyfitter_cfg.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  252:Generated_Source\PSoC4/cyfitter_cfg.c **** * Return:
  253:Generated_Source\PSoC4/cyfitter_cfg.c **** *   void
  254:Generated_Source\PSoC4/cyfitter_cfg.c **** *
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 10
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 10
 
 
  255:Generated_Source\PSoC4/cyfitter_cfg.c **** *******************************************************************************/
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  256 0108 6300     		lsl	r3, r4, #1
  257 010a 1A19     		add	r2, r3, r4
  258 010c 5200     		lsl	r2, r2, #1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 11
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 11
 
 
  259 010e 8218     		add	r2, r0, r2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  297              		.loc 1 297 0
  298 0146 1F4A     		ldr	r2, .L11+28
  299 0148 1360     		str	r3, [r2]
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 12
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 12
 
 
  298:Generated_Source\PSoC4/cyfitter_cfg.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  336 0180 B022     		mov	r2, #176
  337 0182 D203     		lsl	r2, r2, #15
  338 0184 174B     		ldr	r3, .L11+60
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 13
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 13
 
 
  339 0186 1A60     		str	r2, [r3]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  379 01dc 18000440 		.word	1074003992
  380 01e0 00020440 		.word	1074004480
  381 01e4 08020440 		.word	1074004488
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 14
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 14
 
 
  382 01e8 0C020440 		.word	1074004492
@@ -800,7 +800,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  398 000a 0004     		.short	1024
  399              		.text
  400              	.Letext0:
- 401              		.file 2 "f:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
+ 401              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
  402              		.file 3 "Generated_Source\\PSoC4\\cytypes.h"
  403              		.file 4 "Generated_Source\\PSoC4\\CyLib.h"
  404              		.file 5 "Generated_Source\\PSoC4\\CyLFClk.h"
@@ -811,10 +811,10 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  409 0006 00000000 		.4byte	.Ldebug_abbrev0
  410 000a 04       		.byte	0x4
  411 000b 01       		.uleb128 0x1
- 412 000c 8D010000 		.4byte	.LASF34
+ 412 000c D6010000 		.4byte	.LASF34
  413 0010 01       		.byte	0x1
- 414 0011 A0020000 		.4byte	.LASF35
- 415 0015 3A020000 		.4byte	.LASF36
+ 414 0011 98020000 		.4byte	.LASF35
+ 415 0015 56000000 		.4byte	.LASF36
  416 0019 00000000 		.4byte	.Ldebug_ranges0+0
  417 001d 00000000 		.4byte	0
  418 0021 00000000 		.4byte	.Ldebug_line0
@@ -830,46 +830,46 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  428 0037 04       		.uleb128 0x4
  429 0038 04       		.byte	0x4
  430 0039 07       		.byte	0x7
- 431 003a 03010000 		.4byte	.LASF0
+ 431 003a 4C010000 		.4byte	.LASF0
  432 003e 04       		.uleb128 0x4
  433 003f 01       		.byte	0x1
  434 0040 06       		.byte	0x6
- 435 0041 94020000 		.4byte	.LASF1
+ 435 0041 8C020000 		.4byte	.LASF1
  436 0045 04       		.uleb128 0x4
  437 0046 01       		.byte	0x1
  438 0047 08       		.byte	0x8
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 15
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 15
 
 
- 439 0048 C4000000 		.4byte	.LASF2
+ 439 0048 0D010000 		.4byte	.LASF2
  440 004c 04       		.uleb128 0x4
  441 004d 02       		.byte	0x2
  442 004e 05       		.byte	0x5
- 443 004f 1B020000 		.4byte	.LASF3
+ 443 004f 64020000 		.4byte	.LASF3
  444 0053 04       		.uleb128 0x4
  445 0054 02       		.byte	0x2
  446 0055 07       		.byte	0x7
- 447 0056 56000000 		.4byte	.LASF4
+ 447 0056 9F000000 		.4byte	.LASF4
  448 005a 04       		.uleb128 0x4
  449 005b 04       		.byte	0x4
  450 005c 05       		.byte	0x5
- 451 005d 8B020000 		.4byte	.LASF5
+ 451 005d 83020000 		.4byte	.LASF5
  452 0061 04       		.uleb128 0x4
  453 0062 04       		.byte	0x4
  454 0063 07       		.byte	0x7
- 455 0064 91000000 		.4byte	.LASF6
+ 455 0064 DA000000 		.4byte	.LASF6
  456 0068 04       		.uleb128 0x4
  457 0069 08       		.byte	0x8
  458 006a 05       		.byte	0x5
- 459 006b 5F010000 		.4byte	.LASF7
+ 459 006b A8010000 		.4byte	.LASF7
  460 006f 04       		.uleb128 0x4
  461 0070 08       		.byte	0x8
  462 0071 07       		.byte	0x7
- 463 0072 25010000 		.4byte	.LASF8
+ 463 0072 6E010000 		.4byte	.LASF8
  464 0076 04       		.uleb128 0x4
  465 0077 04       		.byte	0x4
  466 0078 07       		.byte	0x7
- 467 0079 56010000 		.4byte	.LASF9
+ 467 0079 9F010000 		.4byte	.LASF9
  468 007d 05       		.uleb128 0x5
  469 007e 04       		.byte	0x4
  470 007f 06       		.uleb128 0x6
@@ -879,40 +879,40 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  474 0086 04       		.uleb128 0x4
  475 0087 01       		.byte	0x1
  476 0088 08       		.byte	0x8
- 477 0089 77010000 		.4byte	.LASF10
+ 477 0089 C0010000 		.4byte	.LASF10
  478 008d 08       		.uleb128 0x8
- 479 008e A3000000 		.4byte	.LASF12
+ 479 008e EC000000 		.4byte	.LASF12
  480 0092 03       		.byte	0x3
  481 0093 B901     		.2byte	0x1b9
  482 0095 45000000 		.4byte	0x45
  483 0099 08       		.uleb128 0x8
- 484 009a EC000000 		.4byte	.LASF13
+ 484 009a 35010000 		.4byte	.LASF13
  485 009e 03       		.byte	0x3
  486 009f BA01     		.2byte	0x1ba
  487 00a1 53000000 		.4byte	0x53
  488 00a5 08       		.uleb128 0x8
- 489 00a6 FC000000 		.4byte	.LASF14
+ 489 00a6 45010000 		.4byte	.LASF14
  490 00aa 03       		.byte	0x3
  491 00ab BB01     		.2byte	0x1bb
  492 00ad 61000000 		.4byte	0x61
  493 00b1 04       		.uleb128 0x4
  494 00b2 04       		.byte	0x4
  495 00b3 04       		.byte	0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 16
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 16
 
 
- 496 00b4 69000000 		.4byte	.LASF15
+ 496 00b4 B2000000 		.4byte	.LASF15
  497 00b8 04       		.uleb128 0x4
  498 00b9 08       		.byte	0x8
  499 00ba 04       		.byte	0x4
- 500 00bb D9000000 		.4byte	.LASF16
+ 500 00bb 22010000 		.4byte	.LASF16
  501 00bf 08       		.uleb128 0x8
- 502 00c0 F3000000 		.4byte	.LASF17
+ 502 00c0 3C010000 		.4byte	.LASF17
  503 00c4 03       		.byte	0x3
  504 00c5 5B02     		.2byte	0x25b
  505 00c7 61000000 		.4byte	0x61
  506 00cb 08       		.uleb128 0x8
- 507 00cc 8C000000 		.4byte	.LASF18
+ 507 00cc D5000000 		.4byte	.LASF18
  508 00d0 03       		.byte	0x3
  509 00d1 6302     		.2byte	0x263
  510 00d3 D7000000 		.4byte	0xd7
@@ -926,7 +926,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  518 00e8 09       		.uleb128 0x9
  519 00e9 A5000000 		.4byte	0xa5
  520 00ed 08       		.uleb128 0x8
- 521 00ee 3C010000 		.4byte	.LASF20
+ 521 00ee 85010000 		.4byte	.LASF20
  522 00f2 03       		.byte	0x3
  523 00f3 7502     		.2byte	0x275
  524 00f5 7F000000 		.4byte	0x7f
@@ -939,7 +939,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  531 0108 01       		.uleb128 0x1
  532 0109 9C       		.byte	0x9c
  533 010a 0B       		.uleb128 0xb
- 534 010b BA000000 		.4byte	.LASF21
+ 534 010b 03010000 		.4byte	.LASF21
  535 010f 01       		.byte	0x1
  536 0110 3E       		.byte	0x3e
  537 0111 00000000 		.4byte	.LFB2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  550 012f 01       		.byte	0x1
  551 0130 3E       		.byte	0x3e
  552 0131 2C000000 		.4byte	0x2c
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 17
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 17
 
 
  553 0135 21000000 		.4byte	.LLST1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  607 019b 50       		.byte	0x50
  608 019c 01       		.uleb128 0x1
  609 019d 31       		.byte	0x31
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 18
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 18
 
 
  610 019e 00       		.byte	0
@@ -1076,9 +1076,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  662 01fe 00       		.byte	0
  663 01ff 00       		.byte	0
  664 0200 11       		.uleb128 0x11
- 665 0201 10010000 		.4byte	.LASF38
+ 665 0201 59010000 		.4byte	.LASF38
  666 0205 01       		.byte	0x1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 19
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 19
 
 
  667 0206 0101     		.2byte	0x101
@@ -1097,20 +1097,20 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  680 0226 0A01     		.2byte	0x10a
  681 0228 47020000 		.4byte	0x247
  682 022c 14       		.uleb128 0x14
- 683 022d 1D010000 		.4byte	.LASF23
+ 683 022d 66010000 		.4byte	.LASF23
  684 0231 01       		.byte	0x1
  685 0232 0B01     		.2byte	0x10b
  686 0234 7D000000 		.4byte	0x7d
  687 0238 00       		.byte	0
  688 0239 14       		.uleb128 0x14
- 689 023a 6F000000 		.4byte	.LASF24
+ 689 023a B8000000 		.4byte	.LASF24
  690 023e 01       		.byte	0x1
  691 023f 0C01     		.2byte	0x10c
  692 0241 99000000 		.4byte	0x99
  693 0245 04       		.byte	0x4
  694 0246 00       		.byte	0
  695 0247 08       		.uleb128 0x8
- 696 0248 49010000 		.4byte	.LASF25
+ 696 0248 92010000 		.4byte	.LASF25
  697 024c 01       		.byte	0x1
  698 024d 0D01     		.2byte	0x10d
  699 024f 23020000 		.4byte	0x223
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  721 0280 8D000000 		.4byte	0x8d
  722 0284 4D000000 		.4byte	.LLST2
  723 0288 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 20
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 20
 
 
  724 0289 06010000 		.4byte	.LBB3
@@ -1167,7 +1167,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  747 02c4 F9000000 		.4byte	0xf9
  748 02c8 00       		.byte	0
  749 02c9 1B       		.uleb128 0x1b
- 750 02ca D2000000 		.4byte	.LASF27
+ 750 02ca 1B010000 		.4byte	.LASF27
  751 02ce 7D000000 		.4byte	0x7d
  752 02d2 E6020000 		.4byte	0x2e6
  753 02d6 1C       		.uleb128 0x1c
@@ -1178,7 +1178,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  758 02e1 76000000 		.4byte	0x76
  759 02e5 00       		.byte	0
  760 02e6 1D       		.uleb128 0x1d
- 761 02e7 A9000000 		.4byte	.LASF39
+ 761 02e7 F2000000 		.4byte	.LASF39
  762 02eb 05       		.byte	0x5
  763 02ec 4F       		.byte	0x4f
  764 02ed 1E       		.uleb128 0x1e
@@ -1190,7 +1190,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  770 02f9 A5000000 		.4byte	0xa5
  771 02fd 00       		.byte	0
  772 02fe 1F       		.uleb128 0x1f
- 773 02ff 74000000 		.4byte	.LASF30
+ 773 02ff BD000000 		.4byte	.LASF30
  774 0303 05       		.byte	0x5
  775 0304 51       		.byte	0x51
  776 0305 A5000000 		.4byte	0xa5
@@ -1198,11 +1198,11 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  778 030d 1C       		.uleb128 0x1c
  779 030e A5000000 		.4byte	0xa5
  780 0312 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 21
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 21
 
 
  781 0313 1E       		.uleb128 0x1e
- 782 0314 25020000 		.4byte	.LASF29
+ 782 0314 6E020000 		.4byte	.LASF29
  783 0318 04       		.byte	0x4
  784 0319 6C       		.byte	0x6c
  785 031a 24030000 		.4byte	0x324
@@ -1210,7 +1210,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  787 031f A5000000 		.4byte	0xa5
  788 0323 00       		.byte	0
  789 0324 1F       		.uleb128 0x1f
- 790 0325 7C010000 		.4byte	.LASF31
+ 790 0325 C5010000 		.4byte	.LASF31
  791 0329 04       		.byte	0x4
  792 032a 84       		.byte	0x84
  793 032b BF000000 		.4byte	0xbf
@@ -1219,7 +1219,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  796 0334 A5000000 		.4byte	0xa5
  797 0338 00       		.byte	0
  798 0339 1E       		.uleb128 0x1e
- 799 033a 6D010000 		.4byte	.LASF32
+ 799 033a B6010000 		.4byte	.LASF32
  800 033e 04       		.byte	0x4
  801 033f DA       		.byte	0xda
  802 0340 4A030000 		.4byte	0x34a
@@ -1238,7 +1238,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  815 035f ED000000 		.4byte	0xed
  816 0363 00       		.byte	0
  817 0364 20       		.uleb128 0x20
- 818 0365 E0000000 		.4byte	.LASF40
+ 818 0365 29010000 		.4byte	.LASF40
  819 0369 04       		.byte	0x4
  820 036a C3       		.byte	0xc3
  821 036b 1C       		.uleb128 0x1c
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  835 0008 0E       		.uleb128 0xe
  836 0009 1B       		.uleb128 0x1b
  837 000a 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 22
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 22
 
 
  838 000b 55       		.uleb128 0x55
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  892 0041 0B       		.uleb128 0xb
  893 0042 49       		.uleb128 0x49
  894 0043 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 23
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 23
 
 
  895 0044 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  949 007b 0E       		.uleb128 0xe
  950 007c 3A       		.uleb128 0x3a
  951 007d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 24
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 24
 
 
  952 007e 3B       		.uleb128 0x3b
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1006 00bc 31       		.uleb128 0x31
  1007 00bd 13       		.uleb128 0x13
  1008 00be 00       		.byte	0
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 25
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 25
 
 
  1009 00bf 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1063 00f8 0B       		.uleb128 0xb
  1064 00f9 3B       		.uleb128 0x3b
  1065 00fa 05       		.uleb128 0x5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 26
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 26
 
 
  1066 00fb 01       		.uleb128 0x1
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1120 0131 00       		.byte	0
  1121 0132 49       		.uleb128 0x49
  1122 0133 13       		.uleb128 0x13
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 27
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 27
 
 
  1123 0134 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1177 016a 00       		.byte	0
  1178 016b 3F       		.uleb128 0x3f
  1179 016c 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 28
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 28
 
 
  1180 016d 03       		.uleb128 0x3
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1234 01a3 01       		.byte	0x1
  1235 01a4 3F       		.uleb128 0x3f
  1236 01a5 19       		.uleb128 0x19
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 29
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 29
 
 
  1237 01a6 03       		.uleb128 0x3
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1291 005d 26010000 		.4byte	.LVL14
  1292 0061 0100     		.2byte	0x1
  1293 0063 54       		.byte	0x54
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 30
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 30
 
 
  1294 0064 28010000 		.4byte	.LVL15
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1348 000c 0C000000 		.4byte	.LFE2
  1349 0010 00000000 		.4byte	.LFB5
  1350 0014 F8000000 		.4byte	.LFE5
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 31
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 31
 
 
  1351 0018 F8000000 		.4byte	.LFB7
@@ -1843,178 +1843,178 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 1
  1371 004b 436C6F63 		.ascii	"ClockSetup\000"
  1371      6B536574 
  1371      757000
- 1372              	.LASF4:
- 1373 0056 73686F72 		.ascii	"short unsigned int\000"
- 1373      7420756E 
- 1373      7369676E 
- 1373      65642069 
- 1373      6E7400
- 1374              	.LASF15:
- 1375 0069 666C6F61 		.ascii	"float\000"
- 1375      7400
- 1376              	.LASF24:
- 1377 006f 73697A65 		.ascii	"size\000"
- 1377      00
- 1378              	.LASF30:
- 1379 0074 43795379 		.ascii	"CySysClkWcoSetPowerMode\000"
- 1379      73436C6B 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 32
+ 1372              	.LASF36:
+ 1373 0056 433A5C41 		.ascii	"C:\\Anyboard\\anyboardjs\\firmware\\CyPawn\\Pawn_PS"
+ 1373      6E79626F 
+ 1373      6172645C 
+ 1373      616E7962 
+ 1373      6F617264 
+ 1374 0084 6F433432 		.ascii	"oC4200\\Pawn_PSoC4200.cydsn\000"
+ 1374      30305C50 
+ 1374      61776E5F 
+ 1374      50536F43 
+ 1374      34323030 
+ 1375              	.LASF4:
+ 1376 009f 73686F72 		.ascii	"short unsigned int\000"
+ 1376      7420756E 
+ 1376      7369676E 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 32
 
 
- 1379      57636F53 
- 1379      6574506F 
- 1379      7765724D 
- 1380              	.LASF18:
- 1381 008c 72656738 		.ascii	"reg8\000"
- 1381      00
- 1382              	.LASF6:
- 1383 0091 6C6F6E67 		.ascii	"long unsigned int\000"
- 1383      20756E73 
- 1383      69676E65 
- 1383      6420696E 
- 1383      7400
- 1384              	.LASF12:
- 1385 00a3 75696E74 		.ascii	"uint8\000"
- 1385      3800
- 1386              	.LASF39:
- 1387 00a9 43795379 		.ascii	"CySysClkWcoStart\000"
- 1387      73436C6B 
- 1387      57636F53 
- 1387      74617274 
- 1387      00
- 1388              	.LASF21:
- 1389 00ba 43594D45 		.ascii	"CYMEMZERO\000"
- 1389      4D5A4552 
- 1389      4F00
- 1390              	.LASF2:
- 1391 00c4 756E7369 		.ascii	"unsigned char\000"
- 1391      676E6564 
- 1391      20636861 
- 1391      7200
- 1392              	.LASF27:
- 1393 00d2 6D656D73 		.ascii	"memset\000"
- 1393      657400
- 1394              	.LASF16:
- 1395 00d9 646F7562 		.ascii	"double\000"
- 1395      6C6500
- 1396              	.LASF40:
- 1397 00e0 4379496E 		.ascii	"CyIntEnable\000"
- 1397      74456E61 
- 1397      626C6500 
- 1398              	.LASF13:
- 1399 00ec 75696E74 		.ascii	"uint16\000"
- 1399      313600
- 1400              	.LASF17:
- 1401 00f3 63797374 		.ascii	"cystatus\000"
- 1401      61747573 
- 1401      00
- 1402              	.LASF14:
- 1403 00fc 75696E74 		.ascii	"uint32\000"
- 1403      333200
- 1404              	.LASF0:
- 1405 0103 756E7369 		.ascii	"unsigned int\000"
- 1405      676E6564 
- 1405      20696E74 
- 1405      00
- 1406              	.LASF38:
- 1407 0110 63796669 		.ascii	"cyfitter_cfg\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 33
+ 1376      65642069 
+ 1376      6E7400
+ 1377              	.LASF15:
+ 1378 00b2 666C6F61 		.ascii	"float\000"
+ 1378      7400
+ 1379              	.LASF24:
+ 1380 00b8 73697A65 		.ascii	"size\000"
+ 1380      00
+ 1381              	.LASF30:
+ 1382 00bd 43795379 		.ascii	"CySysClkWcoSetPowerMode\000"
+ 1382      73436C6B 
+ 1382      57636F53 
+ 1382      6574506F 
+ 1382      7765724D 
+ 1383              	.LASF18:
+ 1384 00d5 72656738 		.ascii	"reg8\000"
+ 1384      00
+ 1385              	.LASF6:
+ 1386 00da 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1386      20756E73 
+ 1386      69676E65 
+ 1386      6420696E 
+ 1386      7400
+ 1387              	.LASF12:
+ 1388 00ec 75696E74 		.ascii	"uint8\000"
+ 1388      3800
+ 1389              	.LASF39:
+ 1390 00f2 43795379 		.ascii	"CySysClkWcoStart\000"
+ 1390      73436C6B 
+ 1390      57636F53 
+ 1390      74617274 
+ 1390      00
+ 1391              	.LASF21:
+ 1392 0103 43594D45 		.ascii	"CYMEMZERO\000"
+ 1392      4D5A4552 
+ 1392      4F00
+ 1393              	.LASF2:
+ 1394 010d 756E7369 		.ascii	"unsigned char\000"
+ 1394      676E6564 
+ 1394      20636861 
+ 1394      7200
+ 1395              	.LASF27:
+ 1396 011b 6D656D73 		.ascii	"memset\000"
+ 1396      657400
+ 1397              	.LASF16:
+ 1398 0122 646F7562 		.ascii	"double\000"
+ 1398      6C6500
+ 1399              	.LASF40:
+ 1400 0129 4379496E 		.ascii	"CyIntEnable\000"
+ 1400      74456E61 
+ 1400      626C6500 
+ 1401              	.LASF13:
+ 1402 0135 75696E74 		.ascii	"uint16\000"
+ 1402      313600
+ 1403              	.LASF17:
+ 1404 013c 63797374 		.ascii	"cystatus\000"
+ 1404      61747573 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 33
 
 
- 1407      74746572 
- 1407      5F636667 
- 1407      00
- 1408              	.LASF23:
- 1409 011d 61646472 		.ascii	"address\000"
- 1409      65737300 
- 1410              	.LASF8:
- 1411 0125 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1411      206C6F6E 
- 1411      6720756E 
- 1411      7369676E 
- 1411      65642069 
- 1412              	.LASF20:
- 1413 013c 63796973 		.ascii	"cyisraddress\000"
- 1413      72616464 
- 1413      72657373 
- 1413      00
- 1414              	.LASF25:
- 1415 0149 6366675F 		.ascii	"cfg_memset_t\000"
- 1415      6D656D73 
- 1415      65745F74 
- 1415      00
- 1416              	.LASF9:
- 1417 0156 73697A65 		.ascii	"sizetype\000"
- 1417      74797065 
- 1417      00
- 1418              	.LASF7:
- 1419 015f 6C6F6E67 		.ascii	"long long int\000"
- 1419      206C6F6E 
- 1419      6720696E 
- 1419      7400
- 1420              	.LASF32:
- 1421 016d 43794465 		.ascii	"CyDelayUs\000"
- 1421      6C617955 
- 1421      7300
- 1422              	.LASF10:
- 1423 0177 63686172 		.ascii	"char\000"
- 1423      00
- 1424              	.LASF31:
- 1425 017c 43795379 		.ascii	"CySysClkEcoStart\000"
- 1425      73436C6B 
- 1425      45636F53 
- 1425      74617274 
- 1425      00
- 1426              	.LASF34:
- 1427 018d 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1427      4320342E 
- 1427      392E3320 
- 1427      32303135 
- 1427      30333033 
- 1428 01c0 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1428      20726576 
- 1428      6973696F 
- 1428      6E203232 
- 1428      31323230 
- 1429 01f3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1429      66756E63 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\ccnlkhgM.s 			page 34
+ 1404      00
+ 1405              	.LASF14:
+ 1406 0145 75696E74 		.ascii	"uint32\000"
+ 1406      333200
+ 1407              	.LASF0:
+ 1408 014c 756E7369 		.ascii	"unsigned int\000"
+ 1408      676E6564 
+ 1408      20696E74 
+ 1408      00
+ 1409              	.LASF38:
+ 1410 0159 63796669 		.ascii	"cyfitter_cfg\000"
+ 1410      74746572 
+ 1410      5F636667 
+ 1410      00
+ 1411              	.LASF23:
+ 1412 0166 61646472 		.ascii	"address\000"
+ 1412      65737300 
+ 1413              	.LASF8:
+ 1414 016e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1414      206C6F6E 
+ 1414      6720756E 
+ 1414      7369676E 
+ 1414      65642069 
+ 1415              	.LASF20:
+ 1416 0185 63796973 		.ascii	"cyisraddress\000"
+ 1416      72616464 
+ 1416      72657373 
+ 1416      00
+ 1417              	.LASF25:
+ 1418 0192 6366675F 		.ascii	"cfg_memset_t\000"
+ 1418      6D656D73 
+ 1418      65745F74 
+ 1418      00
+ 1419              	.LASF9:
+ 1420 019f 73697A65 		.ascii	"sizetype\000"
+ 1420      74797065 
+ 1420      00
+ 1421              	.LASF7:
+ 1422 01a8 6C6F6E67 		.ascii	"long long int\000"
+ 1422      206C6F6E 
+ 1422      6720696E 
+ 1422      7400
+ 1423              	.LASF32:
+ 1424 01b6 43794465 		.ascii	"CyDelayUs\000"
+ 1424      6C617955 
+ 1424      7300
+ 1425              	.LASF10:
+ 1426 01c0 63686172 		.ascii	"char\000"
+ 1426      00
+ 1427              	.LASF31:
+ 1428 01c5 43795379 		.ascii	"CySysClkEcoStart\000"
+ 1428      73436C6B 
+ 1428      45636F53 
+ 1428      74617274 
+ 1428      00
+ 1429              	.LASF34:
+ 1430 01d6 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccn7f24I.s 			page 34
 
 
- 1429      74696F6E 
- 1429      2D736563 
- 1429      74696F6E 
- 1430              	.LASF3:
- 1431 021b 73686F72 		.ascii	"short int\000"
- 1431      7420696E 
- 1431      7400
- 1432              	.LASF29:
- 1433 0225 43795379 		.ascii	"CySysClkWriteImoFreq\000"
- 1433      73436C6B 
- 1433      57726974 
- 1433      65496D6F 
- 1433      46726571 
- 1434              	.LASF36:
- 1435 023a 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
- 1435      726F6772 
- 1435      616D6D61 
- 1435      74696F6E 
- 1435      5C4A535C 
- 1436 0268 5C506177 		.ascii	"\\Pawn_PSoC4200\\Pawn_PSoC4200.cydsn\000"
- 1436      6E5F5053 
- 1436      6F433432 
- 1436      30305C50 
- 1436      61776E5F 
+ 1430      4320342E 
+ 1430      392E3320 
+ 1430      32303135 
+ 1430      30333033 
+ 1431 0209 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1431      20726576 
+ 1431      6973696F 
+ 1431      6E203232 
+ 1431      31323230 
+ 1432 023c 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1432      66756E63 
+ 1432      74696F6E 
+ 1432      2D736563 
+ 1432      74696F6E 
+ 1433              	.LASF3:
+ 1434 0264 73686F72 		.ascii	"short int\000"
+ 1434      7420696E 
+ 1434      7400
+ 1435              	.LASF29:
+ 1436 026e 43795379 		.ascii	"CySysClkWriteImoFreq\000"
+ 1436      73436C6B 
+ 1436      57726974 
+ 1436      65496D6F 
+ 1436      46726571 
  1437              	.LASF5:
- 1438 028b 6C6F6E67 		.ascii	"long int\000"
+ 1438 0283 6C6F6E67 		.ascii	"long int\000"
  1438      20696E74 
  1438      00
  1439              	.LASF1:
- 1440 0294 7369676E 		.ascii	"signed char\000"
+ 1440 028c 7369676E 		.ascii	"signed char\000"
  1440      65642063 
  1440      68617200 
  1441              	.LASF35:
- 1442 02a0 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyfitter_cfg.c\000"
+ 1442 0298 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyfitter_cfg.c\000"
  1442      72617465 
  1442      645F536F 
  1442      75726365 

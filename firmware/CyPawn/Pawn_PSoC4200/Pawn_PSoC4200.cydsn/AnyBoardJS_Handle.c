@@ -4,6 +4,10 @@ uint8_t NeedProcessing = 0;
 
 void ProcessingRequest()
 {
+    extern uint16 TCS_Red;
+    extern uint16 TCS_Green;
+    extern uint16 TCS_Blue;
+    
     switch(BLE_Buffer[ANY_COMMAND])
     {
         case LED_ON :
@@ -28,6 +32,10 @@ void ProcessingRequest()
             
             //Answer ready to be sent
             BLE_Buffer_Updated = 1;
+            break;
+        
+        case GET_COLOR:
+             
             break;
             
         default:

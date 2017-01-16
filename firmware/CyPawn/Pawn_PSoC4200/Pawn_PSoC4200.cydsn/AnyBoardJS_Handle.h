@@ -14,7 +14,7 @@ enum AnyBoard_Protocol{ANY_COMMAND = 0};
 
 //Index of parameters of commands
 enum AnyBoard_LED_ON{PARAM_LED_ON__R = 1, PARAM_LED_ON__G, PARAM_LED_ON__B};
-enum AnyBoard_GET_COLOR{PARAM_GET_COLOR__R = 1, PARAM_GET_COLOR__G, PARAM_GET_COLOR__B};
+enum AnyBoard_GET_COLOR{PARAM_GET_COLOR__R_H = 1, PARAM_GET_COLOR__R_L, PARAM_GET_COLOR__G_H, PARAM_GET_COLOR__G_L, PARAM_GET_COLOR__B_H, PARAM_GET_COLOR__B_L};
 
 #define GET_NAME             32
 #define GET_VERSION          33

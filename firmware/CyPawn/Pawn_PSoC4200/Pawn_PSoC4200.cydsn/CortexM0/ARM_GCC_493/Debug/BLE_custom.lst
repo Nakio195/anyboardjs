@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
   30:Generated_Source\PSoC4/BLE_custom.c ****         0x000Au, /* Handle of the CyPawn AnyBoardJS service */ 
   31:Generated_Source\PSoC4/BLE_custom.c ****         {
   32:Generated_Source\PSoC4/BLE_custom.c **** 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 2
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 2
 
 
   33:Generated_Source\PSoC4/BLE_custom.c ****             /* Pawn Info characteristic */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
   85:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locServIndex;
   86:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locCharIndex;
   87:Generated_Source\PSoC4/BLE_custom.c ****     uint16 locDescIndex;
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 3
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 3
 
 
   88:Generated_Source\PSoC4/BLE_custom.c ****     
@@ -176,24 +176,24 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
   57 0006 00000000 		.4byte	.Ldebug_abbrev0
   58 000a 04       		.byte	0x4
   59 000b 01       		.uleb128 0x1
-  60 000c 84090000 		.4byte	.LASF90
+  60 000c 33090000 		.4byte	.LASF90
   61 0010 01       		.byte	0x1
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 4
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 4
 
 
-  62 0011 C4020000 		.4byte	.LASF91
-  63 0015 2B020000 		.4byte	.LASF92
+  62 0011 73020000 		.4byte	.LASF91
+  63 0015 E0090000 		.4byte	.LASF92
   64 0019 00000000 		.4byte	.Ldebug_ranges0+0
   65 001d 00000000 		.4byte	0
   66 0021 00000000 		.4byte	.Ldebug_line0
   67 0025 02       		.uleb128 0x2
   68 0026 01       		.byte	0x1
   69 0027 06       		.byte	0x6
-  70 0028 FA040000 		.4byte	.LASF0
+  70 0028 A9040000 		.4byte	.LASF0
   71 002c 02       		.uleb128 0x2
   72 002d 01       		.byte	0x1
   73 002e 08       		.byte	0x8
-  74 002f 81040000 		.4byte	.LASF1
+  74 002f 30040000 		.4byte	.LASF1
   75 0033 02       		.uleb128 0x2
   76 0034 02       		.byte	0x2
   77 0035 05       		.byte	0x5
@@ -201,15 +201,15 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
   79 003a 02       		.uleb128 0x2
   80 003b 02       		.byte	0x2
   81 003c 07       		.byte	0x7
-  82 003d C2060000 		.4byte	.LASF3
+  82 003d 71060000 		.4byte	.LASF3
   83 0041 02       		.uleb128 0x2
   84 0042 04       		.byte	0x4
   85 0043 05       		.byte	0x5
-  86 0044 35030000 		.4byte	.LASF4
+  86 0044 E4020000 		.4byte	.LASF4
   87 0048 02       		.uleb128 0x2
   88 0049 04       		.byte	0x4
   89 004a 07       		.byte	0x7
-  90 004b 8B050000 		.4byte	.LASF5
+  90 004b 3A050000 		.4byte	.LASF5
   91 004f 02       		.uleb128 0x2
   92 0050 08       		.byte	0x8
   93 0051 05       		.byte	0x5
@@ -217,7 +217,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
   95 0056 02       		.uleb128 0x2
   96 0057 08       		.byte	0x8
   97 0058 07       		.byte	0x7
-  98 0059 E8020000 		.4byte	.LASF7
+  98 0059 97020000 		.4byte	.LASF7
   99 005d 03       		.uleb128 0x3
  100 005e 04       		.byte	0x4
  101 005f 05       		.byte	0x5
@@ -225,7 +225,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  103 0064 02       		.uleb128 0x2
  104 0065 04       		.byte	0x4
  105 0066 07       		.byte	0x7
- 106 0067 63050000 		.4byte	.LASF8
+ 106 0067 12050000 		.4byte	.LASF8
  107 006b 04       		.uleb128 0x4
  108 006c 7B010000 		.4byte	.LASF82
  109 0070 02       		.byte	0x2
@@ -234,18 +234,18 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  112 0077 02       		.uleb128 0x2
  113 0078 04       		.byte	0x4
  114 0079 04       		.byte	0x4
- 115 007a 7C020000 		.4byte	.LASF9
+ 115 007a 2B020000 		.4byte	.LASF9
  116 007e 02       		.uleb128 0x2
  117 007f 08       		.byte	0x8
  118 0080 04       		.byte	0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 5
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 5
 
 
- 119 0081 93070000 		.4byte	.LASF10
+ 119 0081 42070000 		.4byte	.LASF10
  120 0085 02       		.uleb128 0x2
  121 0086 01       		.byte	0x1
  122 0087 08       		.byte	0x8
- 123 0088 A1060000 		.4byte	.LASF11
+ 123 0088 50060000 		.4byte	.LASF11
  124 008c 02       		.uleb128 0x2
  125 008d 04       		.byte	0x4
  126 008e 07       		.byte	0x7
@@ -262,223 +262,223 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  137 00a3 4A010000 		.4byte	.LASF14
  138 00a7 01       		.sleb128 1
  139 00a8 06       		.uleb128 0x6
- 140 00a9 19090000 		.4byte	.LASF15
+ 140 00a9 C8080000 		.4byte	.LASF15
  141 00ad 02       		.sleb128 2
  142 00ae 06       		.uleb128 0x6
- 143 00af EF070000 		.4byte	.LASF16
+ 143 00af 9E070000 		.4byte	.LASF16
  144 00b3 03       		.sleb128 3
  145 00b4 06       		.uleb128 0x6
  146 00b5 24010000 		.4byte	.LASF17
  147 00b9 04       		.sleb128 4
  148 00ba 06       		.uleb128 0x6
- 149 00bb C7030000 		.4byte	.LASF18
+ 149 00bb 76030000 		.4byte	.LASF18
  150 00bf 05       		.sleb128 5
  151 00c0 06       		.uleb128 0x6
  152 00c1 3E000000 		.4byte	.LASF19
  153 00c5 06       		.sleb128 6
  154 00c6 06       		.uleb128 0x6
- 155 00c7 4D080000 		.4byte	.LASF20
+ 155 00c7 FC070000 		.4byte	.LASF20
  156 00cb 20       		.sleb128 32
  157 00cc 06       		.uleb128 0x6
- 158 00cd 9D050000 		.4byte	.LASF21
+ 158 00cd 4C050000 		.4byte	.LASF21
  159 00d1 21       		.sleb128 33
  160 00d2 06       		.uleb128 0x6
  161 00d3 00000000 		.4byte	.LASF22
  162 00d7 22       		.sleb128 34
  163 00d8 06       		.uleb128 0x6
- 164 00d9 E3030000 		.4byte	.LASF23
+ 164 00d9 92030000 		.4byte	.LASF23
  165 00dd 23       		.sleb128 35
  166 00de 06       		.uleb128 0x6
- 167 00df 47050000 		.4byte	.LASF24
+ 167 00df F6040000 		.4byte	.LASF24
  168 00e3 24       		.sleb128 36
  169 00e4 06       		.uleb128 0x6
  170 00e5 C1000000 		.4byte	.LASF25
  171 00e9 25       		.sleb128 37
  172 00ea 06       		.uleb128 0x6
- 173 00eb 7E030000 		.4byte	.LASF26
+ 173 00eb 2D030000 		.4byte	.LASF26
  174 00ef 26       		.sleb128 38
  175 00f0 06       		.uleb128 0x6
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 6
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 6
 
 
- 176 00f1 5F030000 		.4byte	.LASF27
+ 176 00f1 0E030000 		.4byte	.LASF27
  177 00f5 27       		.sleb128 39
  178 00f6 06       		.uleb128 0x6
  179 00f7 71000000 		.4byte	.LASF28
  180 00fb 28       		.sleb128 40
  181 00fc 06       		.uleb128 0x6
- 182 00fd D5050000 		.4byte	.LASF29
+ 182 00fd 84050000 		.4byte	.LASF29
  183 0101 29       		.sleb128 41
  184 0102 06       		.uleb128 0x6
- 185 0103 51060000 		.4byte	.LASF30
+ 185 0103 00060000 		.4byte	.LASF30
  186 0107 2A       		.sleb128 42
  187 0108 06       		.uleb128 0x6
- 188 0109 33070000 		.4byte	.LASF31
+ 188 0109 E2060000 		.4byte	.LASF31
  189 010d 2B       		.sleb128 43
  190 010e 06       		.uleb128 0x6
- 191 010f 2D060000 		.4byte	.LASF32
+ 191 010f DC050000 		.4byte	.LASF32
  192 0113 2C       		.sleb128 44
  193 0114 06       		.uleb128 0x6
- 194 0115 9B020000 		.4byte	.LASF33
+ 194 0115 4A020000 		.4byte	.LASF33
  195 0119 2D       		.sleb128 45
  196 011a 06       		.uleb128 0x6
  197 011b 93000000 		.4byte	.LASF34
  198 011f 2E       		.sleb128 46
  199 0120 06       		.uleb128 0x6
- 200 0121 9D0A0000 		.4byte	.LASF35
+ 200 0121 950A0000 		.4byte	.LASF35
  201 0125 2F       		.sleb128 47
  202 0126 06       		.uleb128 0x6
  203 0127 E4000000 		.4byte	.LASF36
  204 012b 30       		.sleb128 48
  205 012c 06       		.uleb128 0x6
- 206 012d 37040000 		.4byte	.LASF37
+ 206 012d E6030000 		.4byte	.LASF37
  207 0131 31       		.sleb128 49
  208 0132 06       		.uleb128 0x6
- 209 0133 D5060000 		.4byte	.LASF38
+ 209 0133 84060000 		.4byte	.LASF38
  210 0137 32       		.sleb128 50
  211 0138 06       		.uleb128 0x6
- 212 0139 7A060000 		.4byte	.LASF39
+ 212 0139 29060000 		.4byte	.LASF39
  213 013d 33       		.sleb128 51
  214 013e 06       		.uleb128 0x6
- 215 013f F2050000 		.4byte	.LASF40
+ 215 013f A1050000 		.4byte	.LASF40
  216 0143 34       		.sleb128 52
  217 0144 06       		.uleb128 0x6
- 218 0145 D2070000 		.4byte	.LASF41
+ 218 0145 81070000 		.4byte	.LASF41
  219 0149 35       		.sleb128 53
  220 014a 06       		.uleb128 0x6
- 221 014b 14030000 		.4byte	.LASF42
+ 221 014b C3020000 		.4byte	.LASF42
  222 014f 36       		.sleb128 54
  223 0150 06       		.uleb128 0x6
  224 0151 57000000 		.4byte	.LASF43
  225 0155 C000     		.sleb128 64
  226 0157 06       		.uleb128 0x6
- 227 0158 70050000 		.4byte	.LASF44
+ 227 0158 1F050000 		.4byte	.LASF44
  228 015c C100     		.sleb128 65
  229 015e 06       		.uleb128 0x6
- 230 015f 7F0A0000 		.4byte	.LASF45
+ 230 015f 770A0000 		.4byte	.LASF45
  231 0163 C200     		.sleb128 66
  232 0165 06       		.uleb128 0x6
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 7
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 7
 
 
  233 0166 5D010000 		.4byte	.LASF46
  234 016a C300     		.sleb128 67
  235 016c 06       		.uleb128 0x6
- 236 016d D7080000 		.4byte	.LASF47
+ 236 016d 86080000 		.4byte	.LASF47
  237 0171 C400     		.sleb128 68
  238 0173 06       		.uleb128 0x6
- 239 0174 71080000 		.4byte	.LASF48
+ 239 0174 20080000 		.4byte	.LASF48
  240 0178 C500     		.sleb128 69
  241 017a 06       		.uleb128 0x6
- 242 017b B6080000 		.4byte	.LASF49
+ 242 017b 65080000 		.4byte	.LASF49
  243 017f C600     		.sleb128 70
  244 0181 06       		.uleb128 0x6
- 245 0182 DC040000 		.4byte	.LASF50
+ 245 0182 8B040000 		.4byte	.LASF50
  246 0186 C700     		.sleb128 71
  247 0188 06       		.uleb128 0x6
- 248 0189 20050000 		.4byte	.LASF51
+ 248 0189 CF040000 		.4byte	.LASF51
  249 018d C800     		.sleb128 72
  250 018f 06       		.uleb128 0x6
- 251 0190 82020000 		.4byte	.LASF52
+ 251 0190 31020000 		.4byte	.LASF52
  252 0194 C900     		.sleb128 73
  253 0196 06       		.uleb128 0x6
- 254 0197 F6060000 		.4byte	.LASF53
+ 254 0197 A5060000 		.4byte	.LASF53
  255 019b CA00     		.sleb128 74
  256 019d 06       		.uleb128 0x6
  257 019e 95010000 		.4byte	.LASF54
  258 01a2 CB00     		.sleb128 75
  259 01a4 06       		.uleb128 0x6
- 260 01a5 06050000 		.4byte	.LASF55
+ 260 01a5 B5040000 		.4byte	.LASF55
  261 01a9 CC00     		.sleb128 76
  262 01ab 06       		.uleb128 0x6
  263 01ac 24000000 		.4byte	.LASF56
  264 01b0 CD00     		.sleb128 77
  265 01b2 06       		.uleb128 0x6
- 266 01b3 98080000 		.4byte	.LASF57
+ 266 01b3 47080000 		.4byte	.LASF57
  267 01b7 CE00     		.sleb128 78
  268 01b9 06       		.uleb128 0x6
- 269 01ba 9E040000 		.4byte	.LASF58
+ 269 01ba 4D040000 		.4byte	.LASF58
  270 01be CF00     		.sleb128 79
  271 01c0 06       		.uleb128 0x6
- 272 01c1 120A0000 		.4byte	.LASF59
+ 272 01c1 C1090000 		.4byte	.LASF59
  273 01c5 D000     		.sleb128 80
  274 01c7 06       		.uleb128 0x6
- 275 01c8 14070000 		.4byte	.LASF60
+ 275 01c8 C3060000 		.4byte	.LASF60
  276 01cc D100     		.sleb128 81
  277 01ce 06       		.uleb128 0x6
- 278 01cf A6030000 		.4byte	.LASF61
+ 278 01cf 55030000 		.4byte	.LASF61
  279 01d3 D200     		.sleb128 82
  280 01d5 06       		.uleb128 0x6
- 281 01d6 3E030000 		.4byte	.LASF62
+ 281 01d6 ED020000 		.4byte	.LASF62
  282 01da D300     		.sleb128 83
  283 01dc 06       		.uleb128 0x6
  284 01dd B4010000 		.4byte	.LASF63
  285 01e1 D400     		.sleb128 84
  286 01e3 06       		.uleb128 0x6
- 287 01e4 5B0A0000 		.4byte	.LASF64
+ 287 01e4 530A0000 		.4byte	.LASF64
  288 01e8 D500     		.sleb128 85
  289 01ea 06       		.uleb128 0x6
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 8
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 8
 
 
- 290 01eb 62090000 		.4byte	.LASF65
+ 290 01eb 11090000 		.4byte	.LASF65
  291 01ef D600     		.sleb128 86
  292 01f1 06       		.uleb128 0x6
- 293 01f2 39090000 		.4byte	.LASF66
+ 293 01f2 E8080000 		.4byte	.LASF66
  294 01f6 D700     		.sleb128 87
  295 01f8 06       		.uleb128 0x6
- 296 01f9 0A060000 		.4byte	.LASF67
+ 296 01f9 B9050000 		.4byte	.LASF67
  297 01fd D800     		.sleb128 88
  298 01ff 06       		.uleb128 0x6
- 299 0200 5B040000 		.4byte	.LASF68
+ 299 0200 0A040000 		.4byte	.LASF68
  300 0204 F000     		.sleb128 112
  301 0206 06       		.uleb128 0x6
- 302 0207 27080000 		.4byte	.LASF69
+ 302 0207 D6070000 		.4byte	.LASF69
  303 020b F100     		.sleb128 113
  304 020d 06       		.uleb128 0x6
- 305 020e A6060000 		.4byte	.LASF70
+ 305 020e 55060000 		.4byte	.LASF70
  306 0212 F200     		.sleb128 114
  307 0214 06       		.uleb128 0x6
  308 0215 EC010000 		.4byte	.LASF71
  309 0219 F300     		.sleb128 115
  310 021b 06       		.uleb128 0x6
- 311 021c 19040000 		.4byte	.LASF72
+ 311 021c C8030000 		.4byte	.LASF72
  312 0220 F400     		.sleb128 116
  313 0222 06       		.uleb128 0x6
- 314 0223 B4050000 		.4byte	.LASF73
+ 314 0223 63050000 		.4byte	.LASF73
  315 0227 F500     		.sleb128 117
  316 0229 06       		.uleb128 0x6
  317 022a 0A020000 		.4byte	.LASF74
  318 022e F600     		.sleb128 118
  319 0230 06       		.uleb128 0x6
- 320 0231 08080000 		.4byte	.LASF75
+ 320 0231 B7070000 		.4byte	.LASF75
  321 0235 F700     		.sleb128 119
  322 0237 06       		.uleb128 0x6
- 323 0238 70070000 		.4byte	.LASF76
+ 323 0238 1F070000 		.4byte	.LASF76
  324 023c F800     		.sleb128 120
  325 023e 06       		.uleb128 0x6
- 326 023f 9A070000 		.4byte	.LASF77
+ 326 023f 49070000 		.4byte	.LASF77
  327 0243 F900     		.sleb128 121
  328 0245 06       		.uleb128 0x6
- 329 0246 F5080000 		.4byte	.LASF78
+ 329 0246 A4080000 		.4byte	.LASF78
  330 024a FA00     		.sleb128 122
  331 024c 06       		.uleb128 0x6
- 332 024d 52070000 		.4byte	.LASF79
+ 332 024d 01070000 		.4byte	.LASF79
  333 0251 FA01     		.sleb128 250
  334 0253 06       		.uleb128 0x6
- 335 0254 BD040000 		.4byte	.LASF80
+ 335 0254 6C040000 		.4byte	.LASF80
  336 0258 FB01     		.sleb128 251
  337 025a 06       		.uleb128 0x6
- 338 025b 2B090000 		.4byte	.LASF81
+ 338 025b DA080000 		.4byte	.LASF81
  339 025f FF01     		.sleb128 255
  340 0261 00       		.byte	0
  341 0262 04       		.uleb128 0x4
- 342 0263 310A0000 		.4byte	.LASF83
+ 342 0263 290A0000 		.4byte	.LASF83
  343 0267 03       		.byte	0x3
  344 0268 8401     		.2byte	0x184
  345 026a 6B000000 		.4byte	0x6b
  346 026e 07       		.uleb128 0x7
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 9
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 9
 
 
  347 026f 06       		.byte	0x6
@@ -486,7 +486,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  349 0271 48       		.byte	0x48
  350 0272 8F020000 		.4byte	0x28f
  351 0276 08       		.uleb128 0x8
- 352 0277 BD070000 		.4byte	.LASF84
+ 352 0277 6C070000 		.4byte	.LASF84
  353 027b 04       		.byte	0x4
  354 027c 4B       		.byte	0x4b
  355 027d 62020000 		.4byte	0x262
@@ -506,7 +506,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  369 029d 01       		.byte	0x1
  370 029e 00       		.byte	0
  371 029f 0B       		.uleb128 0xb
- 372 02a0 FF020000 		.4byte	.LASF86
+ 372 02a0 AE020000 		.4byte	.LASF86
  373 02a4 04       		.byte	0x4
  374 02a5 4F       		.byte	0x4f
  375 02a6 6E020000 		.4byte	0x26e
@@ -522,7 +522,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  385 02b9 62020000 		.4byte	0x262
  386 02bd 00       		.byte	0
  387 02be 08       		.uleb128 0x8
- 388 02bf 8F040000 		.4byte	.LASF88
+ 388 02bf 3E040000 		.4byte	.LASF88
  389 02c3 04       		.byte	0x4
  390 02c4 58       		.byte	0x58
  391 02c5 CB020000 		.4byte	0x2cb
@@ -536,9 +536,9 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  399 02d9 01       		.byte	0x1
  400 02da 00       		.byte	0
  401 02db 0B       		.uleb128 0xb
- 402 02dc 09040000 		.4byte	.LASF89
+ 402 02dc B8030000 		.4byte	.LASF89
  403 02e0 04       		.byte	0x4
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 10
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 10
 
 
  404 02e1 5A       		.byte	0x5a
@@ -559,7 +559,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  419 0305 00       		.byte	0
  420 0306 00       		.byte	0
  421 0307 0D       		.uleb128 0xd
- 422 0308 4D0A0000 		.4byte	.LASF94
+ 422 0308 450A0000 		.4byte	.LASF94
  423 030c 01       		.byte	0x1
  424 030d 1A       		.byte	0x1a
  425 030e 18030000 		.4byte	0x318
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  458 0018 3E       		.uleb128 0x3e
  459 0019 0B       		.uleb128 0xb
  460 001a 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 11
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 11
 
 
  461 001b 0E       		.uleb128 0xe
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  515 0051 3A       		.uleb128 0x3a
  516 0052 0B       		.uleb128 0xb
  517 0053 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 12
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 12
 
 
  518 0054 0B       		.uleb128 0xb
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  572 008a 3F       		.uleb128 0x3f
  573 008b 19       		.uleb128 0x19
  574 008c 03       		.uleb128 0x3
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 13
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 13
 
 
  575 008d 0E       		.uleb128 0xe
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  629              		.section	.debug_ranges,"",%progbits
  630              	.Ldebug_ranges0:
  631 0000 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 14
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 14
 
 
  632 0004 02000000 		.4byte	.LFE2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  653      505F4155 
  653      54485F46 
  654              	.LASF12:
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 15
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 15
 
 
  655 00db 73697A65 		.ascii	"sizetype\000"
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  675 0195 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
  675      455F4556 
  675      545F4741 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 16
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 16
 
 
  675      5454435F 
@@ -927,451 +927,451 @@ ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 1
  683      545F4C32 
  683      4341505F 
  683      43424643 
- 684              	.LASF92:
- 685 022b 443A5C50 		.ascii	"D:\\Programmation\\JS\\AnyBoardJS\\firmware\\CyPawn"
- 685      726F6772 
- 685      616D6D61 
- 685      74696F6E 
- 685      5C4A535C 
- 686 0259 5C506177 		.ascii	"\\Pawn_PSoC4200\\Pawn_PSoC4200.cydsn\000"
- 686      6E5F5053 
- 686      6F433432 
- 686      30305C50 
- 686      61776E5F 
- 687              	.LASF9:
- 688 027c 666C6F61 		.ascii	"float\000"
- 688      7400
- 689              	.LASF52:
- 690 0282 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
- 690      455F4556 
- 690      545F4741 
- 690      5454435F 
- 690      52454144 
- 691              	.LASF33:
- 692 029b 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
- 692      455F4556 
- 692      545F4741 
- 692      505F4E55 
- 692      4D455249 
- 693              	.LASF91:
- 694 02c4 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLE_custom.c\000"
- 694      72617465 
- 694      645F536F 
- 694      75726365 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 17
+ 684              	.LASF9:
+ 685 022b 666C6F61 		.ascii	"float\000"
+ 685      7400
+ 686              	.LASF52:
+ 687 0231 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 687      455F4556 
+ 687      545F4741 
+ 687      5454435F 
+ 687      52454144 
+ 688              	.LASF33:
+ 689 024a 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
+ 689      455F4556 
+ 689      545F4741 
+ 689      505F4E55 
+ 689      4D455249 
+ 690              	.LASF91:
+ 691 0273 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLE_custom.c\000"
+ 691      72617465 
+ 691      645F536F 
+ 691      75726365 
+ 691      5C50536F 
+ 692              	.LASF7:
+ 693 0297 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 693      206C6F6E 
+ 693      6720756E 
+ 693      7369676E 
+ 693      65642069 
+ 694              	.LASF86:
+ 695 02ae 4359424C 		.ascii	"CYBLE_CUSTOMS_INFO_T\000"
+ 695      455F4355 
+ 695      53544F4D 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 17
 
 
- 694      5C50536F 
- 695              	.LASF7:
- 696 02e8 6C6F6E67 		.ascii	"long long unsigned int\000"
- 696      206C6F6E 
- 696      6720756E 
- 696      7369676E 
- 696      65642069 
- 697              	.LASF86:
- 698 02ff 4359424C 		.ascii	"CYBLE_CUSTOMS_INFO_T\000"
- 698      455F4355 
- 698      53544F4D 
- 698      535F494E 
- 698      464F5F54 
- 699              	.LASF42:
- 700 0314 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ_REPLY_ERR\000"
- 700      455F4556 
- 700      545F4741 
- 700      505F4155 
- 700      54485F52 
- 701              	.LASF4:
- 702 0335 6C6F6E67 		.ascii	"long int\000"
- 702      20696E74 
- 702      00
- 703              	.LASF62:
- 704 033e 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
- 704      455F4556 
- 704      545F4741 
- 704      5454435F 
- 704      48414E44 
- 705              	.LASF27:
- 706 035f 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
- 706      455F4556 
- 706      545F4741 
- 706      505F4445 
- 706      56494345 
- 707              	.LASF26:
- 708 037e 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
- 708      455F4556 
- 708      545F4741 
- 708      50505F41 
- 708      44564552 
- 709              	.LASF61:
- 710 03a6 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
- 710      455F4556 
- 710      545F4741 
- 710      5454435F 
- 710      48414E44 
- 711              	.LASF18:
- 712 03c7 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
- 712      455F4556 
- 712      545F5354 
- 712      41434B5F 
- 712      42555359 
- 713              	.LASF23:
- 714 03e3 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
- 714      455F4556 
- 714      545F4741 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 18
+ 695      535F494E 
+ 695      464F5F54 
+ 696              	.LASF42:
+ 697 02c3 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ_REPLY_ERR\000"
+ 697      455F4556 
+ 697      545F4741 
+ 697      505F4155 
+ 697      54485F52 
+ 698              	.LASF4:
+ 699 02e4 6C6F6E67 		.ascii	"long int\000"
+ 699      20696E74 
+ 699      00
+ 700              	.LASF62:
+ 701 02ed 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 701      455F4556 
+ 701      545F4741 
+ 701      5454435F 
+ 701      48414E44 
+ 702              	.LASF27:
+ 703 030e 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
+ 703      455F4556 
+ 703      545F4741 
+ 703      505F4445 
+ 703      56494345 
+ 704              	.LASF26:
+ 705 032d 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 705      455F4556 
+ 705      545F4741 
+ 705      50505F41 
+ 705      44564552 
+ 706              	.LASF61:
+ 707 0355 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 707      455F4556 
+ 707      545F4741 
+ 707      5454435F 
+ 707      48414E44 
+ 708              	.LASF18:
+ 709 0376 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
+ 709      455F4556 
+ 709      545F5354 
+ 709      41434B5F 
+ 709      42555359 
+ 710              	.LASF23:
+ 711 0392 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 711      455F4556 
+ 711      545F4741 
+ 711      505F5041 
+ 711      53534B45 
+ 712              	.LASF89:
+ 713 03b8 4359424C 		.ascii	"CYBLE_CUSTOMS_T\000"
+ 713      455F4355 
+ 713      53544F4D 
+ 713      535F5400 
+ 714              	.LASF72:
+ 715 03c8 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 715      455F4556 
+ 715      545F4C32 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 18
 
 
- 714      505F5041 
- 714      53534B45 
- 715              	.LASF89:
- 716 0409 4359424C 		.ascii	"CYBLE_CUSTOMS_T\000"
- 716      455F4355 
- 716      53544F4D 
- 716      535F5400 
- 717              	.LASF72:
- 718 0419 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
- 718      455F4556 
- 718      545F4C32 
- 718      4341505F 
- 718      43424643 
- 719              	.LASF37:
- 720 0437 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
- 720      455F4556 
- 720      545F4741 
- 720      505F454E 
- 720      48414E43 
- 721              	.LASF68:
- 722 045b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
- 722      455F4556 
- 722      545F4C32 
- 722      4341505F 
- 722      434F4E4E 
- 723              	.LASF1:
- 724 0481 756E7369 		.ascii	"unsigned char\000"
- 724      676E6564 
- 724      20636861 
- 724      7200
- 725              	.LASF88:
- 726 048f 63757374 		.ascii	"customServInfo\000"
- 726      6F6D5365 
- 726      7276496E 
- 726      666F00
- 727              	.LASF58:
- 728 049e 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
- 728      455F4556 
- 728      545F4741 
- 728      5454535F 
- 728      50524550 
- 729              	.LASF80:
- 730 04bd 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
- 730      455F4556 
- 730      545F4C45 
- 730      5F50494E 
- 730      475F4155 
- 731              	.LASF50:
- 732 04dc 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
- 732      455F4556 
- 732      545F4741 
- 732      5454435F 
- 732      46494E44 
- 733              	.LASF0:
- 734 04fa 7369676E 		.ascii	"signed char\000"
- 734      65642063 
- 734      68617200 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 19
+ 715      4341505F 
+ 715      43424643 
+ 716              	.LASF37:
+ 717 03e6 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 717      455F4556 
+ 717      545F4741 
+ 717      505F454E 
+ 717      48414E43 
+ 718              	.LASF68:
+ 719 040a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 719      455F4556 
+ 719      545F4C32 
+ 719      4341505F 
+ 719      434F4E4E 
+ 720              	.LASF1:
+ 721 0430 756E7369 		.ascii	"unsigned char\000"
+ 721      676E6564 
+ 721      20636861 
+ 721      7200
+ 722              	.LASF88:
+ 723 043e 63757374 		.ascii	"customServInfo\000"
+ 723      6F6D5365 
+ 723      7276496E 
+ 723      666F00
+ 724              	.LASF58:
+ 725 044d 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 725      455F4556 
+ 725      545F4741 
+ 725      5454535F 
+ 725      50524550 
+ 726              	.LASF80:
+ 727 046c 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
+ 727      455F4556 
+ 727      545F4C45 
+ 727      5F50494E 
+ 727      475F4155 
+ 728              	.LASF50:
+ 729 048b 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 729      455F4556 
+ 729      545F4741 
+ 729      5454435F 
+ 729      46494E44 
+ 730              	.LASF0:
+ 731 04a9 7369676E 		.ascii	"signed char\000"
+ 731      65642063 
+ 731      68617200 
+ 732              	.LASF55:
+ 733 04b5 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ 733      455F4556 
+ 733      545F4741 
+ 733      5454535F 
+ 733      57524954 
+ 734              	.LASF51:
+ 735 04cf 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 735      455F4556 
+ 735      545F4741 
+ 735      5454435F 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 19
 
 
- 735              	.LASF55:
- 736 0506 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
- 736      455F4556 
- 736      545F4741 
- 736      5454535F 
- 736      57524954 
- 737              	.LASF51:
- 738 0520 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
- 738      455F4556 
- 738      545F4741 
- 738      5454435F 
- 738      46494E44 
- 739              	.LASF24:
- 740 0547 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
- 740      455F4556 
- 740      545F4741 
- 740      505F4155 
- 740      54485F43 
- 741              	.LASF8:
- 742 0563 756E7369 		.ascii	"unsigned int\000"
- 742      676E6564 
- 742      20696E74 
- 742      00
- 743              	.LASF44:
- 744 0570 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
- 744      455F4556 
- 744      545F4741 
- 744      54545F43 
- 744      4F4E4E45 
- 745              	.LASF5:
- 746 058b 6C6F6E67 		.ascii	"long unsigned int\000"
- 746      20756E73 
- 746      69676E65 
- 746      6420696E 
- 746      7400
- 747              	.LASF21:
- 748 059d 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
- 748      455F4556 
- 748      545F4741 
- 748      505F4155 
- 748      54485F52 
- 749              	.LASF73:
- 750 05b4 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
- 750      455F4556 
- 750      545F4C32 
- 750      4341505F 
- 750      43424643 
- 751              	.LASF29:
- 752 05d5 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
- 752      455F4556 
- 752      545F4741 
- 752      505F454E 
- 752      43525950 
- 753              	.LASF40:
- 754 05f2 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
- 754      455F4556 
- 754      545F4741 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 20
+ 735      46494E44 
+ 736              	.LASF24:
+ 737 04f6 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 737      455F4556 
+ 737      545F4741 
+ 737      505F4155 
+ 737      54485F43 
+ 738              	.LASF8:
+ 739 0512 756E7369 		.ascii	"unsigned int\000"
+ 739      676E6564 
+ 739      20696E74 
+ 739      00
+ 740              	.LASF44:
+ 741 051f 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 741      455F4556 
+ 741      545F4741 
+ 741      54545F43 
+ 741      4F4E4E45 
+ 742              	.LASF5:
+ 743 053a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 743      20756E73 
+ 743      69676E65 
+ 743      6420696E 
+ 743      7400
+ 744              	.LASF21:
+ 745 054c 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
+ 745      455F4556 
+ 745      545F4741 
+ 745      505F4155 
+ 745      54485F52 
+ 746              	.LASF73:
+ 747 0563 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 747      455F4556 
+ 747      545F4C32 
+ 747      4341505F 
+ 747      43424643 
+ 748              	.LASF29:
+ 749 0584 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 749      455F4556 
+ 749      545F4741 
+ 749      505F454E 
+ 749      43525950 
+ 750              	.LASF40:
+ 751 05a1 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
+ 751      455F4556 
+ 751      545F4741 
+ 751      505F434F 
+ 751      4E4E5F45 
+ 752              	.LASF67:
+ 753 05b9 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
+ 753      455F4556 
+ 753      545F4741 
+ 753      5454435F 
+ 753      4C4F4E47 
+ 754              	.LASF32:
+ 755 05dc 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 755      455F4556 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 20
 
 
- 754      505F434F 
- 754      4E4E5F45 
- 755              	.LASF67:
- 756 060a 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
- 756      455F4556 
- 756      545F4741 
- 756      5454435F 
- 756      4C4F4E47 
- 757              	.LASF32:
- 758 062d 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
- 758      455F4556 
- 758      545F4741 
- 758      505F4B45 
- 758      59494E46 
- 759              	.LASF30:
- 760 0651 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
- 760      455F4556 
- 760      545F4741 
- 760      505F434F 
- 760      4E4E4543 
- 761              	.LASF39:
- 762 067a 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
- 762      455F4556 
- 762      545F4741 
- 762      505F534D 
- 762      505F4E45 
- 763              	.LASF11:
- 764 06a1 63686172 		.ascii	"char\000"
- 764      00
- 765              	.LASF70:
- 766 06a6 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
- 766      455F4556 
- 766      545F4C32 
- 766      4341505F 
- 766      434F4D4D 
- 767              	.LASF3:
- 768 06c2 73686F72 		.ascii	"short unsigned int\000"
- 768      7420756E 
- 768      7369676E 
- 768      65642069 
- 768      6E7400
- 769              	.LASF38:
- 770 06d5 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
- 770      455F4556 
- 770      545F4741 
- 770      50435F44 
- 770      49524543 
- 771              	.LASF53:
- 772 06f6 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
- 772      455F4556 
- 772      545F4741 
- 772      5454435F 
- 772      52454144 
- 773              	.LASF60:
- 774 0714 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
- 774      455F4556 
- 774      545F4741 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 21
+ 755      545F4741 
+ 755      505F4B45 
+ 755      59494E46 
+ 756              	.LASF30:
+ 757 0600 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 757      455F4556 
+ 757      545F4741 
+ 757      505F434F 
+ 757      4E4E4543 
+ 758              	.LASF39:
+ 759 0629 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
+ 759      455F4556 
+ 759      545F4741 
+ 759      505F534D 
+ 759      505F4E45 
+ 760              	.LASF11:
+ 761 0650 63686172 		.ascii	"char\000"
+ 761      00
+ 762              	.LASF70:
+ 763 0655 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 763      455F4556 
+ 763      545F4C32 
+ 763      4341505F 
+ 763      434F4D4D 
+ 764              	.LASF3:
+ 765 0671 73686F72 		.ascii	"short unsigned int\000"
+ 765      7420756E 
+ 765      7369676E 
+ 765      65642069 
+ 765      6E7400
+ 766              	.LASF38:
+ 767 0684 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 767      455F4556 
+ 767      545F4741 
+ 767      50435F44 
+ 767      49524543 
+ 768              	.LASF53:
+ 769 06a5 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 769      455F4556 
+ 769      545F4741 
+ 769      5454435F 
+ 769      52454144 
+ 770              	.LASF60:
+ 771 06c3 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 771      455F4556 
+ 771      545F4741 
+ 771      5454435F 
+ 771      45584543 
+ 772              	.LASF31:
+ 773 06e2 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 773      455F4556 
+ 773      545F4741 
+ 773      50435F53 
+ 773      43414E5F 
+ 774              	.LASF79:
+ 775 0701 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 775      455F4556 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 21
 
 
- 774      5454435F 
- 774      45584543 
- 775              	.LASF31:
- 776 0733 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
- 776      455F4556 
- 776      545F4741 
- 776      50435F53 
- 776      43414E5F 
- 777              	.LASF79:
- 778 0752 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
- 778      455F4556 
- 778      545F5045 
- 778      4E44494E 
- 778      475F464C 
- 779              	.LASF76:
- 780 0770 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
- 780      455F4556 
- 780      545F4C32 
- 780      4341505F 
- 780      43424643 
- 781              	.LASF10:
- 782 0793 646F7562 		.ascii	"double\000"
- 782      6C6500
- 783              	.LASF77:
- 784 079a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
- 784      455F4556 
- 784      545F4C32 
- 784      4341505F 
- 784      43424643 
- 785              	.LASF84:
- 786 07bd 63757374 		.ascii	"customServCharHandle\000"
- 786      6F6D5365 
- 786      72764368 
- 786      61724861 
- 786      6E646C65 
- 787              	.LASF41:
- 788 07d2 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
- 788      455F4556 
- 788      545F4741 
- 788      505F5343 
- 788      414E5F52 
- 789              	.LASF16:
- 790 07ef 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
- 790      455F4556 
- 790      545F4841 
- 790      52445741 
- 790      52455F45 
- 791              	.LASF75:
- 792 0808 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
- 792      455F4556 
- 792      545F4C32 
- 792      4341505F 
- 792      43424643 
- 793              	.LASF69:
- 794 0827 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
- 794      455F4556 
- 794      545F4C32 
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 22
+ 775      545F5045 
+ 775      4E44494E 
+ 775      475F464C 
+ 776              	.LASF76:
+ 777 071f 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
+ 777      455F4556 
+ 777      545F4C32 
+ 777      4341505F 
+ 777      43424643 
+ 778              	.LASF10:
+ 779 0742 646F7562 		.ascii	"double\000"
+ 779      6C6500
+ 780              	.LASF77:
+ 781 0749 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
+ 781      455F4556 
+ 781      545F4C32 
+ 781      4341505F 
+ 781      43424643 
+ 782              	.LASF84:
+ 783 076c 63757374 		.ascii	"customServCharHandle\000"
+ 783      6F6D5365 
+ 783      72764368 
+ 783      61724861 
+ 783      6E646C65 
+ 784              	.LASF41:
+ 785 0781 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
+ 785      455F4556 
+ 785      545F4741 
+ 785      505F5343 
+ 785      414E5F52 
+ 786              	.LASF16:
+ 787 079e 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 787      455F4556 
+ 787      545F4841 
+ 787      52445741 
+ 787      52455F45 
+ 788              	.LASF75:
+ 789 07b7 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 789      455F4556 
+ 789      545F4C32 
+ 789      4341505F 
+ 789      43424643 
+ 790              	.LASF69:
+ 791 07d6 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 791      455F4556 
+ 791      545F4C32 
+ 791      4341505F 
+ 791      434F4E4E 
+ 792              	.LASF20:
+ 793 07fc 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 793      455F4556 
+ 793      545F4741 
+ 793      50435F53 
+ 793      43414E5F 
+ 794              	.LASF48:
+ 795 0820 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 795      455F4556 
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 22
 
 
- 794      4341505F 
- 794      434F4E4E 
- 795              	.LASF20:
- 796 084d 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
- 796      455F4556 
- 796      545F4741 
- 796      50435F53 
- 796      43414E5F 
- 797              	.LASF48:
- 798 0871 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
- 798      455F4556 
- 798      545F4741 
- 798      5454435F 
- 798      52454144 
- 799              	.LASF57:
- 800 0898 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
- 800      455F4556 
- 800      545F4741 
- 800      5454535F 
- 800      57524954 
- 801              	.LASF49:
- 802 08b6 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
- 802      455F4556 
- 802      545F4741 
- 802      5454435F 
- 802      52454144 
- 803              	.LASF47:
- 804 08d7 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
- 804      455F4556 
- 804      545F4741 
- 804      5454435F 
- 804      5843484E 
- 805              	.LASF78:
- 806 08f5 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
- 806      455F4556 
- 806      545F4C32 
- 806      4341505F 
- 806      43424643 
- 807              	.LASF15:
- 808 0919 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
- 808      455F4556 
- 808      545F5449 
- 808      4D454F55 
- 808      5400
- 809              	.LASF81:
- 810 092b 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
- 810      455F4556 
- 810      545F4D41 
- 810      5800
- 811              	.LASF66:
- 812 0939 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
- 812      455F4556 
- 812      545F4741 
- 812      5454535F 
- 812      52454144 
- 813              	.LASF65:
- 814 0962 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
-ARM GAS  C:\Users\Nakio\AppData\Local\Temp\cczLzWxc.s 			page 23
+ 795      545F4741 
+ 795      5454435F 
+ 795      52454144 
+ 796              	.LASF57:
+ 797 0847 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
+ 797      455F4556 
+ 797      545F4741 
+ 797      5454535F 
+ 797      57524954 
+ 798              	.LASF49:
+ 799 0865 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 799      455F4556 
+ 799      545F4741 
+ 799      5454435F 
+ 799      52454144 
+ 800              	.LASF47:
+ 801 0886 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 801      455F4556 
+ 801      545F4741 
+ 801      5454435F 
+ 801      5843484E 
+ 802              	.LASF78:
+ 803 08a4 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 803      455F4556 
+ 803      545F4C32 
+ 803      4341505F 
+ 803      43424643 
+ 804              	.LASF15:
+ 805 08c8 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 805      455F4556 
+ 805      545F5449 
+ 805      4D454F55 
+ 805      5400
+ 806              	.LASF81:
+ 807 08da 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 807      455F4556 
+ 807      545F4D41 
+ 807      5800
+ 808              	.LASF66:
+ 809 08e8 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 809      455F4556 
+ 809      545F4741 
+ 809      5454535F 
+ 809      52454144 
+ 810              	.LASF65:
+ 811 0911 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
+ 811      455F4556 
+ 811      545F4741 
+ 811      5454435F 
+ 811      53544F50 
+ 812              	.LASF90:
+ 813 0933 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 813      4320342E 
+ 813      392E3320 
+ 813      32303135 
+ 813      30333033 
+ 814 0966 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ARM GAS  C:\Users\THO~1\AppData\Local\Temp\ccZv7bWo.s 			page 23
 
 
- 814      455F4556 
- 814      545F4741 
- 814      5454435F 
- 814      53544F50 
- 815              	.LASF90:
- 816 0984 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 816      4320342E 
- 816      392E3320 
- 816      32303135 
- 816      30333033 
- 817 09b7 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 817      20726576 
- 817      6973696F 
- 817      6E203232 
- 817      31323230 
- 818 09ea 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 818      66756E63 
- 818      74696F6E 
- 818      2D736563 
- 818      74696F6E 
- 819              	.LASF59:
- 820 0a12 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
- 820      455F4556 
- 820      545F4741 
- 820      5454535F 
- 820      45584543 
+ 814      20726576 
+ 814      6973696F 
+ 814      6E203232 
+ 814      31323230 
+ 815 0999 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 815      66756E63 
+ 815      74696F6E 
+ 815      2D736563 
+ 815      74696F6E 
+ 816              	.LASF59:
+ 817 09c1 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 817      455F4556 
+ 817      545F4741 
+ 817      5454535F 
+ 817      45584543 
+ 818              	.LASF92:
+ 819 09e0 433A5C41 		.ascii	"C:\\Anyboard\\anyboardjs\\firmware\\CyPawn\\Pawn_PS"
+ 819      6E79626F 
+ 819      6172645C 
+ 819      616E7962 
+ 819      6F617264 
+ 820 0a0e 6F433432 		.ascii	"oC4200\\Pawn_PSoC4200.cydsn\000"
+ 820      30305C50 
+ 820      61776E5F 
+ 820      50536F43 
+ 820      34323030 
  821              	.LASF83:
- 822 0a31 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
+ 822 0a29 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
  822      455F4741 
  822      54545F44 
  822      425F4154 
  822      54525F48 
  823              	.LASF94:
- 824 0a4d 6379426C 		.ascii	"cyBle_customs\000"
+ 824 0a45 6379426C 		.ascii	"cyBle_customs\000"
  824      655F6375 
  824      73746F6D 
  824      7300
  825              	.LASF64:
- 826 0a5b 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 826 0a53 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
  826      455F4556 
  826      545F4741 
  826      5454535F 
  826      44415441 
  827              	.LASF45:
- 828 0a7f 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 828 0a77 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
  828      455F4556 
  828      545F4741 
  828      54545F44 
  828      4953434F 
  829              	.LASF35:
- 830 0a9d 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
+ 830 0a95 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
  830      455F4556 
  830      545F4741 
  830      505F4F4F 
