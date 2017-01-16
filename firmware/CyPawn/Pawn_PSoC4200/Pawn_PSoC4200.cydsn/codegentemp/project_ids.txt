@@ -1,6 +1,0 @@
-C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj|73ed493c-28a7-43b4-9b9e-93143937a64a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|18f4487b-12da-432e-b18b-0ccab660a21f
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|db2d24c5-300b-4617-b0b0-b236e1b6f832
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|9a3d4511-03b2-436b-bc67-313a7e31daee
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|436b662f-42de-42f4-9c05-0fda291fff3f
-C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\PSoC_4_BLE_CapSense_Slider_LED02.cydsn\PSoC_4_BLE_CapSense_Slider_LED02.cyprj|e9dd5c3a-5000-40b2-bf2b-2ed5ae9c53ff
