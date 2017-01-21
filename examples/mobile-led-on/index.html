@@ -98,9 +98,9 @@
             sendGreenLed: function(token) {
 
                 // Function to be executed when LED is successfully turned on
-                var completedFunction = function(data){
+                var completedFunction = function(value){
                     hyper.log("We happily set the LED on the token! :D");
-                    hyper.log(data)
+                    hyper.log(value.value);
                 };
 
                 // Function to be executed upon failure of LED
@@ -110,8 +110,7 @@
                 };
 
                 // Turns on token led.
-                token.ledOn("aqua", // Instead of "green" color, on could also use array, e.g. [0, 255, 0]
-                    completedFunction,  // function to be executed when token signals
+                token.getColor(completedFunction,  // function to be executed when token signals
                     errorCallback  // function to be executed in case of failure to send command to token
                 );
             }

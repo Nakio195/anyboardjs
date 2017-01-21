@@ -97,6 +97,7 @@
         GET_VERSION: 33,
         GET_UUID: 34,
         GET_BATTERY_STATUS: 35,
+        GET_COLOR: 37,
         LED_OFF: 128,
         LED_ON: 129,
         LED_BLINK: 130,
@@ -235,6 +236,10 @@
         PRINT_NEWLINE: cypawnBluetooth._GenericSend(
             "PRINT_NEWLINE",
             cypawnBluetooth._CMD_CODE.PRINT_NEWLINE,
+            NO_PARAMS),
+        GET_COLOR: cypawnBluetooth._GenericSend(
+            "GET_COLOR",
+            cypawnBluetooth._CMD_CODE.GET_COLOR,
             NO_PARAMS)
     };
 
@@ -287,34 +292,6 @@
     };
 
     cypawnBluetooth.ledOn = function (token, value, win, fail) {
-
-/*			// When connected to the device, get the desired service and characteristic.
-		token.device.gettingServices = true;
-		var service = evothings.ble.getService(token.device.deviceHandle, '6fe71585-adfe-41dd-9b02-8f984d40f654');
-		AnyBoard.Logger.log("Found Service : " + service, this);
-		var characteristic = evothings.ble.getCharacteristic(service, '30973904-ccd6-48a5-a241-f89ec24f19d5');
-		AnyBoard.Logger.log("Found Characteristic : " + characteristic.uuid, this);
-		
-		token.device.gettingServices = false; 
-
-		 
-
-		// Read the characteristic.
-		evothings.ble.writeCharacteristic(
-		token,
-		token.device.prototype,
-		cypawnBluetooth._COLORS['green'], // Buffer view with data to write
-			function()
-			{
-				console.log('LED toggled to green');
-			},
-			function(errorCode)
-			{
-				console.log('Unable to write characteristic ' + characteristic.name +' : ' + errorCode);
-			} 
-		);		
-		AnyBoard.Logger.log("typeof  " + typeof (token.device.deviceHandle), this);*/
-		
        value = value || 'white';
 
         if (typeof value === 'string' && value in this._COLORS) {
@@ -324,6 +301,12 @@
         } else {
             fail && fail('Invalid or unsupported color parameters');
         }
+	
+    };
+	
+	
+    cypawnBluetooth.getColor = function (token, win, fail) {
+        this._COMMANDS.GET_COLOR(token, win, fail);
 	
     };
 
@@ -652,6 +635,12 @@
                     break;
                 case cypawnBluetooth._CMD_CODE.PRINT_NEWLINE:
                     token.trigger('PRINT_NEWLINE');
+                    break;
+                case cypawnBluetooth._CMD_CODE.GET_COLOR:
+                    for (var i = 0; i < uint8array.length; i++)
+                        stringData += String.fromCharCode(uint8array[i]);
+					 AnyBoard.Logger.log(stringData);
+                    token.trigger('GET_COLOR', {"value": stringData});
                     break;
                 default:
                     token.trigger('INVALID_DATA_RECEIVE', {"value": uint8array});

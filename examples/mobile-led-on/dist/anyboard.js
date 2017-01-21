@@ -1735,6 +1735,27 @@ AnyBoard.BaseToken.prototype.ledOn = function(value, win, fail) {
 };
 
 /**
+ * Sets color on token
+ * @param {string|Array} value string with color name or array of [red, green, blue] values 0-255
+ * @param {stdNoParamCallback} [win] *(optional)* callback function to be called upon successful execution
+ * @param {stdErrorCallback} [fail] *(optional)* callback function to be executed upon
+ * @example
+ * // sets Led to white
+ * existingToken.ledOn([255, 255, 255]);
+ *
+ * // sets Led to white (See driver implementation for what colors are supported)
+ * existingToken.ledOn("white");
+ */
+AnyBoard.BaseToken.prototype.getColor = function(win, fail) {
+    if (!this.driver.hasOwnProperty('getColor')) {
+        AnyBoard.Logger.warn('This token has not implemented getColor', this);
+        fail && fail('This token has not implemented getColor');
+    } else {
+        this.driver.getColor(this, win, fail);
+    }
+};
+
+/**
  * tells token to blink its led
  * @param {string|Array} value string with color name or array of [red, green, blue] values 0-255
  * @param {stdNoParamCallback} [win] *(optional)* callback function to be called upon successful execution

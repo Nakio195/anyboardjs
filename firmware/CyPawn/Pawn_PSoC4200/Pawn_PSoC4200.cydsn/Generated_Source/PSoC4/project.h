@@ -67,6 +67,8 @@
 #include "LED_G_1_aliases.h"
 #include "LED_B_1.h"
 #include "LED_B_1_aliases.h"
+#include "ADC_Done.h"
+#include "BTN_ISR.h"
 #include "ADC_SAR_Seq_1_IRQ.h"
 #include "ADC_SAR_Seq_1_intClock.h"
 #include "I2C_SCBCLK.h"

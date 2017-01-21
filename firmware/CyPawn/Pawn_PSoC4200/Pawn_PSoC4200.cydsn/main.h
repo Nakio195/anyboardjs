@@ -5,5 +5,7 @@
     #include <BLE_Handle.h>
     #include <AnyBoardJS_Handle.h>
     #include <TCS34725.h>
+    #include <LowPower_Handle.h>
+    
     
 #endif

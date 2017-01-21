@@ -23,15 +23,16 @@ int main()
     extern CYBLE_GATT_HANDLE_VALUE_PAIR_T SerialNotificationCCCDhandle;
     
     CyGlobalIntEnable;   /* Enable global interrupts */
-    LED_R_Write(1);
-    LED_G_Write(1);
-    LED_B_Write(1);
+    
 
     I2C_Start();
-    
+    CyDelay(20);
     TCS_Enable();
-    TCS_SetApertureTime(0xFF);
+    TCS_SetApertureTime(0xC0);
     TCS_SetGain(0x02);
+
+    LED_W_Write(1);
+    
     CyBle_Start(StackEventHandler);
     
     for(;;)
@@ -50,22 +51,15 @@ int main()
             {
                 CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
                 while(BTN_Read() == 0);
-                LED_R_Write(0);
+                LED_R_1_Write(0);
             }  
             
             else
             {
                 //TCS_ReadColors(&TCS_Red, &TCS_Green, &TCS_Blue);
-                BLE_Buffer[ANY_COMMAND] = GET_COLOR;
-                BLE_Buffer[PARAM_GET_COLOR__R_H] = TCS_Red >> 8;
-                BLE_Buffer[PARAM_GET_COLOR__R_L] = TCS_Red & 0xFF;
-                BLE_Buffer[PARAM_GET_COLOR__G_H] = TCS_Green >> 8;
-                BLE_Buffer[PARAM_GET_COLOR__G_L] = TCS_Green & 0xFF;
-                BLE_Buffer[PARAM_GET_COLOR__B_H] = TCS_Blue >> 8;
-                BLE_Buffer[PARAM_GET_COLOR__B_L] = TCS_Blue & 0xFF;
+
                 
-                while(BTN_Read() == 0);
-                BLE_Buffer_Updated = 1;                
+                while(BTN_Read() == 0);             
             }
             
         }

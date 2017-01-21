@@ -75,9 +75,9 @@ void StackEventHandler( uint32 eventCode, void *eventParam )
             
             deviceConnected = 1;
             
-            LED_R_Write(1);
-            LED_G_Write(0);
-            LED_B_Write(1);
+            LED_R_1_Write(1);
+            LED_G_1_Write(0);
+            LED_B_1_Write(1);
 			break;
         
         case CYBLE_EVT_GATT_DISCONNECT_IND:
@@ -108,18 +108,18 @@ void StackEventHandler( uint32 eventCode, void *eventParam )
             
             deviceConnected = 0;
             
-            LED_R_Write(0);
-            LED_G_Write(1);
-            LED_B_Write(1);
+            LED_R_1_Write(0);
+            LED_G_1_Write(1);
+            LED_B_1_Write(1);
         break;
 
 
         case CYBLE_EVT_GATTS_WRITE_REQ:
             wrReqParam = (CYBLE_GATTS_WRITE_REQ_PARAM_T *) eventParam;
             
-            LED_R_Write(1);
-            LED_G_Write(1);
-            LED_B_Write(0);
+            LED_R_1_Write(1);
+            LED_G_1_Write(1);
+            LED_B_1_Write(0);
             
             CyDelay(50);
             
@@ -158,9 +158,9 @@ void StackEventHandler( uint32 eventCode, void *eventParam )
             
             CyBle_GattsWriteRsp(connectionHandle);
             
-            LED_R_Write(1);
-            LED_G_Write(0);
-            LED_B_Write(1);
+            LED_R_1_Write(1);
+            LED_G_1_Write(0);
+            LED_B_1_Write(1);
             
             break;
             
