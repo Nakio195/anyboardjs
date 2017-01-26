@@ -1,12 +1,12 @@
-Loading plugins phase: Elapsed time ==> 0s.749ms
+Loading plugins phase: Elapsed time ==> 0s.601ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -d CY8C4247LQI-BL483 -s C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -d CY8C4247LQI-BL483 -s D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 14s.256ms
+Elaboration phase: Elapsed time ==> 4s.259ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.171ms
+HDL generation phase: Elapsed time ==> 0s.137ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -23,24 +23,24 @@ HDL generation phase: Elapsed time ==> 0s.171ms
 
 ======================================================================
 Compiling:  Pawn_PSoC4200.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
+Program  :   F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Pawn_PSoC4200.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
+Program  :   F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Pawn_PSoC4200.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Thu Jan 19 19:53:20 2017
+Fri Jan 27 00:32:11 2017
 
 
 ======================================================================
@@ -50,31 +50,31 @@ Options  :    -yv2 -q10 Pawn_PSoC4200.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Thu Jan 19 19:53:20 2017
+Fri Jan 27 00:32:11 2017
 
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
 
 vpp:  No errors.
 
 Library 'work' => directory 'lcpsoc3'
 General_symbol_table
 General_symbol_table
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'Pawn_PSoC4200.ctl'.
 
 vlogfe:  No errors.
@@ -83,31 +83,31 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  Pawn_PSoC4200.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Thu Jan 19 19:53:20 2017
+Fri Jan 27 00:32:12 2017
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.ctl'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
 
 tovif:  No errors.
 
@@ -115,39 +115,39 @@ tovif:  No errors.
 ======================================================================
 Compiling:  Pawn_PSoC4200.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 -verilog Pawn_PSoC4200.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Thu Jan 19 19:53:20 2017
+Fri Jan 27 00:32:12 2017
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.ctl'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\codegentemp\Pawn_PSoC4200.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Bus_Connect_v2_40\Bus_Connect_v2_40.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	\ADC_SAR_Seq_1:Net_3125\
-	\ADC_SAR_Seq_1:Net_3126\
+	\ADC:Net_3125\
+	\ADC:Net_3126\
 	\I2C:Net_1257\
 	\I2C:uncfg_rx_irq\
 	\I2C:Net_1099\
@@ -171,22 +171,22 @@ Deleted 0 Synthesized equations/components.
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
-Aliasing \ADC_SAR_Seq_1:Net_3106\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3105\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3104\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3103\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3207_1\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3207_0\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \ADC_SAR_Seq_1:Net_3235\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \I2C:select_s_wire\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \I2C:rx_wire\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \I2C:sclk_s_wire\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \I2C:mosi_s_wire\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing \I2C:miso_m_wire\ to \ADC_SAR_Seq_1:Net_3107\
-Aliasing zero to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC:Net_3106\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3105\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3104\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3103\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3207_1\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3207_0\ to \ADC:Net_3107\
+Aliasing \ADC:Net_3235\ to \ADC:Net_3107\
+Aliasing \I2C:select_s_wire\ to \ADC:Net_3107\
+Aliasing \I2C:rx_wire\ to \ADC:Net_3107\
+Aliasing \I2C:sclk_s_wire\ to \ADC:Net_3107\
+Aliasing \I2C:mosi_s_wire\ to \ADC:Net_3107\
+Aliasing \I2C:miso_m_wire\ to \ADC:Net_3107\
+Aliasing zero to \ADC:Net_3107\
 Aliasing one to \I2C:tmpOE__sda_net_0\
 Aliasing \I2C:tmpOE__scl_net_0\ to \I2C:tmpOE__sda_net_0\
-Aliasing \I2C:cts_wire\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \I2C:cts_wire\ to \ADC:Net_3107\
 Aliasing tmpOE__LED_B_net_0 to \I2C:tmpOE__sda_net_0\
 Aliasing tmpOE__LED_G_net_0 to \I2C:tmpOE__sda_net_0\
 Aliasing tmpOE__BTN_net_0 to \I2C:tmpOE__sda_net_0\
@@ -199,21 +199,21 @@ Aliasing tmpOE__BAT_CELL_net_0 to \I2C:tmpOE__sda_net_0\
 Aliasing tmpOE__LED_R_1_net_0 to \I2C:tmpOE__sda_net_0\
 Aliasing tmpOE__LED_G_1_net_0 to \I2C:tmpOE__sda_net_0\
 Aliasing tmpOE__LED_B_1_net_0 to \I2C:tmpOE__sda_net_0\
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3106\[79] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3105\[80] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3104\[81] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3103\[82] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_17\[131] = \ADC_SAR_Seq_1:Net_1845\[2]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_1\[153] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_0\[154] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \ADC_SAR_Seq_1:Net_3235\[155] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \I2C:select_s_wire\[223] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \I2C:rx_wire\[224] = \ADC_SAR_Seq_1:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3106\[79] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3105\[80] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3104\[81] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3103\[82] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_17\[131] = \ADC:Net_1845\[2]
+Removing Lhs of wire \ADC:Net_3207_1\[153] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3207_0\[154] = \ADC:Net_3107\[78]
+Removing Lhs of wire \ADC:Net_3235\[155] = \ADC:Net_3107\[78]
+Removing Lhs of wire \I2C:select_s_wire\[223] = \ADC:Net_3107\[78]
+Removing Lhs of wire \I2C:rx_wire\[224] = \ADC:Net_3107\[78]
 Removing Lhs of wire \I2C:Net_1170\[227] = \I2C:Net_847\[222]
-Removing Lhs of wire \I2C:sclk_s_wire\[228] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \I2C:mosi_s_wire\[229] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Lhs of wire \I2C:miso_m_wire\[230] = \ADC_SAR_Seq_1:Net_3107\[78]
-Removing Rhs of wire zero[233] = \ADC_SAR_Seq_1:Net_3107\[78]
+Removing Lhs of wire \I2C:sclk_s_wire\[228] = \ADC:Net_3107\[78]
+Removing Lhs of wire \I2C:mosi_s_wire\[229] = \ADC:Net_3107\[78]
+Removing Lhs of wire \I2C:miso_m_wire\[230] = \ADC:Net_3107\[78]
+Removing Rhs of wire zero[233] = \ADC:Net_3107\[78]
 Removing Rhs of wire one[237] = \I2C:tmpOE__sda_net_0\[232]
 Removing Lhs of wire \I2C:tmpOE__scl_net_0\[240] = one[237]
 Removing Lhs of wire \I2C:cts_wire\[249] = zero[233]
@@ -251,24 +251,24 @@ Circuit simplification results:
 
 topld:  No errors.
 
-CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp
-Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
+CYPRESS_DIR    : F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp
+Warp Program   : F:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -dcpsoc3 Pawn_PSoC4200.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.893ms
+Warp synthesis phase: Elapsed time ==> 0s.843ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Thursday, 19 January 2017 19:53:20
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Anyboard\anyboardjs\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -d CY8C4247LQI-BL483 Pawn_PSoC4200.v -verilog
+cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Friday, 27 January 2017 00:32:12
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Programmation\JS\AnyBoardJS\firmware\CyPawn\Pawn_PSoC4200\Pawn_PSoC4200.cydsn\Pawn_PSoC4200.cyprj -d CY8C4247LQI-BL483 Pawn_PSoC4200.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.025ms
+Design parsing phase: Elapsed time ==> 0s.029ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
 Assigning clock BLE_LFCLK to clock LFCLK because it is a pass-through
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
-    Fixed Function Clock 6: Automatic-assigning  clock 'ADC_SAR_Seq_1_intClock'. Signal=\ADC_SAR_Seq_1:Net_1845_ff6\
+    Fixed Function Clock 6: Automatic-assigning  clock 'ADC_intClock'. Signal=\ADC:Net_1845_ff6\
     Fixed Function Clock 1: Automatic-assigning  clock 'I2C_SCBCLK'. Signal=\I2C:Net_847_ff1\
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
 </CYPRESSTAG>
@@ -866,9 +866,9 @@ Design Equations
     Interrupt listing
     ------------------------------------------------------------
 
-    interrupt: Name =\ADC_SAR_Seq_1:IRQ\
+    interrupt: Name =\ADC:IRQ\
         PORT MAP (
-            interrupt => \ADC_SAR_Seq_1:Net_3112\ );
+            interrupt => \ADC:Net_3112\ );
         Properties:
         {
             int_type = "10"
@@ -943,20 +943,20 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    1 :    1 :  0.00 %
   8-bit IDAC                  :    0 :    1 :    1 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.021ms
-Tech Mapping phase: Elapsed time ==> 0s.068ms
+Technology Mapping: Elapsed time ==> 0s.023ms
+Tech Mapping phase: Elapsed time ==> 0s.065ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="Analog Placement">
-Elapsed time ==> 0.2107044s
+Elapsed time ==> 0.2208981s
 </CYPRESSTAG>
-Analog Placement phase: Elapsed time ==> 0s.478ms
+Analog Placement phase: Elapsed time ==> 0s.546ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 <CYPRESSTAG name="Analog Routing">
-Route success=True, Iterations=1 Elapsed=0.0113423 secs
+Route success=True, Iterations=1 Elapsed=0.0093529 secs
 </CYPRESSTAG>
-Analog Routing phase: Elapsed time ==> 0s.013ms
+Analog Routing phase: Elapsed time ==> 0s.011ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -1008,28 +1008,28 @@ Map of net to items {
     PASS0_CTB0_A81
     PASS0_CTB0_oa0_vminus
   }
-  Net: \ADC_SAR_Seq_1:Net_1851\ {
+  Net: \ADC:Net_1851\ {
   }
-  Net: \ADC_SAR_Seq_1:Net_3113\ {
+  Net: \ADC:Net_3113\ {
   }
-  Net: \ADC_SAR_Seq_1:Net_3227\ {
+  Net: \ADC:Net_3227\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_minus_0\ {
+  Net: \ADC:mux_bus_minus_0\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_minus_1\ {
+  Net: \ADC:mux_bus_minus_1\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_minus_2\ {
+  Net: \ADC:mux_bus_minus_2\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_minus_3\ {
+  Net: \ADC:mux_bus_minus_3\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_minus_4\ {
+  Net: \ADC:mux_bus_minus_4\ {
   }
-  Net: \ADC_SAR_Seq_1:mux_bus_plus_4\ {
+  Net: \ADC:mux_bus_plus_4\ {
   }
-  Net: \ADC_SAR_Seq_1:muxout_plus\ {
+  Net: \ADC:muxout_plus\ {
     PASS0_sarmux_vplus
   }
-  Net: AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
+  Net: AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
     PASS0_sarbus0
     PASS0_SARMUX0_sw22
     PASS0_CTB1_D51
@@ -1037,10 +1037,10 @@ Map of net to items {
     PASS0_CTB0_D52
     PASS0_CTB0_D51
   }
-  Net: \ADC_SAR_Seq_1:muxout_minus\ {
+  Net: \ADC:muxout_minus\ {
     PASS0_sarmux_vminus
   }
-  Net: AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
+  Net: AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
   }
 }
 Map of item to net {
@@ -1074,19 +1074,19 @@ Map of item to net {
   PASS0_CTB0_oa0_vout1                             -> Net_4250
   PASS0_CTB0_A81                                   -> Net_4250
   PASS0_CTB0_oa0_vminus                            -> Net_4250
-  PASS0_sarmux_vplus                               -> \ADC_SAR_Seq_1:muxout_plus\
-  PASS0_sarbus0                                    -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_SARMUX0_sw22                               -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_CTB1_D51                                   -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_CTB1_D52                                   -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_CTB0_D52                                   -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_CTB0_D51                                   -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
-  PASS0_sarmux_vminus                              -> \ADC_SAR_Seq_1:muxout_minus\
+  PASS0_sarmux_vplus                               -> \ADC:muxout_plus\
+  PASS0_sarbus0                                    -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_SARMUX0_sw22                               -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_CTB1_D51                                   -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_CTB1_D52                                   -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_CTB0_D52                                   -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_CTB0_D51                                   -> AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_sarmux_vminus                              -> \ADC:muxout_minus\
 }
 Mux Info {
-  Mux: \ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
-     Mouth: \ADC_SAR_Seq_1:muxout_plus\
-     Guts:  AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  Mux: \ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
+     Mouth: \ADC:muxout_plus\
+     Guts:  AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
      IsSingleSwitching: False
      IsStaticSwitching: False
      IsAtMostOneSwitch: True
@@ -1135,35 +1135,35 @@ Mux Info {
       }
     }
   }
-  Mux: \ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
-     Mouth: \ADC_SAR_Seq_1:muxout_minus\
-     Guts:  AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B
+  Mux: \ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
+     Mouth: \ADC:muxout_minus\
+     Guts:  AMuxNet::\ADC:cy_psoc4_sarmux_8\_CYAMUXSIDE_B
      IsSingleSwitching: False
      IsStaticSwitching: False
      IsAtMostOneSwitch: True
     Arm: 0 {
-      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Net:   \ADC:Net_1851\
       Outer: __open__
       Inner: __open__
       Path {
       }
     }
     Arm: 1 {
-      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Net:   \ADC:Net_1851\
       Outer: __open__
       Inner: __open__
       Path {
       }
     }
     Arm: 2 {
-      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Net:   \ADC:Net_1851\
       Outer: __open__
       Inner: __open__
       Path {
       }
     }
     Arm: 3 {
-      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Net:   \ADC:Net_1851\
       Outer: __open__
       Inner: __open__
       Path {
@@ -1171,7 +1171,7 @@ Mux Info {
     }
   }
 }
-Analog Code Generation phase: Elapsed time ==> 0s.057ms
+Analog Code Generation phase: Elapsed time ==> 0s.031ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -1200,14 +1200,14 @@ PLD Packing Summary
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.001ms
+PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.030ms
+Partitioning: Elapsed time ==> 0s.022ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -1286,9 +1286,9 @@ Intr container @ [IntrContainer=(0)]:
             is_nmi = 0
         }
   Intr@ [IntrContainer=(0)][IntrId=(15)] 
-    interrupt: Name =\ADC_SAR_Seq_1:IRQ\
+    interrupt: Name =\ADC:IRQ\
         PORT MAP (
-            interrupt => \ADC_SAR_Seq_1:Net_3112\ );
+            interrupt => \ADC:Net_3112\ );
         Properties:
         {
             int_type = "10"
@@ -1948,7 +1948,7 @@ Clock group 0:
             lfclk => ClockBlock_LFCLK ,
             wco => ClockBlock_WCO ,
             dsi_in_0 => ClockBlock_Routed1 ,
-            ff_div_6 => \ADC_SAR_Seq_1:Net_1845_ff6\ ,
+            ff_div_6 => \ADC:Net_1845_ff6\ ,
             ff_div_1 => \I2C:Net_847_ff1\ );
         Properties:
         {
@@ -2050,34 +2050,34 @@ Comparator/Opamp group 0:
 Die Temp group 0: empty
 SAR ADC group 0: 
     PSoC4 SAR ADC @ F(SARADC,0): 
-    p4sarcell: Name =\ADC_SAR_Seq_1:cy_psoc4_sar\
+    p4sarcell: Name =\ADC:cy_psoc4_sar\
         PORT MAP (
-            vplus => \ADC_SAR_Seq_1:muxout_plus\ ,
-            vminus => \ADC_SAR_Seq_1:muxout_minus\ ,
-            vref => \ADC_SAR_Seq_1:Net_3113\ ,
-            ext_vref => \ADC_SAR_Seq_1:Net_3227\ ,
-            clock => \ADC_SAR_Seq_1:Net_1845_ff6\ ,
+            vplus => \ADC:muxout_plus\ ,
+            vminus => \ADC:muxout_minus\ ,
+            vref => \ADC:Net_3113\ ,
+            ext_vref => \ADC:Net_3227\ ,
+            clock => \ADC:Net_1845_ff6\ ,
             sample_done => Net_4186 ,
-            chan_id_valid => \ADC_SAR_Seq_1:Net_3108\ ,
-            chan_id_3 => \ADC_SAR_Seq_1:Net_3109_3\ ,
-            chan_id_2 => \ADC_SAR_Seq_1:Net_3109_2\ ,
-            chan_id_1 => \ADC_SAR_Seq_1:Net_3109_1\ ,
-            chan_id_0 => \ADC_SAR_Seq_1:Net_3109_0\ ,
-            data_valid => \ADC_SAR_Seq_1:Net_3110\ ,
-            data_11 => \ADC_SAR_Seq_1:Net_3111_11\ ,
-            data_10 => \ADC_SAR_Seq_1:Net_3111_10\ ,
-            data_9 => \ADC_SAR_Seq_1:Net_3111_9\ ,
-            data_8 => \ADC_SAR_Seq_1:Net_3111_8\ ,
-            data_7 => \ADC_SAR_Seq_1:Net_3111_7\ ,
-            data_6 => \ADC_SAR_Seq_1:Net_3111_6\ ,
-            data_5 => \ADC_SAR_Seq_1:Net_3111_5\ ,
-            data_4 => \ADC_SAR_Seq_1:Net_3111_4\ ,
-            data_3 => \ADC_SAR_Seq_1:Net_3111_3\ ,
-            data_2 => \ADC_SAR_Seq_1:Net_3111_2\ ,
-            data_1 => \ADC_SAR_Seq_1:Net_3111_1\ ,
-            data_0 => \ADC_SAR_Seq_1:Net_3111_0\ ,
+            chan_id_valid => \ADC:Net_3108\ ,
+            chan_id_3 => \ADC:Net_3109_3\ ,
+            chan_id_2 => \ADC:Net_3109_2\ ,
+            chan_id_1 => \ADC:Net_3109_1\ ,
+            chan_id_0 => \ADC:Net_3109_0\ ,
+            data_valid => \ADC:Net_3110\ ,
+            data_11 => \ADC:Net_3111_11\ ,
+            data_10 => \ADC:Net_3111_10\ ,
+            data_9 => \ADC:Net_3111_9\ ,
+            data_8 => \ADC:Net_3111_8\ ,
+            data_7 => \ADC:Net_3111_7\ ,
+            data_6 => \ADC:Net_3111_6\ ,
+            data_5 => \ADC:Net_3111_5\ ,
+            data_4 => \ADC:Net_3111_4\ ,
+            data_3 => \ADC:Net_3111_3\ ,
+            data_2 => \ADC:Net_3111_2\ ,
+            data_1 => \ADC:Net_3111_1\ ,
+            data_0 => \ADC:Net_3111_0\ ,
             tr_sar_out => Net_4187 ,
-            irq => \ADC_SAR_Seq_1:Net_3112\ );
+            irq => \ADC:Net_3112\ );
         Properties:
         {
             cy_registers = ""
@@ -2109,19 +2109,19 @@ WCO group 0: empty
 
 Blocks not positioned by the digital component placer:
     PSoC4 SAR Muxes @ <No Location>: 
-    p4sarmuxcell: Name =\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\
+    p4sarmuxcell: Name =\ADC:cy_psoc4_sarmux_8\
         PORT MAP (
             muxin_plus_3 => Net_4250 ,
             muxin_plus_2 => Net_4249 ,
             muxin_plus_1 => Net_4248 ,
             muxin_plus_0 => Net_4196 ,
-            muxin_minus_3 => \ADC_SAR_Seq_1:mux_bus_minus_3\ ,
-            muxin_minus_2 => \ADC_SAR_Seq_1:mux_bus_minus_2\ ,
-            muxin_minus_1 => \ADC_SAR_Seq_1:mux_bus_minus_1\ ,
-            muxin_minus_0 => \ADC_SAR_Seq_1:mux_bus_minus_0\ ,
-            cmn_neg_0 => \ADC_SAR_Seq_1:Net_1851\ ,
-            vout_plus => \ADC_SAR_Seq_1:muxout_plus\ ,
-            vout_minus => \ADC_SAR_Seq_1:muxout_minus\ );
+            muxin_minus_3 => \ADC:mux_bus_minus_3\ ,
+            muxin_minus_2 => \ADC:mux_bus_minus_2\ ,
+            muxin_minus_1 => \ADC:mux_bus_minus_1\ ,
+            muxin_minus_0 => \ADC:mux_bus_minus_0\ ,
+            cmn_neg_0 => \ADC:Net_1851\ ,
+            vout_plus => \ADC:muxout_plus\ ,
+            vout_minus => \ADC:muxout_minus\ );
         Properties:
         {
             cy_registers = ""
@@ -2158,32 +2158,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |         Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.003ms
-Digital Placement phase: Elapsed time ==> 0s.766ms
+Digital component placer commit/Report: Elapsed time ==> 0s.001ms
+Digital Placement phase: Elapsed time ==> 0s.697ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.069ms
+Digital Routing phase: Elapsed time ==> 1s.087ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.465ms
+Bitstream Generation phase: Elapsed time ==> 0s.412ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.078ms
+Bitstream Verification phase: Elapsed time ==> 0s.040ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in Pawn_PSoC4200_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.369ms
+Static timing analysis phase: Elapsed time ==> 0s.241ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.361ms
+Design database save phase: Elapsed time ==> 0s.311ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 3s.788ms
+cydsfit: Elapsed time ==> 3s.505ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 3s.789ms
-API generation phase: Elapsed time ==> 3s.570ms
-Dependency generation phase: Elapsed time ==> 0s.079ms
-Cleanup phase: Elapsed time ==> 0s.031ms
+Fitter phase: Elapsed time ==> 3s.506ms
+API generation phase: Elapsed time ==> 2s.944ms
+Dependency generation phase: Elapsed time ==> 0s.051ms
+Cleanup phase: Elapsed time ==> 0s.002ms

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>L'Ultime Bafouille !</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+
+		p.topic {
+			font-weight: bold;
+		}
+	</style>
+
+	<script>
+	</script>
+
+    <!-- cordova.js based -->
+	<script src="cordova.js"></script>
+
+    <!-- AnyboardJS libraries -->
+	<script src="dist/anyboard.js"></script>
+
+    <!-- Bluetooth driver and dependencies-->
+    <script src="libs/evothings/evothings.js"></script>
+    <script src="libs/evothings/easyble/easyble.js"></script>
+    <script src="drivers/discovery.evothings.bluetooth.js"></script>
+	<script src="drivers/bean.evothings.bluetooth.js"></script>
+    <script src="drivers/rfduino.evothings.bluetooth.js"></script>
+    <script src="drivers/cypawn.evothings.bluetooth.js"></script>
+
+	<script>
+        var app = {
+			score: 0,
+			token: null,
+			Question_ID: 0,
+			timeout: 10000,
+		    devices: {},
+
+            // Discover bluetooth tokens in proximity
+            discover: function() {
+                var self = this;
+				
+				document.getElementById("btn_recherche").innerHTML = "Recherche...";
+                AnyBoard.TokenManager.scan(
+				
+                    // success function to be executed upon _each_ token that is discovered
+                    function(token) {
+                        self.addDiscovered(token);
+                    },
+                    // function to be executed upon failure
+                    function(errorCode) {
+                        console.log(errorCode)
+                    }
+                );
+            },
+
+            // Function to be executed upon having discovered a token
+            addDiscovered: function(token) {
+                if (!this.devices[token.name]) {
+                    this.devices[token.name] = token;
+					document.getElementById("btn_recherche").innerHTML = "Rechercher";
+                    // Add button for token to body
+                    document.body.innerHTML += '<button type="button" id="' + token.name + '" onclick="app.connect(' + "'" + token.name + "'" + ')" class="grey">' + token.name + ' </button><br />';
+
+                    // Add listener to be executed if the token connects
+                    token.on('connect', function() {
+                        document.getElementById(token.name).className = 'green';
+                    });
+
+                    // Add listener to be executed if the token disconnects
+                    token.on('disconnect', function() {
+                        document.getElementById(token.name).className = 'red';
+                    })
+                }
+
+            },
+
+            // Attempts to connect to token.
+            connect: function(tokenName) {
+                var token = this.devices[tokenName];
+
+                // If already connecting, stop
+                if (document.getElementById(tokenName).className == 'blue')
+                    return;
+
+                // If already connected, attempt to send green led command
+                if (document.getElementById(tokenName).className == 'green') {
+					this.token = token;
+                    this.playGame(token);
+                    return;
+                }
+                // Signal that we're attempting to connect
+                document.getElementById(tokenName).className = 'blue';
+
+                // Send connect command. 
+                token.connect();
+            },
+
+            // Send green led command. Works on every token with a AnyBoard compatible driver and firmware.
+            sendGreenLed: function(token) {
+
+                // Function to be executed when LED is successfully turned on
+                var completedFunction = function(value){
+                    hyper.log("We happily set the LED on the token! :D");
+                    hyper.log(value.value);
+                };
+
+                // Function to be executed upon failure of LED
+                var errorCallback = function(errorMsg) {
+                    hyper.log("Failed to send LED command to token");
+                    hyper.log(errorMsg);
+                };
+
+                // Turns on token led.
+                token.getColor(completedFunction,  // function to be executed when token signals
+                    errorCallback  // function to be executed in case of failure to send command to token
+                );
+            },
+			
+			onMove: function(Constraint_ID)
+			{
+					
+			},
+			
+            // Send green led command. Works on every token with a AnyBoard compatible driver and firmware.
+            playGame: function() {
+				var Question_ID = this.Question_ID;				
+				var Questions = [
+								 "Quel est l'age du capitaine ?",
+								 "Quel est mon prénom ?",
+								 "Quelle est la couleur du cheval bleu d'Henri 8 ?"
+								 ];
+				var Answers = [
+							  ["12 ans", "24 ans", "48 ans"],
+							  ["Arthur", "Théo", "Jojo"],
+							  ["     ", "     ", "     "]
+							];
+				
+				if(Question_ID > Questions.length-1)
+				{
+					this.endGame();
+					return;
+				}
+								
+					document.body.innerHTML = "";
+					document.body.innerHTML += '<h2 id="lbl_question">'+ Questions[Question_ID] +'</h2>							\
+					<button id="btn_answer_1" type="button" class="yellow" onclick="app.checkAnswer('+Question_ID+', 1)">		\
+					'+ Answers[Question_ID][0]+	'																				\
+					</button>																									\
+																																\
+					<button id="btn_answer_2" type="button" class="red" onclick="app.checkAnswer('+Question_ID+', 2)">			\
+					'+ Answers[Question_ID][1]+	'																				\
+					</button>																									\
+																																\
+					<button id="btn_answer_3" type="button" class="blue" onclick="app.checkAnswer('+Question_ID+', 3)">			\
+					'+ Answers[Question_ID][2]+	'																				\
+					</button> <p>Score : '+ this.score +'</p>';	
+					
+					
+					setTimeout(function()
+					{
+						this.app.token.getColor(function(value)
+						{
+							this.app.checkAnswer(this.app.Question_ID, value.value);
+						},
+						
+						function(errorMsg)
+						{
+							hyper.log("Failed to send LED command to token");
+							hyper.log(errorMsg);
+                		} );
+						
+					}, this.timeout);
+					
+			},
+			
+			checkAnswer: function(Question_ID, Answer)
+			{
+				var GoodAnswers = ["1", "2", "3"];
+				hyper.log(Answer);
+				hyper.log(GoodAnswers[Question_ID]);
+				if(Answer == GoodAnswers[Question_ID])
+				{
+					this.score++;
+					this.Question_ID++;
+					this.playGame(Question_ID)
+				}
+								
+				else
+				{
+					this.score--;
+					this.Question_ID++;
+					this.playGame(Question_ID)
+				}
+			},
+			
+			endGame: function()
+			{
+				document.body.innerHTML = "";
+				document.body.innerHTML += "<h1 id='lbl_question'>Merci d\'avoir joué !</h2> <p>Vous avez perdu ! Parceque c'est toujours plus drôle quand c'est moi qui gagne !</p>\
+											<p>Score : "+ this.score+ "</p>\
+												<button id='btn_recherche' type='button' class='black' onclick='app.playGame()'> \
+													Re-tenter sa chance ! \
+												</button>" ;
+				this.score = 0;
+				this.Question_ID = 0;
+			}
+
+	    };
+	</script>
+
+</head>
+
+<body ontouchstart="">
+	<h1>L'ultime bafouille !</h1>
+    <div>
+        <p>
+            Vous voulez gagner de l'argent en masse ? Alors préparez vous à répondre à des questions plus dures l'une que l'autre !
+        </p>
+        <p>
+            Allumez le pion (CyPawn) et soyez prêts !
+        </p>
+	</div>
+
+	<button id="btn_recherche" type="button" class="black" onclick="app.discover()">
+		Rechercher
+	</button>
+
+	<br />
+
+</body>
+
+</html>

@@ -34,5 +34,6 @@ enum AnyBoard_GET_COLOR{PARAM_GET_COLOR__R_H = 1, PARAM_GET_COLOR__R_L, PARAM_GE
 #define LED_OFF              128
 #define LED_ON               129
 #define LED_BLINK            130
+#define MOVE                 194
 
 #endif
